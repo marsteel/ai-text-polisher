@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI Text Polisher Settings</title>
+    <link rel="stylesheet" href="options.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="header">
+            <h1 id="optionsTitle">AI Text Polisher Settings</h1>
+        </div>
+
+        <div class="content">
+            <!-- API Settings Section -->
+            <section class="section">
+                <h2 id="apiSettingsTitle">API Settings</h2>
+
+                <div class="form-group">
+                    <label for="apiUrl" id="apiUrlLabel">API URL</label>
+                    <input type="text" id="apiUrl" placeholder="https://api.openai.com/v1/chat/completions">
+                    <div class="help-text">OpenAI-compatible API endpoint</div>
+                </div>
+
+                <div class="form-group">
+                    <label for="apiKey" id="apiKeyLabel">API Key</label>
+                    <input type="password" id="apiKey" placeholder="sk-...">
+                    <div class="help-text">Your API key (stored locally)</div>
+                </div>
+
+                <div class="form-group">
+                    <label for="modelName" id="modelNameLabel">Model Name</label>
+                    <input type="text" id="modelName" placeholder="gpt-3.5-turbo">
+                    <div class="help-text">Model to use for text processing</div>
+                </div>
+            </section>
+
+            <!-- Actions Section -->
+            <section class="section">
+                <div class="section-header">
+                    <h2 id="actionsTitle">Actions</h2>
+                    <button id="addActionBtn" class="btn-primary">
+                        <span id="addActionText">+ Add Action</span>
+                    </button>
+                </div>
+
+                <div id="actionsList" class="actions-list">
+                    <!-- Actions will be dynamically added here -->
+                </div>
+            </section>
+
+            <!-- Save Button -->
+            <div class="footer">
+                <button id="saveBtn" class="btn-save">
+                    <span id="saveText">Save Settings</span>
+                </button>
+                <div id="saveStatus" class="save-status"></div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Action Edit Modal -->
+    <div id="actionModal" class="modal" style="display: none;">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h3 id="modalTitle">Edit Action</h3>
+                <button id="closeModal" class="close-btn">&times;</button>
+            </div>
+
+            <div class="modal-body">
+                <div class="form-group">
+                    <label for="actionName" id="actionNameLabel">Action Name</label>
+                    <input type="text" id="actionName" placeholder="Polish & Improve">
+                </div>
+
+                <div class="form-group">
+                    <label for="actionPrompt" id="actionPromptLabel">Prompt</label>
+                    <textarea id="actionPrompt" rows="6"
+                        placeholder="Please polish the following text:\n\n{text}"></textarea>
+                    <div class="help-text">Use {text} as placeholder for selected text</div>
+                </div>
+            </div>
+
+            <div class="modal-footer">
+                <button id="cancelActionBtn" class="btn-secondary">
+                    <span id="cancelText">Cancel</span>
+                </button>
+                <button id="saveActionBtn" class="btn-primary">
+                    <span id="saveActionText">Save</span>
+                </button>
+            </div>
+        </div>
+    </div>
+
+    <script src="options.js"></script>
+</body>
+
+</html>

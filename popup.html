@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>AI Text Polisher</title>
+  <link rel="stylesheet" href="popup.css">
+</head>
+<body>
+  <div class="container">
+    <div class="header">
+      <h1 id="popupTitle">AI Text Polisher</h1>
+    </div>
+    
+    <div class="status-section">
+      <div class="status-label" id="statusLabel">Status:</div>
+      <div class="status-value" id="statusValue">
+        <span class="status-indicator ready"></span>
+        <span id="statusText">Ready</span>
+      </div>
+    </div>
+    
+    <div class="loading-section" id="loadingSection" style="display: none;">
+      <div class="spinner"></div>
+      <div id="loadingText">Processing...</div>
+    </div>
+    
+    <div class="result-section" id="resultSection" style="display: none;">
+      <div class="result-icon success" id="resultIcon">✓</div>
+      <div id="resultText"></div>
+    </div>
+    
+    <div class="actions">
+      <button id="openOptionsBtn" class="btn-secondary">
+        <span id="openOptionsText">Open Settings</span>
+      </button>
+    </div>
+  </div>
+  
+  <script src="popup.js"></script>
+</body>
+</html>
