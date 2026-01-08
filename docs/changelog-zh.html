@@ -1,10 +1,10 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="zh-CN">
 
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Changelog - AI Text Polisher</title>
+    <title>更新日志 - AI文本润色器</title>
     <style>
         * {
             margin: 0;
@@ -13,7 +13,7 @@
         }
 
         body {
-            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Microsoft YaHei', sans-serif;
             line-height: 1.6;
             color: #333;
             background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
@@ -154,81 +154,78 @@
 
 <body>
     <div class="language-switcher">
-        <a href="changelog-zh.html">中文</a> | <a href="changelog.html" class="active">English</a>
+        <a href="changelog-zh.html" class="active">中文</a> | <a href="changelog.html">English</a>
     </div>
 
     <div class="container">
-        <a href="index.html" class="back-link">← Back to Home</a>
+        <a href="index-zh.html" class="back-link">← 返回首页</a>
 
-        <h1>📝 Changelog</h1>
+        <h1>📝 更新日志</h1>
 
         <div class="version">
             <div class="version-header">
                 <span class="version-number">v1.0.1</span>
-                <span class="badge latest">Latest</span>
-                <span class="version-date">January 8, 2026</span>
+                <span class="badge latest">最新版本</span>
+                <span class="version-date">2026年1月8日</span>
             </div>
 
-            <h3>🔧 Changes</h3>
+            <h3>🔧 更改</h3>
             <ul>
-                <li>Added <code>clipboardWrite</code> permission to manifest.json for explicit clipboard access rights
-                </li>
-                <li>Improved permission clarity for store review process</li>
+                <li>在manifest.json中添加了<code>clipboardWrite</code>权限，以明确剪贴板访问权限</li>
+                <li>提高了商店审核流程的权限清晰度</li>
             </ul>
 
-            <h3>📋 Technical Details</h3>
+            <h3>📋 技术细节</h3>
             <ul>
-                <li>The extension uses the Clipboard API to automatically copy AI-processed text to clipboard</li>
-                <li>Previously relied solely on <code>scripting</code> permission to inject clipboard access code</li>
-                <li>Now explicitly declares <code>clipboardWrite</code> permission for better transparency</li>
+                <li>扩展使用剪贴板API自动将AI处理的文本复制到剪贴板</li>
+                <li>以前仅依赖<code>scripting</code>权限来注入剪贴板访问代码</li>
+                <li>现在明确声明<code>clipboardWrite</code>权限以提高透明度</li>
             </ul>
 
-            <h3>✨ Why This Change?</h3>
+            <h3>✨ 为什么要做这个更改？</h3>
             <ul>
-                <li><strong>Clarity:</strong> Makes clipboard usage explicit in the permissions list</li>
-                <li><strong>Compliance:</strong> Ensures full compliance with store requirements</li>
-                <li><strong>Future-proof:</strong> Prepares for potential direct clipboard API access in service workers
-                </li>
+                <li><strong>清晰度：</strong>在权限列表中明确剪贴板使用</li>
+                <li><strong>合规性：</strong>确保完全符合商店要求</li>
+                <li><strong>面向未来：</strong>为service worker中潜在的直接剪贴板API访问做准备</li>
             </ul>
 
-            <p><strong>Note:</strong> No functional changes. User experience remains identical.</p>
+            <p><strong>注意：</strong>无功能更改。用户体验保持不变。</p>
         </div>
 
         <div class="version">
             <div class="version-header">
                 <span class="version-number">v1.0.0</span>
-                <span class="version-date">January 5, 2026</span>
+                <span class="version-date">2026年1月5日</span>
             </div>
 
-            <h3>🎉 Initial Release</h3>
+            <h3>🎉 首次发布</h3>
 
-            <h3>✨ Features</h3>
+            <h3>✨ 功能特性</h3>
             <ul>
-                <li>AI-powered text enhancement via right-click context menu</li>
-                <li>5 built-in actions: Polish & Improve, Fix Grammar, Make Professional, Simplify Language, Summarize
-                </li>
-                <li>Customizable actions with user-defined prompts</li>
-                <li>Support for any OpenAI-compatible API (OpenAI, Azure, local LLMs)</li>
-                <li>Automatic clipboard integration</li>
-                <li>Real-time visual feedback with badge notifications</li>
-                <li>Chrome system notifications for status updates</li>
-                <li>Internationalization support (i18n ready)</li>
-                <li>Privacy-first design - all data stored locally</li>
+                <li>通过右键上下文菜单进行AI驱动的文本增强</li>
+                <li>5个内置操作：润色和改进、修复语法、使其专业、简化语言、总结</li>
+                <li>可自定义操作，支持用户定义的提示词</li>
+                <li>支持任何OpenAI兼容的API（OpenAI、Azure、本地LLM）</li>
+                <li>自动剪贴板集成</li>
+                <li>带徽章通知的实时视觉反馈</li>
+                <li>Chrome系统通知用于状态更新</li>
+                <li>国际化支持（i18n就绪）</li>
+                <li>隐私优先设计 - 所有数据本地存储</li>
             </ul>
 
-            <h3>🔐 Permissions</h3>
+            <h3>🔐 权限</h3>
             <ul>
-                <li><code>contextMenus</code> - Right-click menu integration</li>
-                <li><code>storage</code> - Save user settings locally</li>
-                <li><code>notifications</code> - Show status updates</li>
-                <li><code>activeTab</code> - Access selected text</li>
-                <li><code>scripting</code> - Execute clipboard copy script</li>
-                <li><code>host_permissions</code> - Connect to user-configured AI endpoints</li>
+                <li><code>contextMenus</code> - 右键菜单集成</li>
+                <li><code>storage</code> - 本地保存用户设置</li>
+                <li><code>notifications</code> - 显示状态更新</li>
+                <li><code>activeTab</code> - 访问选定的文本</li>
+                <li><code>scripting</code> - 执行剪贴板复制脚本</li>
+                <li><code>host_permissions</code> - 连接到用户配置的AI端点</li>
             </ul>
         </div>
 
         <div class="footer">
-            <p>&copy; 2026 AI Text Polisher. Open source under MIT License.</p>
+            <p>&copy; 2026 AI文本润色器. 采用MIT许可证的开源项目.</p>
         </div>
     </div>
 </body>
