@@ -1,5 +1,6 @@
 # AI Text Polisher - Chrome Extension
 ![GitHub License](https://img.shields.io/github/license/marsteel/ai-text-polisher)
+[![](https://img.shields.io/badge/dynamic/json?label=edge%20add-on&prefix=v&query=%24.version&url=https%3A%2F%2Fmicrosoftedge.microsoft.com%2Faddons%2Fgetproductdetailsbycrxid%2Fmomnfamjmeifhijbhcdocaigfcbjnohc)]([https://microsoftedge.microso](https://microsoftedge.microsoft.com/addons/detail/momnfamjmeifhijbhcdocaigfcbjnohc))
 
 A powerful Chrome extension that uses AI to polish, improve, and transform your selected text with customizable actions.
 
