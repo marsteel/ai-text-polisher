@@ -1,7 +1,7 @@
 {
   "manifest_version": 3,
   "name": "AI Text Polisher",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "AI Text Polisher, transform your selected text with AI, make it better!",
   "default_locale": "en",
   "permissions": [
@@ -9,7 +9,8 @@
     "storage",
     "notifications",
     "activeTab",
-    "scripting"
+    "scripting",
+    "clipboardWrite"
   ],
   "host_permissions": [
     "<all_urls>"
