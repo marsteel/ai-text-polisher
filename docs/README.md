@@ -6,6 +6,7 @@ This directory contains the GitHub Pages site for AI Text Polisher.
 
 - **index.html** - Landing page with links to documentation
 - **privacy.html** - Privacy policy page
+- **changelog.html** - Version history and release notes
 
 ## GitHub Pages Setup
 
