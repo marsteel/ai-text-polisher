@@ -1,3 +1,40 @@
+# Python files
 *.py
+
+# Development artifacts
 VISUAL_FEEDBACK.md
 test.html
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Store submission files (keep in separate branch or private)
+CHROME_STORE_LISTING.md
+EDGE_STORE_NOTES.md
+TESTING_NOTES.md
+store-assets/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Logs
+*.log
+npm-debug.log*
+
+# Temporary files
+*.tmp
+*.temp
+
+# Build artifacts
+dist/
+build/
+*.zip
+
+# Node modules (if any)
+node_modules/
