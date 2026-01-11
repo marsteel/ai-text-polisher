@@ -4,7 +4,7 @@
         "description": "Name of the extension"
     },
     "extensionDescription": {
-        "message": "Polish selected text using AI with customizable actions",
+        "message": "A kiválasztott szöveg csiszolása AI-val testreszabható műveletekkel",
         "description": "Description of the extension"
     },
     "contextMenuTitle": {
@@ -12,43 +12,43 @@
         "description": "Title for context menu parent item"
     },
     "processing": {
-        "message": "Processing...",
+        "message": "Feldolgozás...",
         "description": "Processing status message"
     },
     "success": {
-        "message": "Success!",
+        "message": "Siker!",
         "description": "Success message"
     },
     "copiedToClipboard": {
-        "message": "Result copied to clipboard",
+        "message": "Eredmény vágólapra másolva",
         "description": "Success notification when text is copied"
     },
     "error": {
-        "message": "Error",
+        "message": "Hiba",
         "description": "Error message"
     },
     "errorProcessing": {
-        "message": "Error processing text",
+        "message": "Hiba a szöveg feldolgozása során",
         "description": "Error notification message"
     },
     "noTextSelected": {
-        "message": "No text selected",
+        "message": "Nincs kiválasztott szöveg",
         "description": "Error when no text is selected"
     },
     "apiKeyMissing": {
-        "message": "API key not configured. Please set it in the options page.",
+        "message": "Az API kulcs nincs beállítva. Kérjük, állítsa be a beállítások oldalon.",
         "description": "Error when API key is missing"
     },
     "networkError": {
-        "message": "Network error. Please check your connection.",
+        "message": "Hálózati hiba. Kérjük, ellenőrizze a kapcsolatot.",
         "description": "Network error message"
     },
     "optionsTitle": {
-        "message": "AI Text Polisher Settings",
+        "message": "AI Text Polisher beállítások",
         "description": "Title for options page"
     },
     "apiSettings": {
-        "message": "API Settings",
+        "message": "API beállítások",
         "description": "API settings section title"
     },
     "apiUrl": {
@@ -56,19 +56,19 @@
         "description": "API URL label"
     },
     "apiKey": {
-        "message": "API Key",
+        "message": "API kulcs",
         "description": "API key label"
     },
     "modelName": {
-        "message": "Model Name",
+        "message": "Modell neve",
         "description": "Model name label"
     },
     "actions": {
-        "message": "Actions",
+        "message": "Műveletek",
         "description": "Actions section title"
     },
     "actionName": {
-        "message": "Action Name",
+        "message": "Művelet neve",
         "description": "Action name label"
     },
     "actionPrompt": {
@@ -76,47 +76,47 @@
         "description": "Action prompt label"
     },
     "addAction": {
-        "message": "Add Action",
+        "message": "Művelet hozzáadása",
         "description": "Add action button"
     },
     "editAction": {
-        "message": "Edit",
+        "message": "Szerkesztés",
         "description": "Edit action button"
     },
     "deleteAction": {
-        "message": "Delete",
+        "message": "Törlés",
         "description": "Delete action button"
     },
     "save": {
-        "message": "Save",
+        "message": "Mentés",
         "description": "Save button"
     },
     "cancel": {
-        "message": "Cancel",
+        "message": "Mégse",
         "description": "Cancel button"
     },
     "settingsSaved": {
-        "message": "Settings saved successfully",
+        "message": "Beállítások sikeresen mentve",
         "description": "Settings saved notification"
     },
     "defaultActionPolish": {
-        "message": "Polish & Improve",
+        "message": "Csiszolás és javítás",
         "description": "Default action: Polish & Improve"
     },
     "defaultActionGrammar": {
-        "message": "Fix Grammar",
+        "message": "Nyelvtan javítása",
         "description": "Default action: Fix Grammar"
     },
     "defaultActionProfessional": {
-        "message": "Make Professional",
+        "message": "Professzionálissá tétel",
         "description": "Default action: Make Professional"
     },
     "defaultActionSimplify": {
-        "message": "Simplify Language",
+        "message": "Nyelv egyszerűsítése",
         "description": "Default action: Simplify Language"
     },
     "defaultActionSummarize": {
-        "message": "Summarize",
+        "message": "Összefoglalás",
         "description": "Default action: Summarize"
     },
     "popupTitle": {
@@ -124,15 +124,15 @@
         "description": "Popup title"
     },
     "popupStatus": {
-        "message": "Status",
+        "message": "Állapot",
         "description": "Status label in popup"
     },
     "popupReady": {
-        "message": "Ready",
+        "message": "Kész",
         "description": "Ready status"
     },
     "popupOpenOptions": {
-        "message": "Open Settings",
+        "message": "Beállítások megnyitása",
         "description": "Open options button"
     }
 }

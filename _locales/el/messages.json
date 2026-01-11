@@ -4,7 +4,7 @@
         "description": "Name of the extension"
     },
     "extensionDescription": {
-        "message": "Polish selected text using AI with customizable actions",
+        "message": "Βελτιώστε το επιλεγμένο κείμενο χρησιμοποιώντας AI με προσαρμόσιμες ενέργειες",
         "description": "Description of the extension"
     },
     "contextMenuTitle": {
@@ -12,111 +12,111 @@
         "description": "Title for context menu parent item"
     },
     "processing": {
-        "message": "Processing...",
+        "message": "Επεξεργασία...",
         "description": "Processing status message"
     },
     "success": {
-        "message": "Success!",
+        "message": "Επιτυχία!",
         "description": "Success message"
     },
     "copiedToClipboard": {
-        "message": "Result copied to clipboard",
+        "message": "Το αποτέλεσμα αντιγράφηκε στο πρόχειρο",
         "description": "Success notification when text is copied"
     },
     "error": {
-        "message": "Error",
+        "message": "Σφάλμα",
         "description": "Error message"
     },
     "errorProcessing": {
-        "message": "Error processing text",
+        "message": "Σφάλμα κατά την επεξεργασία κειμένου",
         "description": "Error notification message"
     },
     "noTextSelected": {
-        "message": "No text selected",
+        "message": "Δεν έχει επιλεγεί κείμενο",
         "description": "Error when no text is selected"
     },
     "apiKeyMissing": {
-        "message": "API key not configured. Please set it in the options page.",
+        "message": "Το κλειδί API δεν έχει ρυθμιστεί. Παρακαλώ ορίστε το στη σελίδα επιλογών.",
         "description": "Error when API key is missing"
     },
     "networkError": {
-        "message": "Network error. Please check your connection.",
+        "message": "Σφάλμα δικτύου. Παρακαλώ ελέγξτε τη σύνδεσή σας.",
         "description": "Network error message"
     },
     "optionsTitle": {
-        "message": "AI Text Polisher Settings",
+        "message": "Ρυθμίσεις AI Text Polisher",
         "description": "Title for options page"
     },
     "apiSettings": {
-        "message": "API Settings",
+        "message": "Ρυθμίσεις API",
         "description": "API settings section title"
     },
     "apiUrl": {
-        "message": "API URL",
+        "message": "URL API",
         "description": "API URL label"
     },
     "apiKey": {
-        "message": "API Key",
+        "message": "Κλειδί API",
         "description": "API key label"
     },
     "modelName": {
-        "message": "Model Name",
+        "message": "Όνομα μοντέλου",
         "description": "Model name label"
     },
     "actions": {
-        "message": "Actions",
+        "message": "Ενέργειες",
         "description": "Actions section title"
     },
     "actionName": {
-        "message": "Action Name",
+        "message": "Όνομα ενέργειας",
         "description": "Action name label"
     },
     "actionPrompt": {
-        "message": "Prompt",
+        "message": "Προτροπή",
         "description": "Action prompt label"
     },
     "addAction": {
-        "message": "Add Action",
+        "message": "Προσθήκη ενέργειας",
         "description": "Add action button"
     },
     "editAction": {
-        "message": "Edit",
+        "message": "Επεξεργασία",
         "description": "Edit action button"
     },
     "deleteAction": {
-        "message": "Delete",
+        "message": "Διαγραφή",
         "description": "Delete action button"
     },
     "save": {
-        "message": "Save",
+        "message": "Αποθήκευση",
         "description": "Save button"
     },
     "cancel": {
-        "message": "Cancel",
+        "message": "Ακύρωση",
         "description": "Cancel button"
     },
     "settingsSaved": {
-        "message": "Settings saved successfully",
+        "message": "Οι ρυθμίσεις αποθηκεύτηκαν επιτυχώς",
         "description": "Settings saved notification"
     },
     "defaultActionPolish": {
-        "message": "Polish & Improve",
+        "message": "Βελτίωση και επεξεργασία",
         "description": "Default action: Polish & Improve"
     },
     "defaultActionGrammar": {
-        "message": "Fix Grammar",
+        "message": "Διόρθωση γραμματικής",
         "description": "Default action: Fix Grammar"
     },
     "defaultActionProfessional": {
-        "message": "Make Professional",
+        "message": "Κάντε το επαγγελματικό",
         "description": "Default action: Make Professional"
     },
     "defaultActionSimplify": {
-        "message": "Simplify Language",
+        "message": "Απλοποίηση γλώσσας",
         "description": "Default action: Simplify Language"
     },
     "defaultActionSummarize": {
-        "message": "Summarize",
+        "message": "Περίληψη",
         "description": "Default action: Summarize"
     },
     "popupTitle": {
@@ -124,15 +124,15 @@
         "description": "Popup title"
     },
     "popupStatus": {
-        "message": "Status",
+        "message": "Κατάσταση",
         "description": "Status label in popup"
     },
     "popupReady": {
-        "message": "Ready",
+        "message": "Έτοιμο",
         "description": "Ready status"
     },
     "popupOpenOptions": {
-        "message": "Open Settings",
+        "message": "Άνοιγμα ρυθμίσεων",
         "description": "Open options button"
     }
 }
