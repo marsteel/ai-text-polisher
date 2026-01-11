@@ -1,10 +1,45 @@
 // Options page script
 
+// AI Provider presets
+const AI_PROVIDERS = {
+    openai: {
+        name: 'OpenAI',
+        url: 'https://api.openai.com/v1/chat/completions',
+        model: 'gpt-4o-mini'
+    },
+    azure: {
+        name: 'Azure OpenAI',
+        url: 'https://YOUR_RESOURCE.openai.azure.com/openai/deployments/YOUR_DEPLOYMENT/chat/completions?api-version=2024-02-15-preview',
+        model: 'gpt-4'
+    },
+    anthropic: {
+        name: 'Anthropic (Claude)',
+        url: 'https://api.anthropic.com/v1/messages',
+        model: 'claude-3-5-sonnet-20241022'
+    },
+    gemini: {
+        name: 'Google Gemini',
+        url: 'https://generativelanguage.googleapis.com/v1beta/models/gemini-pro:generateContent',
+        model: 'gemini-pro'
+    },
+    deepseek: {
+        name: 'DeepSeek',
+        url: 'https://api.deepseek.com/v1/chat/completions',
+        model: 'deepseek-chat'
+    },
+    custom: {
+        name: 'Custom',
+        url: '',
+        model: ''
+    }
+};
+
 // Import storage functions (loaded via script tag)
 let currentEditingActionId = null;
 
 document.addEventListener('DOMContentLoaded', () => {
     loadI18nStrings();
+    loadVersion();
     loadSettings();
     setupEventListeners();
 });
@@ -15,9 +50,12 @@ document.addEventListener('DOMContentLoaded', () => {
 function loadI18nStrings() {
     document.getElementById('optionsTitle').textContent = chrome.i18n.getMessage('optionsTitle');
     document.getElementById('apiSettingsTitle').textContent = chrome.i18n.getMessage('apiSettings');
+    document.getElementById('aiProviderLabel').textContent = chrome.i18n.getMessage('aiProvider') || 'AI Provider';
     document.getElementById('apiUrlLabel').textContent = chrome.i18n.getMessage('apiUrl');
     document.getElementById('apiKeyLabel').textContent = chrome.i18n.getMessage('apiKey');
     document.getElementById('modelNameLabel').textContent = chrome.i18n.getMessage('modelName');
+    document.getElementById('testConnectionText').textContent = chrome.i18n.getMessage('testConnection') || 'Test Connection';
+    document.getElementById('websiteLinkText').textContent = chrome.i18n.getMessage('websiteLink') || 'Documentation & Privacy Policy';
     document.getElementById('actionsTitle').textContent = chrome.i18n.getMessage('actions');
     document.getElementById('addActionText').textContent = chrome.i18n.getMessage('addAction');
     document.getElementById('saveText').textContent = chrome.i18n.getMessage('save');
@@ -28,10 +66,22 @@ function loadI18nStrings() {
 }
 
 /**
+ * Load version from manifest
+ */
+async function loadVersion() {
+    const manifest = chrome.runtime.getManifest();
+    document.getElementById('versionBadge').textContent = 'v' + manifest.version;
+}
+
+/**
  * Load settings from storage
  */
 async function loadSettings() {
     const settings = await chrome.storage.sync.get(null);
+
+    // Load AI provider selection
+    const provider = settings.aiProvider || 'openai';
+    document.getElementById('aiProvider').value = provider;
 
     // Load API settings
     document.getElementById('apiUrl').value = settings.apiUrl || '';
@@ -88,6 +138,12 @@ function renderActions(actions) {
  * Setup event listeners
  */
 function setupEventListeners() {
+    // AI Provider selection
+    document.getElementById('aiProvider').addEventListener('change', handleProviderChange);
+
+    // Test connection button
+    document.getElementById('testConnectionBtn').addEventListener('click', testConnection);
+
     // Save button
     document.getElementById('saveBtn').addEventListener('click', saveSettings);
 
@@ -114,10 +170,87 @@ function setupEventListeners() {
 }
 
 /**
+ * Handle AI provider selection change
+ */
+function handleProviderChange() {
+    const provider = document.getElementById('aiProvider').value;
+    const config = AI_PROVIDERS[provider];
+
+    if (config && provider !== 'custom') {
+        document.getElementById('apiUrl').value = config.url;
+        document.getElementById('modelName').value = config.model;
+    }
+}
+
+/**
+ * Test API connection
+ */
+async function testConnection() {
+    const apiUrl = document.getElementById('apiUrl').value.trim();
+    const apiKey = document.getElementById('apiKey').value.trim();
+    const modelName = document.getElementById('modelName').value.trim();
+    const testBtn = document.getElementById('testConnectionBtn');
+    const testStatus = document.getElementById('testStatus');
+
+    // Validate inputs
+    if (!apiUrl || !apiKey || !modelName) {
+        showTestStatus('Please fill in all API settings before testing', 'error');
+        return;
+    }
+
+    // Show loading state
+    testBtn.disabled = true;
+    testBtn.classList.add('loading');
+    testStatus.className = 'test-status';
+    testStatus.style.display = 'none';
+
+    try {
+        // Send test request
+        const response = await fetch(apiUrl, {
+            method: 'POST',
+            headers: {
+                'Content-Type': 'application/json',
+                'Authorization': `Bearer ${apiKey}`
+            },
+            body: JSON.stringify({
+                model: modelName,
+                messages: [{
+                    role: 'user',
+                    content: 'Hello'
+                }],
+                max_tokens: 10
+            })
+        });
+
+        if (response.ok) {
+            showTestStatus('✓ Connection successful! API is working correctly.', 'success');
+        } else {
+            const error = await response.text();
+            showTestStatus(`✗ Connection failed: ${response.status} ${response.statusText}`, 'error');
+        }
+    } catch (error) {
+        showTestStatus(`✗ Connection failed: ${error.message}`, 'error');
+    } finally {
+        testBtn.disabled = false;
+        testBtn.classList.remove('loading');
+    }
+}
+
+/**
+ * Show test status message
+ */
+function showTestStatus(message, type) {
+    const testStatus = document.getElementById('testStatus');
+    testStatus.textContent = message;
+    testStatus.className = `test-status ${type}`;
+}
+
+/**
  * Save settings
  */
 async function saveSettings() {
     const settings = {
+        aiProvider: document.getElementById('aiProvider').value,
         apiUrl: document.getElementById('apiUrl').value.trim(),
         apiKey: document.getElementById('apiKey').value.trim(),
         modelName: document.getElementById('modelName').value.trim()
