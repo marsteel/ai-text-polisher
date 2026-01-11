@@ -4,7 +4,7 @@
         "description": "Name of the extension"
     },
     "extensionDescription": {
-        "message": "Polish selected text using AI with customizable actions",
+        "message": "Pahusayin ang napiling teksto gamit ang AI na may mga nako-customize na aksyon",
         "description": "Description of the extension"
     },
     "contextMenuTitle": {
@@ -12,15 +12,15 @@
         "description": "Title for context menu parent item"
     },
     "processing": {
-        "message": "Processing...",
+        "message": "Pinoproseso...",
         "description": "Processing status message"
     },
     "success": {
-        "message": "Success!",
+        "message": "Tagumpay!",
         "description": "Success message"
     },
     "copiedToClipboard": {
-        "message": "Result copied to clipboard",
+        "message": "Nakopya ang resulta sa clipboard",
         "description": "Success notification when text is copied"
     },
     "error": {
@@ -28,27 +28,27 @@
         "description": "Error message"
     },
     "errorProcessing": {
-        "message": "Error processing text",
+        "message": "Error sa pagproseso ng teksto",
         "description": "Error notification message"
     },
     "noTextSelected": {
-        "message": "No text selected",
+        "message": "Walang napiling teksto",
         "description": "Error when no text is selected"
     },
     "apiKeyMissing": {
-        "message": "API key not configured. Please set it in the options page.",
+        "message": "Hindi naka-configure ang API key. Pakiset ito sa pahina ng mga opsyon.",
         "description": "Error when API key is missing"
     },
     "networkError": {
-        "message": "Network error. Please check your connection.",
+        "message": "Network error. Pakisuri ang iyong koneksyon.",
         "description": "Network error message"
     },
     "optionsTitle": {
-        "message": "AI Text Polisher Settings",
+        "message": "Mga Setting ng AI Text Polisher",
         "description": "Title for options page"
     },
     "apiSettings": {
-        "message": "API Settings",
+        "message": "Mga Setting ng API",
         "description": "API settings section title"
     },
     "apiUrl": {
@@ -60,15 +60,15 @@
         "description": "API key label"
     },
     "modelName": {
-        "message": "Model Name",
+        "message": "Pangalan ng Model",
         "description": "Model name label"
     },
     "actions": {
-        "message": "Actions",
+        "message": "Mga Aksyon",
         "description": "Actions section title"
     },
     "actionName": {
-        "message": "Action Name",
+        "message": "Pangalan ng Aksyon",
         "description": "Action name label"
     },
     "actionPrompt": {
@@ -76,47 +76,47 @@
         "description": "Action prompt label"
     },
     "addAction": {
-        "message": "Add Action",
+        "message": "Magdagdag ng Aksyon",
         "description": "Add action button"
     },
     "editAction": {
-        "message": "Edit",
+        "message": "I-edit",
         "description": "Edit action button"
     },
     "deleteAction": {
-        "message": "Delete",
+        "message": "Tanggalin",
         "description": "Delete action button"
     },
     "save": {
-        "message": "Save",
+        "message": "I-save",
         "description": "Save button"
     },
     "cancel": {
-        "message": "Cancel",
+        "message": "Kanselahin",
         "description": "Cancel button"
     },
     "settingsSaved": {
-        "message": "Settings saved successfully",
+        "message": "Matagumpay na na-save ang mga setting",
         "description": "Settings saved notification"
     },
     "defaultActionPolish": {
-        "message": "Polish & Improve",
+        "message": "Pahusayin at Pagbutihin",
         "description": "Default action: Polish & Improve"
     },
     "defaultActionGrammar": {
-        "message": "Fix Grammar",
+        "message": "Ayusin ang Gramatika",
         "description": "Default action: Fix Grammar"
     },
     "defaultActionProfessional": {
-        "message": "Make Professional",
+        "message": "Gawing Propesyonal",
         "description": "Default action: Make Professional"
     },
     "defaultActionSimplify": {
-        "message": "Simplify Language",
+        "message": "Pasimplehin ang Wika",
         "description": "Default action: Simplify Language"
     },
     "defaultActionSummarize": {
-        "message": "Summarize",
+        "message": "Buod",
         "description": "Default action: Summarize"
     },
     "popupTitle": {
@@ -124,15 +124,15 @@
         "description": "Popup title"
     },
     "popupStatus": {
-        "message": "Status",
+        "message": "Katayuan",
         "description": "Status label in popup"
     },
     "popupReady": {
-        "message": "Ready",
+        "message": "Handa",
         "description": "Ready status"
     },
     "popupOpenOptions": {
-        "message": "Open Settings",
+        "message": "Buksan ang Mga Setting",
         "description": "Open options button"
     }
 }

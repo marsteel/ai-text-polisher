@@ -4,7 +4,7 @@
         "description": "Name of the extension"
     },
     "extensionDescription": {
-        "message": "Polish selected text using AI with customizable actions",
+        "message": "Poleix el text seleccionat amb IA i accions personalitzables",
         "description": "Description of the extension"
     },
     "contextMenuTitle": {
@@ -12,15 +12,15 @@
         "description": "Title for context menu parent item"
     },
     "processing": {
-        "message": "Processing...",
+        "message": "Processant...",
         "description": "Processing status message"
     },
     "success": {
-        "message": "Success!",
+        "message": "Èxit!",
         "description": "Success message"
     },
     "copiedToClipboard": {
-        "message": "Result copied to clipboard",
+        "message": "Resultat copiat al porta-retalls",
         "description": "Success notification when text is copied"
     },
     "error": {
@@ -28,95 +28,95 @@
         "description": "Error message"
     },
     "errorProcessing": {
-        "message": "Error processing text",
+        "message": "Error en processar el text",
         "description": "Error notification message"
     },
     "noTextSelected": {
-        "message": "No text selected",
+        "message": "No s'ha seleccionat cap text",
         "description": "Error when no text is selected"
     },
     "apiKeyMissing": {
-        "message": "API key not configured. Please set it in the options page.",
+        "message": "Clau API no configurada. Si us plau, estableix-la a la pàgina d'opcions.",
         "description": "Error when API key is missing"
     },
     "networkError": {
-        "message": "Network error. Please check your connection.",
+        "message": "Error de xarxa. Si us plau, comprova la teva connexió.",
         "description": "Network error message"
     },
     "optionsTitle": {
-        "message": "AI Text Polisher Settings",
+        "message": "Configuració d'AI Text Polisher",
         "description": "Title for options page"
     },
     "apiSettings": {
-        "message": "API Settings",
+        "message": "Configuració d'API",
         "description": "API settings section title"
     },
     "apiUrl": {
-        "message": "API URL",
+        "message": "URL de l'API",
         "description": "API URL label"
     },
     "apiKey": {
-        "message": "API Key",
+        "message": "Clau API",
         "description": "API key label"
     },
     "modelName": {
-        "message": "Model Name",
+        "message": "Nom del model",
         "description": "Model name label"
     },
     "actions": {
-        "message": "Actions",
+        "message": "Accions",
         "description": "Actions section title"
     },
     "actionName": {
-        "message": "Action Name",
+        "message": "Nom de l'acció",
         "description": "Action name label"
     },
     "actionPrompt": {
-        "message": "Prompt",
+        "message": "Indicació",
         "description": "Action prompt label"
     },
     "addAction": {
-        "message": "Add Action",
+        "message": "Afegir acció",
         "description": "Add action button"
     },
     "editAction": {
-        "message": "Edit",
+        "message": "Editar",
         "description": "Edit action button"
     },
     "deleteAction": {
-        "message": "Delete",
+        "message": "Eliminar",
         "description": "Delete action button"
     },
     "save": {
-        "message": "Save",
+        "message": "Desar",
         "description": "Save button"
     },
     "cancel": {
-        "message": "Cancel",
+        "message": "Cancel·lar",
         "description": "Cancel button"
     },
     "settingsSaved": {
-        "message": "Settings saved successfully",
+        "message": "Configuració desada correctament",
         "description": "Settings saved notification"
     },
     "defaultActionPolish": {
-        "message": "Polish & Improve",
+        "message": "Polir i millorar",
         "description": "Default action: Polish & Improve"
     },
     "defaultActionGrammar": {
-        "message": "Fix Grammar",
+        "message": "Corregir gramàtica",
         "description": "Default action: Fix Grammar"
     },
     "defaultActionProfessional": {
-        "message": "Make Professional",
+        "message": "Fer professional",
         "description": "Default action: Make Professional"
     },
     "defaultActionSimplify": {
-        "message": "Simplify Language",
+        "message": "Simplificar llenguatge",
         "description": "Default action: Simplify Language"
     },
     "defaultActionSummarize": {
-        "message": "Summarize",
+        "message": "Resumir",
         "description": "Default action: Summarize"
     },
     "popupTitle": {
@@ -124,15 +124,15 @@
         "description": "Popup title"
     },
     "popupStatus": {
-        "message": "Status",
+        "message": "Estat",
         "description": "Status label in popup"
     },
     "popupReady": {
-        "message": "Ready",
+        "message": "Llest",
         "description": "Ready status"
     },
     "popupOpenOptions": {
-        "message": "Open Settings",
+        "message": "Obrir configuració",
         "description": "Open options button"
     }
 }

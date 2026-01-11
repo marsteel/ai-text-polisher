@@ -4,7 +4,7 @@
         "description": "Name of the extension"
     },
     "extensionDescription": {
-        "message": "Polish selected text using AI with customizable actions",
+        "message": "सानुकूल करण्यायोग्य क्रियांसह AI वापरून निवडलेला मजकूर पॉलिश करा",
         "description": "Description of the extension"
     },
     "contextMenuTitle": {
@@ -12,43 +12,43 @@
         "description": "Title for context menu parent item"
     },
     "processing": {
-        "message": "Processing...",
+        "message": "प्रक्रिया करत आहे...",
         "description": "Processing status message"
     },
     "success": {
-        "message": "Success!",
+        "message": "यश!",
         "description": "Success message"
     },
     "copiedToClipboard": {
-        "message": "Result copied to clipboard",
+        "message": "परिणाम क्लिपबोर्डवर कॉपी केला",
         "description": "Success notification when text is copied"
     },
     "error": {
-        "message": "Error",
+        "message": "त्रुटी",
         "description": "Error message"
     },
     "errorProcessing": {
-        "message": "Error processing text",
+        "message": "मजकूर प्रक्रिया करताना त्रुटी",
         "description": "Error notification message"
     },
     "noTextSelected": {
-        "message": "No text selected",
+        "message": "मजकूर निवडला नाही",
         "description": "Error when no text is selected"
     },
     "apiKeyMissing": {
-        "message": "API key not configured. Please set it in the options page.",
+        "message": "API की कॉन्फिगर केली नाही. कृपया ती पर्याय पृष्ठावर सेट करा.",
         "description": "Error when API key is missing"
     },
     "networkError": {
-        "message": "Network error. Please check your connection.",
+        "message": "नेटवर्क त्रुटी. कृपया आपले कनेक्शन तपासा.",
         "description": "Network error message"
     },
     "optionsTitle": {
-        "message": "AI Text Polisher Settings",
+        "message": "AI Text Polisher सेटिंग्ज",
         "description": "Title for options page"
     },
     "apiSettings": {
-        "message": "API Settings",
+        "message": "API सेटिंग्ज",
         "description": "API settings section title"
     },
     "apiUrl": {
@@ -56,67 +56,67 @@
         "description": "API URL label"
     },
     "apiKey": {
-        "message": "API Key",
+        "message": "API की",
         "description": "API key label"
     },
     "modelName": {
-        "message": "Model Name",
+        "message": "मॉडेल नाव",
         "description": "Model name label"
     },
     "actions": {
-        "message": "Actions",
+        "message": "क्रिया",
         "description": "Actions section title"
     },
     "actionName": {
-        "message": "Action Name",
+        "message": "क्रिया नाव",
         "description": "Action name label"
     },
     "actionPrompt": {
-        "message": "Prompt",
+        "message": "प्रॉम्प्ट",
         "description": "Action prompt label"
     },
     "addAction": {
-        "message": "Add Action",
+        "message": "क्रिया जोडा",
         "description": "Add action button"
     },
     "editAction": {
-        "message": "Edit",
+        "message": "संपादित करा",
         "description": "Edit action button"
     },
     "deleteAction": {
-        "message": "Delete",
+        "message": "हटवा",
         "description": "Delete action button"
     },
     "save": {
-        "message": "Save",
+        "message": "जतन करा",
         "description": "Save button"
     },
     "cancel": {
-        "message": "Cancel",
+        "message": "रद्द करा",
         "description": "Cancel button"
     },
     "settingsSaved": {
-        "message": "Settings saved successfully",
+        "message": "सेटिंग्ज यशस्वीरित्या जतन केल्या",
         "description": "Settings saved notification"
     },
     "defaultActionPolish": {
-        "message": "Polish & Improve",
+        "message": "पॉलिश आणि सुधारणा करा",
         "description": "Default action: Polish & Improve"
     },
     "defaultActionGrammar": {
-        "message": "Fix Grammar",
+        "message": "व्याकरण दुरुस्त करा",
         "description": "Default action: Fix Grammar"
     },
     "defaultActionProfessional": {
-        "message": "Make Professional",
+        "message": "व्यावसायिक बनवा",
         "description": "Default action: Make Professional"
     },
     "defaultActionSimplify": {
-        "message": "Simplify Language",
+        "message": "भाषा सरलीकृत करा",
         "description": "Default action: Simplify Language"
     },
     "defaultActionSummarize": {
-        "message": "Summarize",
+        "message": "सारांश",
         "description": "Default action: Summarize"
     },
     "popupTitle": {
@@ -124,15 +124,15 @@
         "description": "Popup title"
     },
     "popupStatus": {
-        "message": "Status",
+        "message": "स्थिती",
         "description": "Status label in popup"
     },
     "popupReady": {
-        "message": "Ready",
+        "message": "तयार",
         "description": "Ready status"
     },
     "popupOpenOptions": {
-        "message": "Open Settings",
+        "message": "सेटिंग्ज उघडा",
         "description": "Open options button"
     }
 }

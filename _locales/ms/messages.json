@@ -4,7 +4,7 @@
         "description": "Name of the extension"
     },
     "extensionDescription": {
-        "message": "Polish selected text using AI with customizable actions",
+        "message": "Gilap teks terpilih menggunakan AI dengan tindakan yang boleh disesuaikan",
         "description": "Description of the extension"
     },
     "contextMenuTitle": {
@@ -12,71 +12,71 @@
         "description": "Title for context menu parent item"
     },
     "processing": {
-        "message": "Processing...",
+        "message": "Memproses...",
         "description": "Processing status message"
     },
     "success": {
-        "message": "Success!",
+        "message": "Berjaya!",
         "description": "Success message"
     },
     "copiedToClipboard": {
-        "message": "Result copied to clipboard",
+        "message": "Hasil disalin ke papan keratan",
         "description": "Success notification when text is copied"
     },
     "error": {
-        "message": "Error",
+        "message": "Ralat",
         "description": "Error message"
     },
     "errorProcessing": {
-        "message": "Error processing text",
+        "message": "Ralat semasa memproses teks",
         "description": "Error notification message"
     },
     "noTextSelected": {
-        "message": "No text selected",
+        "message": "Tiada teks dipilih",
         "description": "Error when no text is selected"
     },
     "apiKeyMissing": {
-        "message": "API key not configured. Please set it in the options page.",
+        "message": "Kunci API tidak dikonfigurasi. Sila tetapkannya di halaman pilihan.",
         "description": "Error when API key is missing"
     },
     "networkError": {
-        "message": "Network error. Please check your connection.",
+        "message": "Ralat rangkaian. Sila semak sambungan anda.",
         "description": "Network error message"
     },
     "optionsTitle": {
-        "message": "AI Text Polisher Settings",
+        "message": "Tetapan AI Text Polisher",
         "description": "Title for options page"
     },
     "apiSettings": {
-        "message": "API Settings",
+        "message": "Tetapan API",
         "description": "API settings section title"
     },
     "apiUrl": {
-        "message": "API URL",
+        "message": "URL API",
         "description": "API URL label"
     },
     "apiKey": {
-        "message": "API Key",
+        "message": "Kunci API",
         "description": "API key label"
     },
     "modelName": {
-        "message": "Model Name",
+        "message": "Nama Model",
         "description": "Model name label"
     },
     "actions": {
-        "message": "Actions",
+        "message": "Tindakan",
         "description": "Actions section title"
     },
     "actionName": {
-        "message": "Action Name",
+        "message": "Nama Tindakan",
         "description": "Action name label"
     },
     "actionPrompt": {
-        "message": "Prompt",
+        "message": "Gesaan",
         "description": "Action prompt label"
     },
     "addAction": {
-        "message": "Add Action",
+        "message": "Tambah Tindakan",
         "description": "Add action button"
     },
     "editAction": {
@@ -84,39 +84,39 @@
         "description": "Edit action button"
     },
     "deleteAction": {
-        "message": "Delete",
+        "message": "Padam",
         "description": "Delete action button"
     },
     "save": {
-        "message": "Save",
+        "message": "Simpan",
         "description": "Save button"
     },
     "cancel": {
-        "message": "Cancel",
+        "message": "Batal",
         "description": "Cancel button"
     },
     "settingsSaved": {
-        "message": "Settings saved successfully",
+        "message": "Tetapan berjaya disimpan",
         "description": "Settings saved notification"
     },
     "defaultActionPolish": {
-        "message": "Polish & Improve",
+        "message": "Gilap dan Tingkatkan",
         "description": "Default action: Polish & Improve"
     },
     "defaultActionGrammar": {
-        "message": "Fix Grammar",
+        "message": "Betulkan Tatabahasa",
         "description": "Default action: Fix Grammar"
     },
     "defaultActionProfessional": {
-        "message": "Make Professional",
+        "message": "Jadikan Profesional",
         "description": "Default action: Make Professional"
     },
     "defaultActionSimplify": {
-        "message": "Simplify Language",
+        "message": "Permudahkan Bahasa",
         "description": "Default action: Simplify Language"
     },
     "defaultActionSummarize": {
-        "message": "Summarize",
+        "message": "Ringkaskan",
         "description": "Default action: Summarize"
     },
     "popupTitle": {
@@ -128,11 +128,11 @@
         "description": "Status label in popup"
     },
     "popupReady": {
-        "message": "Ready",
+        "message": "Sedia",
         "description": "Ready status"
     },
     "popupOpenOptions": {
-        "message": "Open Settings",
+        "message": "Buka Tetapan",
         "description": "Open options button"
     }
 }

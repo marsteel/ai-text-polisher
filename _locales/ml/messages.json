@@ -4,7 +4,7 @@
         "description": "Name of the extension"
     },
     "extensionDescription": {
-        "message": "Polish selected text using AI with customizable actions",
+        "message": "ഇഷ്‌ടാനുസൃതമാക്കാവുന്ന പ്രവർത്തനങ്ങളോടെ AI ഉപയോഗിച്ച് തിരഞ്ഞെടുത്ത വാചകം മിനുക്കുക",
         "description": "Description of the extension"
     },
     "contextMenuTitle": {
@@ -12,43 +12,43 @@
         "description": "Title for context menu parent item"
     },
     "processing": {
-        "message": "Processing...",
+        "message": "പ്രോസസ്സ് ചെയ്യുന്നു...",
         "description": "Processing status message"
     },
     "success": {
-        "message": "Success!",
+        "message": "വിജയം!",
         "description": "Success message"
     },
     "copiedToClipboard": {
-        "message": "Result copied to clipboard",
+        "message": "ഫലം ക്ലിപ്പ്‌ബോർഡിലേക്ക് പകർത്തി",
         "description": "Success notification when text is copied"
     },
     "error": {
-        "message": "Error",
+        "message": "പിശക്",
         "description": "Error message"
     },
     "errorProcessing": {
-        "message": "Error processing text",
+        "message": "വാചകം പ്രോസസ്സ് ചെയ്യുന്നതിൽ പിശക്",
         "description": "Error notification message"
     },
     "noTextSelected": {
-        "message": "No text selected",
+        "message": "വാചകം തിരഞ്ഞെടുത്തിട്ടില്ല",
         "description": "Error when no text is selected"
     },
     "apiKeyMissing": {
-        "message": "API key not configured. Please set it in the options page.",
+        "message": "API കീ കോൺഫിഗർ ചെയ്തിട്ടില്ല. ദയവായി ഓപ്ഷൻസ് പേജിൽ അത് സജ്ജമാക്കുക.",
         "description": "Error when API key is missing"
     },
     "networkError": {
-        "message": "Network error. Please check your connection.",
+        "message": "നെറ്റ്‌വർക്ക് പിശക്. ദയവായി നിങ്ങളുടെ കണക്ഷൻ പരിശോധിക്കുക.",
         "description": "Network error message"
     },
     "optionsTitle": {
-        "message": "AI Text Polisher Settings",
+        "message": "AI Text Polisher ക്രമീകരണങ്ങൾ",
         "description": "Title for options page"
     },
     "apiSettings": {
-        "message": "API Settings",
+        "message": "API ക്രമീകരണങ്ങൾ",
         "description": "API settings section title"
     },
     "apiUrl": {
@@ -56,67 +56,67 @@
         "description": "API URL label"
     },
     "apiKey": {
-        "message": "API Key",
+        "message": "API കീ",
         "description": "API key label"
     },
     "modelName": {
-        "message": "Model Name",
+        "message": "മോഡൽ പേര്",
         "description": "Model name label"
     },
     "actions": {
-        "message": "Actions",
+        "message": "പ്രവർത്തനങ്ങൾ",
         "description": "Actions section title"
     },
     "actionName": {
-        "message": "Action Name",
+        "message": "പ്രവർത്തന പേര്",
         "description": "Action name label"
     },
     "actionPrompt": {
-        "message": "Prompt",
+        "message": "പ്രോംപ്റ്റ്",
         "description": "Action prompt label"
     },
     "addAction": {
-        "message": "Add Action",
+        "message": "പ്രവർത്തനം ചേർക്കുക",
         "description": "Add action button"
     },
     "editAction": {
-        "message": "Edit",
+        "message": "എഡിറ്റ് ചെയ്യുക",
         "description": "Edit action button"
     },
     "deleteAction": {
-        "message": "Delete",
+        "message": "ഇല്ലാതാക്കുക",
         "description": "Delete action button"
     },
     "save": {
-        "message": "Save",
+        "message": "സേവ് ചെയ്യുക",
         "description": "Save button"
     },
     "cancel": {
-        "message": "Cancel",
+        "message": "റദ്ദാക്കുക",
         "description": "Cancel button"
     },
     "settingsSaved": {
-        "message": "Settings saved successfully",
+        "message": "ക്രമീകരണങ്ങൾ വിജയകരമായി സേവ് ചെയ്തു",
         "description": "Settings saved notification"
     },
     "defaultActionPolish": {
-        "message": "Polish & Improve",
+        "message": "മിനുക്കി മെച്ചപ്പെടുത്തുക",
         "description": "Default action: Polish & Improve"
     },
     "defaultActionGrammar": {
-        "message": "Fix Grammar",
+        "message": "വ്യാകരണം ശരിയാക്കുക",
         "description": "Default action: Fix Grammar"
     },
     "defaultActionProfessional": {
-        "message": "Make Professional",
+        "message": "പ്രൊഫഷണലാക്കുക",
         "description": "Default action: Make Professional"
     },
     "defaultActionSimplify": {
-        "message": "Simplify Language",
+        "message": "ഭാഷ ലളിതമാക്കുക",
         "description": "Default action: Simplify Language"
     },
     "defaultActionSummarize": {
-        "message": "Summarize",
+        "message": "സംഗ്രഹിക്കുക",
         "description": "Default action: Summarize"
     },
     "popupTitle": {
@@ -124,15 +124,15 @@
         "description": "Popup title"
     },
     "popupStatus": {
-        "message": "Status",
+        "message": "സ്റ്റാറ്റസ്",
         "description": "Status label in popup"
     },
     "popupReady": {
-        "message": "Ready",
+        "message": "തയ്യാർ",
         "description": "Ready status"
     },
     "popupOpenOptions": {
-        "message": "Open Settings",
+        "message": "ക്രമീകരണങ്ങൾ തുറക്കുക",
         "description": "Open options button"
     }
 }

@@ -4,7 +4,7 @@
         "description": "Name of the extension"
     },
     "extensionDescription": {
-        "message": "Polish selected text using AI with customizable actions",
+        "message": "ಕಸ್ಟಮೈಸ್ ಮಾಡಬಹುದಾದ ಕ್ರಿಯೆಗಳೊಂದಿಗೆ AI ಬಳಸಿ ಆಯ್ಕೆ ಮಾಡಿದ ಪಠ್ಯವನ್ನು ಪಾಲಿಶ್ ಮಾಡಿ",
         "description": "Description of the extension"
     },
     "contextMenuTitle": {
@@ -12,43 +12,43 @@
         "description": "Title for context menu parent item"
     },
     "processing": {
-        "message": "Processing...",
+        "message": "ಪ್ರಕ್ರಿಯೆಗೊಳಿಸಲಾಗುತ್ತಿದೆ...",
         "description": "Processing status message"
     },
     "success": {
-        "message": "Success!",
+        "message": "ಯಶಸ್ವಿ!",
         "description": "Success message"
     },
     "copiedToClipboard": {
-        "message": "Result copied to clipboard",
+        "message": "ಫಲಿತಾಂಶವನ್ನು ಕ್ಲಿಪ್‌ಬೋರ್ಡ್‌ಗೆ ನಕಲಿಸಲಾಗಿದೆ",
         "description": "Success notification when text is copied"
     },
     "error": {
-        "message": "Error",
+        "message": "ದೋಷ",
         "description": "Error message"
     },
     "errorProcessing": {
-        "message": "Error processing text",
+        "message": "ಪಠ್ಯವನ್ನು ಪ್ರಕ್ರಿಯೆಗೊಳಿಸುವಲ್ಲಿ ದೋಷ",
         "description": "Error notification message"
     },
     "noTextSelected": {
-        "message": "No text selected",
+        "message": "ಯಾವುದೇ ಪಠ್ಯವನ್ನು ಆಯ್ಕೆ ಮಾಡಿಲ್ಲ",
         "description": "Error when no text is selected"
     },
     "apiKeyMissing": {
-        "message": "API key not configured. Please set it in the options page.",
+        "message": "API ಕೀಲಿಯನ್ನು ಕಾನ್ಫಿಗರ್ ಮಾಡಲಾಗಿಲ್ಲ. ದಯವಿಟ್ಟು ಆಯ್ಕೆಗಳ ಪುಟದಲ್ಲಿ ಅದನ್ನು ಹೊಂದಿಸಿ.",
         "description": "Error when API key is missing"
     },
     "networkError": {
-        "message": "Network error. Please check your connection.",
+        "message": "ನೆಟ್‌ವರ್ಕ್ ದೋಷ. ದಯವಿಟ್ಟು ನಿಮ್ಮ ಸಂಪರ್ಕವನ್ನು ಪರಿಶೀಲಿಸಿ.",
         "description": "Network error message"
     },
     "optionsTitle": {
-        "message": "AI Text Polisher Settings",
+        "message": "AI Text Polisher ಸೆಟ್ಟಿಂಗ್‌ಗಳು",
         "description": "Title for options page"
     },
     "apiSettings": {
-        "message": "API Settings",
+        "message": "API ಸೆಟ್ಟಿಂಗ್‌ಗಳು",
         "description": "API settings section title"
     },
     "apiUrl": {
@@ -56,67 +56,67 @@
         "description": "API URL label"
     },
     "apiKey": {
-        "message": "API Key",
+        "message": "API ಕೀಲಿ",
         "description": "API key label"
     },
     "modelName": {
-        "message": "Model Name",
+        "message": "ಮಾದರಿ ಹೆಸರು",
         "description": "Model name label"
     },
     "actions": {
-        "message": "Actions",
+        "message": "ಕ್ರಿಯೆಗಳು",
         "description": "Actions section title"
     },
     "actionName": {
-        "message": "Action Name",
+        "message": "ಕ್ರಿಯೆ ಹೆಸರು",
         "description": "Action name label"
     },
     "actionPrompt": {
-        "message": "Prompt",
+        "message": "ಪ್ರಾಂಪ್ಟ್",
         "description": "Action prompt label"
     },
     "addAction": {
-        "message": "Add Action",
+        "message": "ಕ್ರಿಯೆಯನ್ನು ಸೇರಿಸಿ",
         "description": "Add action button"
     },
     "editAction": {
-        "message": "Edit",
+        "message": "ಸಂಪಾದಿಸಿ",
         "description": "Edit action button"
     },
     "deleteAction": {
-        "message": "Delete",
+        "message": "ಅಳಿಸಿ",
         "description": "Delete action button"
     },
     "save": {
-        "message": "Save",
+        "message": "ಉಳಿಸಿ",
         "description": "Save button"
     },
     "cancel": {
-        "message": "Cancel",
+        "message": "ರದ್ದುಮಾಡಿ",
         "description": "Cancel button"
     },
     "settingsSaved": {
-        "message": "Settings saved successfully",
+        "message": "ಸೆಟ್ಟಿಂಗ್‌ಗಳನ್ನು ಯಶಸ್ವಿಯಾಗಿ ಉಳಿಸಲಾಗಿದೆ",
         "description": "Settings saved notification"
     },
     "defaultActionPolish": {
-        "message": "Polish & Improve",
+        "message": "ಪಾಲಿಶ್ ಮತ್ತು ಸುಧಾರಿಸಿ",
         "description": "Default action: Polish & Improve"
     },
     "defaultActionGrammar": {
-        "message": "Fix Grammar",
+        "message": "ವ್ಯಾಕರಣವನ್ನು ಸರಿಪಡಿಸಿ",
         "description": "Default action: Fix Grammar"
     },
     "defaultActionProfessional": {
-        "message": "Make Professional",
+        "message": "ವೃತ್ತಿಪರವಾಗಿಸಿ",
         "description": "Default action: Make Professional"
     },
     "defaultActionSimplify": {
-        "message": "Simplify Language",
+        "message": "ಭಾಷೆಯನ್ನು ಸರಳೀಕರಿಸಿ",
         "description": "Default action: Simplify Language"
     },
     "defaultActionSummarize": {
-        "message": "Summarize",
+        "message": "ಸಾರಾಂಶ",
         "description": "Default action: Summarize"
     },
     "popupTitle": {
@@ -124,15 +124,15 @@
         "description": "Popup title"
     },
     "popupStatus": {
-        "message": "Status",
+        "message": "ಸ್ಥಿತಿ",
         "description": "Status label in popup"
     },
     "popupReady": {
-        "message": "Ready",
+        "message": "ಸಿದ್ಧ",
         "description": "Ready status"
     },
     "popupOpenOptions": {
-        "message": "Open Settings",
+        "message": "ಸೆಟ್ಟಿಂಗ್‌ಗಳನ್ನು ತೆರೆಯಿರಿ",
         "description": "Open options button"
     }
 }

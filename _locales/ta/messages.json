@@ -4,7 +4,7 @@
         "description": "Name of the extension"
     },
     "extensionDescription": {
-        "message": "Polish selected text using AI with customizable actions",
+        "message": "தேர்ந்தெடுக்கப்பட்ட உரையை AI மூலம் தனிப்பயனாக்கக்கூடிய செயல்களுடன் மெருகூட்டவும்",
         "description": "Description of the extension"
     },
     "contextMenuTitle": {
@@ -12,43 +12,43 @@
         "description": "Title for context menu parent item"
     },
     "processing": {
-        "message": "Processing...",
+        "message": "செயலாக்குகிறது...",
         "description": "Processing status message"
     },
     "success": {
-        "message": "Success!",
+        "message": "வெற்றி!",
         "description": "Success message"
     },
     "copiedToClipboard": {
-        "message": "Result copied to clipboard",
+        "message": "முடிவு கிளிப்போர்டுக்கு நகலெடுக்கப்பட்டது",
         "description": "Success notification when text is copied"
     },
     "error": {
-        "message": "Error",
+        "message": "பிழை",
         "description": "Error message"
     },
     "errorProcessing": {
-        "message": "Error processing text",
+        "message": "உரையை செயலாக்குவதில் பிழை",
         "description": "Error notification message"
     },
     "noTextSelected": {
-        "message": "No text selected",
+        "message": "உரை தேர்ந்தெடுக்கப்படவில்லை",
         "description": "Error when no text is selected"
     },
     "apiKeyMissing": {
-        "message": "API key not configured. Please set it in the options page.",
+        "message": "API விசை கட்டமைக்கப்படவில்லை. விருப்பங்கள் பக்கத்தில் அதை அமைக்கவும்.",
         "description": "Error when API key is missing"
     },
     "networkError": {
-        "message": "Network error. Please check your connection.",
+        "message": "நெட்வொர்க் பிழை. உங்கள் இணைப்பை சரிபார்க்கவும்.",
         "description": "Network error message"
     },
     "optionsTitle": {
-        "message": "AI Text Polisher Settings",
+        "message": "AI Text Polisher அமைப்புகள்",
         "description": "Title for options page"
     },
     "apiSettings": {
-        "message": "API Settings",
+        "message": "API அமைப்புகள்",
         "description": "API settings section title"
     },
     "apiUrl": {
@@ -56,67 +56,67 @@
         "description": "API URL label"
     },
     "apiKey": {
-        "message": "API Key",
+        "message": "API விசை",
         "description": "API key label"
     },
     "modelName": {
-        "message": "Model Name",
+        "message": "மாதிரி பெயர்",
         "description": "Model name label"
     },
     "actions": {
-        "message": "Actions",
+        "message": "செயல்கள்",
         "description": "Actions section title"
     },
     "actionName": {
-        "message": "Action Name",
+        "message": "செயல் பெயர்",
         "description": "Action name label"
     },
     "actionPrompt": {
-        "message": "Prompt",
+        "message": "தூண்டுதல்",
         "description": "Action prompt label"
     },
     "addAction": {
-        "message": "Add Action",
+        "message": "செயலைச் சேர்க்கவும்",
         "description": "Add action button"
     },
     "editAction": {
-        "message": "Edit",
+        "message": "திருத்து",
         "description": "Edit action button"
     },
     "deleteAction": {
-        "message": "Delete",
+        "message": "நீக்கு",
         "description": "Delete action button"
     },
     "save": {
-        "message": "Save",
+        "message": "சேமி",
         "description": "Save button"
     },
     "cancel": {
-        "message": "Cancel",
+        "message": "ரத்துசெய்",
         "description": "Cancel button"
     },
     "settingsSaved": {
-        "message": "Settings saved successfully",
+        "message": "அமைப்புகள் வெற்றிகரமாக சேமிக்கப்பட்டன",
         "description": "Settings saved notification"
     },
     "defaultActionPolish": {
-        "message": "Polish & Improve",
+        "message": "மெருகூட்டி மேம்படுத்து",
         "description": "Default action: Polish & Improve"
     },
     "defaultActionGrammar": {
-        "message": "Fix Grammar",
+        "message": "இலக்கணத்தை சரிசெய்",
         "description": "Default action: Fix Grammar"
     },
     "defaultActionProfessional": {
-        "message": "Make Professional",
+        "message": "தொழில்முறையாக்கு",
         "description": "Default action: Make Professional"
     },
     "defaultActionSimplify": {
-        "message": "Simplify Language",
+        "message": "மொழியை எளிமைப்படுத்து",
         "description": "Default action: Simplify Language"
     },
     "defaultActionSummarize": {
-        "message": "Summarize",
+        "message": "சுருக்கம்",
         "description": "Default action: Summarize"
     },
     "popupTitle": {
@@ -124,15 +124,15 @@
         "description": "Popup title"
     },
     "popupStatus": {
-        "message": "Status",
+        "message": "நிலை",
         "description": "Status label in popup"
     },
     "popupReady": {
-        "message": "Ready",
+        "message": "தயார்",
         "description": "Ready status"
     },
     "popupOpenOptions": {
-        "message": "Open Settings",
+        "message": "அமைப்புகளைத் திற",
         "description": "Open options button"
     }
 }

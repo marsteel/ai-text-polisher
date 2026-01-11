@@ -4,7 +4,7 @@
         "description": "Name of the extension"
     },
     "extensionDescription": {
-        "message": "Polish selected text using AI with customizable actions",
+        "message": "কাস্টমাইজযোগ্য ক্রিয়া সহ AI ব্যবহার করে নির্বাচিত পাঠ্য পালিশ করুন",
         "description": "Description of the extension"
     },
     "contextMenuTitle": {
@@ -12,43 +12,43 @@
         "description": "Title for context menu parent item"
     },
     "processing": {
-        "message": "Processing...",
+        "message": "প্রক্রিয়াকরণ...",
         "description": "Processing status message"
     },
     "success": {
-        "message": "Success!",
+        "message": "সফল!",
         "description": "Success message"
     },
     "copiedToClipboard": {
-        "message": "Result copied to clipboard",
+        "message": "ফলাফল ক্লিপবোর্ডে কপি করা হয়েছে",
         "description": "Success notification when text is copied"
     },
     "error": {
-        "message": "Error",
+        "message": "ত্রুটি",
         "description": "Error message"
     },
     "errorProcessing": {
-        "message": "Error processing text",
+        "message": "পাঠ্য প্রক্রিয়াকরণে ত্রুটি",
         "description": "Error notification message"
     },
     "noTextSelected": {
-        "message": "No text selected",
+        "message": "কোনো পাঠ্য নির্বাচিত নেই",
         "description": "Error when no text is selected"
     },
     "apiKeyMissing": {
-        "message": "API key not configured. Please set it in the options page.",
+        "message": "API কী কনফিগার করা হয়নি। দয়া করে বিকল্প পৃষ্ঠায় এটি সেট করুন।",
         "description": "Error when API key is missing"
     },
     "networkError": {
-        "message": "Network error. Please check your connection.",
+        "message": "নেটওয়ার্ক ত্রুটি। দয়া করে আপনার সংযোগ পরীক্ষা করুন।",
         "description": "Network error message"
     },
     "optionsTitle": {
-        "message": "AI Text Polisher Settings",
+        "message": "AI Text Polisher সেটিংস",
         "description": "Title for options page"
     },
     "apiSettings": {
-        "message": "API Settings",
+        "message": "API সেটিংস",
         "description": "API settings section title"
     },
     "apiUrl": {
@@ -56,67 +56,67 @@
         "description": "API URL label"
     },
     "apiKey": {
-        "message": "API Key",
+        "message": "API কী",
         "description": "API key label"
     },
     "modelName": {
-        "message": "Model Name",
+        "message": "মডেলের নাম",
         "description": "Model name label"
     },
     "actions": {
-        "message": "Actions",
+        "message": "ক্রিয়া",
         "description": "Actions section title"
     },
     "actionName": {
-        "message": "Action Name",
+        "message": "ক্রিয়ার নাম",
         "description": "Action name label"
     },
     "actionPrompt": {
-        "message": "Prompt",
+        "message": "প্রম্পট",
         "description": "Action prompt label"
     },
     "addAction": {
-        "message": "Add Action",
+        "message": "ক্রিয়া যোগ করুন",
         "description": "Add action button"
     },
     "editAction": {
-        "message": "Edit",
+        "message": "সম্পাদনা করুন",
         "description": "Edit action button"
     },
     "deleteAction": {
-        "message": "Delete",
+        "message": "মুছুন",
         "description": "Delete action button"
     },
     "save": {
-        "message": "Save",
+        "message": "সংরক্ষণ করুন",
         "description": "Save button"
     },
     "cancel": {
-        "message": "Cancel",
+        "message": "বাতিল করুন",
         "description": "Cancel button"
     },
     "settingsSaved": {
-        "message": "Settings saved successfully",
+        "message": "সেটিংস সফলভাবে সংরক্ষিত হয়েছে",
         "description": "Settings saved notification"
     },
     "defaultActionPolish": {
-        "message": "Polish & Improve",
+        "message": "পালিশ এবং উন্নত করুন",
         "description": "Default action: Polish & Improve"
     },
     "defaultActionGrammar": {
-        "message": "Fix Grammar",
+        "message": "ব্যাকরণ ঠিক করুন",
         "description": "Default action: Fix Grammar"
     },
     "defaultActionProfessional": {
-        "message": "Make Professional",
+        "message": "পেশাদার করুন",
         "description": "Default action: Make Professional"
     },
     "defaultActionSimplify": {
-        "message": "Simplify Language",
+        "message": "ভাষা সরল করুন",
         "description": "Default action: Simplify Language"
     },
     "defaultActionSummarize": {
-        "message": "Summarize",
+        "message": "সংক্ষিপ্ত করুন",
         "description": "Default action: Summarize"
     },
     "popupTitle": {
@@ -124,15 +124,15 @@
         "description": "Popup title"
     },
     "popupStatus": {
-        "message": "Status",
+        "message": "অবস্থা",
         "description": "Status label in popup"
     },
     "popupReady": {
-        "message": "Ready",
+        "message": "প্রস্তুত",
         "description": "Ready status"
     },
     "popupOpenOptions": {
-        "message": "Open Settings",
+        "message": "সেটিংস খুলুন",
         "description": "Open options button"
     }
 }

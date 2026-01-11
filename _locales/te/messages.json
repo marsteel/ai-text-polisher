@@ -4,7 +4,7 @@
         "description": "Name of the extension"
     },
     "extensionDescription": {
-        "message": "Polish selected text using AI with customizable actions",
+        "message": "అనుకూలీకరించదగిన చర్యలతో AI ఉపయోగించి ఎంచుకున్న వచనాన్ని మెరుగుపరచండి",
         "description": "Description of the extension"
     },
     "contextMenuTitle": {
@@ -12,43 +12,43 @@
         "description": "Title for context menu parent item"
     },
     "processing": {
-        "message": "Processing...",
+        "message": "ప్రాసెస్ చేస్తోంది...",
         "description": "Processing status message"
     },
     "success": {
-        "message": "Success!",
+        "message": "విజయం!",
         "description": "Success message"
     },
     "copiedToClipboard": {
-        "message": "Result copied to clipboard",
+        "message": "ఫలితం క్లిప్‌బోర్డ్‌కు కాపీ చేయబడింది",
         "description": "Success notification when text is copied"
     },
     "error": {
-        "message": "Error",
+        "message": "లోపం",
         "description": "Error message"
     },
     "errorProcessing": {
-        "message": "Error processing text",
+        "message": "వచనాన్ని ప్రాసెస్ చేయడంలో లోపం",
         "description": "Error notification message"
     },
     "noTextSelected": {
-        "message": "No text selected",
+        "message": "వచనం ఎంచుకోబడలేదు",
         "description": "Error when no text is selected"
     },
     "apiKeyMissing": {
-        "message": "API key not configured. Please set it in the options page.",
+        "message": "API కీ కాన్ఫిగర్ చేయబడలేదు. దయచేసి ఆప్షన్స్ పేజీలో దీన్ని సెట్ చేయండి.",
         "description": "Error when API key is missing"
     },
     "networkError": {
-        "message": "Network error. Please check your connection.",
+        "message": "నెట్‌వర్క్ లోపం. దయచేసి మీ కనెక్షన్‌ను తనిఖీ చేయండి.",
         "description": "Network error message"
     },
     "optionsTitle": {
-        "message": "AI Text Polisher Settings",
+        "message": "AI Text Polisher సెట్టింగ్‌లు",
         "description": "Title for options page"
     },
     "apiSettings": {
-        "message": "API Settings",
+        "message": "API సెట్టింగ్‌లు",
         "description": "API settings section title"
     },
     "apiUrl": {
@@ -56,67 +56,67 @@
         "description": "API URL label"
     },
     "apiKey": {
-        "message": "API Key",
+        "message": "API కీ",
         "description": "API key label"
     },
     "modelName": {
-        "message": "Model Name",
+        "message": "మోడల్ పేరు",
         "description": "Model name label"
     },
     "actions": {
-        "message": "Actions",
+        "message": "చర్యలు",
         "description": "Actions section title"
     },
     "actionName": {
-        "message": "Action Name",
+        "message": "చర్య పేరు",
         "description": "Action name label"
     },
     "actionPrompt": {
-        "message": "Prompt",
+        "message": "ప్రాంప్ట్",
         "description": "Action prompt label"
     },
     "addAction": {
-        "message": "Add Action",
+        "message": "చర్యను జోడించండి",
         "description": "Add action button"
     },
     "editAction": {
-        "message": "Edit",
+        "message": "సవరించు",
         "description": "Edit action button"
     },
     "deleteAction": {
-        "message": "Delete",
+        "message": "తొలగించు",
         "description": "Delete action button"
     },
     "save": {
-        "message": "Save",
+        "message": "సేవ్ చేయి",
         "description": "Save button"
     },
     "cancel": {
-        "message": "Cancel",
+        "message": "రద్దు చేయి",
         "description": "Cancel button"
     },
     "settingsSaved": {
-        "message": "Settings saved successfully",
+        "message": "సెట్టింగ్‌లు విజయవంతంగా సేవ్ చేయబడ్డాయి",
         "description": "Settings saved notification"
     },
     "defaultActionPolish": {
-        "message": "Polish & Improve",
+        "message": "మెరుగుపరచి మెరుగుపరచండి",
         "description": "Default action: Polish & Improve"
     },
     "defaultActionGrammar": {
-        "message": "Fix Grammar",
+        "message": "వ్యాకరణాన్ని సరిచేయండి",
         "description": "Default action: Fix Grammar"
     },
     "defaultActionProfessional": {
-        "message": "Make Professional",
+        "message": "వృత్తిపరంగా చేయండి",
         "description": "Default action: Make Professional"
     },
     "defaultActionSimplify": {
-        "message": "Simplify Language",
+        "message": "భాషను సరళీకరించండి",
         "description": "Default action: Simplify Language"
     },
     "defaultActionSummarize": {
-        "message": "Summarize",
+        "message": "సారాంశం",
         "description": "Default action: Summarize"
     },
     "popupTitle": {
@@ -124,15 +124,15 @@
         "description": "Popup title"
     },
     "popupStatus": {
-        "message": "Status",
+        "message": "స్థితి",
         "description": "Status label in popup"
     },
     "popupReady": {
-        "message": "Ready",
+        "message": "సిద్ధంగా ఉంది",
         "description": "Ready status"
     },
     "popupOpenOptions": {
-        "message": "Open Settings",
+        "message": "సెట్టింగ్‌లను తెరవండి",
         "description": "Open options button"
     }
 }

@@ -4,7 +4,7 @@
         "description": "Name of the extension"
     },
     "extensionDescription": {
-        "message": "Polish selected text using AI with customizable actions",
+        "message": "Hautatu testua leundu AI erabiliz ekintza pertsonalizagarriekin",
         "description": "Description of the extension"
     },
     "contextMenuTitle": {
@@ -12,43 +12,43 @@
         "description": "Title for context menu parent item"
     },
     "processing": {
-        "message": "Processing...",
+        "message": "Prozesatzen...",
         "description": "Processing status message"
     },
     "success": {
-        "message": "Success!",
+        "message": "Arrakasta!",
         "description": "Success message"
     },
     "copiedToClipboard": {
-        "message": "Result copied to clipboard",
+        "message": "Emaitza arbelean kopiatu da",
         "description": "Success notification when text is copied"
     },
     "error": {
-        "message": "Error",
+        "message": "Errorea",
         "description": "Error message"
     },
     "errorProcessing": {
-        "message": "Error processing text",
+        "message": "Errorea testua prozesatzean",
         "description": "Error notification message"
     },
     "noTextSelected": {
-        "message": "No text selected",
+        "message": "Ez da testurik hautatu",
         "description": "Error when no text is selected"
     },
     "apiKeyMissing": {
-        "message": "API key not configured. Please set it in the options page.",
+        "message": "API gakoa konfiguratu gabe. Mesedez, ezarri aukeren orrian.",
         "description": "Error when API key is missing"
     },
     "networkError": {
-        "message": "Network error. Please check your connection.",
+        "message": "Sare errorea. Mesedez, egiaztatu zure konexioa.",
         "description": "Network error message"
     },
     "optionsTitle": {
-        "message": "AI Text Polisher Settings",
+        "message": "AI Text Polisher ezarpenak",
         "description": "Title for options page"
     },
     "apiSettings": {
-        "message": "API Settings",
+        "message": "API ezarpenak",
         "description": "API settings section title"
     },
     "apiUrl": {
@@ -56,67 +56,67 @@
         "description": "API URL label"
     },
     "apiKey": {
-        "message": "API Key",
+        "message": "API gakoa",
         "description": "API key label"
     },
     "modelName": {
-        "message": "Model Name",
+        "message": "Ereduaren izena",
         "description": "Model name label"
     },
     "actions": {
-        "message": "Actions",
+        "message": "Ekintzak",
         "description": "Actions section title"
     },
     "actionName": {
-        "message": "Action Name",
+        "message": "Ekintza izena",
         "description": "Action name label"
     },
     "actionPrompt": {
-        "message": "Prompt",
+        "message": "Gonbita",
         "description": "Action prompt label"
     },
     "addAction": {
-        "message": "Add Action",
+        "message": "Ekintza gehitu",
         "description": "Add action button"
     },
     "editAction": {
-        "message": "Edit",
+        "message": "Editatu",
         "description": "Edit action button"
     },
     "deleteAction": {
-        "message": "Delete",
+        "message": "Ezabatu",
         "description": "Delete action button"
     },
     "save": {
-        "message": "Save",
+        "message": "Gorde",
         "description": "Save button"
     },
     "cancel": {
-        "message": "Cancel",
+        "message": "Utzi",
         "description": "Cancel button"
     },
     "settingsSaved": {
-        "message": "Settings saved successfully",
+        "message": "Ezarpenak ondo gorde dira",
         "description": "Settings saved notification"
     },
     "defaultActionPolish": {
-        "message": "Polish & Improve",
+        "message": "Leundu eta hobetu",
         "description": "Default action: Polish & Improve"
     },
     "defaultActionGrammar": {
-        "message": "Fix Grammar",
+        "message": "Gramatika zuzendu",
         "description": "Default action: Fix Grammar"
     },
     "defaultActionProfessional": {
-        "message": "Make Professional",
+        "message": "Profesional bihurtu",
         "description": "Default action: Make Professional"
     },
     "defaultActionSimplify": {
-        "message": "Simplify Language",
+        "message": "Hizkuntza sinplifikatu",
         "description": "Default action: Simplify Language"
     },
     "defaultActionSummarize": {
-        "message": "Summarize",
+        "message": "Laburbildu",
         "description": "Default action: Summarize"
     },
     "popupTitle": {
@@ -124,15 +124,15 @@
         "description": "Popup title"
     },
     "popupStatus": {
-        "message": "Status",
+        "message": "Egoera",
         "description": "Status label in popup"
     },
     "popupReady": {
-        "message": "Ready",
+        "message": "Prest",
         "description": "Ready status"
     },
     "popupOpenOptions": {
-        "message": "Open Settings",
+        "message": "Ezarpenak ireki",
         "description": "Open options button"
     }
 }

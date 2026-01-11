@@ -4,7 +4,7 @@
         "description": "Name of the extension"
     },
     "extensionDescription": {
-        "message": "Polish selected text using AI with customizable actions",
+        "message": "Safisha maandishi yaliyochaguliwa kwa kutumia AI na vitendo vinavyoweza kurekebishwa",
         "description": "Description of the extension"
     },
     "contextMenuTitle": {
@@ -12,111 +12,111 @@
         "description": "Title for context menu parent item"
     },
     "processing": {
-        "message": "Processing...",
+        "message": "Inachakata...",
         "description": "Processing status message"
     },
     "success": {
-        "message": "Success!",
+        "message": "Mafanikio!",
         "description": "Success message"
     },
     "copiedToClipboard": {
-        "message": "Result copied to clipboard",
+        "message": "Matokeo yamenakiliwa kwenye ubao wa kunakili",
         "description": "Success notification when text is copied"
     },
     "error": {
-        "message": "Error",
+        "message": "Hitilafu",
         "description": "Error message"
     },
     "errorProcessing": {
-        "message": "Error processing text",
+        "message": "Hitilafu katika kuchakata maandishi",
         "description": "Error notification message"
     },
     "noTextSelected": {
-        "message": "No text selected",
+        "message": "Hakuna maandishi yaliyochaguliwa",
         "description": "Error when no text is selected"
     },
     "apiKeyMissing": {
-        "message": "API key not configured. Please set it in the options page.",
+        "message": "Ufunguo wa API haujasanidiwa. Tafadhali uweke kwenye ukurasa wa chaguo.",
         "description": "Error when API key is missing"
     },
     "networkError": {
-        "message": "Network error. Please check your connection.",
+        "message": "Hitilafu ya mtandao. Tafadhali angalia muunganisho wako.",
         "description": "Network error message"
     },
     "optionsTitle": {
-        "message": "AI Text Polisher Settings",
+        "message": "Mipangilio ya AI Text Polisher",
         "description": "Title for options page"
     },
     "apiSettings": {
-        "message": "API Settings",
+        "message": "Mipangilio ya API",
         "description": "API settings section title"
     },
     "apiUrl": {
-        "message": "API URL",
+        "message": "URL ya API",
         "description": "API URL label"
     },
     "apiKey": {
-        "message": "API Key",
+        "message": "Ufunguo wa API",
         "description": "API key label"
     },
     "modelName": {
-        "message": "Model Name",
+        "message": "Jina la Modeli",
         "description": "Model name label"
     },
     "actions": {
-        "message": "Actions",
+        "message": "Vitendo",
         "description": "Actions section title"
     },
     "actionName": {
-        "message": "Action Name",
+        "message": "Jina la Kitendo",
         "description": "Action name label"
     },
     "actionPrompt": {
-        "message": "Prompt",
+        "message": "Kidokezo",
         "description": "Action prompt label"
     },
     "addAction": {
-        "message": "Add Action",
+        "message": "Ongeza Kitendo",
         "description": "Add action button"
     },
     "editAction": {
-        "message": "Edit",
+        "message": "Hariri",
         "description": "Edit action button"
     },
     "deleteAction": {
-        "message": "Delete",
+        "message": "Futa",
         "description": "Delete action button"
     },
     "save": {
-        "message": "Save",
+        "message": "Hifadhi",
         "description": "Save button"
     },
     "cancel": {
-        "message": "Cancel",
+        "message": "Ghairi",
         "description": "Cancel button"
     },
     "settingsSaved": {
-        "message": "Settings saved successfully",
+        "message": "Mipangilio imehifadhiwa kwa mafanikio",
         "description": "Settings saved notification"
     },
     "defaultActionPolish": {
-        "message": "Polish & Improve",
+        "message": "Safisha na Boresha",
         "description": "Default action: Polish & Improve"
     },
     "defaultActionGrammar": {
-        "message": "Fix Grammar",
+        "message": "Rekebisha Sarufi",
         "description": "Default action: Fix Grammar"
     },
     "defaultActionProfessional": {
-        "message": "Make Professional",
+        "message": "Fanya Kitaalamu",
         "description": "Default action: Make Professional"
     },
     "defaultActionSimplify": {
-        "message": "Simplify Language",
+        "message": "Rahisisha Lugha",
         "description": "Default action: Simplify Language"
     },
     "defaultActionSummarize": {
-        "message": "Summarize",
+        "message": "Fupisha",
         "description": "Default action: Summarize"
     },
     "popupTitle": {
@@ -124,15 +124,15 @@
         "description": "Popup title"
     },
     "popupStatus": {
-        "message": "Status",
+        "message": "Hali",
         "description": "Status label in popup"
     },
     "popupReady": {
-        "message": "Ready",
+        "message": "Tayari",
         "description": "Ready status"
     },
     "popupOpenOptions": {
-        "message": "Open Settings",
+        "message": "Fungua Mipangilio",
         "description": "Open options button"
     }
 }

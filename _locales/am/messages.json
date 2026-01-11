@@ -4,7 +4,7 @@
         "description": "Name of the extension"
     },
     "extensionDescription": {
-        "message": "Polish selected text using AI with customizable actions",
+        "message": "የተመረጠውን ጽሑፍ በማበጀት የሚቻሉ ድርጊቶች በመጠቀም በAI ያጥሩ",
         "description": "Description of the extension"
     },
     "contextMenuTitle": {
@@ -12,111 +12,111 @@
         "description": "Title for context menu parent item"
     },
     "processing": {
-        "message": "Processing...",
+        "message": "በማስኬድ ላይ...",
         "description": "Processing status message"
     },
     "success": {
-        "message": "Success!",
+        "message": "ተሳክቷል!",
         "description": "Success message"
     },
     "copiedToClipboard": {
-        "message": "Result copied to clipboard",
+        "message": "ውጤቱ ወደ ቅንጥብ ሰሌዳ ተቀድቷል",
         "description": "Success notification when text is copied"
     },
     "error": {
-        "message": "Error",
+        "message": "ስህተት",
         "description": "Error message"
     },
     "errorProcessing": {
-        "message": "Error processing text",
+        "message": "ጽሑፍን በማስኬድ ላይ ስህተት",
         "description": "Error notification message"
     },
     "noTextSelected": {
-        "message": "No text selected",
+        "message": "ምንም ጽሑፍ አልተመረጠም",
         "description": "Error when no text is selected"
     },
     "apiKeyMissing": {
-        "message": "API key not configured. Please set it in the options page.",
+        "message": "የ API ቁልፍ አልተዋቀረም። እባክዎን በአማራጮች ገጽ ላይ ያዋቅሩት።",
         "description": "Error when API key is missing"
     },
     "networkError": {
-        "message": "Network error. Please check your connection.",
+        "message": "የአውታረ መረብ ስህተት። እባክዎን ግንኙነትዎን ያረጋግጡ።",
         "description": "Network error message"
     },
     "optionsTitle": {
-        "message": "AI Text Polisher Settings",
+        "message": "የ AI Text Polisher ቅንብሮች",
         "description": "Title for options page"
     },
     "apiSettings": {
-        "message": "API Settings",
+        "message": "የ API ቅንብሮች",
         "description": "API settings section title"
     },
     "apiUrl": {
-        "message": "API URL",
+        "message": "የ API URL",
         "description": "API URL label"
     },
     "apiKey": {
-        "message": "API Key",
+        "message": "የ API ቁልፍ",
         "description": "API key label"
     },
     "modelName": {
-        "message": "Model Name",
+        "message": "የሞዴል ስም",
         "description": "Model name label"
     },
     "actions": {
-        "message": "Actions",
+        "message": "ድርጊቶች",
         "description": "Actions section title"
     },
     "actionName": {
-        "message": "Action Name",
+        "message": "የድርጊት ስም",
         "description": "Action name label"
     },
     "actionPrompt": {
-        "message": "Prompt",
+        "message": "መመሪያ",
         "description": "Action prompt label"
     },
     "addAction": {
-        "message": "Add Action",
+        "message": "ድርጊት ያክሉ",
         "description": "Add action button"
     },
     "editAction": {
-        "message": "Edit",
+        "message": "አርትዕ",
         "description": "Edit action button"
     },
     "deleteAction": {
-        "message": "Delete",
+        "message": "ሰርዝ",
         "description": "Delete action button"
     },
     "save": {
-        "message": "Save",
+        "message": "አስቀምጥ",
         "description": "Save button"
     },
     "cancel": {
-        "message": "Cancel",
+        "message": "ሰርዝ",
         "description": "Cancel button"
     },
     "settingsSaved": {
-        "message": "Settings saved successfully",
+        "message": "ቅንብሮች በተሳካ ሁኔታ ተቀምጠዋል",
         "description": "Settings saved notification"
     },
     "defaultActionPolish": {
-        "message": "Polish & Improve",
+        "message": "አጥራ እና አሻሽል",
         "description": "Default action: Polish & Improve"
     },
     "defaultActionGrammar": {
-        "message": "Fix Grammar",
+        "message": "ሰዋሰውን አስተካክል",
         "description": "Default action: Fix Grammar"
     },
     "defaultActionProfessional": {
-        "message": "Make Professional",
+        "message": "ሙያዊ አድርግ",
         "description": "Default action: Make Professional"
     },
     "defaultActionSimplify": {
-        "message": "Simplify Language",
+        "message": "ቋንቋን ቀላል አድርግ",
         "description": "Default action: Simplify Language"
     },
     "defaultActionSummarize": {
-        "message": "Summarize",
+        "message": "ማጠቃለያ",
         "description": "Default action: Summarize"
     },
     "popupTitle": {
@@ -124,15 +124,15 @@
         "description": "Popup title"
     },
     "popupStatus": {
-        "message": "Status",
+        "message": "ሁኔታ",
         "description": "Status label in popup"
     },
     "popupReady": {
-        "message": "Ready",
+        "message": "ዝግጁ",
         "description": "Ready status"
     },
     "popupOpenOptions": {
-        "message": "Open Settings",
+        "message": "ቅንብሮችን ክፈት",
         "description": "Open options button"
     }
 }

@@ -4,7 +4,7 @@
         "description": "Name of the extension"
     },
     "extensionDescription": {
-        "message": "Polish selected text using AI with customizable actions",
+        "message": "שפר טקסט נבחר באמצעות AI עם פעולות מותאמות אישית",
         "description": "Description of the extension"
     },
     "contextMenuTitle": {
@@ -12,111 +12,111 @@
         "description": "Title for context menu parent item"
     },
     "processing": {
-        "message": "Processing...",
+        "message": "מעבד...",
         "description": "Processing status message"
     },
     "success": {
-        "message": "Success!",
+        "message": "הצלחה!",
         "description": "Success message"
     },
     "copiedToClipboard": {
-        "message": "Result copied to clipboard",
+        "message": "התוצאה הועתקה ללוח",
         "description": "Success notification when text is copied"
     },
     "error": {
-        "message": "Error",
+        "message": "שגיאה",
         "description": "Error message"
     },
     "errorProcessing": {
-        "message": "Error processing text",
+        "message": "שגיאה בעיבוד טקסט",
         "description": "Error notification message"
     },
     "noTextSelected": {
-        "message": "No text selected",
+        "message": "לא נבחר טקסט",
         "description": "Error when no text is selected"
     },
     "apiKeyMissing": {
-        "message": "API key not configured. Please set it in the options page.",
+        "message": "מפתח API לא מוגדר. אנא הגדר אותו בדף האפשרויות.",
         "description": "Error when API key is missing"
     },
     "networkError": {
-        "message": "Network error. Please check your connection.",
+        "message": "שגיאת רשת. אנא בדוק את החיבור שלך.",
         "description": "Network error message"
     },
     "optionsTitle": {
-        "message": "AI Text Polisher Settings",
+        "message": "הגדרות AI Text Polisher",
         "description": "Title for options page"
     },
     "apiSettings": {
-        "message": "API Settings",
+        "message": "הגדרות API",
         "description": "API settings section title"
     },
     "apiUrl": {
-        "message": "API URL",
+        "message": "כתובת API",
         "description": "API URL label"
     },
     "apiKey": {
-        "message": "API Key",
+        "message": "מפתח API",
         "description": "API key label"
     },
     "modelName": {
-        "message": "Model Name",
+        "message": "שם המודל",
         "description": "Model name label"
     },
     "actions": {
-        "message": "Actions",
+        "message": "פעולות",
         "description": "Actions section title"
     },
     "actionName": {
-        "message": "Action Name",
+        "message": "שם הפעולה",
         "description": "Action name label"
     },
     "actionPrompt": {
-        "message": "Prompt",
+        "message": "הנחיה",
         "description": "Action prompt label"
     },
     "addAction": {
-        "message": "Add Action",
+        "message": "הוסף פעולה",
         "description": "Add action button"
     },
     "editAction": {
-        "message": "Edit",
+        "message": "ערוך",
         "description": "Edit action button"
     },
     "deleteAction": {
-        "message": "Delete",
+        "message": "מחק",
         "description": "Delete action button"
     },
     "save": {
-        "message": "Save",
+        "message": "שמור",
         "description": "Save button"
     },
     "cancel": {
-        "message": "Cancel",
+        "message": "בטל",
         "description": "Cancel button"
     },
     "settingsSaved": {
-        "message": "Settings saved successfully",
+        "message": "ההגדרות נשמרו בהצלחה",
         "description": "Settings saved notification"
     },
     "defaultActionPolish": {
-        "message": "Polish & Improve",
+        "message": "שפר והעלה",
         "description": "Default action: Polish & Improve"
     },
     "defaultActionGrammar": {
-        "message": "Fix Grammar",
+        "message": "תקן דקדוק",
         "description": "Default action: Fix Grammar"
     },
     "defaultActionProfessional": {
-        "message": "Make Professional",
+        "message": "הפוך למקצועי",
         "description": "Default action: Make Professional"
     },
     "defaultActionSimplify": {
-        "message": "Simplify Language",
+        "message": "פשט שפה",
         "description": "Default action: Simplify Language"
     },
     "defaultActionSummarize": {
-        "message": "Summarize",
+        "message": "סכם",
         "description": "Default action: Summarize"
     },
     "popupTitle": {
@@ -124,15 +124,15 @@
         "description": "Popup title"
     },
     "popupStatus": {
-        "message": "Status",
+        "message": "מצב",
         "description": "Status label in popup"
     },
     "popupReady": {
-        "message": "Ready",
+        "message": "מוכן",
         "description": "Ready status"
     },
     "popupOpenOptions": {
-        "message": "Open Settings",
+        "message": "פתח הגדרות",
         "description": "Open options button"
     }
 }
