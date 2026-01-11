@@ -1,8 +1,8 @@
 {
   "manifest_version": 3,
-  "name": "AI Text Polisher",
-  "version": "1.2.0",
-  "description": "AI Text Polisher, transform your selected text with AI, make it better!",
+  "name": "__MSG_extensionName__",
+  "version": "1.2.1",
+  "description": "__MSG_extensionDescription__",
   "default_locale": "en",
   "permissions": [
     "contextMenus",
