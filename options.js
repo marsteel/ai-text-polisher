@@ -202,7 +202,6 @@ async function testConnection() {
     testBtn.disabled = true;
     testBtn.classList.add('loading');
     testStatus.className = 'test-status';
-    testStatus.style.display = 'none';
 
     try {
         // Send test request
