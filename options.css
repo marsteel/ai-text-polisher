@@ -75,6 +75,14 @@ body {
     margin: 0;
 }
 
+.section-description {
+    color: #6b7280;
+    font-size: 14px;
+    line-height: 1.5;
+    margin-top: 8px;
+    margin-bottom: 0;
+}
+
 .form-group {
     margin-bottom: 20px;
 }
