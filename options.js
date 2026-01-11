@@ -55,6 +55,7 @@ function loadI18nStrings() {
     document.getElementById('apiKeyLabel').textContent = chrome.i18n.getMessage('apiKey');
     document.getElementById('modelNameLabel').textContent = chrome.i18n.getMessage('modelName');
     document.getElementById('testConnectionText').textContent = chrome.i18n.getMessage('testConnection') || 'Test Connection';
+    document.getElementById('saveApiText').textContent = chrome.i18n.getMessage('saveApiSettings') || 'Save API Settings';
     document.getElementById('websiteLinkText').textContent = chrome.i18n.getMessage('websiteLink') || 'Documentation & Privacy Policy';
     document.getElementById('actionsTitle').textContent = chrome.i18n.getMessage('actions');
     document.getElementById('addActionText').textContent = chrome.i18n.getMessage('addAction');
@@ -144,7 +145,10 @@ function setupEventListeners() {
     // Test connection button
     document.getElementById('testConnectionBtn').addEventListener('click', testConnection);
 
-    // Save button
+    // Save API settings button
+    document.getElementById('saveApiBtn').addEventListener('click', saveApiSettings);
+
+    // Save button (all settings)
     document.getElementById('saveBtn').addEventListener('click', saveSettings);
 
     // Add action button
@@ -242,6 +246,57 @@ function showTestStatus(message, type) {
     const testStatus = document.getElementById('testStatus');
     testStatus.textContent = message;
     testStatus.className = `test-status ${type}`;
+}
+
+/**
+ * Save API settings only
+ */
+async function saveApiSettings() {
+    const settings = {
+        aiProvider: document.getElementById('aiProvider').value,
+        apiUrl: document.getElementById('apiUrl').value.trim(),
+        apiKey: document.getElementById('apiKey').value.trim(),
+        modelName: document.getElementById('modelName').value.trim()
+    };
+
+    // Validate
+    if (!settings.apiUrl) {
+        showApiStatus('API URL is required', 'error');
+        return;
+    }
+
+    if (!settings.apiKey) {
+        showApiStatus('API Key is required', 'error');
+        return;
+    }
+
+    if (!settings.modelName) {
+        showApiStatus('Model Name is required', 'error');
+        return;
+    }
+
+    // Get current actions to preserve them
+    const currentSettings = await chrome.storage.sync.get('actions');
+    settings.actions = currentSettings.actions || [];
+
+    // Save to storage
+    await chrome.storage.sync.set(settings);
+
+    showApiStatus('API settings saved successfully!', 'success');
+}
+
+/**
+ * Show API save status message
+ */
+function showApiStatus(message, type) {
+    const statusEl = document.getElementById('saveApiStatus');
+    statusEl.textContent = message;
+    statusEl.className = `save-status ${type}`;
+    statusEl.style.display = 'block';
+
+    setTimeout(() => {
+        statusEl.style.display = 'none';
+    }, 3000);
 }
 
 /**
