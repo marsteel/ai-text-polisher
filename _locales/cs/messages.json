@@ -4,7 +4,7 @@
         "description": "Name of the extension"
     },
     "extensionDescription": {
-        "message": "Polish selected text using AI with customizable actions",
+        "message": "Vylepšit vybraný text pomocí AI s přizpůsobitelnými akcemi",
         "description": "Description of the extension"
     },
     "contextMenuTitle": {
@@ -12,111 +12,111 @@
         "description": "Title for context menu parent item"
     },
     "processing": {
-        "message": "Processing...",
+        "message": "Zpracování...",
         "description": "Processing status message"
     },
     "success": {
-        "message": "Success!",
+        "message": "Úspěch!",
         "description": "Success message"
     },
     "copiedToClipboard": {
-        "message": "Result copied to clipboard",
+        "message": "Výsledek zkopírován do schránky",
         "description": "Success notification when text is copied"
     },
     "error": {
-        "message": "Error",
+        "message": "Chyba",
         "description": "Error message"
     },
     "errorProcessing": {
-        "message": "Error processing text",
+        "message": "Chyba při zpracování textu",
         "description": "Error notification message"
     },
     "noTextSelected": {
-        "message": "No text selected",
+        "message": "Není vybrán žádný text",
         "description": "Error when no text is selected"
     },
     "apiKeyMissing": {
-        "message": "API key not configured. Please set it in the options page.",
+        "message": "Klíč API není nakonfigurován. Nastavte jej na stránce možností.",
         "description": "Error when API key is missing"
     },
     "networkError": {
-        "message": "Network error. Please check your connection.",
+        "message": "Chyba sítě. Zkontrolujte připojení.",
         "description": "Network error message"
     },
     "optionsTitle": {
-        "message": "AI Text Polisher Settings",
+        "message": "Nastavení AI Text Polisher",
         "description": "Title for options page"
     },
     "apiSettings": {
-        "message": "API Settings",
+        "message": "Nastavení API",
         "description": "API settings section title"
     },
     "apiUrl": {
-        "message": "API URL",
+        "message": "URL API",
         "description": "API URL label"
     },
     "apiKey": {
-        "message": "API Key",
+        "message": "Klíč API",
         "description": "API key label"
     },
     "modelName": {
-        "message": "Model Name",
+        "message": "Název modelu",
         "description": "Model name label"
     },
     "actions": {
-        "message": "Actions",
+        "message": "Akce",
         "description": "Actions section title"
     },
     "actionName": {
-        "message": "Action Name",
+        "message": "Název akce",
         "description": "Action name label"
     },
     "actionPrompt": {
-        "message": "Prompt",
+        "message": "Výzva",
         "description": "Action prompt label"
     },
     "addAction": {
-        "message": "Add Action",
+        "message": "Přidat akci",
         "description": "Add action button"
     },
     "editAction": {
-        "message": "Edit",
+        "message": "Upravit",
         "description": "Edit action button"
     },
     "deleteAction": {
-        "message": "Delete",
+        "message": "Smazat",
         "description": "Delete action button"
     },
     "save": {
-        "message": "Save",
+        "message": "Uložit",
         "description": "Save button"
     },
     "cancel": {
-        "message": "Cancel",
+        "message": "Zrušit",
         "description": "Cancel button"
     },
     "settingsSaved": {
-        "message": "Settings saved successfully",
+        "message": "Nastavení úspěšně uloženo",
         "description": "Settings saved notification"
     },
     "defaultActionPolish": {
-        "message": "Polish & Improve",
+        "message": "Vylepšit a zlepšit",
         "description": "Default action: Polish & Improve"
     },
     "defaultActionGrammar": {
-        "message": "Fix Grammar",
+        "message": "Opravit gramatiku",
         "description": "Default action: Fix Grammar"
     },
     "defaultActionProfessional": {
-        "message": "Make Professional",
+        "message": "Učinit profesionálním",
         "description": "Default action: Make Professional"
     },
     "defaultActionSimplify": {
-        "message": "Simplify Language",
+        "message": "Zjednodušit jazyk",
         "description": "Default action: Simplify Language"
     },
     "defaultActionSummarize": {
-        "message": "Summarize",
+        "message": "Shrnout",
         "description": "Default action: Summarize"
     },
     "popupTitle": {
@@ -124,15 +124,15 @@
         "description": "Popup title"
     },
     "popupStatus": {
-        "message": "Status",
+        "message": "Stav",
         "description": "Status label in popup"
     },
     "popupReady": {
-        "message": "Ready",
+        "message": "Připraveno",
         "description": "Ready status"
     },
     "popupOpenOptions": {
-        "message": "Open Settings",
+        "message": "Otevřít nastavení",
         "description": "Open options button"
     }
 }

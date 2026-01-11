@@ -4,7 +4,7 @@
         "description": "Name of the extension"
     },
     "extensionDescription": {
-        "message": "Polish selected text using AI with customizable actions",
+        "message": "Tiếng Việt văn bản đã chọn bằng AI với các hành động tùy chỉnh",
         "description": "Description of the extension"
     },
     "contextMenuTitle": {
@@ -12,111 +12,111 @@
         "description": "Title for context menu parent item"
     },
     "processing": {
-        "message": "Processing...",
+        "message": "Đang xử lý...",
         "description": "Processing status message"
     },
     "success": {
-        "message": "Success!",
+        "message": "Thành công!",
         "description": "Success message"
     },
     "copiedToClipboard": {
-        "message": "Result copied to clipboard",
+        "message": "Kết quả đã được sao chép vào clipboard",
         "description": "Success notification when text is copied"
     },
     "error": {
-        "message": "Error",
+        "message": "Lỗi",
         "description": "Error message"
     },
     "errorProcessing": {
-        "message": "Error processing text",
+        "message": "Lỗi khi xử lý văn bản",
         "description": "Error notification message"
     },
     "noTextSelected": {
-        "message": "No text selected",
+        "message": "Không có văn bản nào được chọn",
         "description": "Error when no text is selected"
     },
     "apiKeyMissing": {
-        "message": "API key not configured. Please set it in the options page.",
+        "message": "Khóa API chưa được cấu hình. Vui lòng đặt nó trong trang tùy chọn.",
         "description": "Error when API key is missing"
     },
     "networkError": {
-        "message": "Network error. Please check your connection.",
+        "message": "Lỗi mạng. Vui lòng kiểm tra kết nối của bạn.",
         "description": "Network error message"
     },
     "optionsTitle": {
-        "message": "AI Text Polisher Settings",
+        "message": "Cài đặt AI Text Polisher",
         "description": "Title for options page"
     },
     "apiSettings": {
-        "message": "API Settings",
+        "message": "Cài đặt API",
         "description": "API settings section title"
     },
     "apiUrl": {
-        "message": "API URL",
+        "message": "URL API",
         "description": "API URL label"
     },
     "apiKey": {
-        "message": "API Key",
+        "message": "Khóa API",
         "description": "API key label"
     },
     "modelName": {
-        "message": "Model Name",
+        "message": "Tên mô hình",
         "description": "Model name label"
     },
     "actions": {
-        "message": "Actions",
+        "message": "Hành động",
         "description": "Actions section title"
     },
     "actionName": {
-        "message": "Action Name",
+        "message": "Tên hành động",
         "description": "Action name label"
     },
     "actionPrompt": {
-        "message": "Prompt",
+        "message": "Lời nhắc",
         "description": "Action prompt label"
     },
     "addAction": {
-        "message": "Add Action",
+        "message": "Thêm hành động",
         "description": "Add action button"
     },
     "editAction": {
-        "message": "Edit",
+        "message": "Chỉnh sửa",
         "description": "Edit action button"
     },
     "deleteAction": {
-        "message": "Delete",
+        "message": "Xóa",
         "description": "Delete action button"
     },
     "save": {
-        "message": "Save",
+        "message": "Lưu",
         "description": "Save button"
     },
     "cancel": {
-        "message": "Cancel",
+        "message": "Hủy",
         "description": "Cancel button"
     },
     "settingsSaved": {
-        "message": "Settings saved successfully",
+        "message": "Cài đặt đã được lưu thành công",
         "description": "Settings saved notification"
     },
     "defaultActionPolish": {
-        "message": "Polish & Improve",
+        "message": "Đánh bóng và cải thiện",
         "description": "Default action: Polish & Improve"
     },
     "defaultActionGrammar": {
-        "message": "Fix Grammar",
+        "message": "Sửa ngữ pháp",
         "description": "Default action: Fix Grammar"
     },
     "defaultActionProfessional": {
-        "message": "Make Professional",
+        "message": "Làm cho chuyên nghiệp",
         "description": "Default action: Make Professional"
     },
     "defaultActionSimplify": {
-        "message": "Simplify Language",
+        "message": "Đơn giản hóa ngôn ngữ",
         "description": "Default action: Simplify Language"
     },
     "defaultActionSummarize": {
-        "message": "Summarize",
+        "message": "Tóm tắt",
         "description": "Default action: Summarize"
     },
     "popupTitle": {
@@ -124,15 +124,15 @@
         "description": "Popup title"
     },
     "popupStatus": {
-        "message": "Status",
+        "message": "Trạng thái",
         "description": "Status label in popup"
     },
     "popupReady": {
-        "message": "Ready",
+        "message": "Sẵn sàng",
         "description": "Ready status"
     },
     "popupOpenOptions": {
-        "message": "Open Settings",
+        "message": "Mở cài đặt",
         "description": "Open options button"
     }
 }

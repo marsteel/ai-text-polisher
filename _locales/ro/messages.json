@@ -4,7 +4,7 @@
         "description": "Name of the extension"
     },
     "extensionDescription": {
-        "message": "Polish selected text using AI with customizable actions",
+        "message": "Șlefuiește textul selectat folosind AI cu acțiuni personalizabile",
         "description": "Description of the extension"
     },
     "contextMenuTitle": {
@@ -12,63 +12,63 @@
         "description": "Title for context menu parent item"
     },
     "processing": {
-        "message": "Processing...",
+        "message": "Se procesează...",
         "description": "Processing status message"
     },
     "success": {
-        "message": "Success!",
+        "message": "Succes!",
         "description": "Success message"
     },
     "copiedToClipboard": {
-        "message": "Result copied to clipboard",
+        "message": "Rezultat copiat în clipboard",
         "description": "Success notification when text is copied"
     },
     "error": {
-        "message": "Error",
+        "message": "Eroare",
         "description": "Error message"
     },
     "errorProcessing": {
-        "message": "Error processing text",
+        "message": "Eroare la procesarea textului",
         "description": "Error notification message"
     },
     "noTextSelected": {
-        "message": "No text selected",
+        "message": "Niciun text selectat",
         "description": "Error when no text is selected"
     },
     "apiKeyMissing": {
-        "message": "API key not configured. Please set it in the options page.",
+        "message": "Cheia API nu este configurată. Vă rugăm să o setați în pagina de opțiuni.",
         "description": "Error when API key is missing"
     },
     "networkError": {
-        "message": "Network error. Please check your connection.",
+        "message": "Eroare de rețea. Vă rugăm să verificați conexiunea.",
         "description": "Network error message"
     },
     "optionsTitle": {
-        "message": "AI Text Polisher Settings",
+        "message": "Setări AI Text Polisher",
         "description": "Title for options page"
     },
     "apiSettings": {
-        "message": "API Settings",
+        "message": "Setări API",
         "description": "API settings section title"
     },
     "apiUrl": {
-        "message": "API URL",
+        "message": "URL API",
         "description": "API URL label"
     },
     "apiKey": {
-        "message": "API Key",
+        "message": "Cheie API",
         "description": "API key label"
     },
     "modelName": {
-        "message": "Model Name",
+        "message": "Nume model",
         "description": "Model name label"
     },
     "actions": {
-        "message": "Actions",
+        "message": "Acțiuni",
         "description": "Actions section title"
     },
     "actionName": {
-        "message": "Action Name",
+        "message": "Nume acțiune",
         "description": "Action name label"
     },
     "actionPrompt": {
@@ -76,47 +76,47 @@
         "description": "Action prompt label"
     },
     "addAction": {
-        "message": "Add Action",
+        "message": "Adaugă acțiune",
         "description": "Add action button"
     },
     "editAction": {
-        "message": "Edit",
+        "message": "Editează",
         "description": "Edit action button"
     },
     "deleteAction": {
-        "message": "Delete",
+        "message": "Șterge",
         "description": "Delete action button"
     },
     "save": {
-        "message": "Save",
+        "message": "Salvează",
         "description": "Save button"
     },
     "cancel": {
-        "message": "Cancel",
+        "message": "Anulează",
         "description": "Cancel button"
     },
     "settingsSaved": {
-        "message": "Settings saved successfully",
+        "message": "Setări salvate cu succes",
         "description": "Settings saved notification"
     },
     "defaultActionPolish": {
-        "message": "Polish & Improve",
+        "message": "Șlefuiește și îmbunătățește",
         "description": "Default action: Polish & Improve"
     },
     "defaultActionGrammar": {
-        "message": "Fix Grammar",
+        "message": "Corectează gramatica",
         "description": "Default action: Fix Grammar"
     },
     "defaultActionProfessional": {
-        "message": "Make Professional",
+        "message": "Fă profesional",
         "description": "Default action: Make Professional"
     },
     "defaultActionSimplify": {
-        "message": "Simplify Language",
+        "message": "Simplifică limbajul",
         "description": "Default action: Simplify Language"
     },
     "defaultActionSummarize": {
-        "message": "Summarize",
+        "message": "Rezumă",
         "description": "Default action: Summarize"
     },
     "popupTitle": {
@@ -124,15 +124,15 @@
         "description": "Popup title"
     },
     "popupStatus": {
-        "message": "Status",
+        "message": "Stare",
         "description": "Status label in popup"
     },
     "popupReady": {
-        "message": "Ready",
+        "message": "Gata",
         "description": "Ready status"
     },
     "popupOpenOptions": {
-        "message": "Open Settings",
+        "message": "Deschide setări",
         "description": "Open options button"
     }
 }

@@ -4,7 +4,7 @@
         "description": "Name of the extension"
     },
     "extensionDescription": {
-        "message": "Polish selected text using AI with customizable actions",
+        "message": "Seçilen metni özelleştirilebilir eylemlerle yapay zeka kullanarak cilalayın",
         "description": "Description of the extension"
     },
     "contextMenuTitle": {
@@ -12,111 +12,111 @@
         "description": "Title for context menu parent item"
     },
     "processing": {
-        "message": "Processing...",
+        "message": "İşleniyor...",
         "description": "Processing status message"
     },
     "success": {
-        "message": "Success!",
+        "message": "Başarılı!",
         "description": "Success message"
     },
     "copiedToClipboard": {
-        "message": "Result copied to clipboard",
+        "message": "Sonuç panoya kopyalandı",
         "description": "Success notification when text is copied"
     },
     "error": {
-        "message": "Error",
+        "message": "Hata",
         "description": "Error message"
     },
     "errorProcessing": {
-        "message": "Error processing text",
+        "message": "Metin işlenirken hata oluştu",
         "description": "Error notification message"
     },
     "noTextSelected": {
-        "message": "No text selected",
+        "message": "Metin seçilmedi",
         "description": "Error when no text is selected"
     },
     "apiKeyMissing": {
-        "message": "API key not configured. Please set it in the options page.",
+        "message": "API anahtarı yapılandırılmamış. Lütfen seçenekler sayfasında ayarlayın.",
         "description": "Error when API key is missing"
     },
     "networkError": {
-        "message": "Network error. Please check your connection.",
+        "message": "Ağ hatası. Lütfen bağlantınızı kontrol edin.",
         "description": "Network error message"
     },
     "optionsTitle": {
-        "message": "AI Text Polisher Settings",
+        "message": "AI Text Polisher Ayarları",
         "description": "Title for options page"
     },
     "apiSettings": {
-        "message": "API Settings",
+        "message": "API Ayarları",
         "description": "API settings section title"
     },
     "apiUrl": {
-        "message": "API URL",
+        "message": "API URL'si",
         "description": "API URL label"
     },
     "apiKey": {
-        "message": "API Key",
+        "message": "API Anahtarı",
         "description": "API key label"
     },
     "modelName": {
-        "message": "Model Name",
+        "message": "Model Adı",
         "description": "Model name label"
     },
     "actions": {
-        "message": "Actions",
+        "message": "Eylemler",
         "description": "Actions section title"
     },
     "actionName": {
-        "message": "Action Name",
+        "message": "Eylem Adı",
         "description": "Action name label"
     },
     "actionPrompt": {
-        "message": "Prompt",
+        "message": "İstem",
         "description": "Action prompt label"
     },
     "addAction": {
-        "message": "Add Action",
+        "message": "Eylem Ekle",
         "description": "Add action button"
     },
     "editAction": {
-        "message": "Edit",
+        "message": "Düzenle",
         "description": "Edit action button"
     },
     "deleteAction": {
-        "message": "Delete",
+        "message": "Sil",
         "description": "Delete action button"
     },
     "save": {
-        "message": "Save",
+        "message": "Kaydet",
         "description": "Save button"
     },
     "cancel": {
-        "message": "Cancel",
+        "message": "İptal",
         "description": "Cancel button"
     },
     "settingsSaved": {
-        "message": "Settings saved successfully",
+        "message": "Ayarlar başarıyla kaydedildi",
         "description": "Settings saved notification"
     },
     "defaultActionPolish": {
-        "message": "Polish & Improve",
+        "message": "Cilala ve İyileştir",
         "description": "Default action: Polish & Improve"
     },
     "defaultActionGrammar": {
-        "message": "Fix Grammar",
+        "message": "Dilbilgisini Düzelt",
         "description": "Default action: Fix Grammar"
     },
     "defaultActionProfessional": {
-        "message": "Make Professional",
+        "message": "Profesyonel Yap",
         "description": "Default action: Make Professional"
     },
     "defaultActionSimplify": {
-        "message": "Simplify Language",
+        "message": "Dili Basitleştir",
         "description": "Default action: Simplify Language"
     },
     "defaultActionSummarize": {
-        "message": "Summarize",
+        "message": "Özetle",
         "description": "Default action: Summarize"
     },
     "popupTitle": {
@@ -124,15 +124,15 @@
         "description": "Popup title"
     },
     "popupStatus": {
-        "message": "Status",
+        "message": "Durum",
         "description": "Status label in popup"
     },
     "popupReady": {
-        "message": "Ready",
+        "message": "Hazır",
         "description": "Ready status"
     },
     "popupOpenOptions": {
-        "message": "Open Settings",
+        "message": "Ayarları Aç",
         "description": "Open options button"
     }
 }

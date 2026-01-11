@@ -4,7 +4,7 @@
         "description": "Name of the extension"
     },
     "extensionDescription": {
-        "message": "Polish selected text using AI with customizable actions",
+        "message": "ขัดเกลาข้อความที่เลือกโดยใช้ AI ด้วยการกระทำที่ปรับแต่งได้",
         "description": "Description of the extension"
     },
     "contextMenuTitle": {
@@ -12,111 +12,111 @@
         "description": "Title for context menu parent item"
     },
     "processing": {
-        "message": "Processing...",
+        "message": "กำลังประมวลผล...",
         "description": "Processing status message"
     },
     "success": {
-        "message": "Success!",
+        "message": "สำเร็จ!",
         "description": "Success message"
     },
     "copiedToClipboard": {
-        "message": "Result copied to clipboard",
+        "message": "คัดลอกผลลัพธ์ไปยังคลิปบอร์ดแล้ว",
         "description": "Success notification when text is copied"
     },
     "error": {
-        "message": "Error",
+        "message": "ข้อผิดพลาด",
         "description": "Error message"
     },
     "errorProcessing": {
-        "message": "Error processing text",
+        "message": "เกิดข้อผิดพลาดในการประมวลผลข้อความ",
         "description": "Error notification message"
     },
     "noTextSelected": {
-        "message": "No text selected",
+        "message": "ไม่ได้เลือกข้อความ",
         "description": "Error when no text is selected"
     },
     "apiKeyMissing": {
-        "message": "API key not configured. Please set it in the options page.",
+        "message": "ไม่ได้กำหนดค่า API key โปรดตั้งค่าในหน้าตัวเลือก",
         "description": "Error when API key is missing"
     },
     "networkError": {
-        "message": "Network error. Please check your connection.",
+        "message": "ข้อผิดพลาดเครือข่าย โปรดตรวจสอบการเชื่อมต่อของคุณ",
         "description": "Network error message"
     },
     "optionsTitle": {
-        "message": "AI Text Polisher Settings",
+        "message": "การตั้งค่า AI Text Polisher",
         "description": "Title for options page"
     },
     "apiSettings": {
-        "message": "API Settings",
+        "message": "การตั้งค่า API",
         "description": "API settings section title"
     },
     "apiUrl": {
-        "message": "API URL",
+        "message": "URL API",
         "description": "API URL label"
     },
     "apiKey": {
-        "message": "API Key",
+        "message": "คีย์ API",
         "description": "API key label"
     },
     "modelName": {
-        "message": "Model Name",
+        "message": "ชื่อโมเดล",
         "description": "Model name label"
     },
     "actions": {
-        "message": "Actions",
+        "message": "การกระทำ",
         "description": "Actions section title"
     },
     "actionName": {
-        "message": "Action Name",
+        "message": "ชื่อการกระทำ",
         "description": "Action name label"
     },
     "actionPrompt": {
-        "message": "Prompt",
+        "message": "พรอมต์",
         "description": "Action prompt label"
     },
     "addAction": {
-        "message": "Add Action",
+        "message": "เพิ่มการกระทำ",
         "description": "Add action button"
     },
     "editAction": {
-        "message": "Edit",
+        "message": "แก้ไข",
         "description": "Edit action button"
     },
     "deleteAction": {
-        "message": "Delete",
+        "message": "ลบ",
         "description": "Delete action button"
     },
     "save": {
-        "message": "Save",
+        "message": "บันทึก",
         "description": "Save button"
     },
     "cancel": {
-        "message": "Cancel",
+        "message": "ยกเลิก",
         "description": "Cancel button"
     },
     "settingsSaved": {
-        "message": "Settings saved successfully",
+        "message": "บันทึกการตั้งค่าเรียบร้อยแล้ว",
         "description": "Settings saved notification"
     },
     "defaultActionPolish": {
-        "message": "Polish & Improve",
+        "message": "ขัดเกลาและปรับปรุง",
         "description": "Default action: Polish & Improve"
     },
     "defaultActionGrammar": {
-        "message": "Fix Grammar",
+        "message": "แก้ไขไวยากรณ์",
         "description": "Default action: Fix Grammar"
     },
     "defaultActionProfessional": {
-        "message": "Make Professional",
+        "message": "ทำให้เป็นมืออาชีพ",
         "description": "Default action: Make Professional"
     },
     "defaultActionSimplify": {
-        "message": "Simplify Language",
+        "message": "ทำให้ภาษาง่ายขึ้น",
         "description": "Default action: Simplify Language"
     },
     "defaultActionSummarize": {
-        "message": "Summarize",
+        "message": "สรุป",
         "description": "Default action: Summarize"
     },
     "popupTitle": {
@@ -124,15 +124,15 @@
         "description": "Popup title"
     },
     "popupStatus": {
-        "message": "Status",
+        "message": "สถานะ",
         "description": "Status label in popup"
     },
     "popupReady": {
-        "message": "Ready",
+        "message": "พร้อม",
         "description": "Ready status"
     },
     "popupOpenOptions": {
-        "message": "Open Settings",
+        "message": "เปิดการตั้งค่า",
         "description": "Open options button"
     }
 }

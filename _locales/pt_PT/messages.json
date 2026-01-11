@@ -4,7 +4,7 @@
         "description": "Name of the extension"
     },
     "extensionDescription": {
-        "message": "Polish selected text using AI with customizable actions",
+        "message": "Polir texto selecionado usando IA com ações personalizáveis",
         "description": "Description of the extension"
     },
     "contextMenuTitle": {
@@ -12,63 +12,63 @@
         "description": "Title for context menu parent item"
     },
     "processing": {
-        "message": "Processing...",
+        "message": "A processar...",
         "description": "Processing status message"
     },
     "success": {
-        "message": "Success!",
+        "message": "Sucesso!",
         "description": "Success message"
     },
     "copiedToClipboard": {
-        "message": "Result copied to clipboard",
+        "message": "Resultado copiado para a área de transferência",
         "description": "Success notification when text is copied"
     },
     "error": {
-        "message": "Error",
+        "message": "Erro",
         "description": "Error message"
     },
     "errorProcessing": {
-        "message": "Error processing text",
+        "message": "Erro ao processar texto",
         "description": "Error notification message"
     },
     "noTextSelected": {
-        "message": "No text selected",
+        "message": "Nenhum texto selecionado",
         "description": "Error when no text is selected"
     },
     "apiKeyMissing": {
-        "message": "API key not configured. Please set it in the options page.",
+        "message": "Chave API não configurada. Por favor, defina-a na página de opções.",
         "description": "Error when API key is missing"
     },
     "networkError": {
-        "message": "Network error. Please check your connection.",
+        "message": "Erro de rede. Por favor, verifique a sua ligação.",
         "description": "Network error message"
     },
     "optionsTitle": {
-        "message": "AI Text Polisher Settings",
+        "message": "Definições do AI Text Polisher",
         "description": "Title for options page"
     },
     "apiSettings": {
-        "message": "API Settings",
+        "message": "Definições de API",
         "description": "API settings section title"
     },
     "apiUrl": {
-        "message": "API URL",
+        "message": "URL da API",
         "description": "API URL label"
     },
     "apiKey": {
-        "message": "API Key",
+        "message": "Chave API",
         "description": "API key label"
     },
     "modelName": {
-        "message": "Model Name",
+        "message": "Nome do modelo",
         "description": "Model name label"
     },
     "actions": {
-        "message": "Actions",
+        "message": "Ações",
         "description": "Actions section title"
     },
     "actionName": {
-        "message": "Action Name",
+        "message": "Nome da ação",
         "description": "Action name label"
     },
     "actionPrompt": {
@@ -76,47 +76,47 @@
         "description": "Action prompt label"
     },
     "addAction": {
-        "message": "Add Action",
+        "message": "Adicionar ação",
         "description": "Add action button"
     },
     "editAction": {
-        "message": "Edit",
+        "message": "Editar",
         "description": "Edit action button"
     },
     "deleteAction": {
-        "message": "Delete",
+        "message": "Eliminar",
         "description": "Delete action button"
     },
     "save": {
-        "message": "Save",
+        "message": "Guardar",
         "description": "Save button"
     },
     "cancel": {
-        "message": "Cancel",
+        "message": "Cancelar",
         "description": "Cancel button"
     },
     "settingsSaved": {
-        "message": "Settings saved successfully",
+        "message": "Definições guardadas com sucesso",
         "description": "Settings saved notification"
     },
     "defaultActionPolish": {
-        "message": "Polish & Improve",
+        "message": "Polir e melhorar",
         "description": "Default action: Polish & Improve"
     },
     "defaultActionGrammar": {
-        "message": "Fix Grammar",
+        "message": "Corrigir gramática",
         "description": "Default action: Fix Grammar"
     },
     "defaultActionProfessional": {
-        "message": "Make Professional",
+        "message": "Tornar profissional",
         "description": "Default action: Make Professional"
     },
     "defaultActionSimplify": {
-        "message": "Simplify Language",
+        "message": "Simplificar linguagem",
         "description": "Default action: Simplify Language"
     },
     "defaultActionSummarize": {
-        "message": "Summarize",
+        "message": "Resumir",
         "description": "Default action: Summarize"
     },
     "popupTitle": {
@@ -124,15 +124,15 @@
         "description": "Popup title"
     },
     "popupStatus": {
-        "message": "Status",
+        "message": "Estado",
         "description": "Status label in popup"
     },
     "popupReady": {
-        "message": "Ready",
+        "message": "Pronto",
         "description": "Ready status"
     },
     "popupOpenOptions": {
-        "message": "Open Settings",
+        "message": "Abrir definições",
         "description": "Open options button"
     }
 }

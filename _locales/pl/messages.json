@@ -4,7 +4,7 @@
         "description": "Name of the extension"
     },
     "extensionDescription": {
-        "message": "Polish selected text using AI with customizable actions",
+        "message": "Poleruj zaznaczony tekst za pomocą AI z konfigurowalnymi akcjami",
         "description": "Description of the extension"
     },
     "contextMenuTitle": {
@@ -12,111 +12,111 @@
         "description": "Title for context menu parent item"
     },
     "processing": {
-        "message": "Processing...",
+        "message": "Przetwarzanie...",
         "description": "Processing status message"
     },
     "success": {
-        "message": "Success!",
+        "message": "Sukces!",
         "description": "Success message"
     },
     "copiedToClipboard": {
-        "message": "Result copied to clipboard",
+        "message": "Wynik skopiowany do schowka",
         "description": "Success notification when text is copied"
     },
     "error": {
-        "message": "Error",
+        "message": "Błąd",
         "description": "Error message"
     },
     "errorProcessing": {
-        "message": "Error processing text",
+        "message": "Błąd podczas przetwarzania tekstu",
         "description": "Error notification message"
     },
     "noTextSelected": {
-        "message": "No text selected",
+        "message": "Nie zaznaczono tekstu",
         "description": "Error when no text is selected"
     },
     "apiKeyMissing": {
-        "message": "API key not configured. Please set it in the options page.",
+        "message": "Klucz API nie został skonfigurowany. Proszę ustawić go na stronie opcji.",
         "description": "Error when API key is missing"
     },
     "networkError": {
-        "message": "Network error. Please check your connection.",
+        "message": "Błąd sieci. Proszę sprawdzić połączenie.",
         "description": "Network error message"
     },
     "optionsTitle": {
-        "message": "AI Text Polisher Settings",
+        "message": "Ustawienia AI Text Polisher",
         "description": "Title for options page"
     },
     "apiSettings": {
-        "message": "API Settings",
+        "message": "Ustawienia API",
         "description": "API settings section title"
     },
     "apiUrl": {
-        "message": "API URL",
+        "message": "URL API",
         "description": "API URL label"
     },
     "apiKey": {
-        "message": "API Key",
+        "message": "Klucz API",
         "description": "API key label"
     },
     "modelName": {
-        "message": "Model Name",
+        "message": "Nazwa modelu",
         "description": "Model name label"
     },
     "actions": {
-        "message": "Actions",
+        "message": "Akcje",
         "description": "Actions section title"
     },
     "actionName": {
-        "message": "Action Name",
+        "message": "Nazwa akcji",
         "description": "Action name label"
     },
     "actionPrompt": {
-        "message": "Prompt",
+        "message": "Podpowiedź",
         "description": "Action prompt label"
     },
     "addAction": {
-        "message": "Add Action",
+        "message": "Dodaj akcję",
         "description": "Add action button"
     },
     "editAction": {
-        "message": "Edit",
+        "message": "Edytuj",
         "description": "Edit action button"
     },
     "deleteAction": {
-        "message": "Delete",
+        "message": "Usuń",
         "description": "Delete action button"
     },
     "save": {
-        "message": "Save",
+        "message": "Zapisz",
         "description": "Save button"
     },
     "cancel": {
-        "message": "Cancel",
+        "message": "Anuluj",
         "description": "Cancel button"
     },
     "settingsSaved": {
-        "message": "Settings saved successfully",
+        "message": "Ustawienia zapisane pomyślnie",
         "description": "Settings saved notification"
     },
     "defaultActionPolish": {
-        "message": "Polish & Improve",
+        "message": "Poleruj i ulepsz",
         "description": "Default action: Polish & Improve"
     },
     "defaultActionGrammar": {
-        "message": "Fix Grammar",
+        "message": "Napraw gramatykę",
         "description": "Default action: Fix Grammar"
     },
     "defaultActionProfessional": {
-        "message": "Make Professional",
+        "message": "Uczyń profesjonalnym",
         "description": "Default action: Make Professional"
     },
     "defaultActionSimplify": {
-        "message": "Simplify Language",
+        "message": "Uprość język",
         "description": "Default action: Simplify Language"
     },
     "defaultActionSummarize": {
-        "message": "Summarize",
+        "message": "Podsumuj",
         "description": "Default action: Summarize"
     },
     "popupTitle": {
@@ -128,11 +128,11 @@
         "description": "Status label in popup"
     },
     "popupReady": {
-        "message": "Ready",
+        "message": "Gotowy",
         "description": "Ready status"
     },
     "popupOpenOptions": {
-        "message": "Open Settings",
+        "message": "Otwórz ustawienia",
         "description": "Open options button"
     }
 }
