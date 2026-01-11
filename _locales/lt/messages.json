@@ -1,0 +1,138 @@
+{
+    "extensionName": {
+        "message": "AI Text Polisher",
+        "description": "Name of the extension"
+    },
+    "extensionDescription": {
+        "message": "Tobulinkite pasirinktą tekstą naudodami AI su pritaikomomis veiksmais",
+        "description": "Description of the extension"
+    },
+    "contextMenuTitle": {
+        "message": "AI Text Polisher",
+        "description": "Title for context menu parent item"
+    },
+    "processing": {
+        "message": "Apdorojama...",
+        "description": "Processing status message"
+    },
+    "success": {
+        "message": "Sėkmė!",
+        "description": "Success message"
+    },
+    "copiedToClipboard": {
+        "message": "Rezultatas nukopijuotas į iškarpinę",
+        "description": "Success notification when text is copied"
+    },
+    "error": {
+        "message": "Klaida",
+        "description": "Error message"
+    },
+    "errorProcessing": {
+        "message": "Klaida apdorojant tekstą",
+        "description": "Error notification message"
+    },
+    "noTextSelected": {
+        "message": "Nepasirinktas tekstas",
+        "description": "Error when no text is selected"
+    },
+    "apiKeyMissing": {
+        "message": "API raktas nesukonfigūruotas. Nustatykite jį parinkčių puslapyje.",
+        "description": "Error when API key is missing"
+    },
+    "networkError": {
+        "message": "Tinklo klaida. Patikrinkite ryšį.",
+        "description": "Network error message"
+    },
+    "optionsTitle": {
+        "message": "AI Text Polisher nustatymai",
+        "description": "Title for options page"
+    },
+    "apiSettings": {
+        "message": "API nustatymai",
+        "description": "API settings section title"
+    },
+    "apiUrl": {
+        "message": "API URL",
+        "description": "API URL label"
+    },
+    "apiKey": {
+        "message": "API raktas",
+        "description": "API key label"
+    },
+    "modelName": {
+        "message": "Modelio pavadinimas",
+        "description": "Model name label"
+    },
+    "actions": {
+        "message": "Veiksmai",
+        "description": "Actions section title"
+    },
+    "actionName": {
+        "message": "Veiksmo pavadinimas",
+        "description": "Action name label"
+    },
+    "actionPrompt": {
+        "message": "Raginimas",
+        "description": "Action prompt label"
+    },
+    "addAction": {
+        "message": "Pridėti veiksmą",
+        "description": "Add action button"
+    },
+    "editAction": {
+        "message": "Redaguoti",
+        "description": "Edit action button"
+    },
+    "deleteAction": {
+        "message": "Ištrinti",
+        "description": "Delete action button"
+    },
+    "save": {
+        "message": "Išsaugoti",
+        "description": "Save button"
+    },
+    "cancel": {
+        "message": "Atšaukti",
+        "description": "Cancel button"
+    },
+    "settingsSaved": {
+        "message": "Nustatymai išsaugoti",
+        "description": "Settings saved notification"
+    },
+    "defaultActionPolish": {
+        "message": "Tobulinti ir gerinti",
+        "description": "Default action: Polish & Improve"
+    },
+    "defaultActionGrammar": {
+        "message": "Taisyti gramatiką",
+        "description": "Default action: Fix Grammar"
+    },
+    "defaultActionProfessional": {
+        "message": "Padaryti profesionalų",
+        "description": "Default action: Make Professional"
+    },
+    "defaultActionSimplify": {
+        "message": "Supaprastinti kalbą",
+        "description": "Default action: Simplify Language"
+    },
+    "defaultActionSummarize": {
+        "message": "Apibendrinti",
+        "description": "Default action: Summarize"
+    },
+    "popupTitle": {
+        "message": "AI Text Polisher",
+        "description": "Popup title"
+    },
+    "popupStatus": {
+        "message": "Būsena",
+        "description": "Status label in popup"
+    },
+    "popupReady": {
+        "message": "Paruošta",
+        "description": "Ready status"
+    },
+    "popupOpenOptions": {
+        "message": "Atidaryti nustatymus",
+        "description": "Open options button"
+    }
+}

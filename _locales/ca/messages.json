@@ -1,0 +1,138 @@
+{
+    "extensionName": {
+        "message": "AI Text Polisher",
+        "description": "Name of the extension"
+    },
+    "extensionDescription": {
+        "message": "Poleix el text seleccionat amb IA i accions personalitzables",
+        "description": "Description of the extension"
+    },
+    "contextMenuTitle": {
+        "message": "AI Text Polisher",
+        "description": "Title for context menu parent item"
+    },
+    "processing": {
+        "message": "Processant...",
+        "description": "Processing status message"
+    },
+    "success": {
+        "message": "Èxit!",
+        "description": "Success message"
+    },
+    "copiedToClipboard": {
+        "message": "Resultat copiat al porta-retalls",
+        "description": "Success notification when text is copied"
+    },
+    "error": {
+        "message": "Error",
+        "description": "Error message"
+    },
+    "errorProcessing": {
+        "message": "Error en processar el text",
+        "description": "Error notification message"
+    },
+    "noTextSelected": {
+        "message": "No s'ha seleccionat cap text",
+        "description": "Error when no text is selected"
+    },
+    "apiKeyMissing": {
+        "message": "Clau API no configurada. Si us plau, estableix-la a la pàgina d'opcions.",
+        "description": "Error when API key is missing"
+    },
+    "networkError": {
+        "message": "Error de xarxa. Si us plau, comprova la teva connexió.",
+        "description": "Network error message"
+    },
+    "optionsTitle": {
+        "message": "Configuració d'AI Text Polisher",
+        "description": "Title for options page"
+    },
+    "apiSettings": {
+        "message": "Configuració d'API",
+        "description": "API settings section title"
+    },
+    "apiUrl": {
+        "message": "URL de l'API",
+        "description": "API URL label"
+    },
+    "apiKey": {
+        "message": "Clau API",
+        "description": "API key label"
+    },
+    "modelName": {
+        "message": "Nom del model",
+        "description": "Model name label"
+    },
+    "actions": {
+        "message": "Accions",
+        "description": "Actions section title"
+    },
+    "actionName": {
+        "message": "Nom de l'acció",
+        "description": "Action name label"
+    },
+    "actionPrompt": {
+        "message": "Indicació",
+        "description": "Action prompt label"
+    },
+    "addAction": {
+        "message": "Afegir acció",
+        "description": "Add action button"
+    },
+    "editAction": {
+        "message": "Editar",
+        "description": "Edit action button"
+    },
+    "deleteAction": {
+        "message": "Eliminar",
+        "description": "Delete action button"
+    },
+    "save": {
+        "message": "Desar",
+        "description": "Save button"
+    },
+    "cancel": {
+        "message": "Cancel·lar",
+        "description": "Cancel button"
+    },
+    "settingsSaved": {
+        "message": "Configuració desada correctament",
+        "description": "Settings saved notification"
+    },
+    "defaultActionPolish": {
+        "message": "Polir i millorar",
+        "description": "Default action: Polish & Improve"
+    },
+    "defaultActionGrammar": {
+        "message": "Corregir gramàtica",
+        "description": "Default action: Fix Grammar"
+    },
+    "defaultActionProfessional": {
+        "message": "Fer professional",
+        "description": "Default action: Make Professional"
+    },
+    "defaultActionSimplify": {
+        "message": "Simplificar llenguatge",
+        "description": "Default action: Simplify Language"
+    },
+    "defaultActionSummarize": {
+        "message": "Resumir",
+        "description": "Default action: Summarize"
+    },
+    "popupTitle": {
+        "message": "AI Text Polisher",
+        "description": "Popup title"
+    },
+    "popupStatus": {
+        "message": "Estat",
+        "description": "Status label in popup"
+    },
+    "popupReady": {
+        "message": "Llest",
+        "description": "Ready status"
+    },
+    "popupOpenOptions": {
+        "message": "Obrir configuració",
+        "description": "Open options button"
+    }
+}

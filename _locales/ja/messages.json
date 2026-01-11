@@ -1,0 +1,138 @@
+{
+    "extensionName": {
+        "message": "AIテキストポリッシャー",
+        "description": "Name of the extension"
+    },
+    "extensionDescription": {
+        "message": "カスタマイズ可能なアクションでAIを使用して選択したテキストを磨く",
+        "description": "Description of the extension"
+    },
+    "contextMenuTitle": {
+        "message": "AIテキストポリッシャー",
+        "description": "Title for context menu parent item"
+    },
+    "processing": {
+        "message": "処理中...",
+        "description": "Processing status message"
+    },
+    "success": {
+        "message": "成功！",
+        "description": "Success message"
+    },
+    "copiedToClipboard": {
+        "message": "結果をクリップボードにコピーしました",
+        "description": "Success notification when text is copied"
+    },
+    "error": {
+        "message": "エラー",
+        "description": "Error message"
+    },
+    "errorProcessing": {
+        "message": "テキストの処理中にエラーが発生しました",
+        "description": "Error notification message"
+    },
+    "noTextSelected": {
+        "message": "テキストが選択されていません",
+        "description": "Error when no text is selected"
+    },
+    "apiKeyMissing": {
+        "message": "APIキーが設定されていません。オプションページで設定してください。",
+        "description": "Error when API key is missing"
+    },
+    "networkError": {
+        "message": "ネットワークエラー。接続を確認してください。",
+        "description": "Network error message"
+    },
+    "optionsTitle": {
+        "message": "AIテキストポリッシャー設定",
+        "description": "Title for options page"
+    },
+    "apiSettings": {
+        "message": "API設定",
+        "description": "API settings section title"
+    },
+    "apiUrl": {
+        "message": "API URL",
+        "description": "API URL label"
+    },
+    "apiKey": {
+        "message": "APIキー",
+        "description": "API key label"
+    },
+    "modelName": {
+        "message": "モデル名",
+        "description": "Model name label"
+    },
+    "actions": {
+        "message": "アクション",
+        "description": "Actions section title"
+    },
+    "actionName": {
+        "message": "アクション名",
+        "description": "Action name label"
+    },
+    "actionPrompt": {
+        "message": "プロンプト",
+        "description": "Action prompt label"
+    },
+    "addAction": {
+        "message": "アクションを追加",
+        "description": "Add action button"
+    },
+    "editAction": {
+        "message": "編集",
+        "description": "Edit action button"
+    },
+    "deleteAction": {
+        "message": "削除",
+        "description": "Delete action button"
+    },
+    "save": {
+        "message": "保存",
+        "description": "Save button"
+    },
+    "cancel": {
+        "message": "キャンセル",
+        "description": "Cancel button"
+    },
+    "settingsSaved": {
+        "message": "設定が正常に保存されました",
+        "description": "Settings saved notification"
+    },
+    "defaultActionPolish": {
+        "message": "磨いて改善",
+        "description": "Default action: Polish & Improve"
+    },
+    "defaultActionGrammar": {
+        "message": "文法を修正",
+        "description": "Default action: Fix Grammar"
+    },
+    "defaultActionProfessional": {
+        "message": "プロフェッショナルにする",
+        "description": "Default action: Make Professional"
+    },
+    "defaultActionSimplify": {
+        "message": "言語を簡素化",
+        "description": "Default action: Simplify Language"
+    },
+    "defaultActionSummarize": {
+        "message": "要約",
+        "description": "Default action: Summarize"
+    },
+    "popupTitle": {
+        "message": "AIテキストポリッシャー",
+        "description": "Popup title"
+    },
+    "popupStatus": {
+        "message": "ステータス",
+        "description": "Status label in popup"
+    },
+    "popupReady": {
+        "message": "準備完了",
+        "description": "Ready status"
+    },
+    "popupOpenOptions": {
+        "message": "設定を開く",
+        "description": "Open options button"
+    }
+}

@@ -1,0 +1,138 @@
+{
+    "extensionName": {
+        "message": "AI Text Polisher",
+        "description": "Name of the extension"
+    },
+    "extensionDescription": {
+        "message": "Polish selected text using AI with customisable actions",
+        "description": "Description of the extension"
+    },
+    "contextMenuTitle": {
+        "message": "AI Text Polisher",
+        "description": "Title for context menu parent item"
+    },
+    "processing": {
+        "message": "Processing...",
+        "description": "Processing status message"
+    },
+    "success": {
+        "message": "Success!",
+        "description": "Success message"
+    },
+    "copiedToClipboard": {
+        "message": "Result copied to clipboard",
+        "description": "Success notification when text is copied"
+    },
+    "error": {
+        "message": "Error",
+        "description": "Error message"
+    },
+    "errorProcessing": {
+        "message": "Error processing text",
+        "description": "Error notification message"
+    },
+    "noTextSelected": {
+        "message": "No text selected",
+        "description": "Error when no text is selected"
+    },
+    "apiKeyMissing": {
+        "message": "API key not configured. Please set it in the options page.",
+        "description": "Error when API key is missing"
+    },
+    "networkError": {
+        "message": "Network error. Please check your connection.",
+        "description": "Network error message"
+    },
+    "optionsTitle": {
+        "message": "AI Text Polisher Settings",
+        "description": "Title for options page"
+    },
+    "apiSettings": {
+        "message": "API Settings",
+        "description": "API settings section title"
+    },
+    "apiUrl": {
+        "message": "API URL",
+        "description": "API URL label"
+    },
+    "apiKey": {
+        "message": "API Key",
+        "description": "API key label"
+    },
+    "modelName": {
+        "message": "Model Name",
+        "description": "Model name label"
+    },
+    "actions": {
+        "message": "Actions",
+        "description": "Actions section title"
+    },
+    "actionName": {
+        "message": "Action Name",
+        "description": "Action name label"
+    },
+    "actionPrompt": {
+        "message": "Prompt",
+        "description": "Action prompt label"
+    },
+    "addAction": {
+        "message": "Add Action",
+        "description": "Add action button"
+    },
+    "editAction": {
+        "message": "Edit",
+        "description": "Edit action button"
+    },
+    "deleteAction": {
+        "message": "Delete",
+        "description": "Delete action button"
+    },
+    "save": {
+        "message": "Save",
+        "description": "Save button"
+    },
+    "cancel": {
+        "message": "Cancel",
+        "description": "Cancel button"
+    },
+    "settingsSaved": {
+        "message": "Settings saved successfully",
+        "description": "Settings saved notification"
+    },
+    "defaultActionPolish": {
+        "message": "Polish & Improve",
+        "description": "Default action: Polish & Improve"
+    },
+    "defaultActionGrammar": {
+        "message": "Fix Grammar",
+        "description": "Default action: Fix Grammar"
+    },
+    "defaultActionProfessional": {
+        "message": "Make Professional",
+        "description": "Default action: Make Professional"
+    },
+    "defaultActionSimplify": {
+        "message": "Simplify Language",
+        "description": "Default action: Simplify Language"
+    },
+    "defaultActionSummarize": {
+        "message": "Summarise",
+        "description": "Default action: Summarize"
+    },
+    "popupTitle": {
+        "message": "AI Text Polisher",
+        "description": "Popup title"
+    },
+    "popupStatus": {
+        "message": "Status",
+        "description": "Status label in popup"
+    },
+    "popupReady": {
+        "message": "Ready",
+        "description": "Ready status"
+    },
+    "popupOpenOptions": {
+        "message": "Open Settings",
+        "description": "Open options button"
+    }
+}

@@ -1,0 +1,138 @@
+{
+    "extensionName": {
+        "message": "AI Text Polisher",
+        "description": "Name of the extension"
+    },
+    "extensionDescription": {
+        "message": "Vylepšite vybraný text pomocou AI s prispôsobiteľnými akciami",
+        "description": "Description of the extension"
+    },
+    "contextMenuTitle": {
+        "message": "AI Text Polisher",
+        "description": "Title for context menu parent item"
+    },
+    "processing": {
+        "message": "Spracovanie...",
+        "description": "Processing status message"
+    },
+    "success": {
+        "message": "Úspech!",
+        "description": "Success message"
+    },
+    "copiedToClipboard": {
+        "message": "Výsledok skopírovaný do schránky",
+        "description": "Success notification when text is copied"
+    },
+    "error": {
+        "message": "Chyba",
+        "description": "Error message"
+    },
+    "errorProcessing": {
+        "message": "Chyba pri spracovaní textu",
+        "description": "Error notification message"
+    },
+    "noTextSelected": {
+        "message": "Nie je vybraný žiadny text",
+        "description": "Error when no text is selected"
+    },
+    "apiKeyMissing": {
+        "message": "API kľúč nie je nakonfigurovaný. Nastavte ho na stránke možností.",
+        "description": "Error when API key is missing"
+    },
+    "networkError": {
+        "message": "Chyba siete. Skontrolujte pripojenie.",
+        "description": "Network error message"
+    },
+    "optionsTitle": {
+        "message": "Nastavenia AI Text Polisher",
+        "description": "Title for options page"
+    },
+    "apiSettings": {
+        "message": "Nastavenia API",
+        "description": "API settings section title"
+    },
+    "apiUrl": {
+        "message": "API URL",
+        "description": "API URL label"
+    },
+    "apiKey": {
+        "message": "API kľúč",
+        "description": "API key label"
+    },
+    "modelName": {
+        "message": "Názov modelu",
+        "description": "Model name label"
+    },
+    "actions": {
+        "message": "Akcie",
+        "description": "Actions section title"
+    },
+    "actionName": {
+        "message": "Názov akcie",
+        "description": "Action name label"
+    },
+    "actionPrompt": {
+        "message": "Výzva",
+        "description": "Action prompt label"
+    },
+    "addAction": {
+        "message": "Pridať akciu",
+        "description": "Add action button"
+    },
+    "editAction": {
+        "message": "Upraviť",
+        "description": "Edit action button"
+    },
+    "deleteAction": {
+        "message": "Vymazať",
+        "description": "Delete action button"
+    },
+    "save": {
+        "message": "Uložiť",
+        "description": "Save button"
+    },
+    "cancel": {
+        "message": "Zrušiť",
+        "description": "Cancel button"
+    },
+    "settingsSaved": {
+        "message": "Nastavenia uložené",
+        "description": "Settings saved notification"
+    },
+    "defaultActionPolish": {
+        "message": "Vylepšiť a zlepšiť",
+        "description": "Default action: Polish & Improve"
+    },
+    "defaultActionGrammar": {
+        "message": "Opraviť gramatiku",
+        "description": "Default action: Fix Grammar"
+    },
+    "defaultActionProfessional": {
+        "message": "Urobiť profesionálnym",
+        "description": "Default action: Make Professional"
+    },
+    "defaultActionSimplify": {
+        "message": "Zjednodušiť jazyk",
+        "description": "Default action: Simplify Language"
+    },
+    "defaultActionSummarize": {
+        "message": "Zhrnúť",
+        "description": "Default action: Summarize"
+    },
+    "popupTitle": {
+        "message": "AI Text Polisher",
+        "description": "Popup title"
+    },
+    "popupStatus": {
+        "message": "Stav",
+        "description": "Status label in popup"
+    },
+    "popupReady": {
+        "message": "Pripravené",
+        "description": "Ready status"
+    },
+    "popupOpenOptions": {
+        "message": "Otvoriť nastavenia",
+        "description": "Open options button"
+    }
+}

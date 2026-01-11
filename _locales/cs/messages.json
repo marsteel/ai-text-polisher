@@ -1,0 +1,138 @@
+{
+    "extensionName": {
+        "message": "AI Text Polisher",
+        "description": "Name of the extension"
+    },
+    "extensionDescription": {
+        "message": "Vylepšit vybraný text pomocí AI s přizpůsobitelnými akcemi",
+        "description": "Description of the extension"
+    },
+    "contextMenuTitle": {
+        "message": "AI Text Polisher",
+        "description": "Title for context menu parent item"
+    },
+    "processing": {
+        "message": "Zpracování...",
+        "description": "Processing status message"
+    },
+    "success": {
+        "message": "Úspěch!",
+        "description": "Success message"
+    },
+    "copiedToClipboard": {
+        "message": "Výsledek zkopírován do schránky",
+        "description": "Success notification when text is copied"
+    },
+    "error": {
+        "message": "Chyba",
+        "description": "Error message"
+    },
+    "errorProcessing": {
+        "message": "Chyba při zpracování textu",
+        "description": "Error notification message"
+    },
+    "noTextSelected": {
+        "message": "Není vybrán žádný text",
+        "description": "Error when no text is selected"
+    },
+    "apiKeyMissing": {
+        "message": "Klíč API není nakonfigurován. Nastavte jej na stránce možností.",
+        "description": "Error when API key is missing"
+    },
+    "networkError": {
+        "message": "Chyba sítě. Zkontrolujte připojení.",
+        "description": "Network error message"
+    },
+    "optionsTitle": {
+        "message": "Nastavení AI Text Polisher",
+        "description": "Title for options page"
+    },
+    "apiSettings": {
+        "message": "Nastavení API",
+        "description": "API settings section title"
+    },
+    "apiUrl": {
+        "message": "URL API",
+        "description": "API URL label"
+    },
+    "apiKey": {
+        "message": "Klíč API",
+        "description": "API key label"
+    },
+    "modelName": {
+        "message": "Název modelu",
+        "description": "Model name label"
+    },
+    "actions": {
+        "message": "Akce",
+        "description": "Actions section title"
+    },
+    "actionName": {
+        "message": "Název akce",
+        "description": "Action name label"
+    },
+    "actionPrompt": {
+        "message": "Výzva",
+        "description": "Action prompt label"
+    },
+    "addAction": {
+        "message": "Přidat akci",
+        "description": "Add action button"
+    },
+    "editAction": {
+        "message": "Upravit",
+        "description": "Edit action button"
+    },
+    "deleteAction": {
+        "message": "Smazat",
+        "description": "Delete action button"
+    },
+    "save": {
+        "message": "Uložit",
+        "description": "Save button"
+    },
+    "cancel": {
+        "message": "Zrušit",
+        "description": "Cancel button"
+    },
+    "settingsSaved": {
+        "message": "Nastavení úspěšně uloženo",
+        "description": "Settings saved notification"
+    },
+    "defaultActionPolish": {
+        "message": "Vylepšit a zlepšit",
+        "description": "Default action: Polish & Improve"
+    },
+    "defaultActionGrammar": {
+        "message": "Opravit gramatiku",
+        "description": "Default action: Fix Grammar"
+    },
+    "defaultActionProfessional": {
+        "message": "Učinit profesionálním",
+        "description": "Default action: Make Professional"
+    },
+    "defaultActionSimplify": {
+        "message": "Zjednodušit jazyk",
+        "description": "Default action: Simplify Language"
+    },
+    "defaultActionSummarize": {
+        "message": "Shrnout",
+        "description": "Default action: Summarize"
+    },
+    "popupTitle": {
+        "message": "AI Text Polisher",
+        "description": "Popup title"
+    },
+    "popupStatus": {
+        "message": "Stav",
+        "description": "Status label in popup"
+    },
+    "popupReady": {
+        "message": "Připraveno",
+        "description": "Ready status"
+    },
+    "popupOpenOptions": {
+        "message": "Otevřít nastavení",
+        "description": "Open options button"
+    }
+}

@@ -1,0 +1,138 @@
+{
+    "extensionName": {
+        "message": "AI Text Polisher",
+        "description": "Name of the extension"
+    },
+    "extensionDescription": {
+        "message": "Șlefuiește textul selectat folosind AI cu acțiuni personalizabile",
+        "description": "Description of the extension"
+    },
+    "contextMenuTitle": {
+        "message": "AI Text Polisher",
+        "description": "Title for context menu parent item"
+    },
+    "processing": {
+        "message": "Se procesează...",
+        "description": "Processing status message"
+    },
+    "success": {
+        "message": "Succes!",
+        "description": "Success message"
+    },
+    "copiedToClipboard": {
+        "message": "Rezultat copiat în clipboard",
+        "description": "Success notification when text is copied"
+    },
+    "error": {
+        "message": "Eroare",
+        "description": "Error message"
+    },
+    "errorProcessing": {
+        "message": "Eroare la procesarea textului",
+        "description": "Error notification message"
+    },
+    "noTextSelected": {
+        "message": "Niciun text selectat",
+        "description": "Error when no text is selected"
+    },
+    "apiKeyMissing": {
+        "message": "Cheia API nu este configurată. Vă rugăm să o setați în pagina de opțiuni.",
+        "description": "Error when API key is missing"
+    },
+    "networkError": {
+        "message": "Eroare de rețea. Vă rugăm să verificați conexiunea.",
+        "description": "Network error message"
+    },
+    "optionsTitle": {
+        "message": "Setări AI Text Polisher",
+        "description": "Title for options page"
+    },
+    "apiSettings": {
+        "message": "Setări API",
+        "description": "API settings section title"
+    },
+    "apiUrl": {
+        "message": "URL API",
+        "description": "API URL label"
+    },
+    "apiKey": {
+        "message": "Cheie API",
+        "description": "API key label"
+    },
+    "modelName": {
+        "message": "Nume model",
+        "description": "Model name label"
+    },
+    "actions": {
+        "message": "Acțiuni",
+        "description": "Actions section title"
+    },
+    "actionName": {
+        "message": "Nume acțiune",
+        "description": "Action name label"
+    },
+    "actionPrompt": {
+        "message": "Prompt",
+        "description": "Action prompt label"
+    },
+    "addAction": {
+        "message": "Adaugă acțiune",
+        "description": "Add action button"
+    },
+    "editAction": {
+        "message": "Editează",
+        "description": "Edit action button"
+    },
+    "deleteAction": {
+        "message": "Șterge",
+        "description": "Delete action button"
+    },
+    "save": {
+        "message": "Salvează",
+        "description": "Save button"
+    },
+    "cancel": {
+        "message": "Anulează",
+        "description": "Cancel button"
+    },
+    "settingsSaved": {
+        "message": "Setări salvate cu succes",
+        "description": "Settings saved notification"
+    },
+    "defaultActionPolish": {
+        "message": "Șlefuiește și îmbunătățește",
+        "description": "Default action: Polish & Improve"
+    },
+    "defaultActionGrammar": {
+        "message": "Corectează gramatica",
+        "description": "Default action: Fix Grammar"
+    },
+    "defaultActionProfessional": {
+        "message": "Fă profesional",
+        "description": "Default action: Make Professional"
+    },
+    "defaultActionSimplify": {
+        "message": "Simplifică limbajul",
+        "description": "Default action: Simplify Language"
+    },
+    "defaultActionSummarize": {
+        "message": "Rezumă",
+        "description": "Default action: Summarize"
+    },
+    "popupTitle": {
+        "message": "AI Text Polisher",
+        "description": "Popup title"
+    },
+    "popupStatus": {
+        "message": "Stare",
+        "description": "Status label in popup"
+    },
+    "popupReady": {
+        "message": "Gata",
+        "description": "Ready status"
+    },
+    "popupOpenOptions": {
+        "message": "Deschide setări",
+        "description": "Open options button"
+    }
+}

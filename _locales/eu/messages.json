@@ -1,0 +1,138 @@
+{
+    "extensionName": {
+        "message": "AI Text Polisher",
+        "description": "Name of the extension"
+    },
+    "extensionDescription": {
+        "message": "Hautatu testua leundu AI erabiliz ekintza pertsonalizagarriekin",
+        "description": "Description of the extension"
+    },
+    "contextMenuTitle": {
+        "message": "AI Text Polisher",
+        "description": "Title for context menu parent item"
+    },
+    "processing": {
+        "message": "Prozesatzen...",
+        "description": "Processing status message"
+    },
+    "success": {
+        "message": "Arrakasta!",
+        "description": "Success message"
+    },
+    "copiedToClipboard": {
+        "message": "Emaitza arbelean kopiatu da",
+        "description": "Success notification when text is copied"
+    },
+    "error": {
+        "message": "Errorea",
+        "description": "Error message"
+    },
+    "errorProcessing": {
+        "message": "Errorea testua prozesatzean",
+        "description": "Error notification message"
+    },
+    "noTextSelected": {
+        "message": "Ez da testurik hautatu",
+        "description": "Error when no text is selected"
+    },
+    "apiKeyMissing": {
+        "message": "API gakoa konfiguratu gabe. Mesedez, ezarri aukeren orrian.",
+        "description": "Error when API key is missing"
+    },
+    "networkError": {
+        "message": "Sare errorea. Mesedez, egiaztatu zure konexioa.",
+        "description": "Network error message"
+    },
+    "optionsTitle": {
+        "message": "AI Text Polisher ezarpenak",
+        "description": "Title for options page"
+    },
+    "apiSettings": {
+        "message": "API ezarpenak",
+        "description": "API settings section title"
+    },
+    "apiUrl": {
+        "message": "API URL",
+        "description": "API URL label"
+    },
+    "apiKey": {
+        "message": "API gakoa",
+        "description": "API key label"
+    },
+    "modelName": {
+        "message": "Ereduaren izena",
+        "description": "Model name label"
+    },
+    "actions": {
+        "message": "Ekintzak",
+        "description": "Actions section title"
+    },
+    "actionName": {
+        "message": "Ekintza izena",
+        "description": "Action name label"
+    },
+    "actionPrompt": {
+        "message": "Gonbita",
+        "description": "Action prompt label"
+    },
+    "addAction": {
+        "message": "Ekintza gehitu",
+        "description": "Add action button"
+    },
+    "editAction": {
+        "message": "Editatu",
+        "description": "Edit action button"
+    },
+    "deleteAction": {
+        "message": "Ezabatu",
+        "description": "Delete action button"
+    },
+    "save": {
+        "message": "Gorde",
+        "description": "Save button"
+    },
+    "cancel": {
+        "message": "Utzi",
+        "description": "Cancel button"
+    },
+    "settingsSaved": {
+        "message": "Ezarpenak ondo gorde dira",
+        "description": "Settings saved notification"
+    },
+    "defaultActionPolish": {
+        "message": "Leundu eta hobetu",
+        "description": "Default action: Polish & Improve"
+    },
+    "defaultActionGrammar": {
+        "message": "Gramatika zuzendu",
+        "description": "Default action: Fix Grammar"
+    },
+    "defaultActionProfessional": {
+        "message": "Profesional bihurtu",
+        "description": "Default action: Make Professional"
+    },
+    "defaultActionSimplify": {
+        "message": "Hizkuntza sinplifikatu",
+        "description": "Default action: Simplify Language"
+    },
+    "defaultActionSummarize": {
+        "message": "Laburbildu",
+        "description": "Default action: Summarize"
+    },
+    "popupTitle": {
+        "message": "AI Text Polisher",
+        "description": "Popup title"
+    },
+    "popupStatus": {
+        "message": "Egoera",
+        "description": "Status label in popup"
+    },
+    "popupReady": {
+        "message": "Prest",
+        "description": "Ready status"
+    },
+    "popupOpenOptions": {
+        "message": "Ezarpenak ireki",
+        "description": "Open options button"
+    }
+}

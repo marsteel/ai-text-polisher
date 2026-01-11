@@ -1,0 +1,138 @@
+{
+    "extensionName": {
+        "message": "AI Text Polisher",
+        "description": "Name of the extension"
+    },
+    "extensionDescription": {
+        "message": "שפר טקסט נבחר באמצעות AI עם פעולות מותאמות אישית",
+        "description": "Description of the extension"
+    },
+    "contextMenuTitle": {
+        "message": "AI Text Polisher",
+        "description": "Title for context menu parent item"
+    },
+    "processing": {
+        "message": "מעבד...",
+        "description": "Processing status message"
+    },
+    "success": {
+        "message": "הצלחה!",
+        "description": "Success message"
+    },
+    "copiedToClipboard": {
+        "message": "התוצאה הועתקה ללוח",
+        "description": "Success notification when text is copied"
+    },
+    "error": {
+        "message": "שגיאה",
+        "description": "Error message"
+    },
+    "errorProcessing": {
+        "message": "שגיאה בעיבוד טקסט",
+        "description": "Error notification message"
+    },
+    "noTextSelected": {
+        "message": "לא נבחר טקסט",
+        "description": "Error when no text is selected"
+    },
+    "apiKeyMissing": {
+        "message": "מפתח API לא מוגדר. אנא הגדר אותו בדף האפשרויות.",
+        "description": "Error when API key is missing"
+    },
+    "networkError": {
+        "message": "שגיאת רשת. אנא בדוק את החיבור שלך.",
+        "description": "Network error message"
+    },
+    "optionsTitle": {
+        "message": "הגדרות AI Text Polisher",
+        "description": "Title for options page"
+    },
+    "apiSettings": {
+        "message": "הגדרות API",
+        "description": "API settings section title"
+    },
+    "apiUrl": {
+        "message": "כתובת API",
+        "description": "API URL label"
+    },
+    "apiKey": {
+        "message": "מפתח API",
+        "description": "API key label"
+    },
+    "modelName": {
+        "message": "שם המודל",
+        "description": "Model name label"
+    },
+    "actions": {
+        "message": "פעולות",
+        "description": "Actions section title"
+    },
+    "actionName": {
+        "message": "שם הפעולה",
+        "description": "Action name label"
+    },
+    "actionPrompt": {
+        "message": "הנחיה",
+        "description": "Action prompt label"
+    },
+    "addAction": {
+        "message": "הוסף פעולה",
+        "description": "Add action button"
+    },
+    "editAction": {
+        "message": "ערוך",
+        "description": "Edit action button"
+    },
+    "deleteAction": {
+        "message": "מחק",
+        "description": "Delete action button"
+    },
+    "save": {
+        "message": "שמור",
+        "description": "Save button"
+    },
+    "cancel": {
+        "message": "בטל",
+        "description": "Cancel button"
+    },
+    "settingsSaved": {
+        "message": "ההגדרות נשמרו בהצלחה",
+        "description": "Settings saved notification"
+    },
+    "defaultActionPolish": {
+        "message": "שפר והעלה",
+        "description": "Default action: Polish & Improve"
+    },
+    "defaultActionGrammar": {
+        "message": "תקן דקדוק",
+        "description": "Default action: Fix Grammar"
+    },
+    "defaultActionProfessional": {
+        "message": "הפוך למקצועי",
+        "description": "Default action: Make Professional"
+    },
+    "defaultActionSimplify": {
+        "message": "פשט שפה",
+        "description": "Default action: Simplify Language"
+    },
+    "defaultActionSummarize": {
+        "message": "סכם",
+        "description": "Default action: Summarize"
+    },
+    "popupTitle": {
+        "message": "AI Text Polisher",
+        "description": "Popup title"
+    },
+    "popupStatus": {
+        "message": "מצב",
+        "description": "Status label in popup"
+    },
+    "popupReady": {
+        "message": "מוכן",
+        "description": "Ready status"
+    },
+    "popupOpenOptions": {
+        "message": "פתח הגדרות",
+        "description": "Open options button"
+    }
+}

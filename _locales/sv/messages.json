@@ -1,0 +1,138 @@
+{
+    "extensionName": {
+        "message": "AI Text Polisher",
+        "description": "Name of the extension"
+    },
+    "extensionDescription": {
+        "message": "Förbättra vald text med AI och anpassningsbara åtgärder",
+        "description": "Description of the extension"
+    },
+    "contextMenuTitle": {
+        "message": "AI Text Polisher",
+        "description": "Title for context menu parent item"
+    },
+    "processing": {
+        "message": "Bearbetar...",
+        "description": "Processing status message"
+    },
+    "success": {
+        "message": "Lyckades!",
+        "description": "Success message"
+    },
+    "copiedToClipboard": {
+        "message": "Resultat kopierat till urklipp",
+        "description": "Success notification when text is copied"
+    },
+    "error": {
+        "message": "Fel",
+        "description": "Error message"
+    },
+    "errorProcessing": {
+        "message": "Fel vid bearbetning av text",
+        "description": "Error notification message"
+    },
+    "noTextSelected": {
+        "message": "Ingen text vald",
+        "description": "Error when no text is selected"
+    },
+    "apiKeyMissing": {
+        "message": "API-nyckel inte konfigurerad. Ange den på alternativsidan.",
+        "description": "Error when API key is missing"
+    },
+    "networkError": {
+        "message": "Nätverksfel. Kontrollera din anslutning.",
+        "description": "Network error message"
+    },
+    "optionsTitle": {
+        "message": "AI Text Polisher-inställningar",
+        "description": "Title for options page"
+    },
+    "apiSettings": {
+        "message": "API-inställningar",
+        "description": "API settings section title"
+    },
+    "apiUrl": {
+        "message": "API URL",
+        "description": "API URL label"
+    },
+    "apiKey": {
+        "message": "API-nyckel",
+        "description": "API key label"
+    },
+    "modelName": {
+        "message": "Modellnamn",
+        "description": "Model name label"
+    },
+    "actions": {
+        "message": "Åtgärder",
+        "description": "Actions section title"
+    },
+    "actionName": {
+        "message": "Åtgärdsnamn",
+        "description": "Action name label"
+    },
+    "actionPrompt": {
+        "message": "Prompt",
+        "description": "Action prompt label"
+    },
+    "addAction": {
+        "message": "Lägg till åtgärd",
+        "description": "Add action button"
+    },
+    "editAction": {
+        "message": "Redigera",
+        "description": "Edit action button"
+    },
+    "deleteAction": {
+        "message": "Radera",
+        "description": "Delete action button"
+    },
+    "save": {
+        "message": "Spara",
+        "description": "Save button"
+    },
+    "cancel": {
+        "message": "Avbryt",
+        "description": "Cancel button"
+    },
+    "settingsSaved": {
+        "message": "Inställningar sparade",
+        "description": "Settings saved notification"
+    },
+    "defaultActionPolish": {
+        "message": "Förbättra och förfina",
+        "description": "Default action: Polish & Improve"
+    },
+    "defaultActionGrammar": {
+        "message": "Fixa grammatik",
+        "description": "Default action: Fix Grammar"
+    },
+    "defaultActionProfessional": {
+        "message": "Gör professionell",
+        "description": "Default action: Make Professional"
+    },
+    "defaultActionSimplify": {
+        "message": "Förenkla språk",
+        "description": "Default action: Simplify Language"
+    },
+    "defaultActionSummarize": {
+        "message": "Sammanfatta",
+        "description": "Default action: Summarize"
+    },
+    "popupTitle": {
+        "message": "AI Text Polisher",
+        "description": "Popup title"
+    },
+    "popupStatus": {
+        "message": "Status",
+        "description": "Status label in popup"
+    },
+    "popupReady": {
+        "message": "Redo",
+        "description": "Ready status"
+    },
+    "popupOpenOptions": {
+        "message": "Öppna inställningar",
+        "description": "Open options button"
+    }
+}

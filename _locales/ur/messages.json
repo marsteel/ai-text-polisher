@@ -1,0 +1,138 @@
+{
+    "extensionName": {
+        "message": "AI Text Polisher",
+        "description": "Name of the extension"
+    },
+    "extensionDescription": {
+        "message": "حسب ضرورت کارروائیوں کے ساتھ AI استعمال کرتے ہوئے منتخب متن کو چمکائیں",
+        "description": "Description of the extension"
+    },
+    "contextMenuTitle": {
+        "message": "AI Text Polisher",
+        "description": "Title for context menu parent item"
+    },
+    "processing": {
+        "message": "پروسیسنگ...",
+        "description": "Processing status message"
+    },
+    "success": {
+        "message": "کامیابی!",
+        "description": "Success message"
+    },
+    "copiedToClipboard": {
+        "message": "نتیجہ کلپ بورڈ پر کاپی ہو گیا",
+        "description": "Success notification when text is copied"
+    },
+    "error": {
+        "message": "خرابی",
+        "description": "Error message"
+    },
+    "errorProcessing": {
+        "message": "متن کی پروسیسنگ میں خرابی",
+        "description": "Error notification message"
+    },
+    "noTextSelected": {
+        "message": "کوئی متن منتخب نہیں",
+        "description": "Error when no text is selected"
+    },
+    "apiKeyMissing": {
+        "message": "API کلید ترتیب نہیں دی گئی۔ براہ کرم اسے اختیارات کے صفحے میں سیٹ کریں۔",
+        "description": "Error when API key is missing"
+    },
+    "networkError": {
+        "message": "نیٹ ورک کی خرابی۔ براہ کرم اپنا کنکشن چیک کریں۔",
+        "description": "Network error message"
+    },
+    "optionsTitle": {
+        "message": "AI Text Polisher کی ترتیبات",
+        "description": "Title for options page"
+    },
+    "apiSettings": {
+        "message": "API کی ترتیبات",
+        "description": "API settings section title"
+    },
+    "apiUrl": {
+        "message": "API URL",
+        "description": "API URL label"
+    },
+    "apiKey": {
+        "message": "API کلید",
+        "description": "API key label"
+    },
+    "modelName": {
+        "message": "ماڈل کا نام",
+        "description": "Model name label"
+    },
+    "actions": {
+        "message": "کارروائیاں",
+        "description": "Actions section title"
+    },
+    "actionName": {
+        "message": "کارروائی کا نام",
+        "description": "Action name label"
+    },
+    "actionPrompt": {
+        "message": "پرامپٹ",
+        "description": "Action prompt label"
+    },
+    "addAction": {
+        "message": "کارروائی شامل کریں",
+        "description": "Add action button"
+    },
+    "editAction": {
+        "message": "ترمیم کریں",
+        "description": "Edit action button"
+    },
+    "deleteAction": {
+        "message": "حذف کریں",
+        "description": "Delete action button"
+    },
+    "save": {
+        "message": "محفوظ کریں",
+        "description": "Save button"
+    },
+    "cancel": {
+        "message": "منسوخ کریں",
+        "description": "Cancel button"
+    },
+    "settingsSaved": {
+        "message": "ترتیبات کامیابی سے محفوظ ہو گئیں",
+        "description": "Settings saved notification"
+    },
+    "defaultActionPolish": {
+        "message": "چمکائیں اور بہتر بنائیں",
+        "description": "Default action: Polish & Improve"
+    },
+    "defaultActionGrammar": {
+        "message": "گرامر درست کریں",
+        "description": "Default action: Fix Grammar"
+    },
+    "defaultActionProfessional": {
+        "message": "پیشہ ورانہ بنائیں",
+        "description": "Default action: Make Professional"
+    },
+    "defaultActionSimplify": {
+        "message": "زبان آسان بنائیں",
+        "description": "Default action: Simplify Language"
+    },
+    "defaultActionSummarize": {
+        "message": "خلاصہ کریں",
+        "description": "Default action: Summarize"
+    },
+    "popupTitle": {
+        "message": "AI Text Polisher",
+        "description": "Popup title"
+    },
+    "popupStatus": {
+        "message": "حالت",
+        "description": "Status label in popup"
+    },
+    "popupReady": {
+        "message": "تیار",
+        "description": "Ready status"
+    },
+    "popupOpenOptions": {
+        "message": "ترتیبات کھولیں",
+        "description": "Open options button"
+    }
+}

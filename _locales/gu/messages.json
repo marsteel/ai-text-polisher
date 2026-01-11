@@ -1,0 +1,138 @@
+{
+    "extensionName": {
+        "message": "AI Text Polisher",
+        "description": "Name of the extension"
+    },
+    "extensionDescription": {
+        "message": "કસ્ટમાઇઝ કરી શકાય તેવી ક્રિયાઓ સાથે AI નો ઉપયોગ કરીને પસંદ કરેલ ટેક્સ્ટને પોલિશ કરો",
+        "description": "Description of the extension"
+    },
+    "contextMenuTitle": {
+        "message": "AI Text Polisher",
+        "description": "Title for context menu parent item"
+    },
+    "processing": {
+        "message": "પ્રક્રિયા કરી રહ્યું છે...",
+        "description": "Processing status message"
+    },
+    "success": {
+        "message": "સફળતા!",
+        "description": "Success message"
+    },
+    "copiedToClipboard": {
+        "message": "પરિણામ ક્લિપબોર્ડ પર કૉપિ થયું",
+        "description": "Success notification when text is copied"
+    },
+    "error": {
+        "message": "ભૂલ",
+        "description": "Error message"
+    },
+    "errorProcessing": {
+        "message": "ટેક્સ્ટ પ્રક્રિયા કરતી વખતે ભૂલ",
+        "description": "Error notification message"
+    },
+    "noTextSelected": {
+        "message": "કોઈ ટેક્સ્ટ પસંદ કર્યું નથી",
+        "description": "Error when no text is selected"
+    },
+    "apiKeyMissing": {
+        "message": "API કી કૉન્ફિગર થયેલ નથી. કૃપા કરીને તેને વિકલ્પો પૃષ્ઠ પર સેટ કરો.",
+        "description": "Error when API key is missing"
+    },
+    "networkError": {
+        "message": "નેટવર્ક ભૂલ. કૃપા કરીને તમારું કનેક્શન તપાસો.",
+        "description": "Network error message"
+    },
+    "optionsTitle": {
+        "message": "AI Text Polisher સેટિંગ્સ",
+        "description": "Title for options page"
+    },
+    "apiSettings": {
+        "message": "API સેટિંગ્સ",
+        "description": "API settings section title"
+    },
+    "apiUrl": {
+        "message": "API URL",
+        "description": "API URL label"
+    },
+    "apiKey": {
+        "message": "API કી",
+        "description": "API key label"
+    },
+    "modelName": {
+        "message": "મોડેલ નામ",
+        "description": "Model name label"
+    },
+    "actions": {
+        "message": "ક્રિયાઓ",
+        "description": "Actions section title"
+    },
+    "actionName": {
+        "message": "ક્રિયા નામ",
+        "description": "Action name label"
+    },
+    "actionPrompt": {
+        "message": "પ્રોમ્પ્ટ",
+        "description": "Action prompt label"
+    },
+    "addAction": {
+        "message": "ક્રિયા ઉમેરો",
+        "description": "Add action button"
+    },
+    "editAction": {
+        "message": "સંપાદિત કરો",
+        "description": "Edit action button"
+    },
+    "deleteAction": {
+        "message": "કાઢી નાખો",
+        "description": "Delete action button"
+    },
+    "save": {
+        "message": "સાચવો",
+        "description": "Save button"
+    },
+    "cancel": {
+        "message": "રદ કરો",
+        "description": "Cancel button"
+    },
+    "settingsSaved": {
+        "message": "સેટિંગ્સ સફળતાપૂર્વક સાચવી",
+        "description": "Settings saved notification"
+    },
+    "defaultActionPolish": {
+        "message": "પોલિશ અને સુધારો",
+        "description": "Default action: Polish & Improve"
+    },
+    "defaultActionGrammar": {
+        "message": "વ્યાકરણ સુધારો",
+        "description": "Default action: Fix Grammar"
+    },
+    "defaultActionProfessional": {
+        "message": "વ્યાવસાયિક બનાવો",
+        "description": "Default action: Make Professional"
+    },
+    "defaultActionSimplify": {
+        "message": "ભાષા સરળ બનાવો",
+        "description": "Default action: Simplify Language"
+    },
+    "defaultActionSummarize": {
+        "message": "સારાંશ",
+        "description": "Default action: Summarize"
+    },
+    "popupTitle": {
+        "message": "AI Text Polisher",
+        "description": "Popup title"
+    },
+    "popupStatus": {
+        "message": "સ્થિતિ",
+        "description": "Status label in popup"
+    },
+    "popupReady": {
+        "message": "તૈયાર",
+        "description": "Ready status"
+    },
+    "popupOpenOptions": {
+        "message": "સેટિંગ્સ ખોલો",
+        "description": "Open options button"
+    }
+}

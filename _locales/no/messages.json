@@ -1,0 +1,138 @@
+{
+    "extensionName": {
+        "message": "AI Text Polisher",
+        "description": "Name of the extension"
+    },
+    "extensionDescription": {
+        "message": "Polér valgt tekst ved hjelp av AI med tilpassbare handlinger",
+        "description": "Description of the extension"
+    },
+    "contextMenuTitle": {
+        "message": "AI Text Polisher",
+        "description": "Title for context menu parent item"
+    },
+    "processing": {
+        "message": "Behandler...",
+        "description": "Processing status message"
+    },
+    "success": {
+        "message": "Vellykket!",
+        "description": "Success message"
+    },
+    "copiedToClipboard": {
+        "message": "Resultat kopiert til utklippstavle",
+        "description": "Success notification when text is copied"
+    },
+    "error": {
+        "message": "Feil",
+        "description": "Error message"
+    },
+    "errorProcessing": {
+        "message": "Feil ved behandling av tekst",
+        "description": "Error notification message"
+    },
+    "noTextSelected": {
+        "message": "Ingen tekst valgt",
+        "description": "Error when no text is selected"
+    },
+    "apiKeyMissing": {
+        "message": "API-nøkkel ikke konfigurert. Angi den på innstillingssiden.",
+        "description": "Error when API key is missing"
+    },
+    "networkError": {
+        "message": "Nettverksfeil. Sjekk tilkoblingen din.",
+        "description": "Network error message"
+    },
+    "optionsTitle": {
+        "message": "AI Text Polisher-innstillinger",
+        "description": "Title for options page"
+    },
+    "apiSettings": {
+        "message": "API-innstillinger",
+        "description": "API settings section title"
+    },
+    "apiUrl": {
+        "message": "API URL",
+        "description": "API URL label"
+    },
+    "apiKey": {
+        "message": "API-nøkkel",
+        "description": "API key label"
+    },
+    "modelName": {
+        "message": "Modellnavn",
+        "description": "Model name label"
+    },
+    "actions": {
+        "message": "Handlinger",
+        "description": "Actions section title"
+    },
+    "actionName": {
+        "message": "Handlingsnavn",
+        "description": "Action name label"
+    },
+    "actionPrompt": {
+        "message": "Ledetekst",
+        "description": "Action prompt label"
+    },
+    "addAction": {
+        "message": "Legg til handling",
+        "description": "Add action button"
+    },
+    "editAction": {
+        "message": "Rediger",
+        "description": "Edit action button"
+    },
+    "deleteAction": {
+        "message": "Slett",
+        "description": "Delete action button"
+    },
+    "save": {
+        "message": "Lagre",
+        "description": "Save button"
+    },
+    "cancel": {
+        "message": "Avbryt",
+        "description": "Cancel button"
+    },
+    "settingsSaved": {
+        "message": "Innstillinger lagret",
+        "description": "Settings saved notification"
+    },
+    "defaultActionPolish": {
+        "message": "Polér og forbedre",
+        "description": "Default action: Polish & Improve"
+    },
+    "defaultActionGrammar": {
+        "message": "Rett grammatikk",
+        "description": "Default action: Fix Grammar"
+    },
+    "defaultActionProfessional": {
+        "message": "Gjør profesjonell",
+        "description": "Default action: Make Professional"
+    },
+    "defaultActionSimplify": {
+        "message": "Forenkle språk",
+        "description": "Default action: Simplify Language"
+    },
+    "defaultActionSummarize": {
+        "message": "Oppsummer",
+        "description": "Default action: Summarize"
+    },
+    "popupTitle": {
+        "message": "AI Text Polisher",
+        "description": "Popup title"
+    },
+    "popupStatus": {
+        "message": "Status",
+        "description": "Status label in popup"
+    },
+    "popupReady": {
+        "message": "Klar",
+        "description": "Ready status"
+    },
+    "popupOpenOptions": {
+        "message": "Åpne innstillinger",
+        "description": "Open options button"
+    }
+}

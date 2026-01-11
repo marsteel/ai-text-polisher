@@ -1,0 +1,138 @@
+{
+    "extensionName": {
+        "message": "AI Text Polisher",
+        "description": "Name of the extension"
+    },
+    "extensionDescription": {
+        "message": "सानुकूल करण्यायोग्य क्रियांसह AI वापरून निवडलेला मजकूर पॉलिश करा",
+        "description": "Description of the extension"
+    },
+    "contextMenuTitle": {
+        "message": "AI Text Polisher",
+        "description": "Title for context menu parent item"
+    },
+    "processing": {
+        "message": "प्रक्रिया करत आहे...",
+        "description": "Processing status message"
+    },
+    "success": {
+        "message": "यश!",
+        "description": "Success message"
+    },
+    "copiedToClipboard": {
+        "message": "परिणाम क्लिपबोर्डवर कॉपी केला",
+        "description": "Success notification when text is copied"
+    },
+    "error": {
+        "message": "त्रुटी",
+        "description": "Error message"
+    },
+    "errorProcessing": {
+        "message": "मजकूर प्रक्रिया करताना त्रुटी",
+        "description": "Error notification message"
+    },
+    "noTextSelected": {
+        "message": "मजकूर निवडला नाही",
+        "description": "Error when no text is selected"
+    },
+    "apiKeyMissing": {
+        "message": "API की कॉन्फिगर केली नाही. कृपया ती पर्याय पृष्ठावर सेट करा.",
+        "description": "Error when API key is missing"
+    },
+    "networkError": {
+        "message": "नेटवर्क त्रुटी. कृपया आपले कनेक्शन तपासा.",
+        "description": "Network error message"
+    },
+    "optionsTitle": {
+        "message": "AI Text Polisher सेटिंग्ज",
+        "description": "Title for options page"
+    },
+    "apiSettings": {
+        "message": "API सेटिंग्ज",
+        "description": "API settings section title"
+    },
+    "apiUrl": {
+        "message": "API URL",
+        "description": "API URL label"
+    },
+    "apiKey": {
+        "message": "API की",
+        "description": "API key label"
+    },
+    "modelName": {
+        "message": "मॉडेल नाव",
+        "description": "Model name label"
+    },
+    "actions": {
+        "message": "क्रिया",
+        "description": "Actions section title"
+    },
+    "actionName": {
+        "message": "क्रिया नाव",
+        "description": "Action name label"
+    },
+    "actionPrompt": {
+        "message": "प्रॉम्प्ट",
+        "description": "Action prompt label"
+    },
+    "addAction": {
+        "message": "क्रिया जोडा",
+        "description": "Add action button"
+    },
+    "editAction": {
+        "message": "संपादित करा",
+        "description": "Edit action button"
+    },
+    "deleteAction": {
+        "message": "हटवा",
+        "description": "Delete action button"
+    },
+    "save": {
+        "message": "जतन करा",
+        "description": "Save button"
+    },
+    "cancel": {
+        "message": "रद्द करा",
+        "description": "Cancel button"
+    },
+    "settingsSaved": {
+        "message": "सेटिंग्ज यशस्वीरित्या जतन केल्या",
+        "description": "Settings saved notification"
+    },
+    "defaultActionPolish": {
+        "message": "पॉलिश आणि सुधारणा करा",
+        "description": "Default action: Polish & Improve"
+    },
+    "defaultActionGrammar": {
+        "message": "व्याकरण दुरुस्त करा",
+        "description": "Default action: Fix Grammar"
+    },
+    "defaultActionProfessional": {
+        "message": "व्यावसायिक बनवा",
+        "description": "Default action: Make Professional"
+    },
+    "defaultActionSimplify": {
+        "message": "भाषा सरलीकृत करा",
+        "description": "Default action: Simplify Language"
+    },
+    "defaultActionSummarize": {
+        "message": "सारांश",
+        "description": "Default action: Summarize"
+    },
+    "popupTitle": {
+        "message": "AI Text Polisher",
+        "description": "Popup title"
+    },
+    "popupStatus": {
+        "message": "स्थिती",
+        "description": "Status label in popup"
+    },
+    "popupReady": {
+        "message": "तयार",
+        "description": "Ready status"
+    },
+    "popupOpenOptions": {
+        "message": "सेटिंग्ज उघडा",
+        "description": "Open options button"
+    }
+}

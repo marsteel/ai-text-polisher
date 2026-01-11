@@ -1,0 +1,138 @@
+{
+    "extensionName": {
+        "message": "AI Text Polisher",
+        "description": "Name of the extension"
+    },
+    "extensionDescription": {
+        "message": "தேர்ந்தெடுக்கப்பட்ட உரையை AI மூலம் தனிப்பயனாக்கக்கூடிய செயல்களுடன் மெருகூட்டவும்",
+        "description": "Description of the extension"
+    },
+    "contextMenuTitle": {
+        "message": "AI Text Polisher",
+        "description": "Title for context menu parent item"
+    },
+    "processing": {
+        "message": "செயலாக்குகிறது...",
+        "description": "Processing status message"
+    },
+    "success": {
+        "message": "வெற்றி!",
+        "description": "Success message"
+    },
+    "copiedToClipboard": {
+        "message": "முடிவு கிளிப்போர்டுக்கு நகலெடுக்கப்பட்டது",
+        "description": "Success notification when text is copied"
+    },
+    "error": {
+        "message": "பிழை",
+        "description": "Error message"
+    },
+    "errorProcessing": {
+        "message": "உரையை செயலாக்குவதில் பிழை",
+        "description": "Error notification message"
+    },
+    "noTextSelected": {
+        "message": "உரை தேர்ந்தெடுக்கப்படவில்லை",
+        "description": "Error when no text is selected"
+    },
+    "apiKeyMissing": {
+        "message": "API விசை கட்டமைக்கப்படவில்லை. விருப்பங்கள் பக்கத்தில் அதை அமைக்கவும்.",
+        "description": "Error when API key is missing"
+    },
+    "networkError": {
+        "message": "நெட்வொர்க் பிழை. உங்கள் இணைப்பை சரிபார்க்கவும்.",
+        "description": "Network error message"
+    },
+    "optionsTitle": {
+        "message": "AI Text Polisher அமைப்புகள்",
+        "description": "Title for options page"
+    },
+    "apiSettings": {
+        "message": "API அமைப்புகள்",
+        "description": "API settings section title"
+    },
+    "apiUrl": {
+        "message": "API URL",
+        "description": "API URL label"
+    },
+    "apiKey": {
+        "message": "API விசை",
+        "description": "API key label"
+    },
+    "modelName": {
+        "message": "மாதிரி பெயர்",
+        "description": "Model name label"
+    },
+    "actions": {
+        "message": "செயல்கள்",
+        "description": "Actions section title"
+    },
+    "actionName": {
+        "message": "செயல் பெயர்",
+        "description": "Action name label"
+    },
+    "actionPrompt": {
+        "message": "தூண்டுதல்",
+        "description": "Action prompt label"
+    },
+    "addAction": {
+        "message": "செயலைச் சேர்க்கவும்",
+        "description": "Add action button"
+    },
+    "editAction": {
+        "message": "திருத்து",
+        "description": "Edit action button"
+    },
+    "deleteAction": {
+        "message": "நீக்கு",
+        "description": "Delete action button"
+    },
+    "save": {
+        "message": "சேமி",
+        "description": "Save button"
+    },
+    "cancel": {
+        "message": "ரத்துசெய்",
+        "description": "Cancel button"
+    },
+    "settingsSaved": {
+        "message": "அமைப்புகள் வெற்றிகரமாக சேமிக்கப்பட்டன",
+        "description": "Settings saved notification"
+    },
+    "defaultActionPolish": {
+        "message": "மெருகூட்டி மேம்படுத்து",
+        "description": "Default action: Polish & Improve"
+    },
+    "defaultActionGrammar": {
+        "message": "இலக்கணத்தை சரிசெய்",
+        "description": "Default action: Fix Grammar"
+    },
+    "defaultActionProfessional": {
+        "message": "தொழில்முறையாக்கு",
+        "description": "Default action: Make Professional"
+    },
+    "defaultActionSimplify": {
+        "message": "மொழியை எளிமைப்படுத்து",
+        "description": "Default action: Simplify Language"
+    },
+    "defaultActionSummarize": {
+        "message": "சுருக்கம்",
+        "description": "Default action: Summarize"
+    },
+    "popupTitle": {
+        "message": "AI Text Polisher",
+        "description": "Popup title"
+    },
+    "popupStatus": {
+        "message": "நிலை",
+        "description": "Status label in popup"
+    },
+    "popupReady": {
+        "message": "தயார்",
+        "description": "Ready status"
+    },
+    "popupOpenOptions": {
+        "message": "அமைப்புகளைத் திற",
+        "description": "Open options button"
+    }
+}

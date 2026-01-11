@@ -1,0 +1,138 @@
+{
+    "extensionName": {
+        "message": "AI文本润色器",
+        "description": "Name of the extension"
+    },
+    "extensionDescription": {
+        "message": "使用AI和自定义操作润色选中的文本",
+        "description": "Description of the extension"
+    },
+    "contextMenuTitle": {
+        "message": "AI文本润色器",
+        "description": "Title for context menu parent item"
+    },
+    "processing": {
+        "message": "处理中...",
+        "description": "Processing status message"
+    },
+    "success": {
+        "message": "成功！",
+        "description": "Success message"
+    },
+    "copiedToClipboard": {
+        "message": "结果已复制到剪贴板",
+        "description": "Success notification when text is copied"
+    },
+    "error": {
+        "message": "错误",
+        "description": "Error message"
+    },
+    "errorProcessing": {
+        "message": "处理文本时出错",
+        "description": "Error notification message"
+    },
+    "noTextSelected": {
+        "message": "未选择文本",
+        "description": "Error when no text is selected"
+    },
+    "apiKeyMissing": {
+        "message": "未配置API密钥。请在选项页面中设置。",
+        "description": "Error when API key is missing"
+    },
+    "networkError": {
+        "message": "网络错误。请检查您的连接。",
+        "description": "Network error message"
+    },
+    "optionsTitle": {
+        "message": "AI文本润色器设置",
+        "description": "Title for options page"
+    },
+    "apiSettings": {
+        "message": "API设置",
+        "description": "API settings section title"
+    },
+    "apiUrl": {
+        "message": "API URL",
+        "description": "API URL label"
+    },
+    "apiKey": {
+        "message": "API密钥",
+        "description": "API key label"
+    },
+    "modelName": {
+        "message": "模型名称",
+        "description": "Model name label"
+    },
+    "actions": {
+        "message": "操作",
+        "description": "Actions section title"
+    },
+    "actionName": {
+        "message": "操作名称",
+        "description": "Action name label"
+    },
+    "actionPrompt": {
+        "message": "提示词",
+        "description": "Action prompt label"
+    },
+    "addAction": {
+        "message": "添加操作",
+        "description": "Add action button"
+    },
+    "editAction": {
+        "message": "编辑",
+        "description": "Edit action button"
+    },
+    "deleteAction": {
+        "message": "删除",
+        "description": "Delete action button"
+    },
+    "save": {
+        "message": "保存",
+        "description": "Save button"
+    },
+    "cancel": {
+        "message": "取消",
+        "description": "Cancel button"
+    },
+    "settingsSaved": {
+        "message": "设置已成功保存",
+        "description": "Settings saved notification"
+    },
+    "defaultActionPolish": {
+        "message": "润色和改进",
+        "description": "Default action: Polish & Improve"
+    },
+    "defaultActionGrammar": {
+        "message": "修正语法",
+        "description": "Default action: Fix Grammar"
+    },
+    "defaultActionProfessional": {
+        "message": "使其专业化",
+        "description": "Default action: Make Professional"
+    },
+    "defaultActionSimplify": {
+        "message": "简化语言",
+        "description": "Default action: Simplify Language"
+    },
+    "defaultActionSummarize": {
+        "message": "总结",
+        "description": "Default action: Summarize"
+    },
+    "popupTitle": {
+        "message": "AI文本润色器",
+        "description": "Popup title"
+    },
+    "popupStatus": {
+        "message": "状态",
+        "description": "Status label in popup"
+    },
+    "popupReady": {
+        "message": "就绪",
+        "description": "Ready status"
+    },
+    "popupOpenOptions": {
+        "message": "打开设置",
+        "description": "Open options button"
+    }
+}

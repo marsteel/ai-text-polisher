@@ -1,0 +1,138 @@
+{
+    "extensionName": {
+        "message": "AI Text Polisher",
+        "description": "Name of the extension"
+    },
+    "extensionDescription": {
+        "message": "Pulējiet atlasīto tekstu, izmantojot AI ar pielāgojamām darbībām",
+        "description": "Description of the extension"
+    },
+    "contextMenuTitle": {
+        "message": "AI Text Polisher",
+        "description": "Title for context menu parent item"
+    },
+    "processing": {
+        "message": "Apstrādā...",
+        "description": "Processing status message"
+    },
+    "success": {
+        "message": "Veiksmīgi!",
+        "description": "Success message"
+    },
+    "copiedToClipboard": {
+        "message": "Rezultāts nokopēts starpliktuvē",
+        "description": "Success notification when text is copied"
+    },
+    "error": {
+        "message": "Kļūda",
+        "description": "Error message"
+    },
+    "errorProcessing": {
+        "message": "Kļūda, apstrādājot tekstu",
+        "description": "Error notification message"
+    },
+    "noTextSelected": {
+        "message": "Nav atlasīts teksts",
+        "description": "Error when no text is selected"
+    },
+    "apiKeyMissing": {
+        "message": "API atslēga nav konfigurēta. Lūdzu, iestatiet to opciju lapā.",
+        "description": "Error when API key is missing"
+    },
+    "networkError": {
+        "message": "Tīkla kļūda. Lūdzu, pārbaudiet savienojumu.",
+        "description": "Network error message"
+    },
+    "optionsTitle": {
+        "message": "AI Text Polisher iestatījumi",
+        "description": "Title for options page"
+    },
+    "apiSettings": {
+        "message": "API iestatījumi",
+        "description": "API settings section title"
+    },
+    "apiUrl": {
+        "message": "API URL",
+        "description": "API URL label"
+    },
+    "apiKey": {
+        "message": "API atslēga",
+        "description": "API key label"
+    },
+    "modelName": {
+        "message": "Modeļa nosaukums",
+        "description": "Model name label"
+    },
+    "actions": {
+        "message": "Darbības",
+        "description": "Actions section title"
+    },
+    "actionName": {
+        "message": "Darbības nosaukums",
+        "description": "Action name label"
+    },
+    "actionPrompt": {
+        "message": "Uzvedne",
+        "description": "Action prompt label"
+    },
+    "addAction": {
+        "message": "Pievienot darbību",
+        "description": "Add action button"
+    },
+    "editAction": {
+        "message": "Rediģēt",
+        "description": "Edit action button"
+    },
+    "deleteAction": {
+        "message": "Dzēst",
+        "description": "Delete action button"
+    },
+    "save": {
+        "message": "Saglabāt",
+        "description": "Save button"
+    },
+    "cancel": {
+        "message": "Atcelt",
+        "description": "Cancel button"
+    },
+    "settingsSaved": {
+        "message": "Iestatījumi saglabāti",
+        "description": "Settings saved notification"
+    },
+    "defaultActionPolish": {
+        "message": "Pulēt un uzlabot",
+        "description": "Default action: Polish & Improve"
+    },
+    "defaultActionGrammar": {
+        "message": "Labot gramatiku",
+        "description": "Default action: Fix Grammar"
+    },
+    "defaultActionProfessional": {
+        "message": "Padarīt profesionālu",
+        "description": "Default action: Make Professional"
+    },
+    "defaultActionSimplify": {
+        "message": "Vienkāršot valodu",
+        "description": "Default action: Simplify Language"
+    },
+    "defaultActionSummarize": {
+        "message": "Apkopot",
+        "description": "Default action: Summarize"
+    },
+    "popupTitle": {
+        "message": "AI Text Polisher",
+        "description": "Popup title"
+    },
+    "popupStatus": {
+        "message": "Statuss",
+        "description": "Status label in popup"
+    },
+    "popupReady": {
+        "message": "Gatavs",
+        "description": "Ready status"
+    },
+    "popupOpenOptions": {
+        "message": "Atvērt iestatījumus",
+        "description": "Open options button"
+    }
+}

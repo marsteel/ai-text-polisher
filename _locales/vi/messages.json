@@ -1,0 +1,138 @@
+{
+    "extensionName": {
+        "message": "AI Text Polisher",
+        "description": "Name of the extension"
+    },
+    "extensionDescription": {
+        "message": "Tiếng Việt văn bản đã chọn bằng AI với các hành động tùy chỉnh",
+        "description": "Description of the extension"
+    },
+    "contextMenuTitle": {
+        "message": "AI Text Polisher",
+        "description": "Title for context menu parent item"
+    },
+    "processing": {
+        "message": "Đang xử lý...",
+        "description": "Processing status message"
+    },
+    "success": {
+        "message": "Thành công!",
+        "description": "Success message"
+    },
+    "copiedToClipboard": {
+        "message": "Kết quả đã được sao chép vào clipboard",
+        "description": "Success notification when text is copied"
+    },
+    "error": {
+        "message": "Lỗi",
+        "description": "Error message"
+    },
+    "errorProcessing": {
+        "message": "Lỗi khi xử lý văn bản",
+        "description": "Error notification message"
+    },
+    "noTextSelected": {
+        "message": "Không có văn bản nào được chọn",
+        "description": "Error when no text is selected"
+    },
+    "apiKeyMissing": {
+        "message": "Khóa API chưa được cấu hình. Vui lòng đặt nó trong trang tùy chọn.",
+        "description": "Error when API key is missing"
+    },
+    "networkError": {
+        "message": "Lỗi mạng. Vui lòng kiểm tra kết nối của bạn.",
+        "description": "Network error message"
+    },
+    "optionsTitle": {
+        "message": "Cài đặt AI Text Polisher",
+        "description": "Title for options page"
+    },
+    "apiSettings": {
+        "message": "Cài đặt API",
+        "description": "API settings section title"
+    },
+    "apiUrl": {
+        "message": "URL API",
+        "description": "API URL label"
+    },
+    "apiKey": {
+        "message": "Khóa API",
+        "description": "API key label"
+    },
+    "modelName": {
+        "message": "Tên mô hình",
+        "description": "Model name label"
+    },
+    "actions": {
+        "message": "Hành động",
+        "description": "Actions section title"
+    },
+    "actionName": {
+        "message": "Tên hành động",
+        "description": "Action name label"
+    },
+    "actionPrompt": {
+        "message": "Lời nhắc",
+        "description": "Action prompt label"
+    },
+    "addAction": {
+        "message": "Thêm hành động",
+        "description": "Add action button"
+    },
+    "editAction": {
+        "message": "Chỉnh sửa",
+        "description": "Edit action button"
+    },
+    "deleteAction": {
+        "message": "Xóa",
+        "description": "Delete action button"
+    },
+    "save": {
+        "message": "Lưu",
+        "description": "Save button"
+    },
+    "cancel": {
+        "message": "Hủy",
+        "description": "Cancel button"
+    },
+    "settingsSaved": {
+        "message": "Cài đặt đã được lưu thành công",
+        "description": "Settings saved notification"
+    },
+    "defaultActionPolish": {
+        "message": "Đánh bóng và cải thiện",
+        "description": "Default action: Polish & Improve"
+    },
+    "defaultActionGrammar": {
+        "message": "Sửa ngữ pháp",
+        "description": "Default action: Fix Grammar"
+    },
+    "defaultActionProfessional": {
+        "message": "Làm cho chuyên nghiệp",
+        "description": "Default action: Make Professional"
+    },
+    "defaultActionSimplify": {
+        "message": "Đơn giản hóa ngôn ngữ",
+        "description": "Default action: Simplify Language"
+    },
+    "defaultActionSummarize": {
+        "message": "Tóm tắt",
+        "description": "Default action: Summarize"
+    },
+    "popupTitle": {
+        "message": "AI Text Polisher",
+        "description": "Popup title"
+    },
+    "popupStatus": {
+        "message": "Trạng thái",
+        "description": "Status label in popup"
+    },
+    "popupReady": {
+        "message": "Sẵn sàng",
+        "description": "Ready status"
+    },
+    "popupOpenOptions": {
+        "message": "Mở cài đặt",
+        "description": "Open options button"
+    }
+}

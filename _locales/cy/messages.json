@@ -1,0 +1,138 @@
+{
+    "extensionName": {
+        "message": "AI Text Polisher",
+        "description": "Name of the extension"
+    },
+    "extensionDescription": {
+        "message": "Caboli testun a ddewiswyd gan ddefnyddio AI gyda gweithredoedd addasadwy",
+        "description": "Description of the extension"
+    },
+    "contextMenuTitle": {
+        "message": "AI Text Polisher",
+        "description": "Title for context menu parent item"
+    },
+    "processing": {
+        "message": "Yn prosesu...",
+        "description": "Processing status message"
+    },
+    "success": {
+        "message": "Llwyddiant!",
+        "description": "Success message"
+    },
+    "copiedToClipboard": {
+        "message": "Canlyniad wedi'i gopïo i'r clipfwrdd",
+        "description": "Success notification when text is copied"
+    },
+    "error": {
+        "message": "Gwall",
+        "description": "Error message"
+    },
+    "errorProcessing": {
+        "message": "Gwall wrth brosesu testun",
+        "description": "Error notification message"
+    },
+    "noTextSelected": {
+        "message": "Dim testun wedi'i ddewis",
+        "description": "Error when no text is selected"
+    },
+    "apiKeyMissing": {
+        "message": "Allwedd API heb ei ffurfweddu. Gosodwch ef ar y dudalen opsiynau.",
+        "description": "Error when API key is missing"
+    },
+    "networkError": {
+        "message": "Gwall rhwydwaith. Gwiriwch eich cysylltiad.",
+        "description": "Network error message"
+    },
+    "optionsTitle": {
+        "message": "Gosodiadau AI Text Polisher",
+        "description": "Title for options page"
+    },
+    "apiSettings": {
+        "message": "Gosodiadau API",
+        "description": "API settings section title"
+    },
+    "apiUrl": {
+        "message": "URL API",
+        "description": "API URL label"
+    },
+    "apiKey": {
+        "message": "Allwedd API",
+        "description": "API key label"
+    },
+    "modelName": {
+        "message": "Enw Model",
+        "description": "Model name label"
+    },
+    "actions": {
+        "message": "Gweithredoedd",
+        "description": "Actions section title"
+    },
+    "actionName": {
+        "message": "Enw Gweithred",
+        "description": "Action name label"
+    },
+    "actionPrompt": {
+        "message": "Anogaeth",
+        "description": "Action prompt label"
+    },
+    "addAction": {
+        "message": "Ychwanegu Gweithred",
+        "description": "Add action button"
+    },
+    "editAction": {
+        "message": "Golygu",
+        "description": "Edit action button"
+    },
+    "deleteAction": {
+        "message": "Dileu",
+        "description": "Delete action button"
+    },
+    "save": {
+        "message": "Cadw",
+        "description": "Save button"
+    },
+    "cancel": {
+        "message": "Canslo",
+        "description": "Cancel button"
+    },
+    "settingsSaved": {
+        "message": "Gosodiadau wedi'u cadw",
+        "description": "Settings saved notification"
+    },
+    "defaultActionPolish": {
+        "message": "Caboli a Gwella",
+        "description": "Default action: Polish & Improve"
+    },
+    "defaultActionGrammar": {
+        "message": "Trwsio Gramadeg",
+        "description": "Default action: Fix Grammar"
+    },
+    "defaultActionProfessional": {
+        "message": "Gwneud yn Broffesiynol",
+        "description": "Default action: Make Professional"
+    },
+    "defaultActionSimplify": {
+        "message": "Symleiddio Iaith",
+        "description": "Default action: Simplify Language"
+    },
+    "defaultActionSummarize": {
+        "message": "Crynhoi",
+        "description": "Default action: Summarize"
+    },
+    "popupTitle": {
+        "message": "AI Text Polisher",
+        "description": "Popup title"
+    },
+    "popupStatus": {
+        "message": "Statws",
+        "description": "Status label in popup"
+    },
+    "popupReady": {
+        "message": "Parod",
+        "description": "Ready status"
+    },
+    "popupOpenOptions": {
+        "message": "Agor Gosodiadau",
+        "description": "Open options button"
+    }
+}

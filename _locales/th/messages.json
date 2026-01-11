@@ -1,0 +1,138 @@
+{
+    "extensionName": {
+        "message": "AI Text Polisher",
+        "description": "Name of the extension"
+    },
+    "extensionDescription": {
+        "message": "ขัดเกลาข้อความที่เลือกโดยใช้ AI ด้วยการกระทำที่ปรับแต่งได้",
+        "description": "Description of the extension"
+    },
+    "contextMenuTitle": {
+        "message": "AI Text Polisher",
+        "description": "Title for context menu parent item"
+    },
+    "processing": {
+        "message": "กำลังประมวลผล...",
+        "description": "Processing status message"
+    },
+    "success": {
+        "message": "สำเร็จ!",
+        "description": "Success message"
+    },
+    "copiedToClipboard": {
+        "message": "คัดลอกผลลัพธ์ไปยังคลิปบอร์ดแล้ว",
+        "description": "Success notification when text is copied"
+    },
+    "error": {
+        "message": "ข้อผิดพลาด",
+        "description": "Error message"
+    },
+    "errorProcessing": {
+        "message": "เกิดข้อผิดพลาดในการประมวลผลข้อความ",
+        "description": "Error notification message"
+    },
+    "noTextSelected": {
+        "message": "ไม่ได้เลือกข้อความ",
+        "description": "Error when no text is selected"
+    },
+    "apiKeyMissing": {
+        "message": "ไม่ได้กำหนดค่า API key โปรดตั้งค่าในหน้าตัวเลือก",
+        "description": "Error when API key is missing"
+    },
+    "networkError": {
+        "message": "ข้อผิดพลาดเครือข่าย โปรดตรวจสอบการเชื่อมต่อของคุณ",
+        "description": "Network error message"
+    },
+    "optionsTitle": {
+        "message": "การตั้งค่า AI Text Polisher",
+        "description": "Title for options page"
+    },
+    "apiSettings": {
+        "message": "การตั้งค่า API",
+        "description": "API settings section title"
+    },
+    "apiUrl": {
+        "message": "URL API",
+        "description": "API URL label"
+    },
+    "apiKey": {
+        "message": "คีย์ API",
+        "description": "API key label"
+    },
+    "modelName": {
+        "message": "ชื่อโมเดล",
+        "description": "Model name label"
+    },
+    "actions": {
+        "message": "การกระทำ",
+        "description": "Actions section title"
+    },
+    "actionName": {
+        "message": "ชื่อการกระทำ",
+        "description": "Action name label"
+    },
+    "actionPrompt": {
+        "message": "พรอมต์",
+        "description": "Action prompt label"
+    },
+    "addAction": {
+        "message": "เพิ่มการกระทำ",
+        "description": "Add action button"
+    },
+    "editAction": {
+        "message": "แก้ไข",
+        "description": "Edit action button"
+    },
+    "deleteAction": {
+        "message": "ลบ",
+        "description": "Delete action button"
+    },
+    "save": {
+        "message": "บันทึก",
+        "description": "Save button"
+    },
+    "cancel": {
+        "message": "ยกเลิก",
+        "description": "Cancel button"
+    },
+    "settingsSaved": {
+        "message": "บันทึกการตั้งค่าเรียบร้อยแล้ว",
+        "description": "Settings saved notification"
+    },
+    "defaultActionPolish": {
+        "message": "ขัดเกลาและปรับปรุง",
+        "description": "Default action: Polish & Improve"
+    },
+    "defaultActionGrammar": {
+        "message": "แก้ไขไวยากรณ์",
+        "description": "Default action: Fix Grammar"
+    },
+    "defaultActionProfessional": {
+        "message": "ทำให้เป็นมืออาชีพ",
+        "description": "Default action: Make Professional"
+    },
+    "defaultActionSimplify": {
+        "message": "ทำให้ภาษาง่ายขึ้น",
+        "description": "Default action: Simplify Language"
+    },
+    "defaultActionSummarize": {
+        "message": "สรุป",
+        "description": "Default action: Summarize"
+    },
+    "popupTitle": {
+        "message": "AI Text Polisher",
+        "description": "Popup title"
+    },
+    "popupStatus": {
+        "message": "สถานะ",
+        "description": "Status label in popup"
+    },
+    "popupReady": {
+        "message": "พร้อม",
+        "description": "Ready status"
+    },
+    "popupOpenOptions": {
+        "message": "เปิดการตั้งค่า",
+        "description": "Open options button"
+    }
+}

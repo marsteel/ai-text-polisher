@@ -1,0 +1,138 @@
+{
+    "extensionName": {
+        "message": "AI Text Polisher",
+        "description": "Name of the extension"
+    },
+    "extensionDescription": {
+        "message": "ഇഷ്‌ടാനുസൃതമാക്കാവുന്ന പ്രവർത്തനങ്ങളോടെ AI ഉപയോഗിച്ച് തിരഞ്ഞെടുത്ത വാചകം മിനുക്കുക",
+        "description": "Description of the extension"
+    },
+    "contextMenuTitle": {
+        "message": "AI Text Polisher",
+        "description": "Title for context menu parent item"
+    },
+    "processing": {
+        "message": "പ്രോസസ്സ് ചെയ്യുന്നു...",
+        "description": "Processing status message"
+    },
+    "success": {
+        "message": "വിജയം!",
+        "description": "Success message"
+    },
+    "copiedToClipboard": {
+        "message": "ഫലം ക്ലിപ്പ്‌ബോർഡിലേക്ക് പകർത്തി",
+        "description": "Success notification when text is copied"
+    },
+    "error": {
+        "message": "പിശക്",
+        "description": "Error message"
+    },
+    "errorProcessing": {
+        "message": "വാചകം പ്രോസസ്സ് ചെയ്യുന്നതിൽ പിശക്",
+        "description": "Error notification message"
+    },
+    "noTextSelected": {
+        "message": "വാചകം തിരഞ്ഞെടുത്തിട്ടില്ല",
+        "description": "Error when no text is selected"
+    },
+    "apiKeyMissing": {
+        "message": "API കീ കോൺഫിഗർ ചെയ്തിട്ടില്ല. ദയവായി ഓപ്ഷൻസ് പേജിൽ അത് സജ്ജമാക്കുക.",
+        "description": "Error when API key is missing"
+    },
+    "networkError": {
+        "message": "നെറ്റ്‌വർക്ക് പിശക്. ദയവായി നിങ്ങളുടെ കണക്ഷൻ പരിശോധിക്കുക.",
+        "description": "Network error message"
+    },
+    "optionsTitle": {
+        "message": "AI Text Polisher ക്രമീകരണങ്ങൾ",
+        "description": "Title for options page"
+    },
+    "apiSettings": {
+        "message": "API ക്രമീകരണങ്ങൾ",
+        "description": "API settings section title"
+    },
+    "apiUrl": {
+        "message": "API URL",
+        "description": "API URL label"
+    },
+    "apiKey": {
+        "message": "API കീ",
+        "description": "API key label"
+    },
+    "modelName": {
+        "message": "മോഡൽ പേര്",
+        "description": "Model name label"
+    },
+    "actions": {
+        "message": "പ്രവർത്തനങ്ങൾ",
+        "description": "Actions section title"
+    },
+    "actionName": {
+        "message": "പ്രവർത്തന പേര്",
+        "description": "Action name label"
+    },
+    "actionPrompt": {
+        "message": "പ്രോംപ്റ്റ്",
+        "description": "Action prompt label"
+    },
+    "addAction": {
+        "message": "പ്രവർത്തനം ചേർക്കുക",
+        "description": "Add action button"
+    },
+    "editAction": {
+        "message": "എഡിറ്റ് ചെയ്യുക",
+        "description": "Edit action button"
+    },
+    "deleteAction": {
+        "message": "ഇല്ലാതാക്കുക",
+        "description": "Delete action button"
+    },
+    "save": {
+        "message": "സേവ് ചെയ്യുക",
+        "description": "Save button"
+    },
+    "cancel": {
+        "message": "റദ്ദാക്കുക",
+        "description": "Cancel button"
+    },
+    "settingsSaved": {
+        "message": "ക്രമീകരണങ്ങൾ വിജയകരമായി സേവ് ചെയ്തു",
+        "description": "Settings saved notification"
+    },
+    "defaultActionPolish": {
+        "message": "മിനുക്കി മെച്ചപ്പെടുത്തുക",
+        "description": "Default action: Polish & Improve"
+    },
+    "defaultActionGrammar": {
+        "message": "വ്യാകരണം ശരിയാക്കുക",
+        "description": "Default action: Fix Grammar"
+    },
+    "defaultActionProfessional": {
+        "message": "പ്രൊഫഷണലാക്കുക",
+        "description": "Default action: Make Professional"
+    },
+    "defaultActionSimplify": {
+        "message": "ഭാഷ ലളിതമാക്കുക",
+        "description": "Default action: Simplify Language"
+    },
+    "defaultActionSummarize": {
+        "message": "സംഗ്രഹിക്കുക",
+        "description": "Default action: Summarize"
+    },
+    "popupTitle": {
+        "message": "AI Text Polisher",
+        "description": "Popup title"
+    },
+    "popupStatus": {
+        "message": "സ്റ്റാറ്റസ്",
+        "description": "Status label in popup"
+    },
+    "popupReady": {
+        "message": "തയ്യാർ",
+        "description": "Ready status"
+    },
+    "popupOpenOptions": {
+        "message": "ക്രമീകരണങ്ങൾ തുറക്കുക",
+        "description": "Open options button"
+    }
+}

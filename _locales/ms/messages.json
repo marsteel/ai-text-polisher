@@ -1,0 +1,138 @@
+{
+    "extensionName": {
+        "message": "AI Text Polisher",
+        "description": "Name of the extension"
+    },
+    "extensionDescription": {
+        "message": "Gilap teks terpilih menggunakan AI dengan tindakan yang boleh disesuaikan",
+        "description": "Description of the extension"
+    },
+    "contextMenuTitle": {
+        "message": "AI Text Polisher",
+        "description": "Title for context menu parent item"
+    },
+    "processing": {
+        "message": "Memproses...",
+        "description": "Processing status message"
+    },
+    "success": {
+        "message": "Berjaya!",
+        "description": "Success message"
+    },
+    "copiedToClipboard": {
+        "message": "Hasil disalin ke papan keratan",
+        "description": "Success notification when text is copied"
+    },
+    "error": {
+        "message": "Ralat",
+        "description": "Error message"
+    },
+    "errorProcessing": {
+        "message": "Ralat semasa memproses teks",
+        "description": "Error notification message"
+    },
+    "noTextSelected": {
+        "message": "Tiada teks dipilih",
+        "description": "Error when no text is selected"
+    },
+    "apiKeyMissing": {
+        "message": "Kunci API tidak dikonfigurasi. Sila tetapkannya di halaman pilihan.",
+        "description": "Error when API key is missing"
+    },
+    "networkError": {
+        "message": "Ralat rangkaian. Sila semak sambungan anda.",
+        "description": "Network error message"
+    },
+    "optionsTitle": {
+        "message": "Tetapan AI Text Polisher",
+        "description": "Title for options page"
+    },
+    "apiSettings": {
+        "message": "Tetapan API",
+        "description": "API settings section title"
+    },
+    "apiUrl": {
+        "message": "URL API",
+        "description": "API URL label"
+    },
+    "apiKey": {
+        "message": "Kunci API",
+        "description": "API key label"
+    },
+    "modelName": {
+        "message": "Nama Model",
+        "description": "Model name label"
+    },
+    "actions": {
+        "message": "Tindakan",
+        "description": "Actions section title"
+    },
+    "actionName": {
+        "message": "Nama Tindakan",
+        "description": "Action name label"
+    },
+    "actionPrompt": {
+        "message": "Gesaan",
+        "description": "Action prompt label"
+    },
+    "addAction": {
+        "message": "Tambah Tindakan",
+        "description": "Add action button"
+    },
+    "editAction": {
+        "message": "Edit",
+        "description": "Edit action button"
+    },
+    "deleteAction": {
+        "message": "Padam",
+        "description": "Delete action button"
+    },
+    "save": {
+        "message": "Simpan",
+        "description": "Save button"
+    },
+    "cancel": {
+        "message": "Batal",
+        "description": "Cancel button"
+    },
+    "settingsSaved": {
+        "message": "Tetapan berjaya disimpan",
+        "description": "Settings saved notification"
+    },
+    "defaultActionPolish": {
+        "message": "Gilap dan Tingkatkan",
+        "description": "Default action: Polish & Improve"
+    },
+    "defaultActionGrammar": {
+        "message": "Betulkan Tatabahasa",
+        "description": "Default action: Fix Grammar"
+    },
+    "defaultActionProfessional": {
+        "message": "Jadikan Profesional",
+        "description": "Default action: Make Professional"
+    },
+    "defaultActionSimplify": {
+        "message": "Permudahkan Bahasa",
+        "description": "Default action: Simplify Language"
+    },
+    "defaultActionSummarize": {
+        "message": "Ringkaskan",
+        "description": "Default action: Summarize"
+    },
+    "popupTitle": {
+        "message": "AI Text Polisher",
+        "description": "Popup title"
+    },
+    "popupStatus": {
+        "message": "Status",
+        "description": "Status label in popup"
+    },
+    "popupReady": {
+        "message": "Sedia",
+        "description": "Ready status"
+    },
+    "popupOpenOptions": {
+        "message": "Buka Tetapan",
+        "description": "Open options button"
+    }
+}

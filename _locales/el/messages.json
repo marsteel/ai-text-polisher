@@ -1,0 +1,138 @@
+{
+    "extensionName": {
+        "message": "AI Text Polisher",
+        "description": "Name of the extension"
+    },
+    "extensionDescription": {
+        "message": "Βελτιώστε το επιλεγμένο κείμενο χρησιμοποιώντας AI με προσαρμόσιμες ενέργειες",
+        "description": "Description of the extension"
+    },
+    "contextMenuTitle": {
+        "message": "AI Text Polisher",
+        "description": "Title for context menu parent item"
+    },
+    "processing": {
+        "message": "Επεξεργασία...",
+        "description": "Processing status message"
+    },
+    "success": {
+        "message": "Επιτυχία!",
+        "description": "Success message"
+    },
+    "copiedToClipboard": {
+        "message": "Το αποτέλεσμα αντιγράφηκε στο πρόχειρο",
+        "description": "Success notification when text is copied"
+    },
+    "error": {
+        "message": "Σφάλμα",
+        "description": "Error message"
+    },
+    "errorProcessing": {
+        "message": "Σφάλμα κατά την επεξεργασία κειμένου",
+        "description": "Error notification message"
+    },
+    "noTextSelected": {
+        "message": "Δεν έχει επιλεγεί κείμενο",
+        "description": "Error when no text is selected"
+    },
+    "apiKeyMissing": {
+        "message": "Το κλειδί API δεν έχει ρυθμιστεί. Παρακαλώ ορίστε το στη σελίδα επιλογών.",
+        "description": "Error when API key is missing"
+    },
+    "networkError": {
+        "message": "Σφάλμα δικτύου. Παρακαλώ ελέγξτε τη σύνδεσή σας.",
+        "description": "Network error message"
+    },
+    "optionsTitle": {
+        "message": "Ρυθμίσεις AI Text Polisher",
+        "description": "Title for options page"
+    },
+    "apiSettings": {
+        "message": "Ρυθμίσεις API",
+        "description": "API settings section title"
+    },
+    "apiUrl": {
+        "message": "URL API",
+        "description": "API URL label"
+    },
+    "apiKey": {
+        "message": "Κλειδί API",
+        "description": "API key label"
+    },
+    "modelName": {
+        "message": "Όνομα μοντέλου",
+        "description": "Model name label"
+    },
+    "actions": {
+        "message": "Ενέργειες",
+        "description": "Actions section title"
+    },
+    "actionName": {
+        "message": "Όνομα ενέργειας",
+        "description": "Action name label"
+    },
+    "actionPrompt": {
+        "message": "Προτροπή",
+        "description": "Action prompt label"
+    },
+    "addAction": {
+        "message": "Προσθήκη ενέργειας",
+        "description": "Add action button"
+    },
+    "editAction": {
+        "message": "Επεξεργασία",
+        "description": "Edit action button"
+    },
+    "deleteAction": {
+        "message": "Διαγραφή",
+        "description": "Delete action button"
+    },
+    "save": {
+        "message": "Αποθήκευση",
+        "description": "Save button"
+    },
+    "cancel": {
+        "message": "Ακύρωση",
+        "description": "Cancel button"
+    },
+    "settingsSaved": {
+        "message": "Οι ρυθμίσεις αποθηκεύτηκαν επιτυχώς",
+        "description": "Settings saved notification"
+    },
+    "defaultActionPolish": {
+        "message": "Βελτίωση και επεξεργασία",
+        "description": "Default action: Polish & Improve"
+    },
+    "defaultActionGrammar": {
+        "message": "Διόρθωση γραμματικής",
+        "description": "Default action: Fix Grammar"
+    },
+    "defaultActionProfessional": {
+        "message": "Κάντε το επαγγελματικό",
+        "description": "Default action: Make Professional"
+    },
+    "defaultActionSimplify": {
+        "message": "Απλοποίηση γλώσσας",
+        "description": "Default action: Simplify Language"
+    },
+    "defaultActionSummarize": {
+        "message": "Περίληψη",
+        "description": "Default action: Summarize"
+    },
+    "popupTitle": {
+        "message": "AI Text Polisher",
+        "description": "Popup title"
+    },
+    "popupStatus": {
+        "message": "Κατάσταση",
+        "description": "Status label in popup"
+    },
+    "popupReady": {
+        "message": "Έτοιμο",
+        "description": "Ready status"
+    },
+    "popupOpenOptions": {
+        "message": "Άνοιγμα ρυθμίσεων",
+        "description": "Open options button"
+    }
+}

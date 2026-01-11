@@ -1,0 +1,138 @@
+{
+    "extensionName": {
+        "message": "AI Text Polisher",
+        "description": "Name of the extension"
+    },
+    "extensionDescription": {
+        "message": "কাস্টমাইজযোগ্য ক্রিয়া সহ AI ব্যবহার করে নির্বাচিত পাঠ্য পালিশ করুন",
+        "description": "Description of the extension"
+    },
+    "contextMenuTitle": {
+        "message": "AI Text Polisher",
+        "description": "Title for context menu parent item"
+    },
+    "processing": {
+        "message": "প্রক্রিয়াকরণ...",
+        "description": "Processing status message"
+    },
+    "success": {
+        "message": "সফল!",
+        "description": "Success message"
+    },
+    "copiedToClipboard": {
+        "message": "ফলাফল ক্লিপবোর্ডে কপি করা হয়েছে",
+        "description": "Success notification when text is copied"
+    },
+    "error": {
+        "message": "ত্রুটি",
+        "description": "Error message"
+    },
+    "errorProcessing": {
+        "message": "পাঠ্য প্রক্রিয়াকরণে ত্রুটি",
+        "description": "Error notification message"
+    },
+    "noTextSelected": {
+        "message": "কোনো পাঠ্য নির্বাচিত নেই",
+        "description": "Error when no text is selected"
+    },
+    "apiKeyMissing": {
+        "message": "API কী কনফিগার করা হয়নি। দয়া করে বিকল্প পৃষ্ঠায় এটি সেট করুন।",
+        "description": "Error when API key is missing"
+    },
+    "networkError": {
+        "message": "নেটওয়ার্ক ত্রুটি। দয়া করে আপনার সংযোগ পরীক্ষা করুন।",
+        "description": "Network error message"
+    },
+    "optionsTitle": {
+        "message": "AI Text Polisher সেটিংস",
+        "description": "Title for options page"
+    },
+    "apiSettings": {
+        "message": "API সেটিংস",
+        "description": "API settings section title"
+    },
+    "apiUrl": {
+        "message": "API URL",
+        "description": "API URL label"
+    },
+    "apiKey": {
+        "message": "API কী",
+        "description": "API key label"
+    },
+    "modelName": {
+        "message": "মডেলের নাম",
+        "description": "Model name label"
+    },
+    "actions": {
+        "message": "ক্রিয়া",
+        "description": "Actions section title"
+    },
+    "actionName": {
+        "message": "ক্রিয়ার নাম",
+        "description": "Action name label"
+    },
+    "actionPrompt": {
+        "message": "প্রম্পট",
+        "description": "Action prompt label"
+    },
+    "addAction": {
+        "message": "ক্রিয়া যোগ করুন",
+        "description": "Add action button"
+    },
+    "editAction": {
+        "message": "সম্পাদনা করুন",
+        "description": "Edit action button"
+    },
+    "deleteAction": {
+        "message": "মুছুন",
+        "description": "Delete action button"
+    },
+    "save": {
+        "message": "সংরক্ষণ করুন",
+        "description": "Save button"
+    },
+    "cancel": {
+        "message": "বাতিল করুন",
+        "description": "Cancel button"
+    },
+    "settingsSaved": {
+        "message": "সেটিংস সফলভাবে সংরক্ষিত হয়েছে",
+        "description": "Settings saved notification"
+    },
+    "defaultActionPolish": {
+        "message": "পালিশ এবং উন্নত করুন",
+        "description": "Default action: Polish & Improve"
+    },
+    "defaultActionGrammar": {
+        "message": "ব্যাকরণ ঠিক করুন",
+        "description": "Default action: Fix Grammar"
+    },
+    "defaultActionProfessional": {
+        "message": "পেশাদার করুন",
+        "description": "Default action: Make Professional"
+    },
+    "defaultActionSimplify": {
+        "message": "ভাষা সরল করুন",
+        "description": "Default action: Simplify Language"
+    },
+    "defaultActionSummarize": {
+        "message": "সংক্ষিপ্ত করুন",
+        "description": "Default action: Summarize"
+    },
+    "popupTitle": {
+        "message": "AI Text Polisher",
+        "description": "Popup title"
+    },
+    "popupStatus": {
+        "message": "অবস্থা",
+        "description": "Status label in popup"
+    },
+    "popupReady": {
+        "message": "প্রস্তুত",
+        "description": "Ready status"
+    },
+    "popupOpenOptions": {
+        "message": "সেটিংস খুলুন",
+        "description": "Open options button"
+    }
+}

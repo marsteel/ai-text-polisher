@@ -1,0 +1,138 @@
+{
+    "extensionName": {
+        "message": "AI Text Polisher",
+        "description": "Name of the extension"
+    },
+    "extensionDescription": {
+        "message": "Hioa valittua tekstiä tekoälyllä mukautettavilla toiminnoilla",
+        "description": "Description of the extension"
+    },
+    "contextMenuTitle": {
+        "message": "AI Text Polisher",
+        "description": "Title for context menu parent item"
+    },
+    "processing": {
+        "message": "Käsitellään...",
+        "description": "Processing status message"
+    },
+    "success": {
+        "message": "Onnistui!",
+        "description": "Success message"
+    },
+    "copiedToClipboard": {
+        "message": "Tulos kopioitu leikepöydälle",
+        "description": "Success notification when text is copied"
+    },
+    "error": {
+        "message": "Virhe",
+        "description": "Error message"
+    },
+    "errorProcessing": {
+        "message": "Virhe tekstin käsittelyssä",
+        "description": "Error notification message"
+    },
+    "noTextSelected": {
+        "message": "Tekstiä ei valittu",
+        "description": "Error when no text is selected"
+    },
+    "apiKeyMissing": {
+        "message": "API-avainta ei ole määritetty. Aseta se asetussivulla.",
+        "description": "Error when API key is missing"
+    },
+    "networkError": {
+        "message": "Verkkovirhe. Tarkista yhteytesi.",
+        "description": "Network error message"
+    },
+    "optionsTitle": {
+        "message": "AI Text Polisher -asetukset",
+        "description": "Title for options page"
+    },
+    "apiSettings": {
+        "message": "API-asetukset",
+        "description": "API settings section title"
+    },
+    "apiUrl": {
+        "message": "API URL",
+        "description": "API URL label"
+    },
+    "apiKey": {
+        "message": "API-avain",
+        "description": "API key label"
+    },
+    "modelName": {
+        "message": "Mallin nimi",
+        "description": "Model name label"
+    },
+    "actions": {
+        "message": "Toiminnot",
+        "description": "Actions section title"
+    },
+    "actionName": {
+        "message": "Toiminnon nimi",
+        "description": "Action name label"
+    },
+    "actionPrompt": {
+        "message": "Kehote",
+        "description": "Action prompt label"
+    },
+    "addAction": {
+        "message": "Lisää toiminto",
+        "description": "Add action button"
+    },
+    "editAction": {
+        "message": "Muokkaa",
+        "description": "Edit action button"
+    },
+    "deleteAction": {
+        "message": "Poista",
+        "description": "Delete action button"
+    },
+    "save": {
+        "message": "Tallenna",
+        "description": "Save button"
+    },
+    "cancel": {
+        "message": "Peruuta",
+        "description": "Cancel button"
+    },
+    "settingsSaved": {
+        "message": "Asetukset tallennettu",
+        "description": "Settings saved notification"
+    },
+    "defaultActionPolish": {
+        "message": "Hioa ja paranna",
+        "description": "Default action: Polish & Improve"
+    },
+    "defaultActionGrammar": {
+        "message": "Korjaa kielioppi",
+        "description": "Default action: Fix Grammar"
+    },
+    "defaultActionProfessional": {
+        "message": "Tee ammattimaiseksi",
+        "description": "Default action: Make Professional"
+    },
+    "defaultActionSimplify": {
+        "message": "Yksinkertaista kieltä",
+        "description": "Default action: Simplify Language"
+    },
+    "defaultActionSummarize": {
+        "message": "Tiivistä",
+        "description": "Default action: Summarize"
+    },
+    "popupTitle": {
+        "message": "AI Text Polisher",
+        "description": "Popup title"
+    },
+    "popupStatus": {
+        "message": "Tila",
+        "description": "Status label in popup"
+    },
+    "popupReady": {
+        "message": "Valmis",
+        "description": "Ready status"
+    },
+    "popupOpenOptions": {
+        "message": "Avaa asetukset",
+        "description": "Open options button"
+    }
+}

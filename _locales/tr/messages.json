@@ -1,0 +1,138 @@
+{
+    "extensionName": {
+        "message": "AI Text Polisher",
+        "description": "Name of the extension"
+    },
+    "extensionDescription": {
+        "message": "Seçilen metni özelleştirilebilir eylemlerle yapay zeka kullanarak cilalayın",
+        "description": "Description of the extension"
+    },
+    "contextMenuTitle": {
+        "message": "AI Text Polisher",
+        "description": "Title for context menu parent item"
+    },
+    "processing": {
+        "message": "İşleniyor...",
+        "description": "Processing status message"
+    },
+    "success": {
+        "message": "Başarılı!",
+        "description": "Success message"
+    },
+    "copiedToClipboard": {
+        "message": "Sonuç panoya kopyalandı",
+        "description": "Success notification when text is copied"
+    },
+    "error": {
+        "message": "Hata",
+        "description": "Error message"
+    },
+    "errorProcessing": {
+        "message": "Metin işlenirken hata oluştu",
+        "description": "Error notification message"
+    },
+    "noTextSelected": {
+        "message": "Metin seçilmedi",
+        "description": "Error when no text is selected"
+    },
+    "apiKeyMissing": {
+        "message": "API anahtarı yapılandırılmamış. Lütfen seçenekler sayfasında ayarlayın.",
+        "description": "Error when API key is missing"
+    },
+    "networkError": {
+        "message": "Ağ hatası. Lütfen bağlantınızı kontrol edin.",
+        "description": "Network error message"
+    },
+    "optionsTitle": {
+        "message": "AI Text Polisher Ayarları",
+        "description": "Title for options page"
+    },
+    "apiSettings": {
+        "message": "API Ayarları",
+        "description": "API settings section title"
+    },
+    "apiUrl": {
+        "message": "API URL'si",
+        "description": "API URL label"
+    },
+    "apiKey": {
+        "message": "API Anahtarı",
+        "description": "API key label"
+    },
+    "modelName": {
+        "message": "Model Adı",
+        "description": "Model name label"
+    },
+    "actions": {
+        "message": "Eylemler",
+        "description": "Actions section title"
+    },
+    "actionName": {
+        "message": "Eylem Adı",
+        "description": "Action name label"
+    },
+    "actionPrompt": {
+        "message": "İstem",
+        "description": "Action prompt label"
+    },
+    "addAction": {
+        "message": "Eylem Ekle",
+        "description": "Add action button"
+    },
+    "editAction": {
+        "message": "Düzenle",
+        "description": "Edit action button"
+    },
+    "deleteAction": {
+        "message": "Sil",
+        "description": "Delete action button"
+    },
+    "save": {
+        "message": "Kaydet",
+        "description": "Save button"
+    },
+    "cancel": {
+        "message": "İptal",
+        "description": "Cancel button"
+    },
+    "settingsSaved": {
+        "message": "Ayarlar başarıyla kaydedildi",
+        "description": "Settings saved notification"
+    },
+    "defaultActionPolish": {
+        "message": "Cilala ve İyileştir",
+        "description": "Default action: Polish & Improve"
+    },
+    "defaultActionGrammar": {
+        "message": "Dilbilgisini Düzelt",
+        "description": "Default action: Fix Grammar"
+    },
+    "defaultActionProfessional": {
+        "message": "Profesyonel Yap",
+        "description": "Default action: Make Professional"
+    },
+    "defaultActionSimplify": {
+        "message": "Dili Basitleştir",
+        "description": "Default action: Simplify Language"
+    },
+    "defaultActionSummarize": {
+        "message": "Özetle",
+        "description": "Default action: Summarize"
+    },
+    "popupTitle": {
+        "message": "AI Text Polisher",
+        "description": "Popup title"
+    },
+    "popupStatus": {
+        "message": "Durum",
+        "description": "Status label in popup"
+    },
+    "popupReady": {
+        "message": "Hazır",
+        "description": "Ready status"
+    },
+    "popupOpenOptions": {
+        "message": "Ayarları Aç",
+        "description": "Open options button"
+    }
+}

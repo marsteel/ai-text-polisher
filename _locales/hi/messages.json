@@ -1,0 +1,138 @@
+{
+    "extensionName": {
+        "message": "AI Text Polisher",
+        "description": "Name of the extension"
+    },
+    "extensionDescription": {
+        "message": "अनुकूलन योग्य क्रियाओं के साथ AI का उपयोग करके चयनित पाठ को पॉलिश करें",
+        "description": "Description of the extension"
+    },
+    "contextMenuTitle": {
+        "message": "AI Text Polisher",
+        "description": "Title for context menu parent item"
+    },
+    "processing": {
+        "message": "प्रसंस्करण...",
+        "description": "Processing status message"
+    },
+    "success": {
+        "message": "सफल!",
+        "description": "Success message"
+    },
+    "copiedToClipboard": {
+        "message": "परिणाम क्लिपबोर्ड पर कॉपी किया गया",
+        "description": "Success notification when text is copied"
+    },
+    "error": {
+        "message": "त्रुटि",
+        "description": "Error message"
+    },
+    "errorProcessing": {
+        "message": "पाठ प्रसंस्करण में त्रुटि",
+        "description": "Error notification message"
+    },
+    "noTextSelected": {
+        "message": "कोई पाठ चयनित नहीं",
+        "description": "Error when no text is selected"
+    },
+    "apiKeyMissing": {
+        "message": "API कुंजी कॉन्फ़िगर नहीं की गई। कृपया इसे विकल्प पृष्ठ में सेट करें।",
+        "description": "Error when API key is missing"
+    },
+    "networkError": {
+        "message": "नेटवर्क त्रुटि। कृपया अपना कनेक्शन जांचें।",
+        "description": "Network error message"
+    },
+    "optionsTitle": {
+        "message": "AI Text Polisher सेटिंग्स",
+        "description": "Title for options page"
+    },
+    "apiSettings": {
+        "message": "API सेटिंग्स",
+        "description": "API settings section title"
+    },
+    "apiUrl": {
+        "message": "API URL",
+        "description": "API URL label"
+    },
+    "apiKey": {
+        "message": "API कुंजी",
+        "description": "API key label"
+    },
+    "modelName": {
+        "message": "मॉडल नाम",
+        "description": "Model name label"
+    },
+    "actions": {
+        "message": "क्रियाएं",
+        "description": "Actions section title"
+    },
+    "actionName": {
+        "message": "क्रिया नाम",
+        "description": "Action name label"
+    },
+    "actionPrompt": {
+        "message": "प्रॉम्प्ट",
+        "description": "Action prompt label"
+    },
+    "addAction": {
+        "message": "क्रिया जोड़ें",
+        "description": "Add action button"
+    },
+    "editAction": {
+        "message": "संपादित करें",
+        "description": "Edit action button"
+    },
+    "deleteAction": {
+        "message": "हटाएं",
+        "description": "Delete action button"
+    },
+    "save": {
+        "message": "सहेजें",
+        "description": "Save button"
+    },
+    "cancel": {
+        "message": "रद्द करें",
+        "description": "Cancel button"
+    },
+    "settingsSaved": {
+        "message": "सेटिंग्स सफलतापूर्वक सहेजी गईं",
+        "description": "Settings saved notification"
+    },
+    "defaultActionPolish": {
+        "message": "पॉलिश और सुधार करें",
+        "description": "Default action: Polish & Improve"
+    },
+    "defaultActionGrammar": {
+        "message": "व्याकरण ठीक करें",
+        "description": "Default action: Fix Grammar"
+    },
+    "defaultActionProfessional": {
+        "message": "पेशेवर बनाएं",
+        "description": "Default action: Make Professional"
+    },
+    "defaultActionSimplify": {
+        "message": "भाषा सरल बनाएं",
+        "description": "Default action: Simplify Language"
+    },
+    "defaultActionSummarize": {
+        "message": "सारांश",
+        "description": "Default action: Summarize"
+    },
+    "popupTitle": {
+        "message": "AI Text Polisher",
+        "description": "Popup title"
+    },
+    "popupStatus": {
+        "message": "स्थिति",
+        "description": "Status label in popup"
+    },
+    "popupReady": {
+        "message": "तैयार",
+        "description": "Ready status"
+    },
+    "popupOpenOptions": {
+        "message": "सेटिंग्स खोलें",
+        "description": "Open options button"
+    }
+}

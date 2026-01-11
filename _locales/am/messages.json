@@ -1,0 +1,138 @@
+{
+    "extensionName": {
+        "message": "AI Text Polisher",
+        "description": "Name of the extension"
+    },
+    "extensionDescription": {
+        "message": "የተመረጠውን ጽሑፍ በማበጀት የሚቻሉ ድርጊቶች በመጠቀም በAI ያጥሩ",
+        "description": "Description of the extension"
+    },
+    "contextMenuTitle": {
+        "message": "AI Text Polisher",
+        "description": "Title for context menu parent item"
+    },
+    "processing": {
+        "message": "በማስኬድ ላይ...",
+        "description": "Processing status message"
+    },
+    "success": {
+        "message": "ተሳክቷል!",
+        "description": "Success message"
+    },
+    "copiedToClipboard": {
+        "message": "ውጤቱ ወደ ቅንጥብ ሰሌዳ ተቀድቷል",
+        "description": "Success notification when text is copied"
+    },
+    "error": {
+        "message": "ስህተት",
+        "description": "Error message"
+    },
+    "errorProcessing": {
+        "message": "ጽሑፍን በማስኬድ ላይ ስህተት",
+        "description": "Error notification message"
+    },
+    "noTextSelected": {
+        "message": "ምንም ጽሑፍ አልተመረጠም",
+        "description": "Error when no text is selected"
+    },
+    "apiKeyMissing": {
+        "message": "የ API ቁልፍ አልተዋቀረም። እባክዎን በአማራጮች ገጽ ላይ ያዋቅሩት።",
+        "description": "Error when API key is missing"
+    },
+    "networkError": {
+        "message": "የአውታረ መረብ ስህተት። እባክዎን ግንኙነትዎን ያረጋግጡ።",
+        "description": "Network error message"
+    },
+    "optionsTitle": {
+        "message": "የ AI Text Polisher ቅንብሮች",
+        "description": "Title for options page"
+    },
+    "apiSettings": {
+        "message": "የ API ቅንብሮች",
+        "description": "API settings section title"
+    },
+    "apiUrl": {
+        "message": "የ API URL",
+        "description": "API URL label"
+    },
+    "apiKey": {
+        "message": "የ API ቁልፍ",
+        "description": "API key label"
+    },
+    "modelName": {
+        "message": "የሞዴል ስም",
+        "description": "Model name label"
+    },
+    "actions": {
+        "message": "ድርጊቶች",
+        "description": "Actions section title"
+    },
+    "actionName": {
+        "message": "የድርጊት ስም",
+        "description": "Action name label"
+    },
+    "actionPrompt": {
+        "message": "መመሪያ",
+        "description": "Action prompt label"
+    },
+    "addAction": {
+        "message": "ድርጊት ያክሉ",
+        "description": "Add action button"
+    },
+    "editAction": {
+        "message": "አርትዕ",
+        "description": "Edit action button"
+    },
+    "deleteAction": {
+        "message": "ሰርዝ",
+        "description": "Delete action button"
+    },
+    "save": {
+        "message": "አስቀምጥ",
+        "description": "Save button"
+    },
+    "cancel": {
+        "message": "ሰርዝ",
+        "description": "Cancel button"
+    },
+    "settingsSaved": {
+        "message": "ቅንብሮች በተሳካ ሁኔታ ተቀምጠዋል",
+        "description": "Settings saved notification"
+    },
+    "defaultActionPolish": {
+        "message": "አጥራ እና አሻሽል",
+        "description": "Default action: Polish & Improve"
+    },
+    "defaultActionGrammar": {
+        "message": "ሰዋሰውን አስተካክል",
+        "description": "Default action: Fix Grammar"
+    },
+    "defaultActionProfessional": {
+        "message": "ሙያዊ አድርግ",
+        "description": "Default action: Make Professional"
+    },
+    "defaultActionSimplify": {
+        "message": "ቋንቋን ቀላል አድርግ",
+        "description": "Default action: Simplify Language"
+    },
+    "defaultActionSummarize": {
+        "message": "ማጠቃለያ",
+        "description": "Default action: Summarize"
+    },
+    "popupTitle": {
+        "message": "AI Text Polisher",
+        "description": "Popup title"
+    },
+    "popupStatus": {
+        "message": "ሁኔታ",
+        "description": "Status label in popup"
+    },
+    "popupReady": {
+        "message": "ዝግጁ",
+        "description": "Ready status"
+    },
+    "popupOpenOptions": {
+        "message": "ቅንብሮችን ክፈት",
+        "description": "Open options button"
+    }
+}

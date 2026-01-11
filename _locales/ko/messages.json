@@ -1,0 +1,138 @@
+{
+    "extensionName": {
+        "message": "AI 텍스트 폴리셔",
+        "description": "Name of the extension"
+    },
+    "extensionDescription": {
+        "message": "사용자 정의 가능한 작업으로 AI를 사용하여 선택한 텍스트를 다듬습니다",
+        "description": "Description of the extension"
+    },
+    "contextMenuTitle": {
+        "message": "AI 텍스트 폴리셔",
+        "description": "Title for context menu parent item"
+    },
+    "processing": {
+        "message": "처리 중...",
+        "description": "Processing status message"
+    },
+    "success": {
+        "message": "성공!",
+        "description": "Success message"
+    },
+    "copiedToClipboard": {
+        "message": "결과가 클립보드에 복사되었습니다",
+        "description": "Success notification when text is copied"
+    },
+    "error": {
+        "message": "오류",
+        "description": "Error message"
+    },
+    "errorProcessing": {
+        "message": "텍스트 처리 중 오류 발생",
+        "description": "Error notification message"
+    },
+    "noTextSelected": {
+        "message": "선택된 텍스트 없음",
+        "description": "Error when no text is selected"
+    },
+    "apiKeyMissing": {
+        "message": "API 키가 구성되지 않았습니다. 옵션 페이지에서 설정하세요.",
+        "description": "Error when API key is missing"
+    },
+    "networkError": {
+        "message": "네트워크 오류. 연결을 확인하세요.",
+        "description": "Network error message"
+    },
+    "optionsTitle": {
+        "message": "AI 텍스트 폴리셔 설정",
+        "description": "Title for options page"
+    },
+    "apiSettings": {
+        "message": "API 설정",
+        "description": "API settings section title"
+    },
+    "apiUrl": {
+        "message": "API URL",
+        "description": "API URL label"
+    },
+    "apiKey": {
+        "message": "API 키",
+        "description": "API key label"
+    },
+    "modelName": {
+        "message": "모델 이름",
+        "description": "Model name label"
+    },
+    "actions": {
+        "message": "작업",
+        "description": "Actions section title"
+    },
+    "actionName": {
+        "message": "작업 이름",
+        "description": "Action name label"
+    },
+    "actionPrompt": {
+        "message": "프롬프트",
+        "description": "Action prompt label"
+    },
+    "addAction": {
+        "message": "작업 추가",
+        "description": "Add action button"
+    },
+    "editAction": {
+        "message": "편집",
+        "description": "Edit action button"
+    },
+    "deleteAction": {
+        "message": "삭제",
+        "description": "Delete action button"
+    },
+    "save": {
+        "message": "저장",
+        "description": "Save button"
+    },
+    "cancel": {
+        "message": "취소",
+        "description": "Cancel button"
+    },
+    "settingsSaved": {
+        "message": "설정이 성공적으로 저장되었습니다",
+        "description": "Settings saved notification"
+    },
+    "defaultActionPolish": {
+        "message": "다듬기 및 개선",
+        "description": "Default action: Polish & Improve"
+    },
+    "defaultActionGrammar": {
+        "message": "문법 수정",
+        "description": "Default action: Fix Grammar"
+    },
+    "defaultActionProfessional": {
+        "message": "전문적으로 만들기",
+        "description": "Default action: Make Professional"
+    },
+    "defaultActionSimplify": {
+        "message": "언어 단순화",
+        "description": "Default action: Simplify Language"
+    },
+    "defaultActionSummarize": {
+        "message": "요약",
+        "description": "Default action: Summarize"
+    },
+    "popupTitle": {
+        "message": "AI 텍스트 폴리셔",
+        "description": "Popup title"
+    },
+    "popupStatus": {
+        "message": "상태",
+        "description": "Status label in popup"
+    },
+    "popupReady": {
+        "message": "준비됨",
+        "description": "Ready status"
+    },
+    "popupOpenOptions": {
+        "message": "설정 열기",
+        "description": "Open options button"
+    }
+}

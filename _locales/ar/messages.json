@@ -1,0 +1,138 @@
+{
+    "extensionName": {
+        "message": "AI Text Polisher",
+        "description": "Name of the extension"
+    },
+    "extensionDescription": {
+        "message": "صقل النص المحدد باستخدام الذكاء الاصطناعي والإجراءات القابلة للتخصيص",
+        "description": "Description of the extension"
+    },
+    "contextMenuTitle": {
+        "message": "AI Text Polisher",
+        "description": "Title for context menu parent item"
+    },
+    "processing": {
+        "message": "جاري المعالجة...",
+        "description": "Processing status message"
+    },
+    "success": {
+        "message": "نجح!",
+        "description": "Success message"
+    },
+    "copiedToClipboard": {
+        "message": "تم نسخ النتيجة إلى الحافظة",
+        "description": "Success notification when text is copied"
+    },
+    "error": {
+        "message": "خطأ",
+        "description": "Error message"
+    },
+    "errorProcessing": {
+        "message": "خطأ في معالجة النص",
+        "description": "Error notification message"
+    },
+    "noTextSelected": {
+        "message": "لم يتم تحديد نص",
+        "description": "Error when no text is selected"
+    },
+    "apiKeyMissing": {
+        "message": "لم يتم تكوين مفتاح API. يرجى تعيينه في صفحة الخيارات.",
+        "description": "Error when API key is missing"
+    },
+    "networkError": {
+        "message": "خطأ في الشبكة. يرجى التحقق من اتصالك.",
+        "description": "Network error message"
+    },
+    "optionsTitle": {
+        "message": "إعدادات AI Text Polisher",
+        "description": "Title for options page"
+    },
+    "apiSettings": {
+        "message": "إعدادات API",
+        "description": "API settings section title"
+    },
+    "apiUrl": {
+        "message": "عنوان URL لـ API",
+        "description": "API URL label"
+    },
+    "apiKey": {
+        "message": "مفتاح API",
+        "description": "API key label"
+    },
+    "modelName": {
+        "message": "اسم النموذج",
+        "description": "Model name label"
+    },
+    "actions": {
+        "message": "الإجراءات",
+        "description": "Actions section title"
+    },
+    "actionName": {
+        "message": "اسم الإجراء",
+        "description": "Action name label"
+    },
+    "actionPrompt": {
+        "message": "المطالبة",
+        "description": "Action prompt label"
+    },
+    "addAction": {
+        "message": "إضافة إجراء",
+        "description": "Add action button"
+    },
+    "editAction": {
+        "message": "تحرير",
+        "description": "Edit action button"
+    },
+    "deleteAction": {
+        "message": "حذف",
+        "description": "Delete action button"
+    },
+    "save": {
+        "message": "حفظ",
+        "description": "Save button"
+    },
+    "cancel": {
+        "message": "إلغاء",
+        "description": "Cancel button"
+    },
+    "settingsSaved": {
+        "message": "تم حفظ الإعدادات بنجاح",
+        "description": "Settings saved notification"
+    },
+    "defaultActionPolish": {
+        "message": "صقل وتحسين",
+        "description": "Default action: Polish & Improve"
+    },
+    "defaultActionGrammar": {
+        "message": "إصلاح القواعد",
+        "description": "Default action: Fix Grammar"
+    },
+    "defaultActionProfessional": {
+        "message": "جعله احترافيًا",
+        "description": "Default action: Make Professional"
+    },
+    "defaultActionSimplify": {
+        "message": "تبسيط اللغة",
+        "description": "Default action: Simplify Language"
+    },
+    "defaultActionSummarize": {
+        "message": "تلخيص",
+        "description": "Default action: Summarize"
+    },
+    "popupTitle": {
+        "message": "AI Text Polisher",
+        "description": "Popup title"
+    },
+    "popupStatus": {
+        "message": "الحالة",
+        "description": "Status label in popup"
+    },
+    "popupReady": {
+        "message": "جاهز",
+        "description": "Ready status"
+    },
+    "popupOpenOptions": {
+        "message": "فتح الإعدادات",
+        "description": "Open options button"
+    }
+}

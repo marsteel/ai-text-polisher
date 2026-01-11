@@ -1,0 +1,138 @@
+{
+    "extensionName": {
+        "message": "AI Tekst Polijster",
+        "description": "Name of the extension"
+    },
+    "extensionDescription": {
+        "message": "Polijst geselecteerde tekst met AI met aanpasbare acties",
+        "description": "Description of the extension"
+    },
+    "contextMenuTitle": {
+        "message": "AI Tekst Polijster",
+        "description": "Title for context menu parent item"
+    },
+    "processing": {
+        "message": "Verwerken...",
+        "description": "Processing status message"
+    },
+    "success": {
+        "message": "Succes!",
+        "description": "Success message"
+    },
+    "copiedToClipboard": {
+        "message": "Resultaat gekopieerd naar klembord",
+        "description": "Success notification when text is copied"
+    },
+    "error": {
+        "message": "Fout",
+        "description": "Error message"
+    },
+    "errorProcessing": {
+        "message": "Fout bij verwerken van tekst",
+        "description": "Error notification message"
+    },
+    "noTextSelected": {
+        "message": "Geen tekst geselecteerd",
+        "description": "Error when no text is selected"
+    },
+    "apiKeyMissing": {
+        "message": "API-sleutel niet geconfigureerd. Stel deze in op de optiespagina.",
+        "description": "Error when API key is missing"
+    },
+    "networkError": {
+        "message": "Netwerkfout. Controleer uw verbinding.",
+        "description": "Network error message"
+    },
+    "optionsTitle": {
+        "message": "AI Tekst Polijster Instellingen",
+        "description": "Title for options page"
+    },
+    "apiSettings": {
+        "message": "API-instellingen",
+        "description": "API settings section title"
+    },
+    "apiUrl": {
+        "message": "API URL",
+        "description": "API URL label"
+    },
+    "apiKey": {
+        "message": "API-sleutel",
+        "description": "API key label"
+    },
+    "modelName": {
+        "message": "Modelnaam",
+        "description": "Model name label"
+    },
+    "actions": {
+        "message": "Acties",
+        "description": "Actions section title"
+    },
+    "actionName": {
+        "message": "Actienaam",
+        "description": "Action name label"
+    },
+    "actionPrompt": {
+        "message": "Prompt",
+        "description": "Action prompt label"
+    },
+    "addAction": {
+        "message": "Actie toevoegen",
+        "description": "Add action button"
+    },
+    "editAction": {
+        "message": "Bewerken",
+        "description": "Edit action button"
+    },
+    "deleteAction": {
+        "message": "Verwijderen",
+        "description": "Delete action button"
+    },
+    "save": {
+        "message": "Opslaan",
+        "description": "Save button"
+    },
+    "cancel": {
+        "message": "Annuleren",
+        "description": "Cancel button"
+    },
+    "settingsSaved": {
+        "message": "Instellingen succesvol opgeslagen",
+        "description": "Settings saved notification"
+    },
+    "defaultActionPolish": {
+        "message": "Polijsten en verbeteren",
+        "description": "Default action: Polish & Improve"
+    },
+    "defaultActionGrammar": {
+        "message": "Grammatica corrigeren",
+        "description": "Default action: Fix Grammar"
+    },
+    "defaultActionProfessional": {
+        "message": "Professioneel maken",
+        "description": "Default action: Make Professional"
+    },
+    "defaultActionSimplify": {
+        "message": "Taal vereenvoudigen",
+        "description": "Default action: Simplify Language"
+    },
+    "defaultActionSummarize": {
+        "message": "Samenvatten",
+        "description": "Default action: Summarize"
+    },
+    "popupTitle": {
+        "message": "AI Tekst Polijster",
+        "description": "Popup title"
+    },
+    "popupStatus": {
+        "message": "Status",
+        "description": "Status label in popup"
+    },
+    "popupReady": {
+        "message": "Klaar",
+        "description": "Ready status"
+    },
+    "popupOpenOptions": {
+        "message": "Instellingen openen",
+        "description": "Open options button"
+    }
+}

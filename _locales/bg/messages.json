@@ -1,0 +1,138 @@
+{
+    "extensionName": {
+        "message": "AI Text Polisher",
+        "description": "Name of the extension"
+    },
+    "extensionDescription": {
+        "message": "Полирайте избрания текст с AI и персонализирани действия",
+        "description": "Description of the extension"
+    },
+    "contextMenuTitle": {
+        "message": "AI Text Polisher",
+        "description": "Title for context menu parent item"
+    },
+    "processing": {
+        "message": "Обработка...",
+        "description": "Processing status message"
+    },
+    "success": {
+        "message": "Успех!",
+        "description": "Success message"
+    },
+    "copiedToClipboard": {
+        "message": "Резултатът е копиран в клипборда",
+        "description": "Success notification when text is copied"
+    },
+    "error": {
+        "message": "Грешка",
+        "description": "Error message"
+    },
+    "errorProcessing": {
+        "message": "Грешка при обработка на текст",
+        "description": "Error notification message"
+    },
+    "noTextSelected": {
+        "message": "Няма избран текст",
+        "description": "Error when no text is selected"
+    },
+    "apiKeyMissing": {
+        "message": "API ключът не е конфигуриран. Моля, задайте го в страницата с опции.",
+        "description": "Error when API key is missing"
+    },
+    "networkError": {
+        "message": "Мрежова грешка. Моля, проверете връзката си.",
+        "description": "Network error message"
+    },
+    "optionsTitle": {
+        "message": "Настройки на AI Text Polisher",
+        "description": "Title for options page"
+    },
+    "apiSettings": {
+        "message": "API настройки",
+        "description": "API settings section title"
+    },
+    "apiUrl": {
+        "message": "API URL",
+        "description": "API URL label"
+    },
+    "apiKey": {
+        "message": "API ключ",
+        "description": "API key label"
+    },
+    "modelName": {
+        "message": "Име на модел",
+        "description": "Model name label"
+    },
+    "actions": {
+        "message": "Действия",
+        "description": "Actions section title"
+    },
+    "actionName": {
+        "message": "Име на действие",
+        "description": "Action name label"
+    },
+    "actionPrompt": {
+        "message": "Подкана",
+        "description": "Action prompt label"
+    },
+    "addAction": {
+        "message": "Добави действие",
+        "description": "Add action button"
+    },
+    "editAction": {
+        "message": "Редактирай",
+        "description": "Edit action button"
+    },
+    "deleteAction": {
+        "message": "Изтрий",
+        "description": "Delete action button"
+    },
+    "save": {
+        "message": "Запази",
+        "description": "Save button"
+    },
+    "cancel": {
+        "message": "Отказ",
+        "description": "Cancel button"
+    },
+    "settingsSaved": {
+        "message": "Настройките са запазени",
+        "description": "Settings saved notification"
+    },
+    "defaultActionPolish": {
+        "message": "Полирай и подобри",
+        "description": "Default action: Polish & Improve"
+    },
+    "defaultActionGrammar": {
+        "message": "Поправи граматиката",
+        "description": "Default action: Fix Grammar"
+    },
+    "defaultActionProfessional": {
+        "message": "Направи професионално",
+        "description": "Default action: Make Professional"
+    },
+    "defaultActionSimplify": {
+        "message": "Опрости езика",
+        "description": "Default action: Simplify Language"
+    },
+    "defaultActionSummarize": {
+        "message": "Обобщи",
+        "description": "Default action: Summarize"
+    },
+    "popupTitle": {
+        "message": "AI Text Polisher",
+        "description": "Popup title"
+    },
+    "popupStatus": {
+        "message": "Състояние",
+        "description": "Status label in popup"
+    },
+    "popupReady": {
+        "message": "Готово",
+        "description": "Ready status"
+    },
+    "popupOpenOptions": {
+        "message": "Отвори настройки",
+        "description": "Open options button"
+    }
+}

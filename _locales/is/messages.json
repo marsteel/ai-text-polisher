@@ -1,0 +1,138 @@
+{
+    "extensionName": {
+        "message": "AI Text Polisher",
+        "description": "Name of the extension"
+    },
+    "extensionDescription": {
+        "message": "Bóla valinn texta með gervigreind og sérsniðnum aðgerðum",
+        "description": "Description of the extension"
+    },
+    "contextMenuTitle": {
+        "message": "AI Text Polisher",
+        "description": "Title for context menu parent item"
+    },
+    "processing": {
+        "message": "Í vinnslu...",
+        "description": "Processing status message"
+    },
+    "success": {
+        "message": "Tókst!",
+        "description": "Success message"
+    },
+    "copiedToClipboard": {
+        "message": "Niðurstaða afrituð á klemmuspjald",
+        "description": "Success notification when text is copied"
+    },
+    "error": {
+        "message": "Villa",
+        "description": "Error message"
+    },
+    "errorProcessing": {
+        "message": "Villa við vinnslu texta",
+        "description": "Error notification message"
+    },
+    "noTextSelected": {
+        "message": "Enginn texti valinn",
+        "description": "Error when no text is selected"
+    },
+    "apiKeyMissing": {
+        "message": "API lykill ekki stilltur. Vinsamlegast stilltu hann á stillingasíðu.",
+        "description": "Error when API key is missing"
+    },
+    "networkError": {
+        "message": "Netvilla. Vinsamlegast athugaðu tengingu þína.",
+        "description": "Network error message"
+    },
+    "optionsTitle": {
+        "message": "AI Text Polisher stillingar",
+        "description": "Title for options page"
+    },
+    "apiSettings": {
+        "message": "API stillingar",
+        "description": "API settings section title"
+    },
+    "apiUrl": {
+        "message": "API URL",
+        "description": "API URL label"
+    },
+    "apiKey": {
+        "message": "API lykill",
+        "description": "API key label"
+    },
+    "modelName": {
+        "message": "Heiti líkans",
+        "description": "Model name label"
+    },
+    "actions": {
+        "message": "Aðgerðir",
+        "description": "Actions section title"
+    },
+    "actionName": {
+        "message": "Heiti aðgerðar",
+        "description": "Action name label"
+    },
+    "actionPrompt": {
+        "message": "Kvaðning",
+        "description": "Action prompt label"
+    },
+    "addAction": {
+        "message": "Bæta við aðgerð",
+        "description": "Add action button"
+    },
+    "editAction": {
+        "message": "Breyta",
+        "description": "Edit action button"
+    },
+    "deleteAction": {
+        "message": "Eyða",
+        "description": "Delete action button"
+    },
+    "save": {
+        "message": "Vista",
+        "description": "Save button"
+    },
+    "cancel": {
+        "message": "Hætta við",
+        "description": "Cancel button"
+    },
+    "settingsSaved": {
+        "message": "Stillingar vistaðar",
+        "description": "Settings saved notification"
+    },
+    "defaultActionPolish": {
+        "message": "Bóla og bæta",
+        "description": "Default action: Polish & Improve"
+    },
+    "defaultActionGrammar": {
+        "message": "Laga málfræði",
+        "description": "Default action: Fix Grammar"
+    },
+    "defaultActionProfessional": {
+        "message": "Gera faglegt",
+        "description": "Default action: Make Professional"
+    },
+    "defaultActionSimplify": {
+        "message": "Einfalda tungumál",
+        "description": "Default action: Simplify Language"
+    },
+    "defaultActionSummarize": {
+        "message": "Draga saman",
+        "description": "Default action: Summarize"
+    },
+    "popupTitle": {
+        "message": "AI Text Polisher",
+        "description": "Popup title"
+    },
+    "popupStatus": {
+        "message": "Staða",
+        "description": "Status label in popup"
+    },
+    "popupReady": {
+        "message": "Tilbúið",
+        "description": "Ready status"
+    },
+    "popupOpenOptions": {
+        "message": "Opna stillingar",
+        "description": "Open options button"
+    }
+}

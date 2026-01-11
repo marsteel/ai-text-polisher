@@ -1,0 +1,138 @@
+{
+    "extensionName": {
+        "message": "AI Text Polisher",
+        "description": "Name of the extension"
+    },
+    "extensionDescription": {
+        "message": "Poles teks yang dipilih menggunakan AI dengan tindakan yang dapat disesuaikan",
+        "description": "Description of the extension"
+    },
+    "contextMenuTitle": {
+        "message": "AI Text Polisher",
+        "description": "Title for context menu parent item"
+    },
+    "processing": {
+        "message": "Memproses...",
+        "description": "Processing status message"
+    },
+    "success": {
+        "message": "Berhasil!",
+        "description": "Success message"
+    },
+    "copiedToClipboard": {
+        "message": "Hasil disalin ke clipboard",
+        "description": "Success notification when text is copied"
+    },
+    "error": {
+        "message": "Kesalahan",
+        "description": "Error message"
+    },
+    "errorProcessing": {
+        "message": "Kesalahan saat memproses teks",
+        "description": "Error notification message"
+    },
+    "noTextSelected": {
+        "message": "Tidak ada teks yang dipilih",
+        "description": "Error when no text is selected"
+    },
+    "apiKeyMissing": {
+        "message": "Kunci API belum dikonfigurasi. Silakan atur di halaman opsi.",
+        "description": "Error when API key is missing"
+    },
+    "networkError": {
+        "message": "Kesalahan jaringan. Silakan periksa koneksi Anda.",
+        "description": "Network error message"
+    },
+    "optionsTitle": {
+        "message": "Pengaturan AI Text Polisher",
+        "description": "Title for options page"
+    },
+    "apiSettings": {
+        "message": "Pengaturan API",
+        "description": "API settings section title"
+    },
+    "apiUrl": {
+        "message": "URL API",
+        "description": "API URL label"
+    },
+    "apiKey": {
+        "message": "Kunci API",
+        "description": "API key label"
+    },
+    "modelName": {
+        "message": "Nama Model",
+        "description": "Model name label"
+    },
+    "actions": {
+        "message": "Tindakan",
+        "description": "Actions section title"
+    },
+    "actionName": {
+        "message": "Nama Tindakan",
+        "description": "Action name label"
+    },
+    "actionPrompt": {
+        "message": "Prompt",
+        "description": "Action prompt label"
+    },
+    "addAction": {
+        "message": "Tambah Tindakan",
+        "description": "Add action button"
+    },
+    "editAction": {
+        "message": "Edit",
+        "description": "Edit action button"
+    },
+    "deleteAction": {
+        "message": "Hapus",
+        "description": "Delete action button"
+    },
+    "save": {
+        "message": "Simpan",
+        "description": "Save button"
+    },
+    "cancel": {
+        "message": "Batal",
+        "description": "Cancel button"
+    },
+    "settingsSaved": {
+        "message": "Pengaturan berhasil disimpan",
+        "description": "Settings saved notification"
+    },
+    "defaultActionPolish": {
+        "message": "Poles & Tingkatkan",
+        "description": "Default action: Polish & Improve"
+    },
+    "defaultActionGrammar": {
+        "message": "Perbaiki Tata Bahasa",
+        "description": "Default action: Fix Grammar"
+    },
+    "defaultActionProfessional": {
+        "message": "Buat Profesional",
+        "description": "Default action: Make Professional"
+    },
+    "defaultActionSimplify": {
+        "message": "Sederhanakan Bahasa",
+        "description": "Default action: Simplify Language"
+    },
+    "defaultActionSummarize": {
+        "message": "Ringkas",
+        "description": "Default action: Summarize"
+    },
+    "popupTitle": {
+        "message": "AI Text Polisher",
+        "description": "Popup title"
+    },
+    "popupStatus": {
+        "message": "Status",
+        "description": "Status label in popup"
+    },
+    "popupReady": {
+        "message": "Siap",
+        "description": "Ready status"
+    },
+    "popupOpenOptions": {
+        "message": "Buka Pengaturan",
+        "description": "Open options button"
+    }
+}

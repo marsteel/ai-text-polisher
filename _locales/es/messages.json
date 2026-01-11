@@ -1,0 +1,138 @@
+{
+    "extensionName": {
+        "message": "AI Text Polisher",
+        "description": "Name of the extension"
+    },
+    "extensionDescription": {
+        "message": "Pule el texto seleccionado con IA y acciones personalizables",
+        "description": "Description of the extension"
+    },
+    "contextMenuTitle": {
+        "message": "AI Text Polisher",
+        "description": "Title for context menu parent item"
+    },
+    "processing": {
+        "message": "Procesando...",
+        "description": "Processing status message"
+    },
+    "success": {
+        "message": "¡Éxito!",
+        "description": "Success message"
+    },
+    "copiedToClipboard": {
+        "message": "Resultado copiado al portapapeles",
+        "description": "Success notification when text is copied"
+    },
+    "error": {
+        "message": "Error",
+        "description": "Error message"
+    },
+    "errorProcessing": {
+        "message": "Error al procesar el texto",
+        "description": "Error notification message"
+    },
+    "noTextSelected": {
+        "message": "No hay texto seleccionado",
+        "description": "Error when no text is selected"
+    },
+    "apiKeyMissing": {
+        "message": "Clave API no configurada. Por favor, configúrela en la página de opciones.",
+        "description": "Error when API key is missing"
+    },
+    "networkError": {
+        "message": "Error de red. Por favor, verifique su conexión.",
+        "description": "Network error message"
+    },
+    "optionsTitle": {
+        "message": "Configuración de AI Text Polisher",
+        "description": "Title for options page"
+    },
+    "apiSettings": {
+        "message": "Configuración de API",
+        "description": "API settings section title"
+    },
+    "apiUrl": {
+        "message": "URL de API",
+        "description": "API URL label"
+    },
+    "apiKey": {
+        "message": "Clave API",
+        "description": "API key label"
+    },
+    "modelName": {
+        "message": "Nombre del modelo",
+        "description": "Model name label"
+    },
+    "actions": {
+        "message": "Acciones",
+        "description": "Actions section title"
+    },
+    "actionName": {
+        "message": "Nombre de la acción",
+        "description": "Action name label"
+    },
+    "actionPrompt": {
+        "message": "Indicación",
+        "description": "Action prompt label"
+    },
+    "addAction": {
+        "message": "Agregar acción",
+        "description": "Add action button"
+    },
+    "editAction": {
+        "message": "Editar",
+        "description": "Edit action button"
+    },
+    "deleteAction": {
+        "message": "Eliminar",
+        "description": "Delete action button"
+    },
+    "save": {
+        "message": "Guardar",
+        "description": "Save button"
+    },
+    "cancel": {
+        "message": "Cancelar",
+        "description": "Cancel button"
+    },
+    "settingsSaved": {
+        "message": "Configuración guardada correctamente",
+        "description": "Settings saved notification"
+    },
+    "defaultActionPolish": {
+        "message": "Pulir y mejorar",
+        "description": "Default action: Polish & Improve"
+    },
+    "defaultActionGrammar": {
+        "message": "Corregir gramática",
+        "description": "Default action: Fix Grammar"
+    },
+    "defaultActionProfessional": {
+        "message": "Hacer profesional",
+        "description": "Default action: Make Professional"
+    },
+    "defaultActionSimplify": {
+        "message": "Simplificar lenguaje",
+        "description": "Default action: Simplify Language"
+    },
+    "defaultActionSummarize": {
+        "message": "Resumir",
+        "description": "Default action: Summarize"
+    },
+    "popupTitle": {
+        "message": "AI Text Polisher",
+        "description": "Popup title"
+    },
+    "popupStatus": {
+        "message": "Estado",
+        "description": "Status label in popup"
+    },
+    "popupReady": {
+        "message": "Listo",
+        "description": "Ready status"
+    },
+    "popupOpenOptions": {
+        "message": "Abrir configuración",
+        "description": "Open options button"
+    }
+}

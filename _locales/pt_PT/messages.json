@@ -1,0 +1,138 @@
+{
+    "extensionName": {
+        "message": "AI Text Polisher",
+        "description": "Name of the extension"
+    },
+    "extensionDescription": {
+        "message": "Polir texto selecionado usando IA com ações personalizáveis",
+        "description": "Description of the extension"
+    },
+    "contextMenuTitle": {
+        "message": "AI Text Polisher",
+        "description": "Title for context menu parent item"
+    },
+    "processing": {
+        "message": "A processar...",
+        "description": "Processing status message"
+    },
+    "success": {
+        "message": "Sucesso!",
+        "description": "Success message"
+    },
+    "copiedToClipboard": {
+        "message": "Resultado copiado para a área de transferência",
+        "description": "Success notification when text is copied"
+    },
+    "error": {
+        "message": "Erro",
+        "description": "Error message"
+    },
+    "errorProcessing": {
+        "message": "Erro ao processar texto",
+        "description": "Error notification message"
+    },
+    "noTextSelected": {
+        "message": "Nenhum texto selecionado",
+        "description": "Error when no text is selected"
+    },
+    "apiKeyMissing": {
+        "message": "Chave API não configurada. Por favor, defina-a na página de opções.",
+        "description": "Error when API key is missing"
+    },
+    "networkError": {
+        "message": "Erro de rede. Por favor, verifique a sua ligação.",
+        "description": "Network error message"
+    },
+    "optionsTitle": {
+        "message": "Definições do AI Text Polisher",
+        "description": "Title for options page"
+    },
+    "apiSettings": {
+        "message": "Definições de API",
+        "description": "API settings section title"
+    },
+    "apiUrl": {
+        "message": "URL da API",
+        "description": "API URL label"
+    },
+    "apiKey": {
+        "message": "Chave API",
+        "description": "API key label"
+    },
+    "modelName": {
+        "message": "Nome do modelo",
+        "description": "Model name label"
+    },
+    "actions": {
+        "message": "Ações",
+        "description": "Actions section title"
+    },
+    "actionName": {
+        "message": "Nome da ação",
+        "description": "Action name label"
+    },
+    "actionPrompt": {
+        "message": "Prompt",
+        "description": "Action prompt label"
+    },
+    "addAction": {
+        "message": "Adicionar ação",
+        "description": "Add action button"
+    },
+    "editAction": {
+        "message": "Editar",
+        "description": "Edit action button"
+    },
+    "deleteAction": {
+        "message": "Eliminar",
+        "description": "Delete action button"
+    },
+    "save": {
+        "message": "Guardar",
+        "description": "Save button"
+    },
+    "cancel": {
+        "message": "Cancelar",
+        "description": "Cancel button"
+    },
+    "settingsSaved": {
+        "message": "Definições guardadas com sucesso",
+        "description": "Settings saved notification"
+    },
+    "defaultActionPolish": {
+        "message": "Polir e melhorar",
+        "description": "Default action: Polish & Improve"
+    },
+    "defaultActionGrammar": {
+        "message": "Corrigir gramática",
+        "description": "Default action: Fix Grammar"
+    },
+    "defaultActionProfessional": {
+        "message": "Tornar profissional",
+        "description": "Default action: Make Professional"
+    },
+    "defaultActionSimplify": {
+        "message": "Simplificar linguagem",
+        "description": "Default action: Simplify Language"
+    },
+    "defaultActionSummarize": {
+        "message": "Resumir",
+        "description": "Default action: Summarize"
+    },
+    "popupTitle": {
+        "message": "AI Text Polisher",
+        "description": "Popup title"
+    },
+    "popupStatus": {
+        "message": "Estado",
+        "description": "Status label in popup"
+    },
+    "popupReady": {
+        "message": "Pronto",
+        "description": "Ready status"
+    },
+    "popupOpenOptions": {
+        "message": "Abrir definições",
+        "description": "Open options button"
+    }
+}

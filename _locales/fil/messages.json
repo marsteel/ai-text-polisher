@@ -1,0 +1,138 @@
+{
+    "extensionName": {
+        "message": "AI Text Polisher",
+        "description": "Name of the extension"
+    },
+    "extensionDescription": {
+        "message": "Pahusayin ang napiling teksto gamit ang AI na may mga nako-customize na aksyon",
+        "description": "Description of the extension"
+    },
+    "contextMenuTitle": {
+        "message": "AI Text Polisher",
+        "description": "Title for context menu parent item"
+    },
+    "processing": {
+        "message": "Pinoproseso...",
+        "description": "Processing status message"
+    },
+    "success": {
+        "message": "Tagumpay!",
+        "description": "Success message"
+    },
+    "copiedToClipboard": {
+        "message": "Nakopya ang resulta sa clipboard",
+        "description": "Success notification when text is copied"
+    },
+    "error": {
+        "message": "Error",
+        "description": "Error message"
+    },
+    "errorProcessing": {
+        "message": "Error sa pagproseso ng teksto",
+        "description": "Error notification message"
+    },
+    "noTextSelected": {
+        "message": "Walang napiling teksto",
+        "description": "Error when no text is selected"
+    },
+    "apiKeyMissing": {
+        "message": "Hindi naka-configure ang API key. Pakiset ito sa pahina ng mga opsyon.",
+        "description": "Error when API key is missing"
+    },
+    "networkError": {
+        "message": "Network error. Pakisuri ang iyong koneksyon.",
+        "description": "Network error message"
+    },
+    "optionsTitle": {
+        "message": "Mga Setting ng AI Text Polisher",
+        "description": "Title for options page"
+    },
+    "apiSettings": {
+        "message": "Mga Setting ng API",
+        "description": "API settings section title"
+    },
+    "apiUrl": {
+        "message": "API URL",
+        "description": "API URL label"
+    },
+    "apiKey": {
+        "message": "API Key",
+        "description": "API key label"
+    },
+    "modelName": {
+        "message": "Pangalan ng Model",
+        "description": "Model name label"
+    },
+    "actions": {
+        "message": "Mga Aksyon",
+        "description": "Actions section title"
+    },
+    "actionName": {
+        "message": "Pangalan ng Aksyon",
+        "description": "Action name label"
+    },
+    "actionPrompt": {
+        "message": "Prompt",
+        "description": "Action prompt label"
+    },
+    "addAction": {
+        "message": "Magdagdag ng Aksyon",
+        "description": "Add action button"
+    },
+    "editAction": {
+        "message": "I-edit",
+        "description": "Edit action button"
+    },
+    "deleteAction": {
+        "message": "Tanggalin",
+        "description": "Delete action button"
+    },
+    "save": {
+        "message": "I-save",
+        "description": "Save button"
+    },
+    "cancel": {
+        "message": "Kanselahin",
+        "description": "Cancel button"
+    },
+    "settingsSaved": {
+        "message": "Matagumpay na na-save ang mga setting",
+        "description": "Settings saved notification"
+    },
+    "defaultActionPolish": {
+        "message": "Pahusayin at Pagbutihin",
+        "description": "Default action: Polish & Improve"
+    },
+    "defaultActionGrammar": {
+        "message": "Ayusin ang Gramatika",
+        "description": "Default action: Fix Grammar"
+    },
+    "defaultActionProfessional": {
+        "message": "Gawing Propesyonal",
+        "description": "Default action: Make Professional"
+    },
+    "defaultActionSimplify": {
+        "message": "Pasimplehin ang Wika",
+        "description": "Default action: Simplify Language"
+    },
+    "defaultActionSummarize": {
+        "message": "Buod",
+        "description": "Default action: Summarize"
+    },
+    "popupTitle": {
+        "message": "AI Text Polisher",
+        "description": "Popup title"
+    },
+    "popupStatus": {
+        "message": "Katayuan",
+        "description": "Status label in popup"
+    },
+    "popupReady": {
+        "message": "Handa",
+        "description": "Ready status"
+    },
+    "popupOpenOptions": {
+        "message": "Buksan ang Mga Setting",
+        "description": "Open options button"
+    }
+}

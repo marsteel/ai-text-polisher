@@ -1,0 +1,138 @@
+{
+    "extensionName": {
+        "message": "AI Text Polisher",
+        "description": "Name of the extension"
+    },
+    "extensionDescription": {
+        "message": "Poleruj zaznaczony tekst za pomocą AI z konfigurowalnymi akcjami",
+        "description": "Description of the extension"
+    },
+    "contextMenuTitle": {
+        "message": "AI Text Polisher",
+        "description": "Title for context menu parent item"
+    },
+    "processing": {
+        "message": "Przetwarzanie...",
+        "description": "Processing status message"
+    },
+    "success": {
+        "message": "Sukces!",
+        "description": "Success message"
+    },
+    "copiedToClipboard": {
+        "message": "Wynik skopiowany do schowka",
+        "description": "Success notification when text is copied"
+    },
+    "error": {
+        "message": "Błąd",
+        "description": "Error message"
+    },
+    "errorProcessing": {
+        "message": "Błąd podczas przetwarzania tekstu",
+        "description": "Error notification message"
+    },
+    "noTextSelected": {
+        "message": "Nie zaznaczono tekstu",
+        "description": "Error when no text is selected"
+    },
+    "apiKeyMissing": {
+        "message": "Klucz API nie został skonfigurowany. Proszę ustawić go na stronie opcji.",
+        "description": "Error when API key is missing"
+    },
+    "networkError": {
+        "message": "Błąd sieci. Proszę sprawdzić połączenie.",
+        "description": "Network error message"
+    },
+    "optionsTitle": {
+        "message": "Ustawienia AI Text Polisher",
+        "description": "Title for options page"
+    },
+    "apiSettings": {
+        "message": "Ustawienia API",
+        "description": "API settings section title"
+    },
+    "apiUrl": {
+        "message": "URL API",
+        "description": "API URL label"
+    },
+    "apiKey": {
+        "message": "Klucz API",
+        "description": "API key label"
+    },
+    "modelName": {
+        "message": "Nazwa modelu",
+        "description": "Model name label"
+    },
+    "actions": {
+        "message": "Akcje",
+        "description": "Actions section title"
+    },
+    "actionName": {
+        "message": "Nazwa akcji",
+        "description": "Action name label"
+    },
+    "actionPrompt": {
+        "message": "Podpowiedź",
+        "description": "Action prompt label"
+    },
+    "addAction": {
+        "message": "Dodaj akcję",
+        "description": "Add action button"
+    },
+    "editAction": {
+        "message": "Edytuj",
+        "description": "Edit action button"
+    },
+    "deleteAction": {
+        "message": "Usuń",
+        "description": "Delete action button"
+    },
+    "save": {
+        "message": "Zapisz",
+        "description": "Save button"
+    },
+    "cancel": {
+        "message": "Anuluj",
+        "description": "Cancel button"
+    },
+    "settingsSaved": {
+        "message": "Ustawienia zapisane pomyślnie",
+        "description": "Settings saved notification"
+    },
+    "defaultActionPolish": {
+        "message": "Poleruj i ulepsz",
+        "description": "Default action: Polish & Improve"
+    },
+    "defaultActionGrammar": {
+        "message": "Napraw gramatykę",
+        "description": "Default action: Fix Grammar"
+    },
+    "defaultActionProfessional": {
+        "message": "Uczyń profesjonalnym",
+        "description": "Default action: Make Professional"
+    },
+    "defaultActionSimplify": {
+        "message": "Uprość język",
+        "description": "Default action: Simplify Language"
+    },
+    "defaultActionSummarize": {
+        "message": "Podsumuj",
+        "description": "Default action: Summarize"
+    },
+    "popupTitle": {
+        "message": "AI Text Polisher",
+        "description": "Popup title"
+    },
+    "popupStatus": {
+        "message": "Status",
+        "description": "Status label in popup"
+    },
+    "popupReady": {
+        "message": "Gotowy",
+        "description": "Ready status"
+    },
+    "popupOpenOptions": {
+        "message": "Otwórz ustawienia",
+        "description": "Open options button"
+    }
+}

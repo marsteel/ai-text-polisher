@@ -1,0 +1,138 @@
+{
+    "extensionName": {
+        "message": "AI Text Polisher",
+        "description": "Name of the extension"
+    },
+    "extensionDescription": {
+        "message": "A kiválasztott szöveg csiszolása AI-val testreszabható műveletekkel",
+        "description": "Description of the extension"
+    },
+    "contextMenuTitle": {
+        "message": "AI Text Polisher",
+        "description": "Title for context menu parent item"
+    },
+    "processing": {
+        "message": "Feldolgozás...",
+        "description": "Processing status message"
+    },
+    "success": {
+        "message": "Siker!",
+        "description": "Success message"
+    },
+    "copiedToClipboard": {
+        "message": "Eredmény vágólapra másolva",
+        "description": "Success notification when text is copied"
+    },
+    "error": {
+        "message": "Hiba",
+        "description": "Error message"
+    },
+    "errorProcessing": {
+        "message": "Hiba a szöveg feldolgozása során",
+        "description": "Error notification message"
+    },
+    "noTextSelected": {
+        "message": "Nincs kiválasztott szöveg",
+        "description": "Error when no text is selected"
+    },
+    "apiKeyMissing": {
+        "message": "Az API kulcs nincs beállítva. Kérjük, állítsa be a beállítások oldalon.",
+        "description": "Error when API key is missing"
+    },
+    "networkError": {
+        "message": "Hálózati hiba. Kérjük, ellenőrizze a kapcsolatot.",
+        "description": "Network error message"
+    },
+    "optionsTitle": {
+        "message": "AI Text Polisher beállítások",
+        "description": "Title for options page"
+    },
+    "apiSettings": {
+        "message": "API beállítások",
+        "description": "API settings section title"
+    },
+    "apiUrl": {
+        "message": "API URL",
+        "description": "API URL label"
+    },
+    "apiKey": {
+        "message": "API kulcs",
+        "description": "API key label"
+    },
+    "modelName": {
+        "message": "Modell neve",
+        "description": "Model name label"
+    },
+    "actions": {
+        "message": "Műveletek",
+        "description": "Actions section title"
+    },
+    "actionName": {
+        "message": "Művelet neve",
+        "description": "Action name label"
+    },
+    "actionPrompt": {
+        "message": "Prompt",
+        "description": "Action prompt label"
+    },
+    "addAction": {
+        "message": "Művelet hozzáadása",
+        "description": "Add action button"
+    },
+    "editAction": {
+        "message": "Szerkesztés",
+        "description": "Edit action button"
+    },
+    "deleteAction": {
+        "message": "Törlés",
+        "description": "Delete action button"
+    },
+    "save": {
+        "message": "Mentés",
+        "description": "Save button"
+    },
+    "cancel": {
+        "message": "Mégse",
+        "description": "Cancel button"
+    },
+    "settingsSaved": {
+        "message": "Beállítások sikeresen mentve",
+        "description": "Settings saved notification"
+    },
+    "defaultActionPolish": {
+        "message": "Csiszolás és javítás",
+        "description": "Default action: Polish & Improve"
+    },
+    "defaultActionGrammar": {
+        "message": "Nyelvtan javítása",
+        "description": "Default action: Fix Grammar"
+    },
+    "defaultActionProfessional": {
+        "message": "Professzionálissá tétel",
+        "description": "Default action: Make Professional"
+    },
+    "defaultActionSimplify": {
+        "message": "Nyelv egyszerűsítése",
+        "description": "Default action: Simplify Language"
+    },
+    "defaultActionSummarize": {
+        "message": "Összefoglalás",
+        "description": "Default action: Summarize"
+    },
+    "popupTitle": {
+        "message": "AI Text Polisher",
+        "description": "Popup title"
+    },
+    "popupStatus": {
+        "message": "Állapot",
+        "description": "Status label in popup"
+    },
+    "popupReady": {
+        "message": "Kész",
+        "description": "Ready status"
+    },
+    "popupOpenOptions": {
+        "message": "Beállítások megnyitása",
+        "description": "Open options button"
+    }
+}

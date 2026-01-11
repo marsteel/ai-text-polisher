@@ -1,0 +1,138 @@
+{
+    "extensionName": {
+        "message": "AI Text Polisher",
+        "description": "Name of the extension"
+    },
+    "extensionDescription": {
+        "message": "Uglačajte odabrani tekst pomoću AI-a s prilagodljivim radnjama",
+        "description": "Description of the extension"
+    },
+    "contextMenuTitle": {
+        "message": "AI Text Polisher",
+        "description": "Title for context menu parent item"
+    },
+    "processing": {
+        "message": "Obrada...",
+        "description": "Processing status message"
+    },
+    "success": {
+        "message": "Uspjeh!",
+        "description": "Success message"
+    },
+    "copiedToClipboard": {
+        "message": "Rezultat kopiran u međuspremnik",
+        "description": "Success notification when text is copied"
+    },
+    "error": {
+        "message": "Greška",
+        "description": "Error message"
+    },
+    "errorProcessing": {
+        "message": "Greška pri obradi teksta",
+        "description": "Error notification message"
+    },
+    "noTextSelected": {
+        "message": "Nije odabran tekst",
+        "description": "Error when no text is selected"
+    },
+    "apiKeyMissing": {
+        "message": "API ključ nije konfiguriran. Postavite ga na stranici opcija.",
+        "description": "Error when API key is missing"
+    },
+    "networkError": {
+        "message": "Mrežna greška. Provjerite vezu.",
+        "description": "Network error message"
+    },
+    "optionsTitle": {
+        "message": "Postavke AI Text Polisher",
+        "description": "Title for options page"
+    },
+    "apiSettings": {
+        "message": "Postavke API-ja",
+        "description": "API settings section title"
+    },
+    "apiUrl": {
+        "message": "API URL",
+        "description": "API URL label"
+    },
+    "apiKey": {
+        "message": "API ključ",
+        "description": "API key label"
+    },
+    "modelName": {
+        "message": "Naziv modela",
+        "description": "Model name label"
+    },
+    "actions": {
+        "message": "Radnje",
+        "description": "Actions section title"
+    },
+    "actionName": {
+        "message": "Naziv radnje",
+        "description": "Action name label"
+    },
+    "actionPrompt": {
+        "message": "Upit",
+        "description": "Action prompt label"
+    },
+    "addAction": {
+        "message": "Dodaj radnju",
+        "description": "Add action button"
+    },
+    "editAction": {
+        "message": "Uredi",
+        "description": "Edit action button"
+    },
+    "deleteAction": {
+        "message": "Izbriši",
+        "description": "Delete action button"
+    },
+    "save": {
+        "message": "Spremi",
+        "description": "Save button"
+    },
+    "cancel": {
+        "message": "Odustani",
+        "description": "Cancel button"
+    },
+    "settingsSaved": {
+        "message": "Postavke spremljene",
+        "description": "Settings saved notification"
+    },
+    "defaultActionPolish": {
+        "message": "Uglačaj i poboljšaj",
+        "description": "Default action: Polish & Improve"
+    },
+    "defaultActionGrammar": {
+        "message": "Ispravi gramatiku",
+        "description": "Default action: Fix Grammar"
+    },
+    "defaultActionProfessional": {
+        "message": "Učini profesionalnim",
+        "description": "Default action: Make Professional"
+    },
+    "defaultActionSimplify": {
+        "message": "Pojednostavi jezik",
+        "description": "Default action: Simplify Language"
+    },
+    "defaultActionSummarize": {
+        "message": "Sažmi",
+        "description": "Default action: Summarize"
+    },
+    "popupTitle": {
+        "message": "AI Text Polisher",
+        "description": "Popup title"
+    },
+    "popupStatus": {
+        "message": "Status",
+        "description": "Status label in popup"
+    },
+    "popupReady": {
+        "message": "Spremno",
+        "description": "Ready status"
+    },
+    "popupOpenOptions": {
+        "message": "Otvori postavke",
+        "description": "Open options button"
+    }
+}
