@@ -1,0 +1,138 @@
+{
+    "extensionName": {
+        "message": "AI Text Polisher",
+        "description": "Name of the extension"
+    },
+    "extensionDescription": {
+        "message": "Відшліфуйте виділений текст за допомогою ШІ з налаштовуваними діями",
+        "description": "Description of the extension"
+    },
+    "contextMenuTitle": {
+        "message": "AI Text Polisher",
+        "description": "Title for context menu parent item"
+    },
+    "processing": {
+        "message": "Обробка...",
+        "description": "Processing status message"
+    },
+    "success": {
+        "message": "Успіх!",
+        "description": "Success message"
+    },
+    "copiedToClipboard": {
+        "message": "Результат скопійовано в буфер обміну",
+        "description": "Success notification when text is copied"
+    },
+    "error": {
+        "message": "Помилка",
+        "description": "Error message"
+    },
+    "errorProcessing": {
+        "message": "Помилка обробки тексту",
+        "description": "Error notification message"
+    },
+    "noTextSelected": {
+        "message": "Текст не вибрано",
+        "description": "Error when no text is selected"
+    },
+    "apiKeyMissing": {
+        "message": "Ключ API не налаштовано. Будь ласка, встановіть його на сторінці параметрів.",
+        "description": "Error when API key is missing"
+    },
+    "networkError": {
+        "message": "Помилка мережі. Будь ласка, перевірте підключення.",
+        "description": "Network error message"
+    },
+    "optionsTitle": {
+        "message": "Налаштування AI Text Polisher",
+        "description": "Title for options page"
+    },
+    "apiSettings": {
+        "message": "Налаштування API",
+        "description": "API settings section title"
+    },
+    "apiUrl": {
+        "message": "URL API",
+        "description": "API URL label"
+    },
+    "apiKey": {
+        "message": "Ключ API",
+        "description": "API key label"
+    },
+    "modelName": {
+        "message": "Назва моделі",
+        "description": "Model name label"
+    },
+    "actions": {
+        "message": "Дії",
+        "description": "Actions section title"
+    },
+    "actionName": {
+        "message": "Назва дії",
+        "description": "Action name label"
+    },
+    "actionPrompt": {
+        "message": "Підказка",
+        "description": "Action prompt label"
+    },
+    "addAction": {
+        "message": "Додати дію",
+        "description": "Add action button"
+    },
+    "editAction": {
+        "message": "Редагувати",
+        "description": "Edit action button"
+    },
+    "deleteAction": {
+        "message": "Видалити",
+        "description": "Delete action button"
+    },
+    "save": {
+        "message": "Зберегти",
+        "description": "Save button"
+    },
+    "cancel": {
+        "message": "Скасувати",
+        "description": "Cancel button"
+    },
+    "settingsSaved": {
+        "message": "Налаштування успішно збережено",
+        "description": "Settings saved notification"
+    },
+    "defaultActionPolish": {
+        "message": "Відшліфувати та покращити",
+        "description": "Default action: Polish & Improve"
+    },
+    "defaultActionGrammar": {
+        "message": "Виправити граматику",
+        "description": "Default action: Fix Grammar"
+    },
+    "defaultActionProfessional": {
+        "message": "Зробити професійним",
+        "description": "Default action: Make Professional"
+    },
+    "defaultActionSimplify": {
+        "message": "Спростити мову",
+        "description": "Default action: Simplify Language"
+    },
+    "defaultActionSummarize": {
+        "message": "Підсумувати",
+        "description": "Default action: Summarize"
+    },
+    "popupTitle": {
+        "message": "AI Text Polisher",
+        "description": "Popup title"
+    },
+    "popupStatus": {
+        "message": "Статус",
+        "description": "Status label in popup"
+    },
+    "popupReady": {
+        "message": "Готово",
+        "description": "Ready status"
+    },
+    "popupOpenOptions": {
+        "message": "Відкрити налаштування",
+        "description": "Open options button"
+    }
+}

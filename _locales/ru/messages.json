@@ -1,0 +1,138 @@
+{
+    "extensionName": {
+        "message": "AI Text Polisher",
+        "description": "Name of the extension"
+    },
+    "extensionDescription": {
+        "message": "Отполируйте выделенный текст с помощью ИИ и настраиваемых действий",
+        "description": "Description of the extension"
+    },
+    "contextMenuTitle": {
+        "message": "AI Text Polisher",
+        "description": "Title for context menu parent item"
+    },
+    "processing": {
+        "message": "Обработка...",
+        "description": "Processing status message"
+    },
+    "success": {
+        "message": "Успех!",
+        "description": "Success message"
+    },
+    "copiedToClipboard": {
+        "message": "Результат скопирован в буфер обмена",
+        "description": "Success notification when text is copied"
+    },
+    "error": {
+        "message": "Ошибка",
+        "description": "Error message"
+    },
+    "errorProcessing": {
+        "message": "Ошибка обработки текста",
+        "description": "Error notification message"
+    },
+    "noTextSelected": {
+        "message": "Текст не выбран",
+        "description": "Error when no text is selected"
+    },
+    "apiKeyMissing": {
+        "message": "Ключ API не настроен. Пожалуйста, установите его на странице настроек.",
+        "description": "Error when API key is missing"
+    },
+    "networkError": {
+        "message": "Ошибка сети. Пожалуйста, проверьте подключение.",
+        "description": "Network error message"
+    },
+    "optionsTitle": {
+        "message": "Настройки AI Text Polisher",
+        "description": "Title for options page"
+    },
+    "apiSettings": {
+        "message": "Настройки API",
+        "description": "API settings section title"
+    },
+    "apiUrl": {
+        "message": "URL API",
+        "description": "API URL label"
+    },
+    "apiKey": {
+        "message": "Ключ API",
+        "description": "API key label"
+    },
+    "modelName": {
+        "message": "Название модели",
+        "description": "Model name label"
+    },
+    "actions": {
+        "message": "Действия",
+        "description": "Actions section title"
+    },
+    "actionName": {
+        "message": "Название действия",
+        "description": "Action name label"
+    },
+    "actionPrompt": {
+        "message": "Подсказка",
+        "description": "Action prompt label"
+    },
+    "addAction": {
+        "message": "Добавить действие",
+        "description": "Add action button"
+    },
+    "editAction": {
+        "message": "Редактировать",
+        "description": "Edit action button"
+    },
+    "deleteAction": {
+        "message": "Удалить",
+        "description": "Delete action button"
+    },
+    "save": {
+        "message": "Сохранить",
+        "description": "Save button"
+    },
+    "cancel": {
+        "message": "Отмена",
+        "description": "Cancel button"
+    },
+    "settingsSaved": {
+        "message": "Настройки успешно сохранены",
+        "description": "Settings saved notification"
+    },
+    "defaultActionPolish": {
+        "message": "Отполировать и улучшить",
+        "description": "Default action: Polish & Improve"
+    },
+    "defaultActionGrammar": {
+        "message": "Исправить грамматику",
+        "description": "Default action: Fix Grammar"
+    },
+    "defaultActionProfessional": {
+        "message": "Сделать профессиональным",
+        "description": "Default action: Make Professional"
+    },
+    "defaultActionSimplify": {
+        "message": "Упростить язык",
+        "description": "Default action: Simplify Language"
+    },
+    "defaultActionSummarize": {
+        "message": "Резюмировать",
+        "description": "Default action: Summarize"
+    },
+    "popupTitle": {
+        "message": "AI Text Polisher",
+        "description": "Popup title"
+    },
+    "popupStatus": {
+        "message": "Статус",
+        "description": "Status label in popup"
+    },
+    "popupReady": {
+        "message": "Готово",
+        "description": "Ready status"
+    },
+    "popupOpenOptions": {
+        "message": "Открыть настройки",
+        "description": "Open options button"
+    }
+}
