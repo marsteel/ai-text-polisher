@@ -4,7 +4,7 @@
         "description": "Name of the extension"
     },
     "extensionDescription": {
-        "message": "Polish selected text using AI with customizable actions",
+        "message": "Полирайте избрания текст с AI и персонализирани действия",
         "description": "Description of the extension"
     },
     "contextMenuTitle": {
@@ -12,43 +12,43 @@
         "description": "Title for context menu parent item"
     },
     "processing": {
-        "message": "Processing...",
+        "message": "Обработка...",
         "description": "Processing status message"
     },
     "success": {
-        "message": "Success!",
+        "message": "Успех!",
         "description": "Success message"
     },
     "copiedToClipboard": {
-        "message": "Result copied to clipboard",
+        "message": "Резултатът е копиран в клипборда",
         "description": "Success notification when text is copied"
     },
     "error": {
-        "message": "Error",
+        "message": "Грешка",
         "description": "Error message"
     },
     "errorProcessing": {
-        "message": "Error processing text",
+        "message": "Грешка при обработка на текст",
         "description": "Error notification message"
     },
     "noTextSelected": {
-        "message": "No text selected",
+        "message": "Няма избран текст",
         "description": "Error when no text is selected"
     },
     "apiKeyMissing": {
-        "message": "API key not configured. Please set it in the options page.",
+        "message": "API ключът не е конфигуриран. Моля, задайте го в страницата с опции.",
         "description": "Error when API key is missing"
     },
     "networkError": {
-        "message": "Network error. Please check your connection.",
+        "message": "Мрежова грешка. Моля, проверете връзката си.",
         "description": "Network error message"
     },
     "optionsTitle": {
-        "message": "AI Text Polisher Settings",
+        "message": "Настройки на AI Text Polisher",
         "description": "Title for options page"
     },
     "apiSettings": {
-        "message": "API Settings",
+        "message": "API настройки",
         "description": "API settings section title"
     },
     "apiUrl": {
@@ -56,67 +56,67 @@
         "description": "API URL label"
     },
     "apiKey": {
-        "message": "API Key",
+        "message": "API ключ",
         "description": "API key label"
     },
     "modelName": {
-        "message": "Model Name",
+        "message": "Име на модел",
         "description": "Model name label"
     },
     "actions": {
-        "message": "Actions",
+        "message": "Действия",
         "description": "Actions section title"
     },
     "actionName": {
-        "message": "Action Name",
+        "message": "Име на действие",
         "description": "Action name label"
     },
     "actionPrompt": {
-        "message": "Prompt",
+        "message": "Подкана",
         "description": "Action prompt label"
     },
     "addAction": {
-        "message": "Add Action",
+        "message": "Добави действие",
         "description": "Add action button"
     },
     "editAction": {
-        "message": "Edit",
+        "message": "Редактирай",
         "description": "Edit action button"
     },
     "deleteAction": {
-        "message": "Delete",
+        "message": "Изтрий",
         "description": "Delete action button"
     },
     "save": {
-        "message": "Save",
+        "message": "Запази",
         "description": "Save button"
     },
     "cancel": {
-        "message": "Cancel",
+        "message": "Отказ",
         "description": "Cancel button"
     },
     "settingsSaved": {
-        "message": "Settings saved successfully",
+        "message": "Настройките са запазени",
         "description": "Settings saved notification"
     },
     "defaultActionPolish": {
-        "message": "Polish & Improve",
+        "message": "Полирай и подобри",
         "description": "Default action: Polish & Improve"
     },
     "defaultActionGrammar": {
-        "message": "Fix Grammar",
+        "message": "Поправи граматиката",
         "description": "Default action: Fix Grammar"
     },
     "defaultActionProfessional": {
-        "message": "Make Professional",
+        "message": "Направи професионално",
         "description": "Default action: Make Professional"
     },
     "defaultActionSimplify": {
-        "message": "Simplify Language",
+        "message": "Опрости езика",
         "description": "Default action: Simplify Language"
     },
     "defaultActionSummarize": {
-        "message": "Summarize",
+        "message": "Обобщи",
         "description": "Default action: Summarize"
     },
     "popupTitle": {
@@ -124,15 +124,15 @@
         "description": "Popup title"
     },
     "popupStatus": {
-        "message": "Status",
+        "message": "Състояние",
         "description": "Status label in popup"
     },
     "popupReady": {
-        "message": "Ready",
+        "message": "Готово",
         "description": "Ready status"
     },
     "popupOpenOptions": {
-        "message": "Open Settings",
+        "message": "Отвори настройки",
         "description": "Open options button"
     }
 }

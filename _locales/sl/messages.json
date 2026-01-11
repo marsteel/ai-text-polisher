@@ -4,7 +4,7 @@
         "description": "Name of the extension"
     },
     "extensionDescription": {
-        "message": "Polish selected text using AI with customizable actions",
+        "message": "Izboljšajte izbrano besedilo z AI in prilagodljivimi dejanji",
         "description": "Description of the extension"
     },
     "contextMenuTitle": {
@@ -12,43 +12,43 @@
         "description": "Title for context menu parent item"
     },
     "processing": {
-        "message": "Processing...",
+        "message": "Obdelava...",
         "description": "Processing status message"
     },
     "success": {
-        "message": "Success!",
+        "message": "Uspeh!",
         "description": "Success message"
     },
     "copiedToClipboard": {
-        "message": "Result copied to clipboard",
+        "message": "Rezultat kopiran v odložišče",
         "description": "Success notification when text is copied"
     },
     "error": {
-        "message": "Error",
+        "message": "Napaka",
         "description": "Error message"
     },
     "errorProcessing": {
-        "message": "Error processing text",
+        "message": "Napaka pri obdelavi besedila",
         "description": "Error notification message"
     },
     "noTextSelected": {
-        "message": "No text selected",
+        "message": "Ni izbranega besedila",
         "description": "Error when no text is selected"
     },
     "apiKeyMissing": {
-        "message": "API key not configured. Please set it in the options page.",
+        "message": "API ključ ni konfiguriran. Nastavite ga na strani možnosti.",
         "description": "Error when API key is missing"
     },
     "networkError": {
-        "message": "Network error. Please check your connection.",
+        "message": "Napaka omrežja. Preverite povezavo.",
         "description": "Network error message"
     },
     "optionsTitle": {
-        "message": "AI Text Polisher Settings",
+        "message": "Nastavitve AI Text Polisher",
         "description": "Title for options page"
     },
     "apiSettings": {
-        "message": "API Settings",
+        "message": "Nastavitve API",
         "description": "API settings section title"
     },
     "apiUrl": {
@@ -56,67 +56,67 @@
         "description": "API URL label"
     },
     "apiKey": {
-        "message": "API Key",
+        "message": "API ključ",
         "description": "API key label"
     },
     "modelName": {
-        "message": "Model Name",
+        "message": "Ime modela",
         "description": "Model name label"
     },
     "actions": {
-        "message": "Actions",
+        "message": "Dejanja",
         "description": "Actions section title"
     },
     "actionName": {
-        "message": "Action Name",
+        "message": "Ime dejanja",
         "description": "Action name label"
     },
     "actionPrompt": {
-        "message": "Prompt",
+        "message": "Poziv",
         "description": "Action prompt label"
     },
     "addAction": {
-        "message": "Add Action",
+        "message": "Dodaj dejanje",
         "description": "Add action button"
     },
     "editAction": {
-        "message": "Edit",
+        "message": "Uredi",
         "description": "Edit action button"
     },
     "deleteAction": {
-        "message": "Delete",
+        "message": "Izbriši",
         "description": "Delete action button"
     },
     "save": {
-        "message": "Save",
+        "message": "Shrani",
         "description": "Save button"
     },
     "cancel": {
-        "message": "Cancel",
+        "message": "Prekliči",
         "description": "Cancel button"
     },
     "settingsSaved": {
-        "message": "Settings saved successfully",
+        "message": "Nastavitve shranjene",
         "description": "Settings saved notification"
     },
     "defaultActionPolish": {
-        "message": "Polish & Improve",
+        "message": "Izboljšaj in izpopolni",
         "description": "Default action: Polish & Improve"
     },
     "defaultActionGrammar": {
-        "message": "Fix Grammar",
+        "message": "Popravi slovnico",
         "description": "Default action: Fix Grammar"
     },
     "defaultActionProfessional": {
-        "message": "Make Professional",
+        "message": "Naredi profesionalno",
         "description": "Default action: Make Professional"
     },
     "defaultActionSimplify": {
-        "message": "Simplify Language",
+        "message": "Poenostavi jezik",
         "description": "Default action: Simplify Language"
     },
     "defaultActionSummarize": {
-        "message": "Summarize",
+        "message": "Povzemi",
         "description": "Default action: Summarize"
     },
     "popupTitle": {
@@ -124,15 +124,15 @@
         "description": "Popup title"
     },
     "popupStatus": {
-        "message": "Status",
+        "message": "Stanje",
         "description": "Status label in popup"
     },
     "popupReady": {
-        "message": "Ready",
+        "message": "Pripravljeno",
         "description": "Ready status"
     },
     "popupOpenOptions": {
-        "message": "Open Settings",
+        "message": "Odpri nastavitve",
         "description": "Open options button"
     }
 }

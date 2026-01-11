@@ -4,7 +4,7 @@
         "description": "Name of the extension"
     },
     "extensionDescription": {
-        "message": "Polish selected text using AI with customizable actions",
+        "message": "Viimistlege valitud tekst AI abil kohandatavate toimingutega",
         "description": "Description of the extension"
     },
     "contextMenuTitle": {
@@ -12,43 +12,43 @@
         "description": "Title for context menu parent item"
     },
     "processing": {
-        "message": "Processing...",
+        "message": "Töötlemine...",
         "description": "Processing status message"
     },
     "success": {
-        "message": "Success!",
+        "message": "Edu!",
         "description": "Success message"
     },
     "copiedToClipboard": {
-        "message": "Result copied to clipboard",
+        "message": "Tulemus kopeeritud lõikelauale",
         "description": "Success notification when text is copied"
     },
     "error": {
-        "message": "Error",
+        "message": "Viga",
         "description": "Error message"
     },
     "errorProcessing": {
-        "message": "Error processing text",
+        "message": "Viga teksti töötlemisel",
         "description": "Error notification message"
     },
     "noTextSelected": {
-        "message": "No text selected",
+        "message": "Teksti pole valitud",
         "description": "Error when no text is selected"
     },
     "apiKeyMissing": {
-        "message": "API key not configured. Please set it in the options page.",
+        "message": "API võti pole konfigureeritud. Palun seadistage see valikute lehel.",
         "description": "Error when API key is missing"
     },
     "networkError": {
-        "message": "Network error. Please check your connection.",
+        "message": "Võrguviga. Palun kontrollige ühendust.",
         "description": "Network error message"
     },
     "optionsTitle": {
-        "message": "AI Text Polisher Settings",
+        "message": "AI Text Polisher seaded",
         "description": "Title for options page"
     },
     "apiSettings": {
-        "message": "API Settings",
+        "message": "API seaded",
         "description": "API settings section title"
     },
     "apiUrl": {
@@ -56,67 +56,67 @@
         "description": "API URL label"
     },
     "apiKey": {
-        "message": "API Key",
+        "message": "API võti",
         "description": "API key label"
     },
     "modelName": {
-        "message": "Model Name",
+        "message": "Mudeli nimi",
         "description": "Model name label"
     },
     "actions": {
-        "message": "Actions",
+        "message": "Toimingud",
         "description": "Actions section title"
     },
     "actionName": {
-        "message": "Action Name",
+        "message": "Toimingu nimi",
         "description": "Action name label"
     },
     "actionPrompt": {
-        "message": "Prompt",
+        "message": "Viip",
         "description": "Action prompt label"
     },
     "addAction": {
-        "message": "Add Action",
+        "message": "Lisa toiming",
         "description": "Add action button"
     },
     "editAction": {
-        "message": "Edit",
+        "message": "Muuda",
         "description": "Edit action button"
     },
     "deleteAction": {
-        "message": "Delete",
+        "message": "Kustuta",
         "description": "Delete action button"
     },
     "save": {
-        "message": "Save",
+        "message": "Salvesta",
         "description": "Save button"
     },
     "cancel": {
-        "message": "Cancel",
+        "message": "Tühista",
         "description": "Cancel button"
     },
     "settingsSaved": {
-        "message": "Settings saved successfully",
+        "message": "Seaded salvestatud",
         "description": "Settings saved notification"
     },
     "defaultActionPolish": {
-        "message": "Polish & Improve",
+        "message": "Viimistlege ja parandage",
         "description": "Default action: Polish & Improve"
     },
     "defaultActionGrammar": {
-        "message": "Fix Grammar",
+        "message": "Paranda grammatikat",
         "description": "Default action: Fix Grammar"
     },
     "defaultActionProfessional": {
-        "message": "Make Professional",
+        "message": "Muuda professionaalseks",
         "description": "Default action: Make Professional"
     },
     "defaultActionSimplify": {
-        "message": "Simplify Language",
+        "message": "Lihtsusta keelt",
         "description": "Default action: Simplify Language"
     },
     "defaultActionSummarize": {
-        "message": "Summarize",
+        "message": "Kokkuvõte",
         "description": "Default action: Summarize"
     },
     "popupTitle": {
@@ -124,15 +124,15 @@
         "description": "Popup title"
     },
     "popupStatus": {
-        "message": "Status",
+        "message": "Olek",
         "description": "Status label in popup"
     },
     "popupReady": {
-        "message": "Ready",
+        "message": "Valmis",
         "description": "Ready status"
     },
     "popupOpenOptions": {
-        "message": "Open Settings",
+        "message": "Ava seaded",
         "description": "Open options button"
     }
 }

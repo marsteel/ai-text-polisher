@@ -4,7 +4,7 @@
         "description": "Name of the extension"
     },
     "extensionDescription": {
-        "message": "Polish selected text using AI with customizable actions",
+        "message": "Polér valgt tekst ved hjælp af AI med tilpassede handlinger",
         "description": "Description of the extension"
     },
     "contextMenuTitle": {
@@ -12,43 +12,43 @@
         "description": "Title for context menu parent item"
     },
     "processing": {
-        "message": "Processing...",
+        "message": "Behandler...",
         "description": "Processing status message"
     },
     "success": {
-        "message": "Success!",
+        "message": "Succes!",
         "description": "Success message"
     },
     "copiedToClipboard": {
-        "message": "Result copied to clipboard",
+        "message": "Resultat kopieret til udklipsholder",
         "description": "Success notification when text is copied"
     },
     "error": {
-        "message": "Error",
+        "message": "Fejl",
         "description": "Error message"
     },
     "errorProcessing": {
-        "message": "Error processing text",
+        "message": "Fejl ved behandling af tekst",
         "description": "Error notification message"
     },
     "noTextSelected": {
-        "message": "No text selected",
+        "message": "Ingen tekst valgt",
         "description": "Error when no text is selected"
     },
     "apiKeyMissing": {
-        "message": "API key not configured. Please set it in the options page.",
+        "message": "API-nøgle ikke konfigureret. Indstil den på indstillingssiden.",
         "description": "Error when API key is missing"
     },
     "networkError": {
-        "message": "Network error. Please check your connection.",
+        "message": "Netværksfejl. Kontroller din forbindelse.",
         "description": "Network error message"
     },
     "optionsTitle": {
-        "message": "AI Text Polisher Settings",
+        "message": "AI Text Polisher-indstillinger",
         "description": "Title for options page"
     },
     "apiSettings": {
-        "message": "API Settings",
+        "message": "API-indstillinger",
         "description": "API settings section title"
     },
     "apiUrl": {
@@ -56,19 +56,19 @@
         "description": "API URL label"
     },
     "apiKey": {
-        "message": "API Key",
+        "message": "API-nøgle",
         "description": "API key label"
     },
     "modelName": {
-        "message": "Model Name",
+        "message": "Modelnavn",
         "description": "Model name label"
     },
     "actions": {
-        "message": "Actions",
+        "message": "Handlinger",
         "description": "Actions section title"
     },
     "actionName": {
-        "message": "Action Name",
+        "message": "Handlingsnavn",
         "description": "Action name label"
     },
     "actionPrompt": {
@@ -76,47 +76,47 @@
         "description": "Action prompt label"
     },
     "addAction": {
-        "message": "Add Action",
+        "message": "Tilføj handling",
         "description": "Add action button"
     },
     "editAction": {
-        "message": "Edit",
+        "message": "Rediger",
         "description": "Edit action button"
     },
     "deleteAction": {
-        "message": "Delete",
+        "message": "Slet",
         "description": "Delete action button"
     },
     "save": {
-        "message": "Save",
+        "message": "Gem",
         "description": "Save button"
     },
     "cancel": {
-        "message": "Cancel",
+        "message": "Annuller",
         "description": "Cancel button"
     },
     "settingsSaved": {
-        "message": "Settings saved successfully",
+        "message": "Indstillinger gemt",
         "description": "Settings saved notification"
     },
     "defaultActionPolish": {
-        "message": "Polish & Improve",
+        "message": "Polér og forbedre",
         "description": "Default action: Polish & Improve"
     },
     "defaultActionGrammar": {
-        "message": "Fix Grammar",
+        "message": "Ret grammatik",
         "description": "Default action: Fix Grammar"
     },
     "defaultActionProfessional": {
-        "message": "Make Professional",
+        "message": "Gør professionel",
         "description": "Default action: Make Professional"
     },
     "defaultActionSimplify": {
-        "message": "Simplify Language",
+        "message": "Forenkle sprog",
         "description": "Default action: Simplify Language"
     },
     "defaultActionSummarize": {
-        "message": "Summarize",
+        "message": "Opsummer",
         "description": "Default action: Summarize"
     },
     "popupTitle": {
@@ -128,11 +128,11 @@
         "description": "Status label in popup"
     },
     "popupReady": {
-        "message": "Ready",
+        "message": "Klar",
         "description": "Ready status"
     },
     "popupOpenOptions": {
-        "message": "Open Settings",
+        "message": "Åbn indstillinger",
         "description": "Open options button"
     }
 }
