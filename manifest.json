@@ -1,7 +1,7 @@
 {
   "manifest_version": 3,
   "name": "AI Text Polisher",
-  "version": "1.0.1",
+  "version": "1.1.1",
   "description": "AI Text Polisher, transform your selected text with AI, make it better!",
   "default_locale": "en",
   "permissions": [
