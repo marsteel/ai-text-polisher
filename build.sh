@@ -2,6 +2,7 @@
 
 # Build script for AI Text Polisher Chrome Extension
 # This script creates a zip file for Chrome Web Store submission
+# Filename includes version, branch name, and commit hash
 
 set -e  # Exit on error
 
@@ -16,14 +17,20 @@ echo -e "${BLUE}Building AI Text Polisher extension...${NC}"
 VERSION=$(grep '"version"' manifest.json | sed 's/.*"version": "\(.*\)".*/\1/')
 echo -e "${BLUE}Version: ${VERSION}${NC}"
 
-# Create output filename
-OUTPUT_FILE="ai-text-polisher-v${VERSION}.zip"
+# Get git branch name
+BRANCH=$(git rev-parse --abbrev-ref HEAD)
+echo -e "${BLUE}Branch: ${BRANCH}${NC}"
 
-# Remove old zip if exists
-if [ -f "$OUTPUT_FILE" ]; then
-    echo "Removing old $OUTPUT_FILE"
-    rm "$OUTPUT_FILE"
-fi
+# Get short commit hash
+COMMIT_HASH=$(git rev-parse --short HEAD)
+echo -e "${BLUE}Commit: ${COMMIT_HASH}${NC}"
+
+# Create output filename with version, branch, and commit hash
+OUTPUT_FILE="ai-text-polisher-v${VERSION}-${BRANCH}-${COMMIT_HASH}.zip"
+
+# Remove old zip files with same version
+echo "Removing old zip files for version ${VERSION}..."
+rm -f ai-text-polisher-v${VERSION}-*.zip 2>/dev/null || true
 
 # Create zip file with extension files
 echo -e "${BLUE}Creating zip file...${NC}"
@@ -38,6 +45,8 @@ zip -r "$OUTPUT_FILE" \
     options.js \
     options.css \
     ai-client.js \
+    storage.js \
+    notifications.js \
     _locales/ \
     icons/ \
     -x "*.DS_Store" \
