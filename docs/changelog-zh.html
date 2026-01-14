@@ -6,6 +6,57 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>更新日志 - AI文本润色器</title>
     <style>
+        /* ========== Design System Tokens ========== */
+        :root {
+            /* Colors */
+            --color-primary: #667eea;
+            --color-primary-dark: #5568d3;
+            --color-secondary: #764ba2;
+            --color-success: #10b981;
+            --color-gray-50: #f9fafb;
+            --color-gray-100: #f3f4f6;
+            --color-gray-200: #e5e7eb;
+            --color-gray-400: #9ca3af;
+            --color-gray-500: #6b7280;
+            --color-gray-600: #4b5563;
+            --color-gray-700: #374151;
+            --color-gray-900: #1f2937;
+
+            /* Spacing */
+            --space-1: 8px;
+            --space-2: 16px;
+            --space-3: 24px;
+            --space-4: 32px;
+            --space-6: 48px;
+            --space-8: 64px;
+
+            /* Typography */
+            --font-size-sm: 14px;
+            --font-size-base: 16px;
+            --font-size-lg: 18px;
+            --font-size-xl: 20px;
+            --font-size-2xl: 24px;
+            --font-size-3xl: 32px;
+            --font-size-4xl: 40px;
+
+            /* Layout */
+            --container-lg: 1024px;
+            --container-2xl: 1400px;
+
+            /* Border Radius */
+            --radius-sm: 8px;
+            --radius-md: 12px;
+            --radius-lg: 16px;
+            --radius-xl: 24px;
+
+            /* Shadows */
+            --shadow-sm: 0 1px 2px rgba(0, 0, 0, 0.05);
+            --shadow-md: 0 4px 6px rgba(0, 0, 0, 0.1);
+            --shadow-lg: 0 10px 15px rgba(0, 0, 0, 0.1);
+            --shadow-2xl: 0 25px 50px rgba(0, 0, 0, 0.25);
+        }
+
+        /* ========== Reset & Base ========== */
         * {
             margin: 0;
             padding: 0;
@@ -13,30 +64,32 @@
         }
 
         body {
-            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Microsoft YaHei', sans-serif;
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
             line-height: 1.6;
-            color: #333;
-            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: var(--color-gray-900);
+            background: linear-gradient(135deg, var(--color-primary) 0%, var(--color-secondary) 100%);
             min-height: 100vh;
-            padding: 40px 20px;
+            padding: var(--space-4) var(--space-2);
         }
 
+        /* ========== Language Switcher ========== */
         .language-switcher {
             position: fixed;
-            top: 20px;
-            right: 20px;
+            top: var(--space-3);
+            right: var(--space-3);
             background: white;
-            padding: 8px 16px;
-            border-radius: 20px;
-            box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
+            padding: var(--space-1) var(--space-2);
+            border-radius: var(--radius-xl);
+            box-shadow: var(--shadow-md);
             z-index: 1000;
         }
 
         .language-switcher a {
-            color: #667eea;
+            color: var(--color-primary);
             text-decoration: none;
             font-weight: 500;
-            padding: 4px 8px;
+            padding: 4px var(--space-1);
+            font-size: var(--font-size-sm);
         }
 
         .language-switcher a:hover {
@@ -44,110 +97,218 @@
         }
 
         .language-switcher .active {
-            color: #374151;
+            color: var(--color-gray-700);
             font-weight: 600;
         }
 
+        /* ========== Container ========== */
         .container {
-            max-width: 800px;
+            max-width: var(--container-lg);
             margin: 0 auto;
             background: white;
-            padding: 40px;
-            border-radius: 16px;
-            box-shadow: 0 20px 60px rgba(0, 0, 0, 0.3);
+            padding: var(--space-6);
+            border-radius: var(--radius-lg);
+            box-shadow: var(--shadow-2xl);
         }
 
+        @media (min-width: 1280px) {
+            .container {
+                max-width: var(--container-2xl);
+                padding: var(--space-8);
+            }
+        }
+
+        /* ========== Header ========== */
         h1 {
-            color: #667eea;
-            margin-bottom: 30px;
-            font-size: 32px;
+            color: var(--color-primary);
+            margin-bottom: var(--space-6);
+            font-size: var(--font-size-3xl);
+            font-weight: 700;
         }
 
-        .version {
-            margin-bottom: 40px;
-            padding-bottom: 30px;
-            border-bottom: 2px solid #e5e7eb;
-        }
-
-        .version:last-of-type {
-            border-bottom: none;
-        }
-
-        .version-header {
-            display: flex;
-            align-items: center;
-            gap: 15px;
-            margin-bottom: 15px;
-        }
-
-        .version-number {
-            font-size: 24px;
-            font-weight: bold;
-            color: #374151;
-        }
-
-        .version-date {
-            color: #6b7280;
-            font-size: 14px;
-        }
-
-        .badge {
-            background: #667eea;
-            color: white;
-            padding: 4px 12px;
-            border-radius: 12px;
-            font-size: 12px;
-            font-weight: 600;
-        }
-
-        .badge.latest {
-            background: #10b981;
-        }
-
-        h3 {
-            color: #4b5563;
-            margin-top: 20px;
-            margin-bottom: 10px;
-            font-size: 18px;
-        }
-
-        ul {
-            margin-bottom: 15px;
-            padding-left: 30px;
-        }
-
-        li {
-            margin-bottom: 8px;
-            color: #4b5563;
+        @media (min-width: 1280px) {
+            h1 {
+                font-size: var(--font-size-4xl);
+            }
         }
 
         .back-link {
             display: inline-block;
-            margin-bottom: 20px;
-            color: #667eea;
+            margin-bottom: var(--space-4);
+            color: var(--color-primary);
             font-weight: 500;
             text-decoration: none;
+            font-size: var(--font-size-base);
         }
 
         .back-link:hover {
             text-decoration: underline;
         }
 
+        /* ========== Timeline Layout ========== */
+        .timeline {
+            position: relative;
+            padding-left: 0;
+        }
+
+        /* Timeline vertical line (widescreen only) */
+        @media (min-width: 1024px) {
+            .timeline::before {
+                content: '';
+                position: absolute;
+                left: 280px;
+                top: 60px;
+                bottom: 60px;
+                width: 2px;
+                background: var(--color-gray-200);
+            }
+        }
+
+        /* ========== Version Entry ========== */
+        .version {
+            margin-bottom: var(--space-8);
+            position: relative;
+        }
+
+        /* Mobile: vertical stack */
+        .version {
+            display: block;
+        }
+
+        /* Widescreen: horizontal layout */
+        @media (min-width: 1024px) {
+            .version {
+                display: grid;
+                grid-template-columns: 260px 1fr;
+                gap: var(--space-8);
+                align-items: start;
+            }
+        }
+
+        /* ========== Version Header (Left Side) ========== */
+        .version-header {
+            margin-bottom: var(--space-3);
+        }
+
+        @media (min-width: 1024px) {
+            .version-header {
+                text-align: right;
+                padding-right: var(--space-4);
+                margin-bottom: 0;
+                position: sticky;
+                top: var(--space-4);
+            }
+        }
+
+        .version-number {
+            display: block;
+            font-size: var(--font-size-2xl);
+            font-weight: 700;
+            color: var(--color-gray-700);
+            margin-bottom: var(--space-1);
+        }
+
+        .version-date {
+            display: block;
+            color: var(--color-gray-500);
+            font-size: var(--font-size-sm);
+            margin-bottom: var(--space-2);
+        }
+
+        .badge {
+            display: inline-block;
+            background: var(--color-primary);
+            color: white;
+            padding: 4px var(--space-2);
+            border-radius: var(--radius-md);
+            font-size: 12px;
+            font-weight: 600;
+            margin-top: var(--space-1);
+        }
+
+        .badge.latest {
+            background: var(--color-success);
+        }
+
+        /* ========== Version Content (Right Side) ========== */
+        .version-content {
+            position: relative;
+        }
+
+        /* Timeline dot (widescreen only) */
+        @media (min-width: 1024px) {
+            .version-content::before {
+                content: '';
+                position: absolute;
+                left: -44px;
+                top: 8px;
+                width: 12px;
+                height: 12px;
+                background: var(--color-primary);
+                border: 3px solid white;
+                border-radius: 50%;
+                box-shadow: 0 0 0 2px var(--color-gray-200);
+                z-index: 1;
+            }
+
+            .version:first-child .version-content::before {
+                background: var(--color-success);
+                box-shadow: 0 0 0 2px var(--color-success), 0 0 0 4px rgba(16, 185, 129, 0.2);
+            }
+        }
+
+        .version-content {
+            background: var(--color-gray-50);
+            padding: var(--space-4);
+            border-radius: var(--radius-md);
+            border-left: 3px solid var(--color-primary);
+        }
+
+        .version:first-child .version-content {
+            border-left-color: var(--color-success);
+        }
+
+        h3 {
+            color: var(--color-gray-700);
+            margin-top: var(--space-4);
+            margin-bottom: var(--space-2);
+            font-size: var(--font-size-lg);
+            font-weight: 600;
+        }
+
+        .version-content h3:first-child {
+            margin-top: 0;
+        }
+
+        ul {
+            margin-bottom: var(--space-3);
+            padding-left: var(--space-4);
+        }
+
+        li {
+            margin-bottom: var(--space-2);
+            color: var(--color-gray-600);
+            line-height: 1.7;
+        }
+
         code {
-            background: #f3f4f6;
+            background: white;
             padding: 2px 6px;
             border-radius: 4px;
             font-family: 'Courier New', monospace;
-            font-size: 14px;
+            font-size: 13px;
+            color: var(--color-primary);
+            border: 1px solid var(--color-gray-200);
         }
 
+        /* ========== Footer ========== */
         .footer {
-            margin-top: 40px;
-            padding-top: 20px;
-            border-top: 2px solid #e5e7eb;
+            margin-top: var(--space-8);
+            padding-top: var(--space-4);
+            border-top: 2px solid var(--color-gray-200);
             text-align: center;
-            color: #6b7280;
-            font-size: 14px;
+            color: var(--color-gray-500);
+            font-size: var(--font-size-sm);
         }
     </style>
 </head>
@@ -162,28 +323,31 @@
 
         <h1>📝 更新日志</h1>
 
-        <div class="version">
+        <div class="timeline">
+            <div class="version">
             <div class="version-header">
                 <span class="version-number">v1.2.1</span>
                 <span class="badge latest">最新版本</span>
                 <span class="version-date">2026年1月11日</span>
             </div>
 
-            <h3>🐛 错误修复</h3>
+            <div class="version-content">
+<h3>🐛 错误修复</h3>
             <ul>
                 <li><strong>Manifest国际化：</strong>修复扩展名称和描述使用i18n占位符</li>
                 <li>扩展名称和描述现在在Chrome Web Store中正确本地化</li>
                 <li>用户将看到以其浏览器语言显示的扩展名称</li>
             </ul>
         </div>
-
-        <div class="version">
+            </div>
+<div class="version">
             <div class="version-header">
                 <span class="version-number">v1.2.0</span>
                 <span class="version-date">2026年1月11日</span>
             </div>
 
-            <h3>🌍 新功能</h3>
+            <div class="version-content">
+<h3>🌍 新功能</h3>
             <ul>
                 <li><strong>多语言支持：</strong>添加了所有Chrome Web Store支持的57种语言</li>
                 <li>扩展程序自动以用户浏览器语言显示</li>
@@ -202,28 +366,30 @@
                 <li>提高全球用户的可访问性</li>
             </ul>
         </div>
-
-        <div class="version">
+            </div>
+<div class="version">
             <div class="version-header">
                 <span class="version-number">v1.1.1</span>
                 <span class="version-date">2026年1月11日</span>
             </div>
 
-            <h3>🎨 改进</h3>
+            <div class="version-content">
+<h3>🎨 改进</h3>
             <ul>
                 <li>在API设置区域添加了独立的“保存API设置”按钮，更容易发现</li>
                 <li>为Actions区域添加了说明文字，解释功能用途</li>
                 <li>通过使保存操作更容易访问来改善用户体验</li>
             </ul>
         </div>
-
-        <div class="version">
+            </div>
+<div class="version">
             <div class="version-header">
                 <span class="version-number">v1.1.0</span>
                 <span class="version-date">2026年1月11日</span>
             </div>
 
-            <h3>✨ 新功能</h3>
+            <div class="version-content">
+<h3>✨ 新功能</h3>
             <ul>
                 <li>🎯 <strong>AI提供商选择：</strong>下拉菜单提供OpenAI、Azure OpenAI、Anthropic (Claude)、Google Gemini和DeepSeek预设
                 </li>
@@ -245,14 +411,15 @@
                 <li>修复测试连接状态消息不显示的问题</li>
             </ul>
         </div>
-
-        <div class="version">
+            </div>
+<div class="version">
             <div class="version-header">
                 <span class="version-number">v1.0.1</span>
                 <span class="version-date">2026年1月8日</span>
             </div>
 
-            <h3>🔧 更改</h3>
+            <div class="version-content">
+<h3>🔧 更改</h3>
             <ul>
                 <li>在manifest.json中添加了<code>clipboardWrite</code>权限，以明确剪贴板访问权限</li>
                 <li>提高了商店审核流程的权限清晰度</li>
@@ -274,43 +441,15 @@
 
             <p><strong>注意：</strong>无功能更改。用户体验保持不变。</p>
         </div>
-
-        <div class="version">
-            <div class="version-header">
-                <span class="version-number">v1.0.0</span>
-                <span class="version-date">2026年1月5日</span>
             </div>
-
-            <h3>🎉 首次发布</h3>
-
-            <h3>✨ 功能特性</h3>
-            <ul>
-                <li>通过右键上下文菜单进行AI驱动的文本增强</li>
-                <li>5个内置操作：润色和改进、修复语法、使其专业、简化语言、总结</li>
-                <li>可自定义操作，支持用户定义的提示词</li>
-                <li>支持任何OpenAI兼容的API（OpenAI、Azure、本地LLM）</li>
-                <li>自动剪贴板集成</li>
-                <li>带徽章通知的实时视觉反馈</li>
-                <li>Chrome系统通知用于状态更新</li>
-                <li>国际化支持（i18n就绪）</li>
-                <li>隐私优先设计 - 所有数据本地存储</li>
-            </ul>
-
-            <h3>🔐 权限</h3>
-            <ul>
-                <li><code>contextMenus</code> - 右键菜单集成</li>
-                <li><code>storage</code> - 本地保存用户设置</li>
-                <li><code>notifications</code> - 显示状态更新</li>
-                <li><code>activeTab</code> - 访问选定的文本</li>
-                <li><code>scripting</code> - 执行剪贴板复制脚本</li>
-                <li><code>host_permissions</code> - 连接到用户配置的AI端点</li>
-            </ul>
         </div>
+</div>
 
         <div class="footer">
             <p>&copy; 2026 AI文本润色器. 采用MIT许可证的开源项目.</p>
         </div>
-    </div>
+            </div>
+        </div>
 </body>
 
 </html>
