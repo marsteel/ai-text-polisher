@@ -134,5 +134,17 @@
     "popupOpenOptions": {
         "message": "Открыть настройки",
         "description": "Open options button"
+    },
+    "actionsDescription": {
+        "message": "Создавайте пользовательские действия обработки текста, которые появляются в контекстном меню. Каждое действие использует пользовательский промпт для преобразования выделенного текста с помощью ИИ.",
+        "description": "Description for actions section"
+    },
+    "networkErrorHint": {
+        "message": "Проверьте подключение к Интернету и URL конечной точки API.",
+        "description": "Hint for network errors"
+    },
+    "azureNetworkErrorHint": {
+        "message": "Пожалуйста, проверьте: 1) URL API правильный (замените YOUR_RESOURCE и YOUR_DEPLOYMENT), 2) CORS настроен на портале Azure для разрешения chrome-extension://*",
+        "description": "Hint for Azure network/CORS errors"
     }
 }

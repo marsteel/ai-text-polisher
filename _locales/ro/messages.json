@@ -134,5 +134,17 @@
     "popupOpenOptions": {
         "message": "Deschide setări",
         "description": "Open options button"
+    },
+    "actionsDescription": {
+        "message": "Creați acțiuni personalizate de procesare a textului care apar în meniul contextual. Fiecare acțiune folosește un prompt personalizat pentru a transforma textul selectat cu AI.",
+        "description": "Description for actions section"
+    },
+    "networkErrorHint": {
+        "message": "Verificați conexiunea la internet și URL-ul punctului final API.",
+        "description": "Hint for network errors"
+    },
+    "azureNetworkErrorHint": {
+        "message": "Vă rugăm să verificați: 1) URL-ul API este corect (înlocuiți YOUR_RESOURCE și YOUR_DEPLOYMENT), 2) CORS este configurat în Portalul Azure pentru a permite chrome-extension://*",
+        "description": "Hint for Azure network/CORS errors"
     }
 }

@@ -134,5 +134,17 @@
     "popupOpenOptions": {
         "message": "Otevřít nastavení",
         "description": "Open options button"
+    },
+    "actionsDescription": {
+        "message": "Vytvořte vlastní akce pro zpracování textu, které se zobrazí v kontextové nabídce. Každá akce používá vlastní prompt k transformaci vybraného textu pomocí AI.",
+        "description": "Description for actions section"
+    },
+    "networkErrorHint": {
+        "message": "Zkontrolujte připojení k internetu a URL adresu API endpointu.",
+        "description": "Hint for network errors"
+    },
+    "azureNetworkErrorHint": {
+        "message": "Zkontrolujte prosím: 1) API URL je správné (nahraďte YOUR_RESOURCE a YOUR_DEPLOYMENT), 2) CORS je nakonfigurován v Azure Portal pro povolení chrome-extension://*",
+        "description": "Hint for Azure network/CORS errors"
     }
 }

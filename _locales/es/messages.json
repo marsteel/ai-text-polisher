@@ -134,5 +134,17 @@
     "popupOpenOptions": {
         "message": "Abrir configuración",
         "description": "Open options button"
+    },
+    "actionsDescription": {
+        "message": "Cree acciones personalizadas de procesamiento de texto que aparecen en el menú contextual. Cada acción usa un prompt personalizado para transformar el texto seleccionado con IA.",
+        "description": "Description for actions section"
+    },
+    "networkErrorHint": {
+        "message": "Verifique su conexión a Internet y la URL del endpoint de la API.",
+        "description": "Hint for network errors"
+    },
+    "azureNetworkErrorHint": {
+        "message": "Por favor verifique: 1) La URL de la API es correcta (reemplace YOUR_RESOURCE y YOUR_DEPLOYMENT), 2) CORS está configurado en Azure Portal para permitir chrome-extension://*",
+        "description": "Hint for Azure network/CORS errors"
     }
 }

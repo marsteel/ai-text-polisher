@@ -134,5 +134,17 @@
     "popupOpenOptions": {
         "message": "Buka Tetapan",
         "description": "Open options button"
+    },
+    "actionsDescription": {
+        "message": "Cipta tindakan pemprosesan teks tersuai yang muncul dalam menu klik kanan. Setiap tindakan menggunakan gesaan tersuai untuk mengubah teks yang dipilih dengan AI.",
+        "description": "Description for actions section"
+    },
+    "networkErrorHint": {
+        "message": "Semak sambungan internet anda dan URL titik akhir API.",
+        "description": "Hint for network errors"
+    },
+    "azureNetworkErrorHint": {
+        "message": "Sila semak: 1) URL API adalah betul (gantikan YOUR_RESOURCE dan YOUR_DEPLOYMENT), 2) CORS dikonfigurasi dalam Portal Azure untuk membenarkan chrome-extension://*",
+        "description": "Hint for Azure network/CORS errors"
     }
 }

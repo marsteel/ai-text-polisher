@@ -134,5 +134,17 @@
     "popupOpenOptions": {
         "message": "Avaa asetukset",
         "description": "Open options button"
+    },
+    "actionsDescription": {
+        "message": "Luo mukautettuja tekstinkäsittelytoimintoja, jotka näkyvät hiiren oikean painikkeen valikossa. Jokainen toiminto käyttää mukautettua kehotetta muuttaakseen valitun tekstin tekoälyllä.",
+        "description": "Description for actions section"
+    },
+    "networkErrorHint": {
+        "message": "Tarkista internet-yhteytesi ja API-päätepisteen URL.",
+        "description": "Hint for network errors"
+    },
+    "azureNetworkErrorHint": {
+        "message": "Tarkista: 1) API URL on oikein (korvaa YOUR_RESOURCE ja YOUR_DEPLOYMENT), 2) CORS on määritetty Azure Portalissa sallimaan chrome-extension://*",
+        "description": "Hint for Azure network/CORS errors"
     }
 }

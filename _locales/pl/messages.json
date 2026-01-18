@@ -134,5 +134,17 @@
     "popupOpenOptions": {
         "message": "Otwórz ustawienia",
         "description": "Open options button"
+    },
+    "actionsDescription": {
+        "message": "Twórz niestandardowe akcje przetwarzania tekstu, które pojawiają się w menu kontekstowym. Każda akcja używa niestandardowego promptu do przekształcania zaznaczonego tekstu za pomocą AI.",
+        "description": "Description for actions section"
+    },
+    "networkErrorHint": {
+        "message": "Sprawdź połączenie internetowe i adres URL punktu końcowego API.",
+        "description": "Hint for network errors"
+    },
+    "azureNetworkErrorHint": {
+        "message": "Sprawdź: 1) Adres URL API jest poprawny (zamień YOUR_RESOURCE i YOUR_DEPLOYMENT), 2) CORS jest skonfigurowany w portalu Azure, aby zezwolić na chrome-extension://*",
+        "description": "Hint for Azure network/CORS errors"
     }
 }

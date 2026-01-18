@@ -134,5 +134,17 @@
     "popupOpenOptions": {
         "message": "設定を開く",
         "description": "Open options button"
+    },
+    "actionsDescription": {
+        "message": "右クリックメニューに表示されるカスタムテキスト処理アクションを作成します。各アクションは、AIで選択したテキストを変換するためのカスタムプロンプトを使用します。",
+        "description": "Description for actions section"
+    },
+    "networkErrorHint": {
+        "message": "インターネット接続とAPIエンドポイントURLを確認してください。",
+        "description": "Hint for network errors"
+    },
+    "azureNetworkErrorHint": {
+        "message": "確認してください：1) API URLが正しい（YOUR_RESOURCEとYOUR_DEPLOYMENTを置き換える）、2) Azure PortalでCORSがchrome-extension://*を許可するように設定されている",
+        "description": "Hint for Azure network/CORS errors"
     }
 }

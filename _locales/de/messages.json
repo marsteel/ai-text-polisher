@@ -134,5 +134,17 @@
     "popupOpenOptions": {
         "message": "Einstellungen öffnen",
         "description": "Open options button"
+    },
+    "actionsDescription": {
+        "message": "Erstellen Sie benutzerdefinierte Textverarbeitungsaktionen, die im Rechtsklick-Menü erscheinen. Jede Aktion verwendet einen benutzerdefinierten Prompt, um ausgewählten Text mit KI zu transformieren.",
+        "description": "Description for actions section"
+    },
+    "networkErrorHint": {
+        "message": "Überprüfen Sie Ihre Internetverbindung und die API-Endpunkt-URL.",
+        "description": "Hint for network errors"
+    },
+    "azureNetworkErrorHint": {
+        "message": "Bitte überprüfen Sie: 1) API-URL ist korrekt (ersetzen Sie YOUR_RESOURCE und YOUR_DEPLOYMENT), 2) CORS ist im Azure Portal konfiguriert, um chrome-extension://* zu erlauben",
+        "description": "Hint for Azure network/CORS errors"
     }
 }

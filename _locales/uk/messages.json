@@ -134,5 +134,17 @@
     "popupOpenOptions": {
         "message": "Відкрити налаштування",
         "description": "Open options button"
+    },
+    "actionsDescription": {
+        "message": "Створіть власні дії обробки тексту, які з'являються в контекстному меню. Кожна дія використовує власний промпт для перетворення виділеного тексту за допомогою ШІ.",
+        "description": "Description for actions section"
+    },
+    "networkErrorHint": {
+        "message": "Перевірте підключення до Інтернету та URL кінцевої точки API.",
+        "description": "Hint for network errors"
+    },
+    "azureNetworkErrorHint": {
+        "message": "Будь ласка, перевірте: 1) URL API правильний (замініть YOUR_RESOURCE та YOUR_DEPLOYMENT), 2) CORS налаштовано на порталі Azure для дозволу chrome-extension://*",
+        "description": "Hint for Azure network/CORS errors"
     }
 }

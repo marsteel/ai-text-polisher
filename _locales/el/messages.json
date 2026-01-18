@@ -134,5 +134,17 @@
     "popupOpenOptions": {
         "message": "Άνοιγμα ρυθμίσεων",
         "description": "Open options button"
+    },
+    "actionsDescription": {
+        "message": "Δημιουργήστε προσαρμοσμένες ενέργειες επεξεργασίας κειμένου που εμφανίζονται στο μενού δεξιού κλικ. Κάθε ενέργεια χρησιμοποιεί μια προσαρμοσμένη προτροπή για να μετασχηματίσει το επιλεγμένο κείμενο με AI.",
+        "description": "Description for actions section"
+    },
+    "networkErrorHint": {
+        "message": "Ελέγξτε τη σύνδεσή σας στο διαδίκτυο και τη διεύθυνση URL του API endpoint.",
+        "description": "Hint for network errors"
+    },
+    "azureNetworkErrorHint": {
+        "message": "Παρακαλώ ελέγξτε: 1) Η διεύθυνση API URL είναι σωστή (αντικαταστήστε το YOUR_RESOURCE και YOUR_DEPLOYMENT), 2) Το CORS έχει ρυθμιστεί στην Πύλη Azure για να επιτρέπει chrome-extension://*",
+        "description": "Hint for Azure network/CORS errors"
     }
 }

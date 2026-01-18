@@ -134,5 +134,17 @@
     "popupOpenOptions": {
         "message": "Buka Pengaturan",
         "description": "Open options button"
+    },
+    "actionsDescription": {
+        "message": "Buat tindakan pemrosesan teks kustom yang muncul di menu klik kanan. Setiap tindakan menggunakan prompt kustom untuk mengubah teks yang dipilih dengan AI.",
+        "description": "Description for actions section"
+    },
+    "networkErrorHint": {
+        "message": "Periksa koneksi internet Anda dan URL endpoint API.",
+        "description": "Hint for network errors"
+    },
+    "azureNetworkErrorHint": {
+        "message": "Harap periksa: 1) URL API sudah benar (ganti YOUR_RESOURCE dan YOUR_DEPLOYMENT), 2) CORS dikonfigurasi di Azure Portal untuk mengizinkan chrome-extension://*",
+        "description": "Hint for Azure network/CORS errors"
     }
 }

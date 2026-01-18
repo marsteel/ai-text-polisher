@@ -134,5 +134,17 @@
     "popupOpenOptions": {
         "message": "Beállítások megnyitása",
         "description": "Open options button"
+    },
+    "actionsDescription": {
+        "message": "Hozzon létre egyéni szövegfeldolgozási műveleteket, amelyek megjelennek a jobb kattintásos menüben. Minden művelet egyéni promptot használ a kiválasztott szöveg AI-val történő átalakításához.",
+        "description": "Description for actions section"
+    },
+    "networkErrorHint": {
+        "message": "Ellenőrizze az internetkapcsolatot és az API végpont URL-jét.",
+        "description": "Hint for network errors"
+    },
+    "azureNetworkErrorHint": {
+        "message": "Kérjük, ellenőrizze: 1) Az API URL helyes (cserélje ki a YOUR_RESOURCE és YOUR_DEPLOYMENT értékeket), 2) A CORS konfigurálva van az Azure Portalon a chrome-extension://* engedélyezéséhez",
+        "description": "Hint for Azure network/CORS errors"
     }
 }

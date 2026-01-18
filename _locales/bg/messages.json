@@ -134,5 +134,17 @@
     "popupOpenOptions": {
         "message": "Отвори настройки",
         "description": "Open options button"
+    },
+    "actionsDescription": {
+        "message": "Създайте персонализирани действия за обработка на текст, които се появяват в контекстното меню. Всяко действие използва персонализиран промпт за трансформиране на избрания текст с AI.",
+        "description": "Description for actions section"
+    },
+    "networkErrorHint": {
+        "message": "Проверете интернет връзката си и URL адреса на API крайната точка.",
+        "description": "Hint for network errors"
+    },
+    "azureNetworkErrorHint": {
+        "message": "Моля, проверете: 1) API URL адресът е правилен (заменете YOUR_RESOURCE и YOUR_DEPLOYMENT), 2) CORS е конфигуриран в Azure Portal да позволява chrome-extension://*",
+        "description": "Hint for Azure network/CORS errors"
     }
 }

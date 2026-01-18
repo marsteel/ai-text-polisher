@@ -134,5 +134,17 @@
     "popupOpenOptions": {
         "message": "Åbn indstillinger",
         "description": "Open options button"
+    },
+    "actionsDescription": {
+        "message": "Opret brugerdefinerede tekstbehandlingshandlinger, der vises i højrekliksmenuen. Hver handling bruger en brugerdefineret prompt til at transformere valgt tekst med AI.",
+        "description": "Description for actions section"
+    },
+    "networkErrorHint": {
+        "message": "Tjek din internetforbindelse og API endpoint URL.",
+        "description": "Hint for network errors"
+    },
+    "azureNetworkErrorHint": {
+        "message": "Tjek venligst: 1) API URL er korrekt (erstat YOUR_RESOURCE og YOUR_DEPLOYMENT), 2) CORS er konfigureret i Azure Portal til at tillade chrome-extension://*",
+        "description": "Hint for Azure network/CORS errors"
     }
 }

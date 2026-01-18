@@ -134,5 +134,17 @@
     "popupOpenOptions": {
         "message": "Instellingen openen",
         "description": "Open options button"
+    },
+    "actionsDescription": {
+        "message": "Maak aangepaste tekstbewerkingsacties die verschijnen in het contextmenu. Elke actie gebruikt een aangepaste prompt om geselecteerde tekst te transformeren met AI.",
+        "description": "Description for actions section"
+    },
+    "networkErrorHint": {
+        "message": "Controleer uw internetverbinding en de API-endpoint URL.",
+        "description": "Hint for network errors"
+    },
+    "azureNetworkErrorHint": {
+        "message": "Controleer: 1) API URL is correct (vervang YOUR_RESOURCE en YOUR_DEPLOYMENT), 2) CORS is geconfigureerd in Azure Portal om chrome-extension://* toe te staan",
+        "description": "Hint for Azure network/CORS errors"
     }
 }

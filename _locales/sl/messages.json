@@ -134,5 +134,17 @@
     "popupOpenOptions": {
         "message": "Odpri nastavitve",
         "description": "Open options button"
+    },
+    "actionsDescription": {
+        "message": "Ustvarite dejanja po meri za obdelavo besedila, ki se prikažejo v kontekstnem meniju. Vsako dejanje uporablja poziv po meri za preoblikovanje izbranega besedila z AI.",
+        "description": "Description for actions section"
+    },
+    "networkErrorHint": {
+        "message": "Preverite internetno povezavo in URL končne točke API.",
+        "description": "Hint for network errors"
+    },
+    "azureNetworkErrorHint": {
+        "message": "Preverite: 1) URL API je pravilen (zamenjajte YOUR_RESOURCE in YOUR_DEPLOYMENT), 2) CORS je konfiguriran na portalu Azure za dovoljenje chrome-extension://*",
+        "description": "Hint for Azure network/CORS errors"
     }
 }

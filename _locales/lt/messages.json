@@ -134,5 +134,17 @@
     "popupOpenOptions": {
         "message": "Atidaryti nustatymus",
         "description": "Open options button"
+    },
+    "actionsDescription": {
+        "message": "Sukurkite pasirinktinius teksto apdorojimo veiksmus, kurie rodomi dešiniojo pelės mygtuko meniu. Kiekvienas veiksmas naudoja pasirinktinį raginimą, kad AI transformuotų pasirinktą tekstą.",
+        "description": "Description for actions section"
+    },
+    "networkErrorHint": {
+        "message": "Patikrinkite interneto ryšį ir API galinio taško URL.",
+        "description": "Hint for network errors"
+    },
+    "azureNetworkErrorHint": {
+        "message": "Patikrinkite: 1) API URL teisingas (pakeiskite YOUR_RESOURCE ir YOUR_DEPLOYMENT), 2) CORS sukonfigūruotas Azure portale, kad leistų chrome-extension://*",
+        "description": "Hint for Azure network/CORS errors"
     }
 }

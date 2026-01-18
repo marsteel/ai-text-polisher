@@ -134,5 +134,17 @@
     "popupOpenOptions": {
         "message": "सेटिंग्स खोलें",
         "description": "Open options button"
+    },
+    "actionsDescription": {
+        "message": "कस्टम टेक्स्ट प्रोसेसिंग एक्शन बनाएं जो राइट-क्लिक मेनू में दिखाई देते हैं। प्रत्येक एक्शन AI के साथ चयनित टेक्स्ट को रूपांतरित करने के लिए एक कस्टम प्रॉम्प्ट का उपयोग करता है।",
+        "description": "Description for actions section"
+    },
+    "networkErrorHint": {
+        "message": "अपने इंटरनेट कनेक्शन और API एंडपॉइंट URL की जांच करें।",
+        "description": "Hint for network errors"
+    },
+    "azureNetworkErrorHint": {
+        "message": "कृपया जांचें: 1) API URL सही है (YOUR_RESOURCE और YOUR_DEPLOYMENT को बदलें), 2) Azure Portal में CORS को chrome-extension://* की अनुमति देने के लिए कॉन्फ़िगर किया गया है",
+        "description": "Hint for Azure network/CORS errors"
     }
 }

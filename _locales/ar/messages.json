@@ -134,5 +134,17 @@
     "popupOpenOptions": {
         "message": "فتح الإعدادات",
         "description": "Open options button"
+    },
+    "actionsDescription": {
+        "message": "إنشاء إجراءات معالجة نصية مخصصة تظهر في قائمة النقر بزر الماوس الأيمن. يستخدم كل إجراء موجهًا مخصصًا لتحويل النص المحدد باستخدام الذكاء الاصطناعي.",
+        "description": "Description for actions section"
+    },
+    "networkErrorHint": {
+        "message": "تحقق من اتصالك بالإنترنت وعنوان نقطة نهاية API.",
+        "description": "Hint for network errors"
+    },
+    "azureNetworkErrorHint": {
+        "message": "يرجى التحقق من: 1) عنوان API URL صحيح (استبدل YOUR_RESOURCE و YOUR_DEPLOYMENT)، 2) تم تكوين CORS في بوابة Azure للسماح بـ chrome-extension://*",
+        "description": "Hint for Azure network/CORS errors"
     }
 }

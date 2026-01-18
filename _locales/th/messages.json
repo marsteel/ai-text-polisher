@@ -134,5 +134,17 @@
     "popupOpenOptions": {
         "message": "เปิดการตั้งค่า",
         "description": "Open options button"
+    },
+    "actionsDescription": {
+        "message": "สร้างการดำเนินการประมวลผลข้อความแบบกำหนดเองที่ปรากฏในเมนูคลิกขวา แต่ละการดำเนินการใช้พรอมต์แบบกำหนดเองเพื่อแปลงข้อความที่เลือกด้วย AI",
+        "description": "Description for actions section"
+    },
+    "networkErrorHint": {
+        "message": "ตรวจสอบการเชื่อมต่ออินเทอร์เน็ตและ URL ของ API endpoint",
+        "description": "Hint for network errors"
+    },
+    "azureNetworkErrorHint": {
+        "message": "โปรดตรวจสอบ: 1) URL ของ API ถูกต้อง (แทนที่ YOUR_RESOURCE และ YOUR_DEPLOYMENT), 2) CORS ได้รับการกำหนดค่าใน Azure Portal เพื่ออนุญาต chrome-extension://*",
+        "description": "Hint for Azure network/CORS errors"
     }
 }

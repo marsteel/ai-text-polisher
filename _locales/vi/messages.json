@@ -134,5 +134,17 @@
     "popupOpenOptions": {
         "message": "Mở cài đặt",
         "description": "Open options button"
+    },
+    "actionsDescription": {
+        "message": "Tạo các hành động xử lý văn bản tùy chỉnh xuất hiện trong menu chuột phải. Mỗi hành động sử dụng một lời nhắc tùy chỉnh để chuyển đổi văn bản đã chọn bằng AI.",
+        "description": "Description for actions section"
+    },
+    "networkErrorHint": {
+        "message": "Kiểm tra kết nối internet và URL điểm cuối API của bạn.",
+        "description": "Hint for network errors"
+    },
+    "azureNetworkErrorHint": {
+        "message": "Vui lòng kiểm tra: 1) URL API đúng (thay thế YOUR_RESOURCE và YOUR_DEPLOYMENT), 2) CORS được cấu hình trong Azure Portal để cho phép chrome-extension://*",
+        "description": "Hint for Azure network/CORS errors"
     }
 }

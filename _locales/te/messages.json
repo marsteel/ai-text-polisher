@@ -134,5 +134,17 @@
     "popupOpenOptions": {
         "message": "సెట్టింగ్‌లను తెరవండి",
         "description": "Open options button"
+    },
+    "actionsDescription": {
+        "message": "రైట్-క్లిక్ మెనూలో కనిపించే కస్టమ్ టెక్స్ట్ ప్రాసెసింగ్ చర్యలను సృష్టించండి. ప్రతి చర్య AIతో ఎంచుకున్న టెక్స్ట్‌ను మార్చడానికి కస్టమ్ ప్రాంప్ట్‌ను ఉపయోగిస్తుంది.",
+        "description": "Description for actions section"
+    },
+    "networkErrorHint": {
+        "message": "మీ ఇంటర్నెట్ కనెక్షన్ మరియు API ఎండ్‌పాయింట్ URLను తనిఖీ చేయండి.",
+        "description": "Hint for network errors"
+    },
+    "azureNetworkErrorHint": {
+        "message": "దయచేసి తనిఖీ చేయండి: 1) API URL సరైనదా (YOUR_RESOURCE మరియు YOUR_DEPLOYMENTను మార్చండి), 2) Azure Portalలో CORS chrome-extension://*ను అనుమతించడానికి కాన్ఫిగర్ చేయబడింది",
+        "description": "Hint for Azure network/CORS errors"
     }
 }
