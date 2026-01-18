@@ -150,5 +150,17 @@
     "apiUrlHelp": {
         "message": "API крајња тачка за изабраног провајдера",
         "description": "Help text for API URL field"
+    },
+    "testConnectionSuccess": {
+        "message": "✓ Веза успешна! API ради исправно.",
+        "description": "Test connection message: testConnectionSuccess"
+    },
+    "testConnectionFailed": {
+        "message": "✗ Веза није успела:",
+        "description": "Test connection message: testConnectionFailed"
+    },
+    "fillAllFields": {
+        "message": "Молимо попуните сва подешавања API пре тестирања",
+        "description": "Test connection message: fillAllFields"
     }
 }

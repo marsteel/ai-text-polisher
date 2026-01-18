@@ -150,5 +150,17 @@
     "apiUrlHelp": {
         "message": "Τελικό σημείο API για τον επιλεγμένο πάροχο",
         "description": "Help text for API URL field"
+    },
+    "testConnectionSuccess": {
+        "message": "✓ Η σύνδεση ήταν επιτυχής! Το API λειτουργεί σωστά.",
+        "description": "Test connection message: testConnectionSuccess"
+    },
+    "testConnectionFailed": {
+        "message": "✗ Η σύνδεση απέτυχε:",
+        "description": "Test connection message: testConnectionFailed"
+    },
+    "fillAllFields": {
+        "message": "Συμπληρώστε όλες τις ρυθμίσεις API πριν από τη δοκιμή",
+        "description": "Test connection message: fillAllFields"
     }
 }

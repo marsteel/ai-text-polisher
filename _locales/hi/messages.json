@@ -150,5 +150,17 @@
     "apiUrlHelp": {
         "message": "चयनित प्रदाता के लिए API एंडपॉइंट",
         "description": "Help text for API URL field"
+    },
+    "testConnectionSuccess": {
+        "message": "✓ कनेक्शन सफल! API सही तरीके से काम कर रहा है।",
+        "description": "Test connection message: testConnectionSuccess"
+    },
+    "testConnectionFailed": {
+        "message": "✗ कनेक्शन विफल:",
+        "description": "Test connection message: testConnectionFailed"
+    },
+    "fillAllFields": {
+        "message": "परीक्षण से पहले कृपया सभी API सेटिंग्स भरें",
+        "description": "Test connection message: fillAllFields"
     }
 }

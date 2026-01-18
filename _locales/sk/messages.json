@@ -150,5 +150,17 @@
     "apiUrlHelp": {
         "message": "API koncový bod pre vybraného poskytovateľa",
         "description": "Help text for API URL field"
+    },
+    "testConnectionSuccess": {
+        "message": "✓ Pripojenie úspešné! API funguje správne.",
+        "description": "Test connection message: testConnectionSuccess"
+    },
+    "testConnectionFailed": {
+        "message": "✗ Pripojenie zlyhalo:",
+        "description": "Test connection message: testConnectionFailed"
+    },
+    "fillAllFields": {
+        "message": "Pred testovaním vyplňte všetky nastavenia API",
+        "description": "Test connection message: fillAllFields"
     }
 }

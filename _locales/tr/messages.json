@@ -150,5 +150,17 @@
     "apiUrlHelp": {
         "message": "Seçilen sağlayıcı için API uç noktası",
         "description": "Help text for API URL field"
+    },
+    "testConnectionSuccess": {
+        "message": "✓ Bağlantı başarılı! API doğru çalışıyor.",
+        "description": "Test connection message: testConnectionSuccess"
+    },
+    "testConnectionFailed": {
+        "message": "✗ Bağlantı başarısız:",
+        "description": "Test connection message: testConnectionFailed"
+    },
+    "fillAllFields": {
+        "message": "Lütfen test etmeden önce tüm API ayarlarını doldurun",
+        "description": "Test connection message: fillAllFields"
     }
 }

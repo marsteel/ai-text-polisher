@@ -150,5 +150,17 @@
     "apiUrlHelp": {
         "message": "ปลายทาง API สำหรับผู้ให้บริการที่เลือก",
         "description": "Help text for API URL field"
+    },
+    "testConnectionSuccess": {
+        "message": "✓ เชื่อมต่อสำเร็จ! API ทำงานได้อย่างถูกต้อง",
+        "description": "Test connection message: testConnectionSuccess"
+    },
+    "testConnectionFailed": {
+        "message": "✗ การเชื่อมต่อล้มเหลว:",
+        "description": "Test connection message: testConnectionFailed"
+    },
+    "fillAllFields": {
+        "message": "โปรดกรอกการตั้งค่า API ทั้งหมดก่อนทดสอบ",
+        "description": "Test connection message: fillAllFields"
     }
 }

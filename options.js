@@ -204,7 +204,7 @@ async function testConnection() {
 
     // Validate inputs
     if (!apiUrl || !apiKey || !modelName) {
-        showTestStatus('Please fill in all API settings before testing', 'error');
+        showTestStatus(chrome.i18n.getMessage('fillAllFields'), 'error');
         return;
     }
 
@@ -270,7 +270,7 @@ async function testConnection() {
         });
 
         if (response.ok) {
-            showTestStatus('✓ Connection successful! API is working correctly.', 'success');
+            showTestStatus(chrome.i18n.getMessage('testConnectionSuccess'), 'success');
         } else {
             // Try to parse error details from response
             let errorMessage = `${response.status} ${response.statusText}`;
@@ -291,7 +291,7 @@ async function testConnection() {
                     errorMessage = `${response.status}: ${errorText.substring(0, 200)}`;
                 }
             }
-            showTestStatus(`✗ Connection failed: ${errorMessage}`, 'error');
+            showTestStatus(`${chrome.i18n.getMessage('testConnectionFailed')} ${errorMessage}`, 'error');
         }
     } catch (error) {
         let errorMsg = error.message;

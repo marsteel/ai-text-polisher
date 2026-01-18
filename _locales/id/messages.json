@@ -150,5 +150,17 @@
     "apiUrlHelp": {
         "message": "Endpoint API untuk penyedia yang dipilih",
         "description": "Help text for API URL field"
+    },
+    "testConnectionSuccess": {
+        "message": "✓ Koneksi berhasil! API berfungsi dengan benar.",
+        "description": "Test connection message: testConnectionSuccess"
+    },
+    "testConnectionFailed": {
+        "message": "✗ Koneksi gagal:",
+        "description": "Test connection message: testConnectionFailed"
+    },
+    "fillAllFields": {
+        "message": "Harap isi semua pengaturan API sebelum pengujian",
+        "description": "Test connection message: fillAllFields"
     }
 }

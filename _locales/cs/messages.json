@@ -150,5 +150,17 @@
     "apiUrlHelp": {
         "message": "API endpoint pro vybraného poskytovatele",
         "description": "Help text for API URL field"
+    },
+    "testConnectionSuccess": {
+        "message": "✓ Připojení úspěšné! API funguje správně.",
+        "description": "Test connection message: testConnectionSuccess"
+    },
+    "testConnectionFailed": {
+        "message": "✗ Připojení selhalo:",
+        "description": "Test connection message: testConnectionFailed"
+    },
+    "fillAllFields": {
+        "message": "Před testováním vyplňte všechna nastavení API",
+        "description": "Test connection message: fillAllFields"
     }
 }

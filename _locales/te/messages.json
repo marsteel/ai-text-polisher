@@ -150,5 +150,17 @@
     "apiUrlHelp": {
         "message": "ఎంచుకున్న ప్రొవైడర్ కోసం API ఎండ్‌పాయింట్",
         "description": "Help text for API URL field"
+    },
+    "testConnectionSuccess": {
+        "message": "✓ కనెక్షన్ విజయవంతం! API సరిగ్గా పని చేస్తోంది.",
+        "description": "Test connection message: testConnectionSuccess"
+    },
+    "testConnectionFailed": {
+        "message": "✗ కనెక్షన్ విఫలమైంది:",
+        "description": "Test connection message: testConnectionFailed"
+    },
+    "fillAllFields": {
+        "message": "దయచేసి పరీక్ష చేయడానికి ముందు అన్ని API సెట్టింగ్‌లను పూరించండి",
+        "description": "Test connection message: fillAllFields"
     }
 }

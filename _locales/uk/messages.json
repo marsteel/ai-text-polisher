@@ -150,5 +150,17 @@
     "apiUrlHelp": {
         "message": "Кінцева точка API для вибраного провайдера",
         "description": "Help text for API URL field"
+    },
+    "testConnectionSuccess": {
+        "message": "✓ Підключення успішне! API працює правильно.",
+        "description": "Test connection message: testConnectionSuccess"
+    },
+    "testConnectionFailed": {
+        "message": "✗ Підключення не вдалося:",
+        "description": "Test connection message: testConnectionFailed"
+    },
+    "fillAllFields": {
+        "message": "Будь ласка, заповніть усі налаштування API перед тестуванням",
+        "description": "Test connection message: fillAllFields"
     }
 }

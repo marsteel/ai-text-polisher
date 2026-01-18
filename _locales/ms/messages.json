@@ -150,5 +150,17 @@
     "apiUrlHelp": {
         "message": "Titik akhir API untuk penyedia yang dipilih",
         "description": "Help text for API URL field"
+    },
+    "testConnectionSuccess": {
+        "message": "✓ Sambungan berjaya! API berfungsi dengan betul.",
+        "description": "Test connection message: testConnectionSuccess"
+    },
+    "testConnectionFailed": {
+        "message": "✗ Sambungan gagal:",
+        "description": "Test connection message: testConnectionFailed"
+    },
+    "fillAllFields": {
+        "message": "Sila isi semua tetapan API sebelum ujian",
+        "description": "Test connection message: fillAllFields"
     }
 }

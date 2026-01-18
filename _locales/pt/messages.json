@@ -150,5 +150,17 @@
     "apiUrlHelp": {
         "message": "Endpoint da API para o provedor selecionado",
         "description": "Help text for API URL field"
+    },
+    "testConnectionSuccess": {
+        "message": "✓ Conexão bem-sucedida! A API está funcionando corretamente.",
+        "description": "Test connection message: testConnectionSuccess"
+    },
+    "testConnectionFailed": {
+        "message": "✗ Falha na conexão:",
+        "description": "Test connection message: testConnectionFailed"
+    },
+    "fillAllFields": {
+        "message": "Preencha todas as configurações da API antes de testar",
+        "description": "Test connection message: fillAllFields"
     }
 }

@@ -150,5 +150,17 @@
     "apiUrlHelp": {
         "message": "Конечная точка API для выбранного провайдера",
         "description": "Help text for API URL field"
+    },
+    "testConnectionSuccess": {
+        "message": "✓ Подключение успешно! API работает правильно.",
+        "description": "Test connection message: testConnectionSuccess"
+    },
+    "testConnectionFailed": {
+        "message": "✗ Подключение не удалось:",
+        "description": "Test connection message: testConnectionFailed"
+    },
+    "fillAllFields": {
+        "message": "Пожалуйста, заполните все настройки API перед тестированием",
+        "description": "Test connection message: fillAllFields"
     }
 }

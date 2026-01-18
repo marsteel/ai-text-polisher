@@ -150,5 +150,17 @@
     "apiUrlHelp": {
         "message": "선택한 제공업체의 API 엔드포인트",
         "description": "Help text for API URL field"
+    },
+    "testConnectionSuccess": {
+        "message": "✓ 연결 성공! API가 정상적으로 작동합니다.",
+        "description": "Test connection message: testConnectionSuccess"
+    },
+    "testConnectionFailed": {
+        "message": "✗ 연결 실패:",
+        "description": "Test connection message: testConnectionFailed"
+    },
+    "fillAllFields": {
+        "message": "테스트 전에 모든 API 설정을 입력하세요",
+        "description": "Test connection message: fillAllFields"
     }
 }

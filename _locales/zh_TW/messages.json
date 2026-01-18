@@ -174,5 +174,17 @@
     "saveApiSettings": {
         "message": "保存 API 設置",
         "description": "Save API settings button"
+    },
+    "testConnectionSuccess": {
+        "message": "✓ 連接成功！API 工作正常。",
+        "description": "Test connection message: testConnectionSuccess"
+    },
+    "testConnectionFailed": {
+        "message": "✗ 連接失敗：",
+        "description": "Test connection message: testConnectionFailed"
+    },
+    "fillAllFields": {
+        "message": "請在測試前填寫所有 API 設置",
+        "description": "Test connection message: fillAllFields"
     }
 }

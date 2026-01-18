@@ -150,5 +150,17 @@
     "apiUrlHelp": {
         "message": "API končna točka za izbranega ponudnika",
         "description": "Help text for API URL field"
+    },
+    "testConnectionSuccess": {
+        "message": "✓ Povezava uspešna! API deluje pravilno.",
+        "description": "Test connection message: testConnectionSuccess"
+    },
+    "testConnectionFailed": {
+        "message": "✗ Povezava ni uspela:",
+        "description": "Test connection message: testConnectionFailed"
+    },
+    "fillAllFields": {
+        "message": "Pred testiranjem izpolnite vse nastavitve API",
+        "description": "Test connection message: fillAllFields"
     }
 }

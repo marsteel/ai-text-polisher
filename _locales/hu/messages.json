@@ -150,5 +150,17 @@
     "apiUrlHelp": {
         "message": "API végpont a kiválasztott szolgáltatóhoz",
         "description": "Help text for API URL field"
+    },
+    "testConnectionSuccess": {
+        "message": "✓ Sikeres kapcsolat! Az API megfelelően működik.",
+        "description": "Test connection message: testConnectionSuccess"
+    },
+    "testConnectionFailed": {
+        "message": "✗ Kapcsolat sikertelen:",
+        "description": "Test connection message: testConnectionFailed"
+    },
+    "fillAllFields": {
+        "message": "Kérjük, töltse ki az összes API beállítást tesztelés előtt",
+        "description": "Test connection message: fillAllFields"
     }
 }

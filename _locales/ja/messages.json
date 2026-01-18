@@ -150,5 +150,17 @@
     "apiUrlHelp": {
         "message": "選択したプロバイダーのAPIエンドポイント",
         "description": "Help text for API URL field"
+    },
+    "testConnectionSuccess": {
+        "message": "✓ 接続成功！APIは正常に動作しています。",
+        "description": "Test connection message: testConnectionSuccess"
+    },
+    "testConnectionFailed": {
+        "message": "✗ 接続失敗：",
+        "description": "Test connection message: testConnectionFailed"
+    },
+    "fillAllFields": {
+        "message": "テスト前にすべてのAPI設定を入力してください",
+        "description": "Test connection message: fillAllFields"
     }
 }

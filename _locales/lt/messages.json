@@ -150,5 +150,17 @@
     "apiUrlHelp": {
         "message": "API galinis taškas pasirinktam teikėjui",
         "description": "Help text for API URL field"
+    },
+    "testConnectionSuccess": {
+        "message": "✓ Ryšys sėkmingas! API veikia teisingai.",
+        "description": "Test connection message: testConnectionSuccess"
+    },
+    "testConnectionFailed": {
+        "message": "✗ Ryšys nepavyko:",
+        "description": "Test connection message: testConnectionFailed"
+    },
+    "fillAllFields": {
+        "message": "Prieš bandymą užpildykite visus API nustatymus",
+        "description": "Test connection message: fillAllFields"
     }
 }

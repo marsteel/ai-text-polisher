@@ -150,5 +150,17 @@
     "apiUrlHelp": {
         "message": "API-slutpunkt för den valda leverantören",
         "description": "Help text for API URL field"
+    },
+    "testConnectionSuccess": {
+        "message": "✓ Anslutning lyckades! API fungerar korrekt.",
+        "description": "Test connection message: testConnectionSuccess"
+    },
+    "testConnectionFailed": {
+        "message": "✗ Anslutning misslyckades:",
+        "description": "Test connection message: testConnectionFailed"
+    },
+    "fillAllFields": {
+        "message": "Fyll i alla API-inställningar innan testning",
+        "description": "Test connection message: fillAllFields"
     }
 }

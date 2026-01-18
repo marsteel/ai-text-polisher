@@ -150,5 +150,17 @@
     "apiUrlHelp": {
         "message": "API-päätepiste valitulle palveluntarjoajalle",
         "description": "Help text for API URL field"
+    },
+    "testConnectionSuccess": {
+        "message": "✓ Yhteys onnistui! API toimii oikein.",
+        "description": "Test connection message: testConnectionSuccess"
+    },
+    "testConnectionFailed": {
+        "message": "✗ Yhteys epäonnistui:",
+        "description": "Test connection message: testConnectionFailed"
+    },
+    "fillAllFields": {
+        "message": "Täytä kaikki API-asetukset ennen testausta",
+        "description": "Test connection message: fillAllFields"
     }
 }

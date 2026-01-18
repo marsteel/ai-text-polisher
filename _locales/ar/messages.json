@@ -150,5 +150,17 @@
     "apiUrlHelp": {
         "message": "نقطة نهاية API للموفر المحدد",
         "description": "Help text for API URL field"
+    },
+    "testConnectionSuccess": {
+        "message": "✓ نجح الاتصال! API يعمل بشكل صحيح.",
+        "description": "Test connection message: testConnectionSuccess"
+    },
+    "testConnectionFailed": {
+        "message": "✗ فشل الاتصال:",
+        "description": "Test connection message: testConnectionFailed"
+    },
+    "fillAllFields": {
+        "message": "يرجى ملء جميع إعدادات API قبل الاختبار",
+        "description": "Test connection message: fillAllFields"
     }
 }

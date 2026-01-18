@@ -150,5 +150,17 @@
     "apiUrlHelp": {
         "message": "Punct final API pentru furnizorul selectat",
         "description": "Help text for API URL field"
+    },
+    "testConnectionSuccess": {
+        "message": "✓ Conexiune reușită! API funcționează corect.",
+        "description": "Test connection message: testConnectionSuccess"
+    },
+    "testConnectionFailed": {
+        "message": "✗ Conexiune eșuată:",
+        "description": "Test connection message: testConnectionFailed"
+    },
+    "fillAllFields": {
+        "message": "Completați toate setările API înainte de testare",
+        "description": "Test connection message: fillAllFields"
     }
 }

@@ -150,5 +150,17 @@
     "apiUrlHelp": {
         "message": "Điểm cuối API cho nhà cung cấp đã chọn",
         "description": "Help text for API URL field"
+    },
+    "testConnectionSuccess": {
+        "message": "✓ Kết nối thành công! API hoạt động chính xác.",
+        "description": "Test connection message: testConnectionSuccess"
+    },
+    "testConnectionFailed": {
+        "message": "✗ Kết nối thất bại:",
+        "description": "Test connection message: testConnectionFailed"
+    },
+    "fillAllFields": {
+        "message": "Vui lòng điền tất cả cài đặt API trước khi kiểm tra",
+        "description": "Test connection message: fillAllFields"
     }
 }
