@@ -186,5 +186,29 @@
     "fillAllFields": {
         "message": "Please fill in all API settings before testing",
         "description": "Test connection message: fillAllFields"
+    },
+    "modelRecommendOpenai": {
+        "message": "Recommended: gpt-4o-mini (fast, cheap) or gpt-4o (best quality)",
+        "description": "Model recommendation for Openai"
+    },
+    "modelRecommendAzure": {
+        "message": "Use your deployment name (e.g., gpt-4, gpt-35-turbo)",
+        "description": "Model recommendation for Azure"
+    },
+    "modelRecommendAnthropic": {
+        "message": "Recommended: claude-3-5-haiku-20241022 (fast, cheap) or claude-3-5-sonnet-20241022 (best quality)",
+        "description": "Model recommendation for Anthropic"
+    },
+    "modelRecommendGemini": {
+        "message": "Recommended: gemini-2.0-flash-exp (fast, free) or gemini-1.5-pro (best quality)",
+        "description": "Model recommendation for Gemini"
+    },
+    "modelRecommendDeepseek": {
+        "message": "Recommended: deepseek-chat (good quality, very cheap)",
+        "description": "Model recommendation for Deepseek"
+    },
+    "modelRecommendCustom": {
+        "message": "Enter the model name for your custom API endpoint",
+        "description": "Model recommendation for Custom"
     }
 }

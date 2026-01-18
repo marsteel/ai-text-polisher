@@ -189,6 +189,26 @@ function handleProviderChange() {
         document.getElementById('apiUrl').value = config.url;
         document.getElementById('modelName').value = config.model;
     }
+    
+    // Update model help text with provider-specific recommendations
+    updateModelRecommendation(provider);
+}
+
+/**
+ * Update model recommendation text based on provider
+ */
+function updateModelRecommendation(provider) {
+    const modelHelpEl = document.getElementById('modelNameHelp');
+    const baseText = chrome.i18n.getMessage('modelNameHelp');
+    
+    const recommendKey = `modelRecommend${provider.charAt(0).toUpperCase() + provider.slice(1)}`;
+    const recommendation = chrome.i18n.getMessage(recommendKey);
+    
+    if (recommendation) {
+        modelHelpEl.textContent = `${baseText}. ${recommendation}`;
+    } else {
+        modelHelpEl.textContent = baseText;
+    }
 }
 
 /**

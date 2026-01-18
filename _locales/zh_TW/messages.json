@@ -186,5 +186,29 @@
     "fillAllFields": {
         "message": "請在測試前填寫所有 API 設置",
         "description": "Test connection message: fillAllFields"
+    },
+    "modelRecommendOpenai": {
+        "message": "推薦：gpt-4o-mini（快速、便宜）或 gpt-4o（最佳質量）",
+        "description": "Model recommendation for Openai"
+    },
+    "modelRecommendAzure": {
+        "message": "使用您的部署名稱（例如 gpt-4、gpt-35-turbo）",
+        "description": "Model recommendation for Azure"
+    },
+    "modelRecommendAnthropic": {
+        "message": "推薦：claude-3-5-haiku-20241022（快速、便宜）或 claude-3-5-sonnet-20241022（最佳質量）",
+        "description": "Model recommendation for Anthropic"
+    },
+    "modelRecommendGemini": {
+        "message": "推薦：gemini-2.0-flash-exp（快速、免費）或 gemini-1.5-pro（最佳質量）",
+        "description": "Model recommendation for Gemini"
+    },
+    "modelRecommendDeepseek": {
+        "message": "推薦：deepseek-chat（質量好、非常便宜）",
+        "description": "Model recommendation for Deepseek"
+    },
+    "modelRecommendCustom": {
+        "message": "輸入自定義 API 端點的模型名稱",
+        "description": "Model recommendation for Custom"
     }
 }
