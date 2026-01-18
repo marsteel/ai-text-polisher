@@ -142,5 +142,9 @@
     "azureNetworkErrorHint": {
         "message": "請檢查：1) API URL 是否正確（替換 YOUR_RESOURCE 和 YOUR_DEPLOYMENT），2) 是否在 Azure 門戶中配置了 CORS 以允許 chrome-extension://*",
         "description": "Azure 網路/CORS 錯誤提示"
+    },
+    "actionsDescription": {
+        "message": "創建自定義文本處理操作，顯示在右鍵選單中。每個操作使用自定義提示詞通過 AI 轉換選中的文本。",
+        "description": "操作部分的描述"
     }
 }

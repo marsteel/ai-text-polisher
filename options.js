@@ -58,6 +58,7 @@ function loadI18nStrings() {
     document.getElementById('saveApiText').textContent = chrome.i18n.getMessage('saveApiSettings') || 'Save API Settings';
     document.getElementById('websiteLinkText').textContent = chrome.i18n.getMessage('websiteLink') || 'Documentation & Privacy Policy';
     document.getElementById('actionsTitle').textContent = chrome.i18n.getMessage('actions');
+    document.getElementById('actionsDescription').textContent = chrome.i18n.getMessage('actionsDescription');
     document.getElementById('addActionText').textContent = chrome.i18n.getMessage('addAction');
     document.getElementById('saveText').textContent = chrome.i18n.getMessage('save');
     document.getElementById('actionNameLabel').textContent = chrome.i18n.getMessage('actionName');
@@ -292,7 +293,7 @@ async function testConnection() {
         let errorMsg = error.message;
         // Add helpful hint for CORS/network errors
         if (error.message.includes('Failed to fetch') || error.message.includes('NetworkError')) {
-            const networkHint = provider === 'azure' 
+            const networkHint = provider === 'azure'
                 ? chrome.i18n.getMessage('azureNetworkErrorHint')
                 : chrome.i18n.getMessage('networkErrorHint');
             errorMsg = `${chrome.i18n.getMessage('networkError')} ${networkHint}`;
