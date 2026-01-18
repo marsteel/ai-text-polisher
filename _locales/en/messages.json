@@ -150,5 +150,29 @@
     "apiUrlHelp": {
         "message": "API endpoint for the selected provider",
         "description": "Help text for API URL field"
+    },
+    "aiProvider": {
+        "message": "AI Provider",
+        "description": "AI Provider label"
+    },
+    "aiProviderHelp": {
+        "message": "Select a provider to auto-fill settings",
+        "description": "Help text for AI provider selection"
+    },
+    "apiKeyHelp": {
+        "message": "Your API key (stored locally)",
+        "description": "Help text for API key field"
+    },
+    "modelNameHelp": {
+        "message": "Model to use for text processing",
+        "description": "Help text for model name field"
+    },
+    "testConnection": {
+        "message": "Test Connection",
+        "description": "Test connection button"
+    },
+    "saveApiSettings": {
+        "message": "Save API Settings",
+        "description": "Save API settings button"
     }
 }

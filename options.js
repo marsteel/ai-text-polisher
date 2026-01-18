@@ -51,10 +51,13 @@ function loadI18nStrings() {
     document.getElementById('optionsTitle').textContent = chrome.i18n.getMessage('optionsTitle');
     document.getElementById('apiSettingsTitle').textContent = chrome.i18n.getMessage('apiSettings');
     document.getElementById('aiProviderLabel').textContent = chrome.i18n.getMessage('aiProvider') || 'AI Provider';
+    document.getElementById('aiProviderHelp').textContent = chrome.i18n.getMessage('aiProviderHelp');
     document.getElementById('apiUrlLabel').textContent = chrome.i18n.getMessage('apiUrl');
     document.getElementById('apiUrlHelp').textContent = chrome.i18n.getMessage('apiUrlHelp');
     document.getElementById('apiKeyLabel').textContent = chrome.i18n.getMessage('apiKey');
+    document.getElementById('apiKeyHelp').textContent = chrome.i18n.getMessage('apiKeyHelp');
     document.getElementById('modelNameLabel').textContent = chrome.i18n.getMessage('modelName');
+    document.getElementById('modelNameHelp').textContent = chrome.i18n.getMessage('modelNameHelp');
     document.getElementById('testConnectionText').textContent = chrome.i18n.getMessage('testConnection') || 'Test Connection';
     document.getElementById('saveApiText').textContent = chrome.i18n.getMessage('saveApiSettings') || 'Save API Settings';
     document.getElementById('websiteLinkText').textContent = chrome.i18n.getMessage('websiteLink') || 'Documentation & Privacy Policy';

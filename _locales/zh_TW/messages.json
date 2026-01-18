@@ -56,11 +56,11 @@
         "description": "API URL label"
     },
     "apiKey": {
-        "message": "API金鑰",
+        "message": "API密鑰 (API Key)",
         "description": "API key label"
     },
     "modelName": {
-        "message": "模型名稱",
+        "message": "模型名稱 (AI Model)",
         "description": "Model name label"
     },
     "actions": {
@@ -150,5 +150,29 @@
     "apiUrlHelp": {
         "message": "所選提供商的 API 端點",
         "description": "Help text for API URL field"
+    },
+    "aiProvider": {
+        "message": "AI服務提供商 (AI Provider)",
+        "description": "AI Provider label"
+    },
+    "aiProviderHelp": {
+        "message": "選擇提供商以自動填充設置",
+        "description": "Help text for AI provider selection"
+    },
+    "apiKeyHelp": {
+        "message": "您的 API 密鑰（本地存儲）",
+        "description": "Help text for API key field"
+    },
+    "modelNameHelp": {
+        "message": "用於文本處理的模型",
+        "description": "Help text for model name field"
+    },
+    "testConnection": {
+        "message": "測試連接",
+        "description": "Test connection button"
+    },
+    "saveApiSettings": {
+        "message": "保存 API 設置",
+        "description": "Save API settings button"
     }
 }
