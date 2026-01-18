@@ -134,5 +134,57 @@
     "popupOpenOptions": {
         "message": "Deschide setări",
         "description": "Open options button"
+    },
+    "actionsDescription": {
+        "message": "Creați acțiuni personalizate de procesare a textului care apar în meniul contextual. Fiecare acțiune folosește un prompt personalizat pentru a transforma textul selectat cu AI.",
+        "description": "Description for actions section"
+    },
+    "networkErrorHint": {
+        "message": "Verificați conexiunea la internet și URL-ul punctului final API.",
+        "description": "Hint for network errors"
+    },
+    "azureNetworkErrorHint": {
+        "message": "Vă rugăm să verificați: 1) URL-ul API este corect (înlocuiți YOUR_RESOURCE și YOUR_DEPLOYMENT), 2) CORS este configurat în Portalul Azure pentru a permite chrome-extension://*",
+        "description": "Hint for Azure network/CORS errors"
+    },
+    "apiUrlHelp": {
+        "message": "Punct final API pentru furnizorul selectat",
+        "description": "Help text for API URL field"
+    },
+    "testConnectionSuccess": {
+        "message": "✓ Conexiune reușită! API funcționează corect.",
+        "description": "Test connection message: testConnectionSuccess"
+    },
+    "testConnectionFailed": {
+        "message": "✗ Conexiune eșuată:",
+        "description": "Test connection message: testConnectionFailed"
+    },
+    "fillAllFields": {
+        "message": "Completați toate setările API înainte de testare",
+        "description": "Test connection message: fillAllFields"
+    },
+    "modelRecommendOpenai": {
+        "message": "Recomandat: gpt-4o-mini (rapid, ieftin) sau gpt-4o (cea mai bună calitate)",
+        "description": "Model recommendation for Openai"
+    },
+    "modelRecommendAzure": {
+        "message": "Folosiți numele implementării (ex. gpt-4, gpt-35-turbo)",
+        "description": "Model recommendation for Azure"
+    },
+    "modelRecommendAnthropic": {
+        "message": "Recomandat: claude-3-5-haiku-20241022 (rapid, ieftin) sau claude-3-5-sonnet-20241022 (cea mai bună calitate)",
+        "description": "Model recommendation for Anthropic"
+    },
+    "modelRecommendGemini": {
+        "message": "Recomandat: gemini-2.0-flash-exp (rapid, gratuit) sau gemini-1.5-pro (cea mai bună calitate)",
+        "description": "Model recommendation for Gemini"
+    },
+    "modelRecommendDeepseek": {
+        "message": "Recomandat: deepseek-chat (calitate bună, foarte ieftin)",
+        "description": "Model recommendation for Deepseek"
+    },
+    "modelRecommendCustom": {
+        "message": "Introduceți numele modelului pentru punctul final API personalizat",
+        "description": "Model recommendation for Custom"
     }
 }

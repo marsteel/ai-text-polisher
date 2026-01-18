@@ -134,5 +134,57 @@
     "popupOpenOptions": {
         "message": "Atidaryti nustatymus",
         "description": "Open options button"
+    },
+    "actionsDescription": {
+        "message": "Sukurkite pasirinktinius teksto apdorojimo veiksmus, kurie rodomi dešiniojo pelės mygtuko meniu. Kiekvienas veiksmas naudoja pasirinktinį raginimą, kad AI transformuotų pasirinktą tekstą.",
+        "description": "Description for actions section"
+    },
+    "networkErrorHint": {
+        "message": "Patikrinkite interneto ryšį ir API galinio taško URL.",
+        "description": "Hint for network errors"
+    },
+    "azureNetworkErrorHint": {
+        "message": "Patikrinkite: 1) API URL teisingas (pakeiskite YOUR_RESOURCE ir YOUR_DEPLOYMENT), 2) CORS sukonfigūruotas Azure portale, kad leistų chrome-extension://*",
+        "description": "Hint for Azure network/CORS errors"
+    },
+    "apiUrlHelp": {
+        "message": "API galinis taškas pasirinktam teikėjui",
+        "description": "Help text for API URL field"
+    },
+    "testConnectionSuccess": {
+        "message": "✓ Ryšys sėkmingas! API veikia teisingai.",
+        "description": "Test connection message: testConnectionSuccess"
+    },
+    "testConnectionFailed": {
+        "message": "✗ Ryšys nepavyko:",
+        "description": "Test connection message: testConnectionFailed"
+    },
+    "fillAllFields": {
+        "message": "Prieš bandymą užpildykite visus API nustatymus",
+        "description": "Test connection message: fillAllFields"
+    },
+    "modelRecommendOpenai": {
+        "message": "Rekomenduojama: gpt-4o-mini (greitas, pigus) arba gpt-4o (geriausia kokybė)",
+        "description": "Model recommendation for Openai"
+    },
+    "modelRecommendAzure": {
+        "message": "Naudokite savo diegimo pavadinimą (pvz. gpt-4, gpt-35-turbo)",
+        "description": "Model recommendation for Azure"
+    },
+    "modelRecommendAnthropic": {
+        "message": "Rekomenduojama: claude-3-5-haiku-20241022 (greitas, pigus) arba claude-3-5-sonnet-20241022 (geriausia kokybė)",
+        "description": "Model recommendation for Anthropic"
+    },
+    "modelRecommendGemini": {
+        "message": "Rekomenduojama: gemini-2.0-flash-exp (greitas, nemokamas) arba gemini-1.5-pro (geriausia kokybė)",
+        "description": "Model recommendation for Gemini"
+    },
+    "modelRecommendDeepseek": {
+        "message": "Rekomenduojama: deepseek-chat (gera kokybė, labai pigus)",
+        "description": "Model recommendation for Deepseek"
+    },
+    "modelRecommendCustom": {
+        "message": "Įveskite modelio pavadinimą savo pasirinktiniam API galiniui taškui",
+        "description": "Model recommendation for Custom"
     }
 }

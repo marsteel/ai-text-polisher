@@ -134,5 +134,57 @@
     "popupOpenOptions": {
         "message": "فتح الإعدادات",
         "description": "Open options button"
+    },
+    "actionsDescription": {
+        "message": "إنشاء إجراءات معالجة نصية مخصصة تظهر في قائمة النقر بزر الماوس الأيمن. يستخدم كل إجراء موجهًا مخصصًا لتحويل النص المحدد باستخدام الذكاء الاصطناعي.",
+        "description": "Description for actions section"
+    },
+    "networkErrorHint": {
+        "message": "تحقق من اتصالك بالإنترنت وعنوان نقطة نهاية API.",
+        "description": "Hint for network errors"
+    },
+    "azureNetworkErrorHint": {
+        "message": "يرجى التحقق من: 1) عنوان API URL صحيح (استبدل YOUR_RESOURCE و YOUR_DEPLOYMENT)، 2) تم تكوين CORS في بوابة Azure للسماح بـ chrome-extension://*",
+        "description": "Hint for Azure network/CORS errors"
+    },
+    "apiUrlHelp": {
+        "message": "نقطة نهاية API للموفر المحدد",
+        "description": "Help text for API URL field"
+    },
+    "testConnectionSuccess": {
+        "message": "✓ نجح الاتصال! API يعمل بشكل صحيح.",
+        "description": "Test connection message: testConnectionSuccess"
+    },
+    "testConnectionFailed": {
+        "message": "✗ فشل الاتصال:",
+        "description": "Test connection message: testConnectionFailed"
+    },
+    "fillAllFields": {
+        "message": "يرجى ملء جميع إعدادات API قبل الاختبار",
+        "description": "Test connection message: fillAllFields"
+    },
+    "modelRecommendOpenai": {
+        "message": "موصى به: gpt-4o-mini (سريع، رخيص) أو gpt-4o (أفضل جودة)",
+        "description": "Model recommendation for Openai"
+    },
+    "modelRecommendAzure": {
+        "message": "استخدم اسم النشر الخاص بك (مثل gpt-4، gpt-35-turbo)",
+        "description": "Model recommendation for Azure"
+    },
+    "modelRecommendAnthropic": {
+        "message": "موصى به: claude-3-5-haiku-20241022 (سريع، رخيص) أو claude-3-5-sonnet-20241022 (أفضل جودة)",
+        "description": "Model recommendation for Anthropic"
+    },
+    "modelRecommendGemini": {
+        "message": "موصى به: gemini-2.0-flash-exp (سريع، مجاني) أو gemini-1.5-pro (أفضل جودة)",
+        "description": "Model recommendation for Gemini"
+    },
+    "modelRecommendDeepseek": {
+        "message": "موصى به: deepseek-chat (جودة جيدة، رخيص جداً)",
+        "description": "Model recommendation for Deepseek"
+    },
+    "modelRecommendCustom": {
+        "message": "أدخل اسم النموذج لنقطة نهاية API المخصصة",
+        "description": "Model recommendation for Custom"
     }
 }

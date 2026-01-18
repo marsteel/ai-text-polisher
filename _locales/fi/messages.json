@@ -134,5 +134,57 @@
     "popupOpenOptions": {
         "message": "Avaa asetukset",
         "description": "Open options button"
+    },
+    "actionsDescription": {
+        "message": "Luo mukautettuja tekstinkäsittelytoimintoja, jotka näkyvät hiiren oikean painikkeen valikossa. Jokainen toiminto käyttää mukautettua kehotetta muuttaakseen valitun tekstin tekoälyllä.",
+        "description": "Description for actions section"
+    },
+    "networkErrorHint": {
+        "message": "Tarkista internet-yhteytesi ja API-päätepisteen URL.",
+        "description": "Hint for network errors"
+    },
+    "azureNetworkErrorHint": {
+        "message": "Tarkista: 1) API URL on oikein (korvaa YOUR_RESOURCE ja YOUR_DEPLOYMENT), 2) CORS on määritetty Azure Portalissa sallimaan chrome-extension://*",
+        "description": "Hint for Azure network/CORS errors"
+    },
+    "apiUrlHelp": {
+        "message": "API-päätepiste valitulle palveluntarjoajalle",
+        "description": "Help text for API URL field"
+    },
+    "testConnectionSuccess": {
+        "message": "✓ Yhteys onnistui! API toimii oikein.",
+        "description": "Test connection message: testConnectionSuccess"
+    },
+    "testConnectionFailed": {
+        "message": "✗ Yhteys epäonnistui:",
+        "description": "Test connection message: testConnectionFailed"
+    },
+    "fillAllFields": {
+        "message": "Täytä kaikki API-asetukset ennen testausta",
+        "description": "Test connection message: fillAllFields"
+    },
+    "modelRecommendOpenai": {
+        "message": "Suositeltu: gpt-4o-mini (nopea, halpa) tai gpt-4o (paras laatu)",
+        "description": "Model recommendation for Openai"
+    },
+    "modelRecommendAzure": {
+        "message": "Käytä käyttöönoton nimeä (esim. gpt-4, gpt-35-turbo)",
+        "description": "Model recommendation for Azure"
+    },
+    "modelRecommendAnthropic": {
+        "message": "Suositeltu: claude-3-5-haiku-20241022 (nopea, halpa) tai claude-3-5-sonnet-20241022 (paras laatu)",
+        "description": "Model recommendation for Anthropic"
+    },
+    "modelRecommendGemini": {
+        "message": "Suositeltu: gemini-2.0-flash-exp (nopea, ilmainen) tai gemini-1.5-pro (paras laatu)",
+        "description": "Model recommendation for Gemini"
+    },
+    "modelRecommendDeepseek": {
+        "message": "Suositeltu: deepseek-chat (hyvä laatu, erittäin halpa)",
+        "description": "Model recommendation for Deepseek"
+    },
+    "modelRecommendCustom": {
+        "message": "Syötä mallin nimi mukautetulle API-päätepisteellesi",
+        "description": "Model recommendation for Custom"
     }
 }

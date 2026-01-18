@@ -134,5 +134,57 @@
     "popupOpenOptions": {
         "message": "Отвори настройки",
         "description": "Open options button"
+    },
+    "actionsDescription": {
+        "message": "Създайте персонализирани действия за обработка на текст, които се появяват в контекстното меню. Всяко действие използва персонализиран промпт за трансформиране на избрания текст с AI.",
+        "description": "Description for actions section"
+    },
+    "networkErrorHint": {
+        "message": "Проверете интернет връзката си и URL адреса на API крайната точка.",
+        "description": "Hint for network errors"
+    },
+    "azureNetworkErrorHint": {
+        "message": "Моля, проверете: 1) API URL адресът е правилен (заменете YOUR_RESOURCE и YOUR_DEPLOYMENT), 2) CORS е конфигуриран в Azure Portal да позволява chrome-extension://*",
+        "description": "Hint for Azure network/CORS errors"
+    },
+    "apiUrlHelp": {
+        "message": "API крайна точка за избрания доставчик",
+        "description": "Help text for API URL field"
+    },
+    "testConnectionSuccess": {
+        "message": "✓ Връзката е успешна! API работи правилно.",
+        "description": "Test connection message: testConnectionSuccess"
+    },
+    "testConnectionFailed": {
+        "message": "✗ Връзката се провали:",
+        "description": "Test connection message: testConnectionFailed"
+    },
+    "fillAllFields": {
+        "message": "Моля, попълнете всички API настройки преди тестване",
+        "description": "Test connection message: fillAllFields"
+    },
+    "modelRecommendOpenai": {
+        "message": "Препоръчва се: gpt-4o-mini (бърз, евтин) или gpt-4o (най-добро качество)",
+        "description": "Model recommendation for Openai"
+    },
+    "modelRecommendAzure": {
+        "message": "Използвайте името на вашето внедряване (напр. gpt-4, gpt-35-turbo)",
+        "description": "Model recommendation for Azure"
+    },
+    "modelRecommendAnthropic": {
+        "message": "Препоръчва се: claude-3-5-haiku-20241022 (бърз, евтин) или claude-3-5-sonnet-20241022 (най-добро качество)",
+        "description": "Model recommendation for Anthropic"
+    },
+    "modelRecommendGemini": {
+        "message": "Препоръчва се: gemini-2.0-flash-exp (бърз, безплатен) или gemini-1.5-pro (най-добро качество)",
+        "description": "Model recommendation for Gemini"
+    },
+    "modelRecommendDeepseek": {
+        "message": "Препоръчва се: deepseek-chat (добро качество, много евтин)",
+        "description": "Model recommendation for Deepseek"
+    },
+    "modelRecommendCustom": {
+        "message": "Въведете името на модела за вашата персонализирана API крайна точка",
+        "description": "Model recommendation for Custom"
     }
 }

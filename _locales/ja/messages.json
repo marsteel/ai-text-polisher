@@ -134,5 +134,57 @@
     "popupOpenOptions": {
         "message": "設定を開く",
         "description": "Open options button"
+    },
+    "actionsDescription": {
+        "message": "右クリックメニューに表示されるカスタムテキスト処理アクションを作成します。各アクションは、AIで選択したテキストを変換するためのカスタムプロンプトを使用します。",
+        "description": "Description for actions section"
+    },
+    "networkErrorHint": {
+        "message": "インターネット接続とAPIエンドポイントURLを確認してください。",
+        "description": "Hint for network errors"
+    },
+    "azureNetworkErrorHint": {
+        "message": "確認してください：1) API URLが正しい（YOUR_RESOURCEとYOUR_DEPLOYMENTを置き換える）、2) Azure PortalでCORSがchrome-extension://*を許可するように設定されている",
+        "description": "Hint for Azure network/CORS errors"
+    },
+    "apiUrlHelp": {
+        "message": "選択したプロバイダーのAPIエンドポイント",
+        "description": "Help text for API URL field"
+    },
+    "testConnectionSuccess": {
+        "message": "✓ 接続成功！APIは正常に動作しています。",
+        "description": "Test connection message: testConnectionSuccess"
+    },
+    "testConnectionFailed": {
+        "message": "✗ 接続失敗：",
+        "description": "Test connection message: testConnectionFailed"
+    },
+    "fillAllFields": {
+        "message": "テスト前にすべてのAPI設定を入力してください",
+        "description": "Test connection message: fillAllFields"
+    },
+    "modelRecommendOpenai": {
+        "message": "推奨: gpt-4o-mini (高速、安価) または gpt-4o (最高品質)",
+        "description": "Model recommendation for Openai"
+    },
+    "modelRecommendAzure": {
+        "message": "デプロイメント名を使用 (例: gpt-4, gpt-35-turbo)",
+        "description": "Model recommendation for Azure"
+    },
+    "modelRecommendAnthropic": {
+        "message": "推奨: claude-3-5-haiku-20241022 (高速、安価) または claude-3-5-sonnet-20241022 (最高品質)",
+        "description": "Model recommendation for Anthropic"
+    },
+    "modelRecommendGemini": {
+        "message": "推奨: gemini-2.0-flash-exp (高速、無料) または gemini-1.5-pro (最高品質)",
+        "description": "Model recommendation for Gemini"
+    },
+    "modelRecommendDeepseek": {
+        "message": "推奨: deepseek-chat (良質、非常に安価)",
+        "description": "Model recommendation for Deepseek"
+    },
+    "modelRecommendCustom": {
+        "message": "カスタムAPIエンドポイントのモデル名を入力",
+        "description": "Model recommendation for Custom"
     }
 }

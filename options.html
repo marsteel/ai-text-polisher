@@ -30,25 +30,25 @@
                         <option value="deepseek">DeepSeek</option>
                         <option value="custom">Custom</option>
                     </select>
-                    <div class="help-text">Select a provider to auto-fill settings</div>
+                    <div class="help-text" id="aiProviderHelp">Select a provider to auto-fill settings</div>
                 </div>
 
                 <div class="form-group">
                     <label for="apiUrl" id="apiUrlLabel">API URL</label>
                     <input type="text" id="apiUrl" placeholder="https://api.openai.com/v1/chat/completions">
-                    <div class="help-text">OpenAI-compatible API endpoint</div>
+                    <div class="help-text" id="apiUrlHelp">API endpoint for the selected provider</div>
                 </div>
 
                 <div class="form-group">
                     <label for="apiKey" id="apiKeyLabel">API Key</label>
                     <input type="password" id="apiKey" placeholder="sk-...">
-                    <div class="help-text">Your API key (stored locally)</div>
+                    <div class="help-text" id="apiKeyHelp">Your API key (stored locally)</div>
                 </div>
 
                 <div class="form-group">
                     <label for="modelName" id="modelNameLabel">Model Name</label>
                     <input type="text" id="modelName" placeholder="gpt-3.5-turbo">
-                    <div class="help-text">Model to use for text processing</div>
+                    <div class="help-text" id="modelNameHelp">Model to use for text processing</div>
                 </div>
 
                 <div class="form-group">

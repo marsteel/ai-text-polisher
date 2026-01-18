@@ -19,8 +19,8 @@ const AI_PROVIDERS = {
     },
     gemini: {
         name: 'Google Gemini',
-        url: 'https://generativelanguage.googleapis.com/v1beta/models/gemini-pro:generateContent',
-        model: 'gemini-pro'
+        url: 'https://generativelanguage.googleapis.com/v1beta/models',
+        model: 'gemini-2.5-flash'
     },
     deepseek: {
         name: 'DeepSeek',
@@ -51,13 +51,18 @@ function loadI18nStrings() {
     document.getElementById('optionsTitle').textContent = chrome.i18n.getMessage('optionsTitle');
     document.getElementById('apiSettingsTitle').textContent = chrome.i18n.getMessage('apiSettings');
     document.getElementById('aiProviderLabel').textContent = chrome.i18n.getMessage('aiProvider') || 'AI Provider';
+    document.getElementById('aiProviderHelp').textContent = chrome.i18n.getMessage('aiProviderHelp');
     document.getElementById('apiUrlLabel').textContent = chrome.i18n.getMessage('apiUrl');
+    document.getElementById('apiUrlHelp').textContent = chrome.i18n.getMessage('apiUrlHelp');
     document.getElementById('apiKeyLabel').textContent = chrome.i18n.getMessage('apiKey');
+    document.getElementById('apiKeyHelp').textContent = chrome.i18n.getMessage('apiKeyHelp');
     document.getElementById('modelNameLabel').textContent = chrome.i18n.getMessage('modelName');
+    document.getElementById('modelNameHelp').textContent = chrome.i18n.getMessage('modelNameHelp');
     document.getElementById('testConnectionText').textContent = chrome.i18n.getMessage('testConnection') || 'Test Connection';
     document.getElementById('saveApiText').textContent = chrome.i18n.getMessage('saveApiSettings') || 'Save API Settings';
     document.getElementById('websiteLinkText').textContent = chrome.i18n.getMessage('websiteLink') || 'Documentation & Privacy Policy';
     document.getElementById('actionsTitle').textContent = chrome.i18n.getMessage('actions');
+    document.getElementById('actionsDescription').textContent = chrome.i18n.getMessage('actionsDescription');
     document.getElementById('addActionText').textContent = chrome.i18n.getMessage('addAction');
     document.getElementById('saveText').textContent = chrome.i18n.getMessage('save');
     document.getElementById('actionNameLabel').textContent = chrome.i18n.getMessage('actionName');
@@ -184,6 +189,26 @@ function handleProviderChange() {
         document.getElementById('apiUrl').value = config.url;
         document.getElementById('modelName').value = config.model;
     }
+    
+    // Update model help text with provider-specific recommendations
+    updateModelRecommendation(provider);
+}
+
+/**
+ * Update model recommendation text based on provider
+ */
+function updateModelRecommendation(provider) {
+    const modelHelpEl = document.getElementById('modelNameHelp');
+    const baseText = chrome.i18n.getMessage('modelNameHelp');
+    
+    const recommendKey = `modelRecommend${provider.charAt(0).toUpperCase() + provider.slice(1)}`;
+    const recommendation = chrome.i18n.getMessage(recommendKey);
+    
+    if (recommendation) {
+        modelHelpEl.textContent = `${baseText}. ${recommendation}`;
+    } else {
+        modelHelpEl.textContent = baseText;
+    }
 }
 
 /**
@@ -193,12 +218,13 @@ async function testConnection() {
     const apiUrl = document.getElementById('apiUrl').value.trim();
     const apiKey = document.getElementById('apiKey').value.trim();
     const modelName = document.getElementById('modelName').value.trim();
+    const provider = document.getElementById('aiProvider').value;
     const testBtn = document.getElementById('testConnectionBtn');
     const testStatus = document.getElementById('testStatus');
 
     // Validate inputs
     if (!apiUrl || !apiKey || !modelName) {
-        showTestStatus('Please fill in all API settings before testing', 'error');
+        showTestStatus(chrome.i18n.getMessage('fillAllFields'), 'error');
         return;
     }
 
@@ -208,31 +234,95 @@ async function testConnection() {
     testStatus.className = 'test-status';
 
     try {
-        // Send test request
-        const response = await fetch(apiUrl, {
-            method: 'POST',
-            headers: {
-                'Content-Type': 'application/json',
-                'Authorization': `Bearer ${apiKey}`
-            },
-            body: JSON.stringify({
+        // Build provider-specific request
+        let requestBody, headers, testEndpoint;
+
+        if (provider === 'gemini') {
+            // Gemini format
+            testEndpoint = `${apiUrl}/${modelName}:generateContent?key=${apiKey}`;
+            headers = { 'Content-Type': 'application/json' };
+            requestBody = {
+                contents: [{ parts: [{ text: 'Hello' }] }]
+            };
+        } else if (provider === 'anthropic') {
+            // Anthropic format
+            testEndpoint = apiUrl;
+            headers = {
+                'x-api-key': apiKey,
+                'anthropic-version': '2023-06-01',
+                'Content-Type': 'application/json'
+            };
+            requestBody = {
                 model: modelName,
-                messages: [{
-                    role: 'user',
-                    content: 'Hello'
-                }],
+                max_tokens: 10,
+                messages: [{ role: 'user', content: 'Hello' }]
+            };
+        } else if (provider === 'azure') {
+            // Azure OpenAI format
+            testEndpoint = apiUrl;
+            headers = {
+                'api-key': apiKey,
+                'Content-Type': 'application/json'
+            };
+            requestBody = {
+                model: modelName,
+                messages: [{ role: 'user', content: 'Hello' }],
                 max_tokens: 10
-            })
+            };
+        } else {
+            // OpenAI, DeepSeek, and other OpenAI-compatible formats
+            testEndpoint = apiUrl;
+            headers = {
+                'Authorization': `Bearer ${apiKey}`,
+                'Content-Type': 'application/json'
+            };
+            requestBody = {
+                model: modelName,
+                messages: [{ role: 'user', content: 'Hello' }],
+                max_tokens: 10
+            };
+        }
+
+        const response = await fetch(testEndpoint, {
+            method: 'POST',
+            headers: headers,
+            body: JSON.stringify(requestBody)
         });
 
         if (response.ok) {
-            showTestStatus('✓ Connection successful! API is working correctly.', 'success');
+            showTestStatus(chrome.i18n.getMessage('testConnectionSuccess'), 'success');
         } else {
-            const error = await response.text();
-            showTestStatus(`✗ Connection failed: ${response.status} ${response.statusText}`, 'error');
+            // Try to parse error details from response
+            let errorMessage = `${response.status} ${response.statusText}`;
+            try {
+                const errorData = await response.json();
+                // Extract detailed error message if available
+                if (errorData.error?.message) {
+                    errorMessage = `${response.status}: ${errorData.error.message}`;
+                } else if (errorData.message) {
+                    errorMessage = `${response.status}: ${errorData.message}`;
+                } else if (errorData.error) {
+                    errorMessage = `${response.status}: ${JSON.stringify(errorData.error)}`;
+                }
+            } catch (e) {
+                // If JSON parsing fails, use text response
+                const errorText = await response.text().catch(() => '');
+                if (errorText) {
+                    errorMessage = `${response.status}: ${errorText.substring(0, 200)}`;
+                }
+            }
+            showTestStatus(`${chrome.i18n.getMessage('testConnectionFailed')} ${errorMessage}`, 'error');
         }
     } catch (error) {
-        showTestStatus(`✗ Connection failed: ${error.message}`, 'error');
+        let errorMsg = error.message;
+        // Add helpful hint for CORS/network errors
+        if (error.message.includes('Failed to fetch') || error.message.includes('NetworkError')) {
+            const networkHint = provider === 'azure'
+                ? chrome.i18n.getMessage('azureNetworkErrorHint')
+                : chrome.i18n.getMessage('networkErrorHint');
+            errorMsg = `${chrome.i18n.getMessage('networkError')} ${networkHint}`;
+        }
+        showTestStatus(`✗ Connection failed: ${errorMsg}`, 'error');
     } finally {
         testBtn.disabled = false;
         testBtn.classList.remove('loading');

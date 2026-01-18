@@ -134,5 +134,57 @@
     "popupOpenOptions": {
         "message": "సెట్టింగ్‌లను తెరవండి",
         "description": "Open options button"
+    },
+    "actionsDescription": {
+        "message": "రైట్-క్లిక్ మెనూలో కనిపించే కస్టమ్ టెక్స్ట్ ప్రాసెసింగ్ చర్యలను సృష్టించండి. ప్రతి చర్య AIతో ఎంచుకున్న టెక్స్ట్‌ను మార్చడానికి కస్టమ్ ప్రాంప్ట్‌ను ఉపయోగిస్తుంది.",
+        "description": "Description for actions section"
+    },
+    "networkErrorHint": {
+        "message": "మీ ఇంటర్నెట్ కనెక్షన్ మరియు API ఎండ్‌పాయింట్ URLను తనిఖీ చేయండి.",
+        "description": "Hint for network errors"
+    },
+    "azureNetworkErrorHint": {
+        "message": "దయచేసి తనిఖీ చేయండి: 1) API URL సరైనదా (YOUR_RESOURCE మరియు YOUR_DEPLOYMENTను మార్చండి), 2) Azure Portalలో CORS chrome-extension://*ను అనుమతించడానికి కాన్ఫిగర్ చేయబడింది",
+        "description": "Hint for Azure network/CORS errors"
+    },
+    "apiUrlHelp": {
+        "message": "ఎంచుకున్న ప్రొవైడర్ కోసం API ఎండ్‌పాయింట్",
+        "description": "Help text for API URL field"
+    },
+    "testConnectionSuccess": {
+        "message": "✓ కనెక్షన్ విజయవంతం! API సరిగ్గా పని చేస్తోంది.",
+        "description": "Test connection message: testConnectionSuccess"
+    },
+    "testConnectionFailed": {
+        "message": "✗ కనెక్షన్ విఫలమైంది:",
+        "description": "Test connection message: testConnectionFailed"
+    },
+    "fillAllFields": {
+        "message": "దయచేసి పరీక్ష చేయడానికి ముందు అన్ని API సెట్టింగ్‌లను పూరించండి",
+        "description": "Test connection message: fillAllFields"
+    },
+    "modelRecommendOpenai": {
+        "message": "సిఫార్సు చేయబడింది: gpt-4o-mini (వేగంగా, చౌకగా) లేదా gpt-4o (ఉత్తమ నాణ్యత)",
+        "description": "Model recommendation for Openai"
+    },
+    "modelRecommendAzure": {
+        "message": "మీ డిప్లాయ్‌మెంట్ పేరును ఉపయోగించండి (ఉదా. gpt-4, gpt-35-turbo)",
+        "description": "Model recommendation for Azure"
+    },
+    "modelRecommendAnthropic": {
+        "message": "సిఫార్సు చేయబడింది: claude-3-5-haiku-20241022 (వేగంగా, చౌకగా) లేదా claude-3-5-sonnet-20241022 (ఉత్తమ నాణ్యత)",
+        "description": "Model recommendation for Anthropic"
+    },
+    "modelRecommendGemini": {
+        "message": "సిఫార్సు చేయబడింది: gemini-2.0-flash-exp (వేగంగా, ఉచితం) లేదా gemini-1.5-pro (ఉత్తమ నాణ్యత)",
+        "description": "Model recommendation for Gemini"
+    },
+    "modelRecommendDeepseek": {
+        "message": "సిఫార్సు చేయబడింది: deepseek-chat (మంచి నాణ్యత, చాలా చౌకగా)",
+        "description": "Model recommendation for Deepseek"
+    },
+    "modelRecommendCustom": {
+        "message": "మీ అనుకూల API ఎండ్‌పాయింట్ కోసం మోడల్ పేరును నమోదు చేయండి",
+        "description": "Model recommendation for Custom"
     }
 }

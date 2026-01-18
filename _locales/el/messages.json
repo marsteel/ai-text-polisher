@@ -134,5 +134,57 @@
     "popupOpenOptions": {
         "message": "Άνοιγμα ρυθμίσεων",
         "description": "Open options button"
+    },
+    "actionsDescription": {
+        "message": "Δημιουργήστε προσαρμοσμένες ενέργειες επεξεργασίας κειμένου που εμφανίζονται στο μενού δεξιού κλικ. Κάθε ενέργεια χρησιμοποιεί μια προσαρμοσμένη προτροπή για να μετασχηματίσει το επιλεγμένο κείμενο με AI.",
+        "description": "Description for actions section"
+    },
+    "networkErrorHint": {
+        "message": "Ελέγξτε τη σύνδεσή σας στο διαδίκτυο και τη διεύθυνση URL του API endpoint.",
+        "description": "Hint for network errors"
+    },
+    "azureNetworkErrorHint": {
+        "message": "Παρακαλώ ελέγξτε: 1) Η διεύθυνση API URL είναι σωστή (αντικαταστήστε το YOUR_RESOURCE και YOUR_DEPLOYMENT), 2) Το CORS έχει ρυθμιστεί στην Πύλη Azure για να επιτρέπει chrome-extension://*",
+        "description": "Hint for Azure network/CORS errors"
+    },
+    "apiUrlHelp": {
+        "message": "Τελικό σημείο API για τον επιλεγμένο πάροχο",
+        "description": "Help text for API URL field"
+    },
+    "testConnectionSuccess": {
+        "message": "✓ Η σύνδεση ήταν επιτυχής! Το API λειτουργεί σωστά.",
+        "description": "Test connection message: testConnectionSuccess"
+    },
+    "testConnectionFailed": {
+        "message": "✗ Η σύνδεση απέτυχε:",
+        "description": "Test connection message: testConnectionFailed"
+    },
+    "fillAllFields": {
+        "message": "Συμπληρώστε όλες τις ρυθμίσεις API πριν από τη δοκιμή",
+        "description": "Test connection message: fillAllFields"
+    },
+    "modelRecommendOpenai": {
+        "message": "Συνιστάται: gpt-4o-mini (γρήγορο, φθηνό) ή gpt-4o (καλύτερη ποιότητα)",
+        "description": "Model recommendation for Openai"
+    },
+    "modelRecommendAzure": {
+        "message": "Χρησιμοποιήστε το όνομα ανάπτυξής σας (π.χ. gpt-4, gpt-35-turbo)",
+        "description": "Model recommendation for Azure"
+    },
+    "modelRecommendAnthropic": {
+        "message": "Συνιστάται: claude-3-5-haiku-20241022 (γρήγορο, φθηνό) ή claude-3-5-sonnet-20241022 (καλύτερη ποιότητα)",
+        "description": "Model recommendation for Anthropic"
+    },
+    "modelRecommendGemini": {
+        "message": "Συνιστάται: gemini-2.0-flash-exp (γρήγορο, δωρεάν) ή gemini-1.5-pro (καλύτερη ποιότητα)",
+        "description": "Model recommendation for Gemini"
+    },
+    "modelRecommendDeepseek": {
+        "message": "Συνιστάται: deepseek-chat (καλή ποιότητα, πολύ φθηνό)",
+        "description": "Model recommendation for Deepseek"
+    },
+    "modelRecommendCustom": {
+        "message": "Εισαγάγετε το όνομα μοντέλου για το προσαρμοσμένο API endpoint σας",
+        "description": "Model recommendation for Custom"
     }
 }

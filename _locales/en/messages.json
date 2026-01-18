@@ -134,5 +134,97 @@
     "popupOpenOptions": {
         "message": "Open Settings",
         "description": "Open options button"
+    },
+    "networkErrorHint": {
+        "message": "Check your internet connection and API endpoint URL.",
+        "description": "Hint for network errors"
+    },
+    "azureNetworkErrorHint": {
+        "message": "Please check: 1) API URL is correct (replace YOUR_RESOURCE and YOUR_DEPLOYMENT), 2) CORS is configured in Azure Portal to allow chrome-extension://*",
+        "description": "Hint for Azure network/CORS errors"
+    },
+    "actionsDescription": {
+        "message": "Create custom text processing actions that appear in the right-click menu. Each action uses a custom prompt to transform selected text with AI.",
+        "description": "Description for actions section"
+    },
+    "apiUrlHelp": {
+        "message": "API endpoint for the selected provider",
+        "description": "Help text for API URL field"
+    },
+    "aiProvider": {
+        "message": "AI Provider",
+        "description": "AI Provider label"
+    },
+    "aiProviderHelp": {
+        "message": "Select a provider to auto-fill settings",
+        "description": "Help text for AI provider selection"
+    },
+    "apiKeyHelp": {
+        "message": "Your API key (stored locally)",
+        "description": "Help text for API key field"
+    },
+    "modelNameHelp": {
+        "message": "Model to use for text processing",
+        "description": "Help text for model name field"
+    },
+    "testConnection": {
+        "message": "Test Connection",
+        "description": "Test connection button"
+    },
+    "saveApiSettings": {
+        "message": "Save API Settings",
+        "description": "Save API settings button"
+    },
+    "testConnectionSuccess": {
+        "message": "✓ Connection successful! API is working correctly.",
+        "description": "Test connection message: testConnectionSuccess"
+    },
+    "testConnectionFailed": {
+        "message": "✗ Connection failed:",
+        "description": "Test connection message: testConnectionFailed"
+    },
+    "fillAllFields": {
+        "message": "Please fill in all API settings before testing",
+        "description": "Test connection message: fillAllFields"
+    },
+    "modelRecommendOpenai": {
+        "message": "Recommended: gpt-4o-mini (fast, cheap) or gpt-4o (best quality)",
+        "description": "Model recommendation for Openai"
+    },
+    "modelRecommendAzure": {
+        "message": "Use your deployment name (e.g., gpt-4, gpt-35-turbo)",
+        "description": "Model recommendation for Azure"
+    },
+    "modelRecommendAnthropic": {
+        "message": "Recommended: claude-3-5-haiku-20241022 (fast, cheap) or claude-3-5-sonnet-20241022 (best quality)",
+        "description": "Model recommendation for Anthropic"
+    },
+    "modelRecommendGemini": {
+        "message": "Recommended: gemini-2.0-flash-exp (fast, free) or gemini-1.5-pro (best quality)",
+        "description": "Model recommendation for Gemini"
+    },
+    "modelRecommendDeepseek": {
+        "message": "Recommended: deepseek-chat (good quality, very cheap)",
+        "description": "Model recommendation for Deepseek"
+    },
+    "modelRecommendCustom": {
+        "message": "Enter the model name for your custom API endpoint",
+        "description": "Model recommendation for Custom"
+    },
+    "errorInvalidApiKey": {
+        "message": "Invalid API key. Please check your API key in settings.",
+        "description": "Error message: errorInvalidApiKey"
+    },
+    "errorRateLimit": {
+        "message": "Rate limit exceeded. Please try again later.",
+        "description": "Error message: errorRateLimit"
+    },
+    "errorInsufficientQuota": {
+        "message": "Insufficient quota or balance. Please check your account.",
+        "description": "Error message: errorInsufficientQuota"
+    },
+    "errorModelNotFound": {
+        "message": "Model not found. Please check the model name in settings.",
+        "description": "Error message: errorModelNotFound"
     }
 }

@@ -134,5 +134,57 @@
     "popupOpenOptions": {
         "message": "सेटिंग्स खोलें",
         "description": "Open options button"
+    },
+    "actionsDescription": {
+        "message": "कस्टम टेक्स्ट प्रोसेसिंग एक्शन बनाएं जो राइट-क्लिक मेनू में दिखाई देते हैं। प्रत्येक एक्शन AI के साथ चयनित टेक्स्ट को रूपांतरित करने के लिए एक कस्टम प्रॉम्प्ट का उपयोग करता है।",
+        "description": "Description for actions section"
+    },
+    "networkErrorHint": {
+        "message": "अपने इंटरनेट कनेक्शन और API एंडपॉइंट URL की जांच करें।",
+        "description": "Hint for network errors"
+    },
+    "azureNetworkErrorHint": {
+        "message": "कृपया जांचें: 1) API URL सही है (YOUR_RESOURCE और YOUR_DEPLOYMENT को बदलें), 2) Azure Portal में CORS को chrome-extension://* की अनुमति देने के लिए कॉन्फ़िगर किया गया है",
+        "description": "Hint for Azure network/CORS errors"
+    },
+    "apiUrlHelp": {
+        "message": "चयनित प्रदाता के लिए API एंडपॉइंट",
+        "description": "Help text for API URL field"
+    },
+    "testConnectionSuccess": {
+        "message": "✓ कनेक्शन सफल! API सही तरीके से काम कर रहा है।",
+        "description": "Test connection message: testConnectionSuccess"
+    },
+    "testConnectionFailed": {
+        "message": "✗ कनेक्शन विफल:",
+        "description": "Test connection message: testConnectionFailed"
+    },
+    "fillAllFields": {
+        "message": "परीक्षण से पहले कृपया सभी API सेटिंग्स भरें",
+        "description": "Test connection message: fillAllFields"
+    },
+    "modelRecommendOpenai": {
+        "message": "अनुशंसित: gpt-4o-mini (तेज़, सस्ता) या gpt-4o (सर्वोत्तम गुणवत्ता)",
+        "description": "Model recommendation for Openai"
+    },
+    "modelRecommendAzure": {
+        "message": "अपने डिप्लॉयमेंट नाम का उपयोग करें (जैसे gpt-4, gpt-35-turbo)",
+        "description": "Model recommendation for Azure"
+    },
+    "modelRecommendAnthropic": {
+        "message": "अनुशंसित: claude-3-5-haiku-20241022 (तेज़, सस्ता) या claude-3-5-sonnet-20241022 (सर्वोत्तम गुणवत्ता)",
+        "description": "Model recommendation for Anthropic"
+    },
+    "modelRecommendGemini": {
+        "message": "अनुशंसित: gemini-2.0-flash-exp (तेज़, मुफ्त) या gemini-1.5-pro (सर्वोत्तम गुणवत्ता)",
+        "description": "Model recommendation for Gemini"
+    },
+    "modelRecommendDeepseek": {
+        "message": "अनुशंसित: deepseek-chat (अच्छी गुणवत्ता, बहुत सस्ता)",
+        "description": "Model recommendation for Deepseek"
+    },
+    "modelRecommendCustom": {
+        "message": "अपने कस्टम API एंडपॉइंट के लिए मॉडल नाम दर्ज करें",
+        "description": "Model recommendation for Custom"
     }
 }

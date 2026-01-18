@@ -134,5 +134,57 @@
     "popupOpenOptions": {
         "message": "Otvoriť nastavenia",
         "description": "Open options button"
+    },
+    "actionsDescription": {
+        "message": "Vytvorte vlastné akcie spracovania textu, ktoré sa zobrazujú v kontextovej ponuke. Každá akcia používa vlastný prompt na transformáciu vybraného textu pomocou AI.",
+        "description": "Description for actions section"
+    },
+    "networkErrorHint": {
+        "message": "Skontrolujte pripojenie na internet a URL adresu koncového bodu API.",
+        "description": "Hint for network errors"
+    },
+    "azureNetworkErrorHint": {
+        "message": "Skontrolujte prosím: 1) URL API je správne (nahraďte YOUR_RESOURCE a YOUR_DEPLOYMENT), 2) CORS je nakonfigurovaný na portáli Azure na povolenie chrome-extension://*",
+        "description": "Hint for Azure network/CORS errors"
+    },
+    "apiUrlHelp": {
+        "message": "API koncový bod pre vybraného poskytovateľa",
+        "description": "Help text for API URL field"
+    },
+    "testConnectionSuccess": {
+        "message": "✓ Pripojenie úspešné! API funguje správne.",
+        "description": "Test connection message: testConnectionSuccess"
+    },
+    "testConnectionFailed": {
+        "message": "✗ Pripojenie zlyhalo:",
+        "description": "Test connection message: testConnectionFailed"
+    },
+    "fillAllFields": {
+        "message": "Pred testovaním vyplňte všetky nastavenia API",
+        "description": "Test connection message: fillAllFields"
+    },
+    "modelRecommendOpenai": {
+        "message": "Odporúčané: gpt-4o-mini (rýchly, lacný) alebo gpt-4o (najlepšia kvalita)",
+        "description": "Model recommendation for Openai"
+    },
+    "modelRecommendAzure": {
+        "message": "Použite názov nasadenia (napr. gpt-4, gpt-35-turbo)",
+        "description": "Model recommendation for Azure"
+    },
+    "modelRecommendAnthropic": {
+        "message": "Odporúčané: claude-3-5-haiku-20241022 (rýchly, lacný) alebo claude-3-5-sonnet-20241022 (najlepšia kvalita)",
+        "description": "Model recommendation for Anthropic"
+    },
+    "modelRecommendGemini": {
+        "message": "Odporúčané: gemini-2.0-flash-exp (rýchly, zadarmo) alebo gemini-1.5-pro (najlepšia kvalita)",
+        "description": "Model recommendation for Gemini"
+    },
+    "modelRecommendDeepseek": {
+        "message": "Odporúčané: deepseek-chat (dobrá kvalita, veľmi lacný)",
+        "description": "Model recommendation for Deepseek"
+    },
+    "modelRecommendCustom": {
+        "message": "Zadajte názov modelu pre vlastný API koncový bod",
+        "description": "Model recommendation for Custom"
     }
 }

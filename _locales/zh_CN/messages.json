@@ -56,11 +56,11 @@
         "description": "API URL label"
     },
     "apiKey": {
-        "message": "API密钥",
+        "message": "API密钥 (API Key)",
         "description": "API key label"
     },
     "modelName": {
-        "message": "模型名称",
+        "message": "模型名称 (AI Model)",
         "description": "Model name label"
     },
     "actions": {
@@ -134,5 +134,97 @@
     "popupOpenOptions": {
         "message": "打开设置",
         "description": "Open options button"
+    },
+    "networkErrorHint": {
+        "message": "请检查您的网络连接和 API 端点 URL。",
+        "description": "网络错误提示"
+    },
+    "azureNetworkErrorHint": {
+        "message": "请检查：1) API URL 是否正确（替换 YOUR_RESOURCE 和 YOUR_DEPLOYMENT），2) 是否在 Azure 门户中配置了 CORS 以允许 chrome-extension://*",
+        "description": "Azure 网络/CORS 错误提示"
+    },
+    "actionsDescription": {
+        "message": "创建自定义文本处理操作，显示在右键菜单中。每个操作使用自定义提示词通过 AI 转换选中的文本。",
+        "description": "操作部分的描述"
+    },
+    "apiUrlHelp": {
+        "message": "所选提供商的 API 端点",
+        "description": "Help text for API URL field"
+    },
+    "aiProvider": {
+        "message": "AI服务提供商 (AI Provider)",
+        "description": "AI Provider label"
+    },
+    "aiProviderHelp": {
+        "message": "选择提供商以自动填充设置",
+        "description": "Help text for AI provider selection"
+    },
+    "apiKeyHelp": {
+        "message": "您的 API 密钥（本地存储）",
+        "description": "Help text for API key field"
+    },
+    "modelNameHelp": {
+        "message": "用于文本处理的模型",
+        "description": "Help text for model name field"
+    },
+    "testConnection": {
+        "message": "测试连接",
+        "description": "Test connection button"
+    },
+    "saveApiSettings": {
+        "message": "保存 API 设置",
+        "description": "Save API settings button"
+    },
+    "testConnectionSuccess": {
+        "message": "✓ 连接成功！API 工作正常。",
+        "description": "Test connection message: testConnectionSuccess"
+    },
+    "testConnectionFailed": {
+        "message": "✗ 连接失败：",
+        "description": "Test connection message: testConnectionFailed"
+    },
+    "fillAllFields": {
+        "message": "请在测试前填写所有 API 设置",
+        "description": "Test connection message: fillAllFields"
+    },
+    "modelRecommendOpenai": {
+        "message": "推荐：gpt-4o-mini（快速、便宜）或 gpt-4o（最佳质量）",
+        "description": "Model recommendation for Openai"
+    },
+    "modelRecommendAzure": {
+        "message": "使用您的部署名称（例如 gpt-4、gpt-35-turbo）",
+        "description": "Model recommendation for Azure"
+    },
+    "modelRecommendAnthropic": {
+        "message": "推荐：claude-3-5-haiku-20241022（快速、便宜）或 claude-3-5-sonnet-20241022（最佳质量）",
+        "description": "Model recommendation for Anthropic"
+    },
+    "modelRecommendGemini": {
+        "message": "推荐：gemini-2.0-flash-exp（快速、免费）或 gemini-1.5-pro（最佳质量）",
+        "description": "Model recommendation for Gemini"
+    },
+    "modelRecommendDeepseek": {
+        "message": "推荐：deepseek-chat（质量好、非常便宜）",
+        "description": "Model recommendation for Deepseek"
+    },
+    "modelRecommendCustom": {
+        "message": "输入自定义 API 端点的模型名称",
+        "description": "Model recommendation for Custom"
+    },
+    "errorInvalidApiKey": {
+        "message": "API 密钥无效。请在设置中检查您的 API 密钥。",
+        "description": "Error message: errorInvalidApiKey"
+    },
+    "errorRateLimit": {
+        "message": "超出速率限制。请稍后重试。",
+        "description": "Error message: errorRateLimit"
+    },
+    "errorInsufficientQuota": {
+        "message": "配额或余额不足。请检查您的账户。",
+        "description": "Error message: errorInsufficientQuota"
+    },
+    "errorModelNotFound": {
+        "message": "未找到模型。请在设置中检查模型名称。",
+        "description": "Error message: errorModelNotFound"
     }
 }

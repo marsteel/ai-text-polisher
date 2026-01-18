@@ -311,6 +311,9 @@
             font-size: var(--font-size-sm);
         }
     </style>
+    <link rel="canonical" href="https://ai-text-polisher.magang.net/changelog.html">
+    <link rel="alternate" hreflang="en" href="https://ai-text-polisher.magang.net/changelog.html">
+    <link rel="alternate" hreflang="zh" href="https://ai-text-polisher.magang.net/changelog-zh.html">
 </head>
 
 <body>
@@ -326,8 +329,50 @@
         <div class="timeline">
             <div class="version">
                 <div class="version-header">
-                    <span class="version-number">v1.2.1</span>
+                    <span class="version-number">v1.3.0</span>
                     <span class="badge latest">Latest</span>
+                    <span class="version-date">January 18, 2026</span>
+                </div>
+
+                <div class="version-content">
+                    <h3>🚀 Major Features</h3>
+                    <ul>
+                        <li><strong>Multi-Provider Support:</strong> Native integration with multiple AI providers</li>
+                        <li>OpenAI - GPT-4o, GPT-4o-mini</li>
+                        <li>Google Gemini - gemini-2.0-flash-exp, gemini-1.5-pro</li>
+                        <li>Anthropic Claude - claude-3-5-sonnet, claude-3-5-haiku</li>
+                        <li>Azure OpenAI - Enterprise-grade deployment</li>
+                        <li>DeepSeek - Cost-effective alternative</li>
+                        <li>Custom API - Any OpenAI-compatible endpoint</li>
+                    </ul>
+
+                    <h3>✨ New Features</h3>
+                    <ul>
+                        <li><strong>Provider Adapter Pattern:</strong> Automatic request/response handling for each provider</li>
+                        <li><strong>Dynamic Model Recommendations:</strong> Context-aware suggestions based on selected provider</li>
+                        <li><strong>Bilingual Labels:</strong> Chinese interface shows both local and English terms</li>
+                        <li><strong>Enhanced Error Handling:</strong> Specific messages for API key, rate limit, quota, and model errors</li>
+                    </ul>
+
+                    <h3>🌍 Internationalization</h3>
+                    <ul>
+                        <li>Complete i18n for all UI elements across 30+ languages</li>
+                        <li>Localized error messages and help text</li>
+                        <li>Provider-specific model recommendations in all languages</li>
+                    </ul>
+
+                    <h3>🎨 Improvements</h3>
+                    <ul>
+                        <li>Provider-agnostic API URL help text</li>
+                        <li>Improved Azure OpenAI error guidance (CORS, URL templates)</li>
+                        <li>Better API error feedback with detailed messages</li>
+                        <li>Test connection now supports all providers</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="version">
+                <div class="version-header">
+                    <span class="version-number">v1.2.1</span>
                     <span class="version-date">January 11, 2026</span>
                 </div>
 

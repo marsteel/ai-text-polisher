@@ -134,5 +134,57 @@
     "popupOpenOptions": {
         "message": "Instellingen openen",
         "description": "Open options button"
+    },
+    "actionsDescription": {
+        "message": "Maak aangepaste tekstbewerkingsacties die verschijnen in het contextmenu. Elke actie gebruikt een aangepaste prompt om geselecteerde tekst te transformeren met AI.",
+        "description": "Description for actions section"
+    },
+    "networkErrorHint": {
+        "message": "Controleer uw internetverbinding en de API-endpoint URL.",
+        "description": "Hint for network errors"
+    },
+    "azureNetworkErrorHint": {
+        "message": "Controleer: 1) API URL is correct (vervang YOUR_RESOURCE en YOUR_DEPLOYMENT), 2) CORS is geconfigureerd in Azure Portal om chrome-extension://* toe te staan",
+        "description": "Hint for Azure network/CORS errors"
+    },
+    "apiUrlHelp": {
+        "message": "API-eindpunt voor de geselecteerde provider",
+        "description": "Help text for API URL field"
+    },
+    "testConnectionSuccess": {
+        "message": "✓ Verbinding geslaagd! API werkt correct.",
+        "description": "Test connection message: testConnectionSuccess"
+    },
+    "testConnectionFailed": {
+        "message": "✗ Verbinding mislukt:",
+        "description": "Test connection message: testConnectionFailed"
+    },
+    "fillAllFields": {
+        "message": "Vul alle API-instellingen in voor het testen",
+        "description": "Test connection message: fillAllFields"
+    },
+    "modelRecommendOpenai": {
+        "message": "Aanbevolen: gpt-4o-mini (snel, goedkoop) of gpt-4o (beste kwaliteit)",
+        "description": "Model recommendation for Openai"
+    },
+    "modelRecommendAzure": {
+        "message": "Gebruik uw implementatienaam (bijv. gpt-4, gpt-35-turbo)",
+        "description": "Model recommendation for Azure"
+    },
+    "modelRecommendAnthropic": {
+        "message": "Aanbevolen: claude-3-5-haiku-20241022 (snel, goedkoop) of claude-3-5-sonnet-20241022 (beste kwaliteit)",
+        "description": "Model recommendation for Anthropic"
+    },
+    "modelRecommendGemini": {
+        "message": "Aanbevolen: gemini-2.0-flash-exp (snel, gratis) of gemini-1.5-pro (beste kwaliteit)",
+        "description": "Model recommendation for Gemini"
+    },
+    "modelRecommendDeepseek": {
+        "message": "Aanbevolen: deepseek-chat (goede kwaliteit, zeer goedkoop)",
+        "description": "Model recommendation for Deepseek"
+    },
+    "modelRecommendCustom": {
+        "message": "Voer de modelnaam in voor uw aangepaste API-eindpunt",
+        "description": "Model recommendation for Custom"
     }
 }

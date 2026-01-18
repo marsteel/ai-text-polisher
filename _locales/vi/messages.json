@@ -134,5 +134,57 @@
     "popupOpenOptions": {
         "message": "Mở cài đặt",
         "description": "Open options button"
+    },
+    "actionsDescription": {
+        "message": "Tạo các hành động xử lý văn bản tùy chỉnh xuất hiện trong menu chuột phải. Mỗi hành động sử dụng một lời nhắc tùy chỉnh để chuyển đổi văn bản đã chọn bằng AI.",
+        "description": "Description for actions section"
+    },
+    "networkErrorHint": {
+        "message": "Kiểm tra kết nối internet và URL điểm cuối API của bạn.",
+        "description": "Hint for network errors"
+    },
+    "azureNetworkErrorHint": {
+        "message": "Vui lòng kiểm tra: 1) URL API đúng (thay thế YOUR_RESOURCE và YOUR_DEPLOYMENT), 2) CORS được cấu hình trong Azure Portal để cho phép chrome-extension://*",
+        "description": "Hint for Azure network/CORS errors"
+    },
+    "apiUrlHelp": {
+        "message": "Điểm cuối API cho nhà cung cấp đã chọn",
+        "description": "Help text for API URL field"
+    },
+    "testConnectionSuccess": {
+        "message": "✓ Kết nối thành công! API hoạt động chính xác.",
+        "description": "Test connection message: testConnectionSuccess"
+    },
+    "testConnectionFailed": {
+        "message": "✗ Kết nối thất bại:",
+        "description": "Test connection message: testConnectionFailed"
+    },
+    "fillAllFields": {
+        "message": "Vui lòng điền tất cả cài đặt API trước khi kiểm tra",
+        "description": "Test connection message: fillAllFields"
+    },
+    "modelRecommendOpenai": {
+        "message": "Khuyến nghị: gpt-4o-mini (nhanh, rẻ) hoặc gpt-4o (chất lượng tốt nhất)",
+        "description": "Model recommendation for Openai"
+    },
+    "modelRecommendAzure": {
+        "message": "Sử dụng tên triển khai của bạn (vd. gpt-4, gpt-35-turbo)",
+        "description": "Model recommendation for Azure"
+    },
+    "modelRecommendAnthropic": {
+        "message": "Khuyến nghị: claude-3-5-haiku-20241022 (nhanh, rẻ) hoặc claude-3-5-sonnet-20241022 (chất lượng tốt nhất)",
+        "description": "Model recommendation for Anthropic"
+    },
+    "modelRecommendGemini": {
+        "message": "Khuyến nghị: gemini-2.0-flash-exp (nhanh, miễn phí) hoặc gemini-1.5-pro (chất lượng tốt nhất)",
+        "description": "Model recommendation for Gemini"
+    },
+    "modelRecommendDeepseek": {
+        "message": "Khuyến nghị: deepseek-chat (chất lượng tốt, rất rẻ)",
+        "description": "Model recommendation for Deepseek"
+    },
+    "modelRecommendCustom": {
+        "message": "Nhập tên mô hình cho điểm cuối API tùy chỉnh của bạn",
+        "description": "Model recommendation for Custom"
     }
 }

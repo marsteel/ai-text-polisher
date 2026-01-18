@@ -134,5 +134,57 @@
     "popupOpenOptions": {
         "message": "Abrir Configurações",
         "description": "Open options button"
+    },
+    "actionsDescription": {
+        "message": "Crie ações personalizadas de processamento de texto que aparecem no menu de contexto. Cada ação usa um prompt personalizado para transformar o texto selecionado com IA.",
+        "description": "Description for actions section"
+    },
+    "networkErrorHint": {
+        "message": "Verifique sua conexão com a Internet e o URL do endpoint da API.",
+        "description": "Hint for network errors"
+    },
+    "azureNetworkErrorHint": {
+        "message": "Por favor verifique: 1) O URL da API está correto (substitua YOUR_RESOURCE e YOUR_DEPLOYMENT), 2) CORS está configurado no Portal do Azure para permitir chrome-extension://*",
+        "description": "Hint for Azure network/CORS errors"
+    },
+    "apiUrlHelp": {
+        "message": "Endpoint da API para o provedor selecionado",
+        "description": "Help text for API URL field"
+    },
+    "testConnectionSuccess": {
+        "message": "✓ Conexão bem-sucedida! A API está funcionando corretamente.",
+        "description": "Test connection message: testConnectionSuccess"
+    },
+    "testConnectionFailed": {
+        "message": "✗ Falha na conexão:",
+        "description": "Test connection message: testConnectionFailed"
+    },
+    "fillAllFields": {
+        "message": "Preencha todas as configurações da API antes de testar",
+        "description": "Test connection message: fillAllFields"
+    },
+    "modelRecommendOpenai": {
+        "message": "Recomendado: gpt-4o-mini (rápido, barato) ou gpt-4o (melhor qualidade)",
+        "description": "Model recommendation for Openai"
+    },
+    "modelRecommendAzure": {
+        "message": "Use o nome da sua implantação (ex. gpt-4, gpt-35-turbo)",
+        "description": "Model recommendation for Azure"
+    },
+    "modelRecommendAnthropic": {
+        "message": "Recomendado: claude-3-5-haiku-20241022 (rápido, barato) ou claude-3-5-sonnet-20241022 (melhor qualidade)",
+        "description": "Model recommendation for Anthropic"
+    },
+    "modelRecommendGemini": {
+        "message": "Recomendado: gemini-2.0-flash-exp (rápido, grátis) ou gemini-1.5-pro (melhor qualidade)",
+        "description": "Model recommendation for Gemini"
+    },
+    "modelRecommendDeepseek": {
+        "message": "Recomendado: deepseek-chat (boa qualidade, muito barato)",
+        "description": "Model recommendation for Deepseek"
+    },
+    "modelRecommendCustom": {
+        "message": "Digite o nome do modelo para seu endpoint de API personalizado",
+        "description": "Model recommendation for Custom"
     }
 }

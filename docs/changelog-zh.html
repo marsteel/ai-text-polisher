@@ -311,6 +311,9 @@
             font-size: var(--font-size-sm);
         }
     </style>
+    <link rel="canonical" href="https://ai-text-polisher.magang.net/changelog.html">
+    <link rel="alternate" hreflang="en" href="https://ai-text-polisher.magang.net/changelog.html">
+    <link rel="alternate" hreflang="zh" href="https://ai-text-polisher.magang.net/changelog-zh.html">
 </head>
 
 <body>
@@ -325,9 +328,52 @@
 
         <div class="timeline">
             <div class="version">
+                <div class="version-header">
+                    <span class="version-number">v1.3.0</span>
+                    <span class="badge latest">最新版本</span>
+                    <span class="version-date">2026年1月18日</span>
+                </div>
+
+                <div class="version-content">
+                    <h3>🚀 重大功能</h3>
+                    <ul>
+                        <li><strong>多提供商支持：</strong>原生集成多个 AI 提供商</li>
+                        <li>OpenAI - GPT-4o, GPT-4o-mini</li>
+                        <li>Google Gemini - gemini-2.0-flash-exp, gemini-1.5-pro</li>
+                        <li>Anthropic Claude - claude-3-5-sonnet, claude-3-5-haiku</li>
+                        <li>Azure OpenAI - 企业级部署</li>
+                        <li>DeepSeek - 高性价比选择</li>
+                        <li>自定义 API - 任何 OpenAI 兼容端点</li>
+                    </ul>
+
+                    <h3>✨ 新功能</h3>
+                    <ul>
+                        <li><strong>提供商适配器模式：</strong>自动处理每个提供商的请求/响应</li>
+                        <li><strong>动态模型推荐：</strong>根据选定提供商显示上下文相关的建议</li>
+                        <li><strong>双语标签：</strong>中文界面同时显示本地和英文术语</li>
+                        <li><strong>增强的错误处理：</strong>针对 API 密钥、速率限制、配额和模型错误的具体消息</li>
+                    </ul>
+
+                    <h3>🌍 国际化</h3>
+                    <ul>
+                        <li>所有 UI 元素的完整 i18n 支持（30+ 种语言）</li>
+                        <li>本地化的错误消息和帮助文本</li>
+                        <li>所有语言的提供商特定模型推荐</li>
+                    </ul>
+
+                    <h3>🎨 改进</h3>
+                    <ul>
+                        <li>提供商无关的 API URL 帮助文本</li>
+                        <li>改进的 Azure OpenAI 错误指导（CORS、URL 模板）</li>
+                        <li>更好的 API 错误反馈和详细消息</li>
+                        <li>测试连接现在支持所有提供商</li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="version">
             <div class="version-header">
                 <span class="version-number">v1.2.1</span>
-                <span class="badge latest">最新版本</span>
                 <span class="version-date">2026年1月11日</span>
             </div>
 

@@ -134,5 +134,57 @@
     "popupOpenOptions": {
         "message": "เปิดการตั้งค่า",
         "description": "Open options button"
+    },
+    "actionsDescription": {
+        "message": "สร้างการดำเนินการประมวลผลข้อความแบบกำหนดเองที่ปรากฏในเมนูคลิกขวา แต่ละการดำเนินการใช้พรอมต์แบบกำหนดเองเพื่อแปลงข้อความที่เลือกด้วย AI",
+        "description": "Description for actions section"
+    },
+    "networkErrorHint": {
+        "message": "ตรวจสอบการเชื่อมต่ออินเทอร์เน็ตและ URL ของ API endpoint",
+        "description": "Hint for network errors"
+    },
+    "azureNetworkErrorHint": {
+        "message": "โปรดตรวจสอบ: 1) URL ของ API ถูกต้อง (แทนที่ YOUR_RESOURCE และ YOUR_DEPLOYMENT), 2) CORS ได้รับการกำหนดค่าใน Azure Portal เพื่ออนุญาต chrome-extension://*",
+        "description": "Hint for Azure network/CORS errors"
+    },
+    "apiUrlHelp": {
+        "message": "ปลายทาง API สำหรับผู้ให้บริการที่เลือก",
+        "description": "Help text for API URL field"
+    },
+    "testConnectionSuccess": {
+        "message": "✓ เชื่อมต่อสำเร็จ! API ทำงานได้อย่างถูกต้อง",
+        "description": "Test connection message: testConnectionSuccess"
+    },
+    "testConnectionFailed": {
+        "message": "✗ การเชื่อมต่อล้มเหลว:",
+        "description": "Test connection message: testConnectionFailed"
+    },
+    "fillAllFields": {
+        "message": "โปรดกรอกการตั้งค่า API ทั้งหมดก่อนทดสอบ",
+        "description": "Test connection message: fillAllFields"
+    },
+    "modelRecommendOpenai": {
+        "message": "แนะนำ: gpt-4o-mini (เร็ว ถูก) หรือ gpt-4o (คุณภาพดีที่สุด)",
+        "description": "Model recommendation for Openai"
+    },
+    "modelRecommendAzure": {
+        "message": "ใช้ชื่อการปรับใช้ของคุณ (เช่น gpt-4, gpt-35-turbo)",
+        "description": "Model recommendation for Azure"
+    },
+    "modelRecommendAnthropic": {
+        "message": "แนะนำ: claude-3-5-haiku-20241022 (เร็ว ถูก) หรือ claude-3-5-sonnet-20241022 (คุณภาพดีที่สุด)",
+        "description": "Model recommendation for Anthropic"
+    },
+    "modelRecommendGemini": {
+        "message": "แนะนำ: gemini-2.0-flash-exp (เร็ว ฟรี) หรือ gemini-1.5-pro (คุณภาพดีที่สุด)",
+        "description": "Model recommendation for Gemini"
+    },
+    "modelRecommendDeepseek": {
+        "message": "แนะนำ: deepseek-chat (คุณภาพดี ถูกมาก)",
+        "description": "Model recommendation for Deepseek"
+    },
+    "modelRecommendCustom": {
+        "message": "ป้อนชื่อโมเดลสำหรับ API endpoint ที่กำหนดเองของคุณ",
+        "description": "Model recommendation for Custom"
     }
 }

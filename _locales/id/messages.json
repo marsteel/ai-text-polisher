@@ -134,5 +134,57 @@
     "popupOpenOptions": {
         "message": "Buka Pengaturan",
         "description": "Open options button"
+    },
+    "actionsDescription": {
+        "message": "Buat tindakan pemrosesan teks kustom yang muncul di menu klik kanan. Setiap tindakan menggunakan prompt kustom untuk mengubah teks yang dipilih dengan AI.",
+        "description": "Description for actions section"
+    },
+    "networkErrorHint": {
+        "message": "Periksa koneksi internet Anda dan URL endpoint API.",
+        "description": "Hint for network errors"
+    },
+    "azureNetworkErrorHint": {
+        "message": "Harap periksa: 1) URL API sudah benar (ganti YOUR_RESOURCE dan YOUR_DEPLOYMENT), 2) CORS dikonfigurasi di Azure Portal untuk mengizinkan chrome-extension://*",
+        "description": "Hint for Azure network/CORS errors"
+    },
+    "apiUrlHelp": {
+        "message": "Endpoint API untuk penyedia yang dipilih",
+        "description": "Help text for API URL field"
+    },
+    "testConnectionSuccess": {
+        "message": "✓ Koneksi berhasil! API berfungsi dengan benar.",
+        "description": "Test connection message: testConnectionSuccess"
+    },
+    "testConnectionFailed": {
+        "message": "✗ Koneksi gagal:",
+        "description": "Test connection message: testConnectionFailed"
+    },
+    "fillAllFields": {
+        "message": "Harap isi semua pengaturan API sebelum pengujian",
+        "description": "Test connection message: fillAllFields"
+    },
+    "modelRecommendOpenai": {
+        "message": "Direkomendasikan: gpt-4o-mini (cepat, murah) atau gpt-4o (kualitas terbaik)",
+        "description": "Model recommendation for Openai"
+    },
+    "modelRecommendAzure": {
+        "message": "Gunakan nama deployment Anda (mis. gpt-4, gpt-35-turbo)",
+        "description": "Model recommendation for Azure"
+    },
+    "modelRecommendAnthropic": {
+        "message": "Direkomendasikan: claude-3-5-haiku-20241022 (cepat, murah) atau claude-3-5-sonnet-20241022 (kualitas terbaik)",
+        "description": "Model recommendation for Anthropic"
+    },
+    "modelRecommendGemini": {
+        "message": "Direkomendasikan: gemini-2.0-flash-exp (cepat, gratis) atau gemini-1.5-pro (kualitas terbaik)",
+        "description": "Model recommendation for Gemini"
+    },
+    "modelRecommendDeepseek": {
+        "message": "Direkomendasikan: deepseek-chat (kualitas bagus, sangat murah)",
+        "description": "Model recommendation for Deepseek"
+    },
+    "modelRecommendCustom": {
+        "message": "Masukkan nama model untuk endpoint API kustom Anda",
+        "description": "Model recommendation for Custom"
     }
 }

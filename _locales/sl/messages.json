@@ -134,5 +134,57 @@
     "popupOpenOptions": {
         "message": "Odpri nastavitve",
         "description": "Open options button"
+    },
+    "actionsDescription": {
+        "message": "Ustvarite dejanja po meri za obdelavo besedila, ki se prikažejo v kontekstnem meniju. Vsako dejanje uporablja poziv po meri za preoblikovanje izbranega besedila z AI.",
+        "description": "Description for actions section"
+    },
+    "networkErrorHint": {
+        "message": "Preverite internetno povezavo in URL končne točke API.",
+        "description": "Hint for network errors"
+    },
+    "azureNetworkErrorHint": {
+        "message": "Preverite: 1) URL API je pravilen (zamenjajte YOUR_RESOURCE in YOUR_DEPLOYMENT), 2) CORS je konfiguriran na portalu Azure za dovoljenje chrome-extension://*",
+        "description": "Hint for Azure network/CORS errors"
+    },
+    "apiUrlHelp": {
+        "message": "API končna točka za izbranega ponudnika",
+        "description": "Help text for API URL field"
+    },
+    "testConnectionSuccess": {
+        "message": "✓ Povezava uspešna! API deluje pravilno.",
+        "description": "Test connection message: testConnectionSuccess"
+    },
+    "testConnectionFailed": {
+        "message": "✗ Povezava ni uspela:",
+        "description": "Test connection message: testConnectionFailed"
+    },
+    "fillAllFields": {
+        "message": "Pred testiranjem izpolnite vse nastavitve API",
+        "description": "Test connection message: fillAllFields"
+    },
+    "modelRecommendOpenai": {
+        "message": "Priporočeno: gpt-4o-mini (hitro, poceni) ali gpt-4o (najboljša kakovost)",
+        "description": "Model recommendation for Openai"
+    },
+    "modelRecommendAzure": {
+        "message": "Uporabite ime uvajanja (npr. gpt-4, gpt-35-turbo)",
+        "description": "Model recommendation for Azure"
+    },
+    "modelRecommendAnthropic": {
+        "message": "Priporočeno: claude-3-5-haiku-20241022 (hitro, poceni) ali claude-3-5-sonnet-20241022 (najboljša kakovost)",
+        "description": "Model recommendation for Anthropic"
+    },
+    "modelRecommendGemini": {
+        "message": "Priporočeno: gemini-2.0-flash-exp (hitro, brezplačno) ali gemini-1.5-pro (najboljša kakovost)",
+        "description": "Model recommendation for Gemini"
+    },
+    "modelRecommendDeepseek": {
+        "message": "Priporočeno: deepseek-chat (dobra kakovost, zelo poceni)",
+        "description": "Model recommendation for Deepseek"
+    },
+    "modelRecommendCustom": {
+        "message": "Vnesite ime modela za svojo končno točko API po meri",
+        "description": "Model recommendation for Custom"
     }
 }
