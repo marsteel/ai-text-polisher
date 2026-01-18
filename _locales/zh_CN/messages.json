@@ -210,5 +210,21 @@
     "modelRecommendCustom": {
         "message": "输入自定义 API 端点的模型名称",
         "description": "Model recommendation for Custom"
+    },
+    "errorInvalidApiKey": {
+        "message": "API 密钥无效。请在设置中检查您的 API 密钥。",
+        "description": "Error message: errorInvalidApiKey"
+    },
+    "errorRateLimit": {
+        "message": "超出速率限制。请稍后重试。",
+        "description": "Error message: errorRateLimit"
+    },
+    "errorInsufficientQuota": {
+        "message": "配额或余额不足。请检查您的账户。",
+        "description": "Error message: errorInsufficientQuota"
+    },
+    "errorModelNotFound": {
+        "message": "未找到模型。请在设置中检查模型名称。",
+        "description": "Error message: errorModelNotFound"
     }
 }

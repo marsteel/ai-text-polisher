@@ -210,5 +210,21 @@
     "modelRecommendCustom": {
         "message": "Enter the model name for your custom API endpoint",
         "description": "Model recommendation for Custom"
+    },
+    "errorInvalidApiKey": {
+        "message": "Invalid API key. Please check your API key in settings.",
+        "description": "Error message: errorInvalidApiKey"
+    },
+    "errorRateLimit": {
+        "message": "Rate limit exceeded. Please try again later.",
+        "description": "Error message: errorRateLimit"
+    },
+    "errorInsufficientQuota": {
+        "message": "Insufficient quota or balance. Please check your account.",
+        "description": "Error message: errorInsufficientQuota"
+    },
+    "errorModelNotFound": {
+        "message": "Model not found. Please check the model name in settings.",
+        "description": "Error message: errorModelNotFound"
     }
 }

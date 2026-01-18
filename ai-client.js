@@ -196,11 +196,24 @@ class AIClient {
         }
 
         if (error.message.includes('401') || error.message.includes('403')) {
-            return new Error('Invalid API key');
+            return new Error(chrome.i18n.getMessage('errorInvalidApiKey'));
         }
 
         if (error.message.includes('429')) {
-            return new Error('Rate limit exceeded. Please try again later.');
+            return new Error(chrome.i18n.getMessage('errorRateLimit'));
+        }
+
+        // Check for insufficient quota (402, or specific error messages)
+        if (error.message.includes('402') || 
+            error.message.includes('insufficient') || 
+            error.message.includes('quota') ||
+            error.message.includes('balance')) {
+            return new Error(chrome.i18n.getMessage('errorInsufficientQuota'));
+        }
+
+        // Check for model not found (404)
+        if (error.message.includes('404') || error.message.includes('model') && error.message.includes('not found')) {
+            return new Error(chrome.i18n.getMessage('errorModelNotFound'));
         }
 
         return error;
