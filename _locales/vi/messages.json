@@ -146,5 +146,9 @@
     "azureNetworkErrorHint": {
         "message": "Vui lòng kiểm tra: 1) URL API đúng (thay thế YOUR_RESOURCE và YOUR_DEPLOYMENT), 2) CORS được cấu hình trong Azure Portal để cho phép chrome-extension://*",
         "description": "Hint for Azure network/CORS errors"
+    },
+    "apiUrlHelp": {
+        "message": "Điểm cuối API cho nhà cung cấp đã chọn",
+        "description": "Help text for API URL field"
     }
 }

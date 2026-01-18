@@ -146,5 +146,9 @@
     "actionsDescription": {
         "message": "Create custom text processing actions that appear in the right-click menu. Each action uses a custom prompt to transform selected text with AI.",
         "description": "Description for actions section"
+    },
+    "apiUrlHelp": {
+        "message": "API endpoint for the selected provider",
+        "description": "Help text for API URL field"
     }
 }

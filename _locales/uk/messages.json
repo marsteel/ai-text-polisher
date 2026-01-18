@@ -146,5 +146,9 @@
     "azureNetworkErrorHint": {
         "message": "Будь ласка, перевірте: 1) URL API правильний (замініть YOUR_RESOURCE та YOUR_DEPLOYMENT), 2) CORS налаштовано на порталі Azure для дозволу chrome-extension://*",
         "description": "Hint for Azure network/CORS errors"
+    },
+    "apiUrlHelp": {
+        "message": "Кінцева точка API для вибраного провайдера",
+        "description": "Help text for API URL field"
     }
 }

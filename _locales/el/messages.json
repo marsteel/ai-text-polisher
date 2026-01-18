@@ -146,5 +146,9 @@
     "azureNetworkErrorHint": {
         "message": "Παρακαλώ ελέγξτε: 1) Η διεύθυνση API URL είναι σωστή (αντικαταστήστε το YOUR_RESOURCE και YOUR_DEPLOYMENT), 2) Το CORS έχει ρυθμιστεί στην Πύλη Azure για να επιτρέπει chrome-extension://*",
         "description": "Hint for Azure network/CORS errors"
+    },
+    "apiUrlHelp": {
+        "message": "Τελικό σημείο API για τον επιλεγμένο πάροχο",
+        "description": "Help text for API URL field"
     }
 }

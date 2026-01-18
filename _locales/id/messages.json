@@ -146,5 +146,9 @@
     "azureNetworkErrorHint": {
         "message": "Harap periksa: 1) URL API sudah benar (ganti YOUR_RESOURCE dan YOUR_DEPLOYMENT), 2) CORS dikonfigurasi di Azure Portal untuk mengizinkan chrome-extension://*",
         "description": "Hint for Azure network/CORS errors"
+    },
+    "apiUrlHelp": {
+        "message": "Endpoint API untuk penyedia yang dipilih",
+        "description": "Help text for API URL field"
     }
 }

@@ -146,5 +146,9 @@
     "azureNetworkErrorHint": {
         "message": "確認してください：1) API URLが正しい（YOUR_RESOURCEとYOUR_DEPLOYMENTを置き換える）、2) Azure PortalでCORSがchrome-extension://*を許可するように設定されている",
         "description": "Hint for Azure network/CORS errors"
+    },
+    "apiUrlHelp": {
+        "message": "選択したプロバイダーのAPIエンドポイント",
+        "description": "Help text for API URL field"
     }
 }

@@ -146,5 +146,9 @@
     "azureNetworkErrorHint": {
         "message": "Моля, проверете: 1) API URL адресът е правилен (заменете YOUR_RESOURCE и YOUR_DEPLOYMENT), 2) CORS е конфигуриран в Azure Portal да позволява chrome-extension://*",
         "description": "Hint for Azure network/CORS errors"
+    },
+    "apiUrlHelp": {
+        "message": "API крайна точка за избрания доставчик",
+        "description": "Help text for API URL field"
     }
 }

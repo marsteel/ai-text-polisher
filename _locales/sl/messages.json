@@ -146,5 +146,9 @@
     "azureNetworkErrorHint": {
         "message": "Preverite: 1) URL API je pravilen (zamenjajte YOUR_RESOURCE in YOUR_DEPLOYMENT), 2) CORS je konfiguriran na portalu Azure za dovoljenje chrome-extension://*",
         "description": "Hint for Azure network/CORS errors"
+    },
+    "apiUrlHelp": {
+        "message": "API končna točka za izbranega ponudnika",
+        "description": "Help text for API URL field"
     }
 }

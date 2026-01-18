@@ -146,5 +146,9 @@
     "azureNetworkErrorHint": {
         "message": "Zkontrolujte prosím: 1) API URL je správné (nahraďte YOUR_RESOURCE a YOUR_DEPLOYMENT), 2) CORS je nakonfigurován v Azure Portal pro povolení chrome-extension://*",
         "description": "Hint for Azure network/CORS errors"
+    },
+    "apiUrlHelp": {
+        "message": "API endpoint pro vybraného poskytovatele",
+        "description": "Help text for API URL field"
     }
 }

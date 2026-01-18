@@ -146,5 +146,9 @@
     "azureNetworkErrorHint": {
         "message": "확인하세요: 1) API URL이 올바른지 (YOUR_RESOURCE 및 YOUR_DEPLOYMENT 교체), 2) Azure Portal에서 CORS가 chrome-extension://*를 허용하도록 구성되어 있는지",
         "description": "Hint for Azure network/CORS errors"
+    },
+    "apiUrlHelp": {
+        "message": "선택한 제공업체의 API 엔드포인트",
+        "description": "Help text for API URL field"
     }
 }

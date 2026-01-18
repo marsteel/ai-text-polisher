@@ -146,5 +146,9 @@
     "azureNetworkErrorHint": {
         "message": "โปรดตรวจสอบ: 1) URL ของ API ถูกต้อง (แทนที่ YOUR_RESOURCE และ YOUR_DEPLOYMENT), 2) CORS ได้รับการกำหนดค่าใน Azure Portal เพื่ออนุญาต chrome-extension://*",
         "description": "Hint for Azure network/CORS errors"
+    },
+    "apiUrlHelp": {
+        "message": "ปลายทาง API สำหรับผู้ให้บริการที่เลือก",
+        "description": "Help text for API URL field"
     }
 }

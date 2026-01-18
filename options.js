@@ -52,6 +52,7 @@ function loadI18nStrings() {
     document.getElementById('apiSettingsTitle').textContent = chrome.i18n.getMessage('apiSettings');
     document.getElementById('aiProviderLabel').textContent = chrome.i18n.getMessage('aiProvider') || 'AI Provider';
     document.getElementById('apiUrlLabel').textContent = chrome.i18n.getMessage('apiUrl');
+    document.getElementById('apiUrlHelp').textContent = chrome.i18n.getMessage('apiUrlHelp');
     document.getElementById('apiKeyLabel').textContent = chrome.i18n.getMessage('apiKey');
     document.getElementById('modelNameLabel').textContent = chrome.i18n.getMessage('modelName');
     document.getElementById('testConnectionText').textContent = chrome.i18n.getMessage('testConnection') || 'Test Connection';

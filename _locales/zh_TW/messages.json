@@ -146,5 +146,9 @@
     "actionsDescription": {
         "message": "創建自定義文本處理操作，顯示在右鍵選單中。每個操作使用自定義提示詞通過 AI 轉換選中的文本。",
         "description": "操作部分的描述"
+    },
+    "apiUrlHelp": {
+        "message": "所選提供商的 API 端點",
+        "description": "Help text for API URL field"
     }
 }

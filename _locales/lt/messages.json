@@ -146,5 +146,9 @@
     "azureNetworkErrorHint": {
         "message": "Patikrinkite: 1) API URL teisingas (pakeiskite YOUR_RESOURCE ir YOUR_DEPLOYMENT), 2) CORS sukonfigūruotas Azure portale, kad leistų chrome-extension://*",
         "description": "Hint for Azure network/CORS errors"
+    },
+    "apiUrlHelp": {
+        "message": "API galinis taškas pasirinktam teikėjui",
+        "description": "Help text for API URL field"
     }
 }

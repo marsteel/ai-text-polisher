@@ -146,5 +146,9 @@
     "azureNetworkErrorHint": {
         "message": "Controlla: 1) L'URL dell'API è corretto (sostituisci YOUR_RESOURCE e YOUR_DEPLOYMENT), 2) CORS è configurato nel portale Azure per consentire chrome-extension://*",
         "description": "Hint for Azure network/CORS errors"
+    },
+    "apiUrlHelp": {
+        "message": "Endpoint API per il provider selezionato",
+        "description": "Help text for API URL field"
     }
 }

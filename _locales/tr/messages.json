@@ -146,5 +146,9 @@
     "azureNetworkErrorHint": {
         "message": "Lütfen kontrol edin: 1) API URL'si doğru (YOUR_RESOURCE ve YOUR_DEPLOYMENT'ı değiştirin), 2) CORS, Azure Portal'da chrome-extension://* izin verecek şekilde yapılandırılmış",
         "description": "Hint for Azure network/CORS errors"
+    },
+    "apiUrlHelp": {
+        "message": "Seçilen sağlayıcı için API uç noktası",
+        "description": "Help text for API URL field"
     }
 }

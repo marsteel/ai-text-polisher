@@ -146,5 +146,9 @@
     "azureNetworkErrorHint": {
         "message": "कृपया जांचें: 1) API URL सही है (YOUR_RESOURCE और YOUR_DEPLOYMENT को बदलें), 2) Azure Portal में CORS को chrome-extension://* की अनुमति देने के लिए कॉन्फ़िगर किया गया है",
         "description": "Hint for Azure network/CORS errors"
+    },
+    "apiUrlHelp": {
+        "message": "चयनित प्रदाता के लिए API एंडपॉइंट",
+        "description": "Help text for API URL field"
     }
 }

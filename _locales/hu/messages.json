@@ -146,5 +146,9 @@
     "azureNetworkErrorHint": {
         "message": "Kérjük, ellenőrizze: 1) Az API URL helyes (cserélje ki a YOUR_RESOURCE és YOUR_DEPLOYMENT értékeket), 2) A CORS konfigurálva van az Azure Portalon a chrome-extension://* engedélyezéséhez",
         "description": "Hint for Azure network/CORS errors"
+    },
+    "apiUrlHelp": {
+        "message": "API végpont a kiválasztott szolgáltatóhoz",
+        "description": "Help text for API URL field"
     }
 }

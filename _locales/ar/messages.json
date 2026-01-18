@@ -146,5 +146,9 @@
     "azureNetworkErrorHint": {
         "message": "يرجى التحقق من: 1) عنوان API URL صحيح (استبدل YOUR_RESOURCE و YOUR_DEPLOYMENT)، 2) تم تكوين CORS في بوابة Azure للسماح بـ chrome-extension://*",
         "description": "Hint for Azure network/CORS errors"
+    },
+    "apiUrlHelp": {
+        "message": "نقطة نهاية API للموفر المحدد",
+        "description": "Help text for API URL field"
     }
 }

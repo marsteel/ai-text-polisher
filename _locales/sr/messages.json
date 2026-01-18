@@ -146,5 +146,9 @@
     "azureNetworkErrorHint": {
         "message": "Молимо проверите: 1) УРЛ АПИ-ја је тачан (замените YOUR_RESOURCE и YOUR_DEPLOYMENT), 2) ЦОРС је конфигурисан на Азуре порталу да дозволи chrome-extension://*",
         "description": "Hint for Azure network/CORS errors"
+    },
+    "apiUrlHelp": {
+        "message": "API крајња тачка за изабраног провајдера",
+        "description": "Help text for API URL field"
     }
 }
