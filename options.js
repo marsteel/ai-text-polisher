@@ -294,7 +294,7 @@ async function testConnection() {
         if (error.message.includes('Failed to fetch') || error.message.includes('NetworkError')) {
             errorMsg = `Network error: ${error.message}. `;
             if (provider === 'azure') {
-                errorMsg += 'For Azure OpenAI, ensure CORS is configured in Azure Portal to allow chrome-extension://*';
+                errorMsg += 'Please check: 1) API URL is correct (replace YOUR_RESOURCE and YOUR_DEPLOYMENT), 2) CORS is configured in Azure Portal to allow chrome-extension://*';
             } else {
                 errorMsg += 'Check your internet connection and API endpoint URL.';
             }
