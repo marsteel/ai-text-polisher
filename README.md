@@ -8,7 +8,7 @@ A powerful Chrome extension that uses AI to polish, improve, and transform your 
 
 ✨ **AI-Powered Text Processing** - Transform selected text using advanced AI models  
 🎯 **Customizable Actions** - Create and manage your own text processing actions  
-🔧 **Flexible Configuration** - Support for any OpenAI-compatible API  
+🔧 **Multi-Provider Support** - Native integration with OpenAI, Gemini, Claude, and more  
 🌍 **Internationalization Ready** - Built with i18n support  
 ⚡ **Visual Feedback** - Real-time status updates and notifications  
 📋 **Clipboard Integration** - Results automatically copied to clipboard  
@@ -57,12 +57,30 @@ You can add, edit, or delete actions in the settings page. Each action has:
 
 ## Supported AI Providers
 
-This extension works with any OpenAI-compatible API, including:
+This extension supports multiple AI providers with native API integration:
 
-- **OpenAI** - `https://api.openai.com/v1/chat/completions`
-- **Azure OpenAI** - `https://YOUR_RESOURCE.openai.azure.com/openai/deployments/YOUR_DEPLOYMENT/chat/completions?api-version=2024-02-15-preview`
-- **Local LLMs** (via LM Studio, Ollama, etc.) - `http://localhost:1234/v1/chat/completions`
-- **Other providers** - Any service with OpenAI-compatible endpoints
+- **OpenAI** - GPT-4o, GPT-4o-mini, and other models
+  - Endpoint: `https://api.openai.com/v1/chat/completions`
+  - Recommended: `gpt-4o-mini` (fast, cheap) or `gpt-4o` (best quality)
+
+- **Google Gemini** - Gemini 2.0 Flash, Gemini 1.5 Pro
+  - Endpoint: `https://generativelanguage.googleapis.com/v1beta/models`
+  - Recommended: `gemini-2.0-flash-exp` (fast, free) or `gemini-1.5-pro` (best quality)
+
+- **Anthropic Claude** - Claude 3.5 Sonnet, Claude 3.5 Haiku
+  - Endpoint: `https://api.anthropic.com/v1/messages`
+  - Recommended: `claude-3-5-haiku-20241022` (fast, cheap) or `claude-3-5-sonnet-20241022` (best quality)
+
+- **Azure OpenAI** - Enterprise-grade OpenAI models
+  - Endpoint: `https://YOUR_RESOURCE.openai.azure.com/openai/deployments/YOUR_DEPLOYMENT/chat/completions?api-version=2024-02-15-preview`
+
+- **DeepSeek** - Cost-effective alternative
+  - Endpoint: `https://api.deepseek.com/v1/chat/completions`
+  - Recommended: `deepseek-chat` (good quality, very cheap)
+
+- **Custom API** - Any OpenAI-compatible endpoint
+  - Local LLMs via LM Studio, Ollama, etc.
+  - Other third-party providers
 
 ## Privacy & Security
 
