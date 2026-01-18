@@ -162,5 +162,29 @@
     "fillAllFields": {
         "message": "Vennligst fyll ut alle API-innstillinger før testing",
         "description": "Test connection message: fillAllFields"
+    },
+    "modelRecommendOpenai": {
+        "message": "Anbefalt: gpt-4o-mini (rask, billig) eller gpt-4o (beste kvalitet)",
+        "description": "Model recommendation for Openai"
+    },
+    "modelRecommendAzure": {
+        "message": "Bruk distribusjonsnavnet ditt (f.eks. gpt-4, gpt-35-turbo)",
+        "description": "Model recommendation for Azure"
+    },
+    "modelRecommendAnthropic": {
+        "message": "Anbefalt: claude-3-5-haiku-20241022 (rask, billig) eller claude-3-5-sonnet-20241022 (beste kvalitet)",
+        "description": "Model recommendation for Anthropic"
+    },
+    "modelRecommendGemini": {
+        "message": "Anbefalt: gemini-2.0-flash-exp (rask, gratis) eller gemini-1.5-pro (beste kvalitet)",
+        "description": "Model recommendation for Gemini"
+    },
+    "modelRecommendDeepseek": {
+        "message": "Anbefalt: deepseek-chat (god kvalitet, veldig billig)",
+        "description": "Model recommendation for Deepseek"
+    },
+    "modelRecommendCustom": {
+        "message": "Skriv inn modellnavnet for ditt tilpassede API-endepunkt",
+        "description": "Model recommendation for Custom"
     }
 }

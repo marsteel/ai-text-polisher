@@ -162,5 +162,29 @@
     "fillAllFields": {
         "message": "Pred testovaním vyplňte všetky nastavenia API",
         "description": "Test connection message: fillAllFields"
+    },
+    "modelRecommendOpenai": {
+        "message": "Odporúčané: gpt-4o-mini (rýchly, lacný) alebo gpt-4o (najlepšia kvalita)",
+        "description": "Model recommendation for Openai"
+    },
+    "modelRecommendAzure": {
+        "message": "Použite názov nasadenia (napr. gpt-4, gpt-35-turbo)",
+        "description": "Model recommendation for Azure"
+    },
+    "modelRecommendAnthropic": {
+        "message": "Odporúčané: claude-3-5-haiku-20241022 (rýchly, lacný) alebo claude-3-5-sonnet-20241022 (najlepšia kvalita)",
+        "description": "Model recommendation for Anthropic"
+    },
+    "modelRecommendGemini": {
+        "message": "Odporúčané: gemini-2.0-flash-exp (rýchly, zadarmo) alebo gemini-1.5-pro (najlepšia kvalita)",
+        "description": "Model recommendation for Gemini"
+    },
+    "modelRecommendDeepseek": {
+        "message": "Odporúčané: deepseek-chat (dobrá kvalita, veľmi lacný)",
+        "description": "Model recommendation for Deepseek"
+    },
+    "modelRecommendCustom": {
+        "message": "Zadajte názov modelu pre vlastný API koncový bod",
+        "description": "Model recommendation for Custom"
     }
 }

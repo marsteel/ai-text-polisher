@@ -162,5 +162,29 @@
     "fillAllFields": {
         "message": "Lütfen test etmeden önce tüm API ayarlarını doldurun",
         "description": "Test connection message: fillAllFields"
+    },
+    "modelRecommendOpenai": {
+        "message": "Önerilen: gpt-4o-mini (hızlı, ucuz) veya gpt-4o (en iyi kalite)",
+        "description": "Model recommendation for Openai"
+    },
+    "modelRecommendAzure": {
+        "message": "Dağıtım adınızı kullanın (örn. gpt-4, gpt-35-turbo)",
+        "description": "Model recommendation for Azure"
+    },
+    "modelRecommendAnthropic": {
+        "message": "Önerilen: claude-3-5-haiku-20241022 (hızlı, ucuz) veya claude-3-5-sonnet-20241022 (en iyi kalite)",
+        "description": "Model recommendation for Anthropic"
+    },
+    "modelRecommendGemini": {
+        "message": "Önerilen: gemini-2.0-flash-exp (hızlı, ücretsiz) veya gemini-1.5-pro (en iyi kalite)",
+        "description": "Model recommendation for Gemini"
+    },
+    "modelRecommendDeepseek": {
+        "message": "Önerilen: deepseek-chat (iyi kalite, çok ucuz)",
+        "description": "Model recommendation for Deepseek"
+    },
+    "modelRecommendCustom": {
+        "message": "Özel API uç noktanız için model adını girin",
+        "description": "Model recommendation for Custom"
     }
 }

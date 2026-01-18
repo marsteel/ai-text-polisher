@@ -162,5 +162,29 @@
     "fillAllFields": {
         "message": "Молимо попуните сва подешавања API пре тестирања",
         "description": "Test connection message: fillAllFields"
+    },
+    "modelRecommendOpenai": {
+        "message": "Препоручено: gpt-4o-mini (брзо, јефтино) или gpt-4o (најбољи квалитет)",
+        "description": "Model recommendation for Openai"
+    },
+    "modelRecommendAzure": {
+        "message": "Користите име имплементације (нпр. gpt-4, gpt-35-turbo)",
+        "description": "Model recommendation for Azure"
+    },
+    "modelRecommendAnthropic": {
+        "message": "Препоручено: claude-3-5-haiku-20241022 (брзо, јефтино) или claude-3-5-sonnet-20241022 (најбољи квалитет)",
+        "description": "Model recommendation for Anthropic"
+    },
+    "modelRecommendGemini": {
+        "message": "Препоручено: gemini-2.0-flash-exp (брзо, бесплатно) или gemini-1.5-pro (најбољи квалитет)",
+        "description": "Model recommendation for Gemini"
+    },
+    "modelRecommendDeepseek": {
+        "message": "Препоручено: deepseek-chat (добар квалитет, веома јефтино)",
+        "description": "Model recommendation for Deepseek"
+    },
+    "modelRecommendCustom": {
+        "message": "Унесите име модела за прилагођену API крајњу тачку",
+        "description": "Model recommendation for Custom"
     }
 }

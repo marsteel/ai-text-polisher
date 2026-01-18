@@ -162,5 +162,29 @@
     "fillAllFields": {
         "message": "Vul alle API-instellingen in voor het testen",
         "description": "Test connection message: fillAllFields"
+    },
+    "modelRecommendOpenai": {
+        "message": "Aanbevolen: gpt-4o-mini (snel, goedkoop) of gpt-4o (beste kwaliteit)",
+        "description": "Model recommendation for Openai"
+    },
+    "modelRecommendAzure": {
+        "message": "Gebruik uw implementatienaam (bijv. gpt-4, gpt-35-turbo)",
+        "description": "Model recommendation for Azure"
+    },
+    "modelRecommendAnthropic": {
+        "message": "Aanbevolen: claude-3-5-haiku-20241022 (snel, goedkoop) of claude-3-5-sonnet-20241022 (beste kwaliteit)",
+        "description": "Model recommendation for Anthropic"
+    },
+    "modelRecommendGemini": {
+        "message": "Aanbevolen: gemini-2.0-flash-exp (snel, gratis) of gemini-1.5-pro (beste kwaliteit)",
+        "description": "Model recommendation for Gemini"
+    },
+    "modelRecommendDeepseek": {
+        "message": "Aanbevolen: deepseek-chat (goede kwaliteit, zeer goedkoop)",
+        "description": "Model recommendation for Deepseek"
+    },
+    "modelRecommendCustom": {
+        "message": "Voer de modelnaam in voor uw aangepaste API-eindpunt",
+        "description": "Model recommendation for Custom"
     }
 }

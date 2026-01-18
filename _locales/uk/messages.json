@@ -162,5 +162,29 @@
     "fillAllFields": {
         "message": "Будь ласка, заповніть усі налаштування API перед тестуванням",
         "description": "Test connection message: fillAllFields"
+    },
+    "modelRecommendOpenai": {
+        "message": "Рекомендується: gpt-4o-mini (швидкий, дешевий) або gpt-4o (найкраща якість)",
+        "description": "Model recommendation for Openai"
+    },
+    "modelRecommendAzure": {
+        "message": "Використовуйте ім'я розгортання (напр. gpt-4, gpt-35-turbo)",
+        "description": "Model recommendation for Azure"
+    },
+    "modelRecommendAnthropic": {
+        "message": "Рекомендується: claude-3-5-haiku-20241022 (швидкий, дешевий) або claude-3-5-sonnet-20241022 (найкраща якість)",
+        "description": "Model recommendation for Anthropic"
+    },
+    "modelRecommendGemini": {
+        "message": "Рекомендується: gemini-2.0-flash-exp (швидкий, безкоштовний) або gemini-1.5-pro (найкраща якість)",
+        "description": "Model recommendation for Gemini"
+    },
+    "modelRecommendDeepseek": {
+        "message": "Рекомендується: deepseek-chat (хороша якість, дуже дешевий)",
+        "description": "Model recommendation for Deepseek"
+    },
+    "modelRecommendCustom": {
+        "message": "Введіть назву моделі для вашої користувацької кінцевої точки API",
+        "description": "Model recommendation for Custom"
     }
 }

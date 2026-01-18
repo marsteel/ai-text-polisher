@@ -162,5 +162,29 @@
     "fillAllFields": {
         "message": "Prieš bandymą užpildykite visus API nustatymus",
         "description": "Test connection message: fillAllFields"
+    },
+    "modelRecommendOpenai": {
+        "message": "Rekomenduojama: gpt-4o-mini (greitas, pigus) arba gpt-4o (geriausia kokybė)",
+        "description": "Model recommendation for Openai"
+    },
+    "modelRecommendAzure": {
+        "message": "Naudokite savo diegimo pavadinimą (pvz. gpt-4, gpt-35-turbo)",
+        "description": "Model recommendation for Azure"
+    },
+    "modelRecommendAnthropic": {
+        "message": "Rekomenduojama: claude-3-5-haiku-20241022 (greitas, pigus) arba claude-3-5-sonnet-20241022 (geriausia kokybė)",
+        "description": "Model recommendation for Anthropic"
+    },
+    "modelRecommendGemini": {
+        "message": "Rekomenduojama: gemini-2.0-flash-exp (greitas, nemokamas) arba gemini-1.5-pro (geriausia kokybė)",
+        "description": "Model recommendation for Gemini"
+    },
+    "modelRecommendDeepseek": {
+        "message": "Rekomenduojama: deepseek-chat (gera kokybė, labai pigus)",
+        "description": "Model recommendation for Deepseek"
+    },
+    "modelRecommendCustom": {
+        "message": "Įveskite modelio pavadinimą savo pasirinktiniam API galiniui taškui",
+        "description": "Model recommendation for Custom"
     }
 }

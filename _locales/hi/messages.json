@@ -162,5 +162,29 @@
     "fillAllFields": {
         "message": "परीक्षण से पहले कृपया सभी API सेटिंग्स भरें",
         "description": "Test connection message: fillAllFields"
+    },
+    "modelRecommendOpenai": {
+        "message": "अनुशंसित: gpt-4o-mini (तेज़, सस्ता) या gpt-4o (सर्वोत्तम गुणवत्ता)",
+        "description": "Model recommendation for Openai"
+    },
+    "modelRecommendAzure": {
+        "message": "अपने डिप्लॉयमेंट नाम का उपयोग करें (जैसे gpt-4, gpt-35-turbo)",
+        "description": "Model recommendation for Azure"
+    },
+    "modelRecommendAnthropic": {
+        "message": "अनुशंसित: claude-3-5-haiku-20241022 (तेज़, सस्ता) या claude-3-5-sonnet-20241022 (सर्वोत्तम गुणवत्ता)",
+        "description": "Model recommendation for Anthropic"
+    },
+    "modelRecommendGemini": {
+        "message": "अनुशंसित: gemini-2.0-flash-exp (तेज़, मुफ्त) या gemini-1.5-pro (सर्वोत्तम गुणवत्ता)",
+        "description": "Model recommendation for Gemini"
+    },
+    "modelRecommendDeepseek": {
+        "message": "अनुशंसित: deepseek-chat (अच्छी गुणवत्ता, बहुत सस्ता)",
+        "description": "Model recommendation for Deepseek"
+    },
+    "modelRecommendCustom": {
+        "message": "अपने कस्टम API एंडपॉइंट के लिए मॉडल नाम दर्ज करें",
+        "description": "Model recommendation for Custom"
     }
 }

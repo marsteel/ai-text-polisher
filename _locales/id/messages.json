@@ -162,5 +162,29 @@
     "fillAllFields": {
         "message": "Harap isi semua pengaturan API sebelum pengujian",
         "description": "Test connection message: fillAllFields"
+    },
+    "modelRecommendOpenai": {
+        "message": "Direkomendasikan: gpt-4o-mini (cepat, murah) atau gpt-4o (kualitas terbaik)",
+        "description": "Model recommendation for Openai"
+    },
+    "modelRecommendAzure": {
+        "message": "Gunakan nama deployment Anda (mis. gpt-4, gpt-35-turbo)",
+        "description": "Model recommendation for Azure"
+    },
+    "modelRecommendAnthropic": {
+        "message": "Direkomendasikan: claude-3-5-haiku-20241022 (cepat, murah) atau claude-3-5-sonnet-20241022 (kualitas terbaik)",
+        "description": "Model recommendation for Anthropic"
+    },
+    "modelRecommendGemini": {
+        "message": "Direkomendasikan: gemini-2.0-flash-exp (cepat, gratis) atau gemini-1.5-pro (kualitas terbaik)",
+        "description": "Model recommendation for Gemini"
+    },
+    "modelRecommendDeepseek": {
+        "message": "Direkomendasikan: deepseek-chat (kualitas bagus, sangat murah)",
+        "description": "Model recommendation for Deepseek"
+    },
+    "modelRecommendCustom": {
+        "message": "Masukkan nama model untuk endpoint API kustom Anda",
+        "description": "Model recommendation for Custom"
     }
 }

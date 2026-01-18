@@ -162,5 +162,29 @@
     "fillAllFields": {
         "message": "Vui lòng điền tất cả cài đặt API trước khi kiểm tra",
         "description": "Test connection message: fillAllFields"
+    },
+    "modelRecommendOpenai": {
+        "message": "Khuyến nghị: gpt-4o-mini (nhanh, rẻ) hoặc gpt-4o (chất lượng tốt nhất)",
+        "description": "Model recommendation for Openai"
+    },
+    "modelRecommendAzure": {
+        "message": "Sử dụng tên triển khai của bạn (vd. gpt-4, gpt-35-turbo)",
+        "description": "Model recommendation for Azure"
+    },
+    "modelRecommendAnthropic": {
+        "message": "Khuyến nghị: claude-3-5-haiku-20241022 (nhanh, rẻ) hoặc claude-3-5-sonnet-20241022 (chất lượng tốt nhất)",
+        "description": "Model recommendation for Anthropic"
+    },
+    "modelRecommendGemini": {
+        "message": "Khuyến nghị: gemini-2.0-flash-exp (nhanh, miễn phí) hoặc gemini-1.5-pro (chất lượng tốt nhất)",
+        "description": "Model recommendation for Gemini"
+    },
+    "modelRecommendDeepseek": {
+        "message": "Khuyến nghị: deepseek-chat (chất lượng tốt, rất rẻ)",
+        "description": "Model recommendation for Deepseek"
+    },
+    "modelRecommendCustom": {
+        "message": "Nhập tên mô hình cho điểm cuối API tùy chỉnh của bạn",
+        "description": "Model recommendation for Custom"
     }
 }

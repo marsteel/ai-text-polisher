@@ -162,5 +162,29 @@
     "fillAllFields": {
         "message": "Sila isi semua tetapan API sebelum ujian",
         "description": "Test connection message: fillAllFields"
+    },
+    "modelRecommendOpenai": {
+        "message": "Disyorkan: gpt-4o-mini (pantas, murah) atau gpt-4o (kualiti terbaik)",
+        "description": "Model recommendation for Openai"
+    },
+    "modelRecommendAzure": {
+        "message": "Gunakan nama penempatan anda (cth. gpt-4, gpt-35-turbo)",
+        "description": "Model recommendation for Azure"
+    },
+    "modelRecommendAnthropic": {
+        "message": "Disyorkan: claude-3-5-haiku-20241022 (pantas, murah) atau claude-3-5-sonnet-20241022 (kualiti terbaik)",
+        "description": "Model recommendation for Anthropic"
+    },
+    "modelRecommendGemini": {
+        "message": "Disyorkan: gemini-2.0-flash-exp (pantas, percuma) atau gemini-1.5-pro (kualiti terbaik)",
+        "description": "Model recommendation for Gemini"
+    },
+    "modelRecommendDeepseek": {
+        "message": "Disyorkan: deepseek-chat (kualiti baik, sangat murah)",
+        "description": "Model recommendation for Deepseek"
+    },
+    "modelRecommendCustom": {
+        "message": "Masukkan nama model untuk titik akhir API tersuai anda",
+        "description": "Model recommendation for Custom"
     }
 }

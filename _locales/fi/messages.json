@@ -162,5 +162,29 @@
     "fillAllFields": {
         "message": "Täytä kaikki API-asetukset ennen testausta",
         "description": "Test connection message: fillAllFields"
+    },
+    "modelRecommendOpenai": {
+        "message": "Suositeltu: gpt-4o-mini (nopea, halpa) tai gpt-4o (paras laatu)",
+        "description": "Model recommendation for Openai"
+    },
+    "modelRecommendAzure": {
+        "message": "Käytä käyttöönoton nimeä (esim. gpt-4, gpt-35-turbo)",
+        "description": "Model recommendation for Azure"
+    },
+    "modelRecommendAnthropic": {
+        "message": "Suositeltu: claude-3-5-haiku-20241022 (nopea, halpa) tai claude-3-5-sonnet-20241022 (paras laatu)",
+        "description": "Model recommendation for Anthropic"
+    },
+    "modelRecommendGemini": {
+        "message": "Suositeltu: gemini-2.0-flash-exp (nopea, ilmainen) tai gemini-1.5-pro (paras laatu)",
+        "description": "Model recommendation for Gemini"
+    },
+    "modelRecommendDeepseek": {
+        "message": "Suositeltu: deepseek-chat (hyvä laatu, erittäin halpa)",
+        "description": "Model recommendation for Deepseek"
+    },
+    "modelRecommendCustom": {
+        "message": "Syötä mallin nimi mukautetulle API-päätepisteellesi",
+        "description": "Model recommendation for Custom"
     }
 }

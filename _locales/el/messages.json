@@ -162,5 +162,29 @@
     "fillAllFields": {
         "message": "Συμπληρώστε όλες τις ρυθμίσεις API πριν από τη δοκιμή",
         "description": "Test connection message: fillAllFields"
+    },
+    "modelRecommendOpenai": {
+        "message": "Συνιστάται: gpt-4o-mini (γρήγορο, φθηνό) ή gpt-4o (καλύτερη ποιότητα)",
+        "description": "Model recommendation for Openai"
+    },
+    "modelRecommendAzure": {
+        "message": "Χρησιμοποιήστε το όνομα ανάπτυξής σας (π.χ. gpt-4, gpt-35-turbo)",
+        "description": "Model recommendation for Azure"
+    },
+    "modelRecommendAnthropic": {
+        "message": "Συνιστάται: claude-3-5-haiku-20241022 (γρήγορο, φθηνό) ή claude-3-5-sonnet-20241022 (καλύτερη ποιότητα)",
+        "description": "Model recommendation for Anthropic"
+    },
+    "modelRecommendGemini": {
+        "message": "Συνιστάται: gemini-2.0-flash-exp (γρήγορο, δωρεάν) ή gemini-1.5-pro (καλύτερη ποιότητα)",
+        "description": "Model recommendation for Gemini"
+    },
+    "modelRecommendDeepseek": {
+        "message": "Συνιστάται: deepseek-chat (καλή ποιότητα, πολύ φθηνό)",
+        "description": "Model recommendation for Deepseek"
+    },
+    "modelRecommendCustom": {
+        "message": "Εισαγάγετε το όνομα μοντέλου για το προσαρμοσμένο API endpoint σας",
+        "description": "Model recommendation for Custom"
     }
 }

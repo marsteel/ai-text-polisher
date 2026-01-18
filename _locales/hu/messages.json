@@ -162,5 +162,29 @@
     "fillAllFields": {
         "message": "Kérjük, töltse ki az összes API beállítást tesztelés előtt",
         "description": "Test connection message: fillAllFields"
+    },
+    "modelRecommendOpenai": {
+        "message": "Ajánlott: gpt-4o-mini (gyors, olcsó) vagy gpt-4o (legjobb minőség)",
+        "description": "Model recommendation for Openai"
+    },
+    "modelRecommendAzure": {
+        "message": "Használja a telepítés nevét (pl. gpt-4, gpt-35-turbo)",
+        "description": "Model recommendation for Azure"
+    },
+    "modelRecommendAnthropic": {
+        "message": "Ajánlott: claude-3-5-haiku-20241022 (gyors, olcsó) vagy claude-3-5-sonnet-20241022 (legjobb minőség)",
+        "description": "Model recommendation for Anthropic"
+    },
+    "modelRecommendGemini": {
+        "message": "Ajánlott: gemini-2.0-flash-exp (gyors, ingyenes) vagy gemini-1.5-pro (legjobb minőség)",
+        "description": "Model recommendation for Gemini"
+    },
+    "modelRecommendDeepseek": {
+        "message": "Ajánlott: deepseek-chat (jó minőség, nagyon olcsó)",
+        "description": "Model recommendation for Deepseek"
+    },
+    "modelRecommendCustom": {
+        "message": "Adja meg a modell nevét az egyéni API végponthoz",
+        "description": "Model recommendation for Custom"
     }
 }

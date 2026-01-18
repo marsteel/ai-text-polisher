@@ -162,5 +162,29 @@
     "fillAllFields": {
         "message": "Fyll i alla API-inställningar innan testning",
         "description": "Test connection message: fillAllFields"
+    },
+    "modelRecommendOpenai": {
+        "message": "Rekommenderat: gpt-4o-mini (snabb, billig) eller gpt-4o (bästa kvalitet)",
+        "description": "Model recommendation for Openai"
+    },
+    "modelRecommendAzure": {
+        "message": "Använd ditt distributionsnamn (t.ex. gpt-4, gpt-35-turbo)",
+        "description": "Model recommendation for Azure"
+    },
+    "modelRecommendAnthropic": {
+        "message": "Rekommenderat: claude-3-5-haiku-20241022 (snabb, billig) eller claude-3-5-sonnet-20241022 (bästa kvalitet)",
+        "description": "Model recommendation for Anthropic"
+    },
+    "modelRecommendGemini": {
+        "message": "Rekommenderat: gemini-2.0-flash-exp (snabb, gratis) eller gemini-1.5-pro (bästa kvalitet)",
+        "description": "Model recommendation for Gemini"
+    },
+    "modelRecommendDeepseek": {
+        "message": "Rekommenderat: deepseek-chat (bra kvalitet, mycket billig)",
+        "description": "Model recommendation for Deepseek"
+    },
+    "modelRecommendCustom": {
+        "message": "Ange modellnamnet för din anpassade API-slutpunkt",
+        "description": "Model recommendation for Custom"
     }
 }

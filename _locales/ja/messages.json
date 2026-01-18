@@ -162,5 +162,29 @@
     "fillAllFields": {
         "message": "テスト前にすべてのAPI設定を入力してください",
         "description": "Test connection message: fillAllFields"
+    },
+    "modelRecommendOpenai": {
+        "message": "推奨: gpt-4o-mini (高速、安価) または gpt-4o (最高品質)",
+        "description": "Model recommendation for Openai"
+    },
+    "modelRecommendAzure": {
+        "message": "デプロイメント名を使用 (例: gpt-4, gpt-35-turbo)",
+        "description": "Model recommendation for Azure"
+    },
+    "modelRecommendAnthropic": {
+        "message": "推奨: claude-3-5-haiku-20241022 (高速、安価) または claude-3-5-sonnet-20241022 (最高品質)",
+        "description": "Model recommendation for Anthropic"
+    },
+    "modelRecommendGemini": {
+        "message": "推奨: gemini-2.0-flash-exp (高速、無料) または gemini-1.5-pro (最高品質)",
+        "description": "Model recommendation for Gemini"
+    },
+    "modelRecommendDeepseek": {
+        "message": "推奨: deepseek-chat (良質、非常に安価)",
+        "description": "Model recommendation for Deepseek"
+    },
+    "modelRecommendCustom": {
+        "message": "カスタムAPIエンドポイントのモデル名を入力",
+        "description": "Model recommendation for Custom"
     }
 }

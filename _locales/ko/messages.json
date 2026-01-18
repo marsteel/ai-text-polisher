@@ -162,5 +162,29 @@
     "fillAllFields": {
         "message": "테스트 전에 모든 API 설정을 입력하세요",
         "description": "Test connection message: fillAllFields"
+    },
+    "modelRecommendOpenai": {
+        "message": "권장: gpt-4o-mini (빠름, 저렴) 또는 gpt-4o (최고 품질)",
+        "description": "Model recommendation for Openai"
+    },
+    "modelRecommendAzure": {
+        "message": "배포 이름 사용 (예: gpt-4, gpt-35-turbo)",
+        "description": "Model recommendation for Azure"
+    },
+    "modelRecommendAnthropic": {
+        "message": "권장: claude-3-5-haiku-20241022 (빠름, 저렴) 또는 claude-3-5-sonnet-20241022 (최고 품질)",
+        "description": "Model recommendation for Anthropic"
+    },
+    "modelRecommendGemini": {
+        "message": "권장: gemini-2.0-flash-exp (빠름, 무료) 또는 gemini-1.5-pro (최고 품질)",
+        "description": "Model recommendation for Gemini"
+    },
+    "modelRecommendDeepseek": {
+        "message": "권장: deepseek-chat (좋은 품질, 매우 저렴)",
+        "description": "Model recommendation for Deepseek"
+    },
+    "modelRecommendCustom": {
+        "message": "사용자 정의 API 엔드포인트의 모델 이름 입력",
+        "description": "Model recommendation for Custom"
     }
 }
