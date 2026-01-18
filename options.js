@@ -19,8 +19,8 @@ const AI_PROVIDERS = {
     },
     gemini: {
         name: 'Google Gemini',
-        url: 'https://generativelanguage.googleapis.com/v1beta/models/gemini-pro:generateContent',
-        model: 'gemini-pro'
+        url: 'https://generativelanguage.googleapis.com/v1beta/models',
+        model: 'gemini-2.5-flash'
     },
     deepseek: {
         name: 'DeepSeek',
@@ -193,6 +193,7 @@ async function testConnection() {
     const apiUrl = document.getElementById('apiUrl').value.trim();
     const apiKey = document.getElementById('apiKey').value.trim();
     const modelName = document.getElementById('modelName').value.trim();
+    const provider = document.getElementById('aiProvider').value;
     const testBtn = document.getElementById('testConnectionBtn');
     const testStatus = document.getElementById('testStatus');
 
@@ -208,21 +209,59 @@ async function testConnection() {
     testStatus.className = 'test-status';
 
     try {
-        // Send test request
-        const response = await fetch(apiUrl, {
-            method: 'POST',
-            headers: {
-                'Content-Type': 'application/json',
-                'Authorization': `Bearer ${apiKey}`
-            },
-            body: JSON.stringify({
+        // Build provider-specific request
+        let requestBody, headers, testEndpoint;
+
+        if (provider === 'gemini') {
+            // Gemini format
+            testEndpoint = `${apiUrl}/${modelName}:generateContent?key=${apiKey}`;
+            headers = { 'Content-Type': 'application/json' };
+            requestBody = {
+                contents: [{ parts: [{ text: 'Hello' }] }]
+            };
+        } else if (provider === 'anthropic') {
+            // Anthropic format
+            testEndpoint = apiUrl;
+            headers = {
+                'x-api-key': apiKey,
+                'anthropic-version': '2023-06-01',
+                'Content-Type': 'application/json'
+            };
+            requestBody = {
                 model: modelName,
-                messages: [{
-                    role: 'user',
-                    content: 'Hello'
-                }],
+                max_tokens: 10,
+                messages: [{ role: 'user', content: 'Hello' }]
+            };
+        } else if (provider === 'azure') {
+            // Azure OpenAI format
+            testEndpoint = apiUrl;
+            headers = {
+                'api-key': apiKey,
+                'Content-Type': 'application/json'
+            };
+            requestBody = {
+                model: modelName,
+                messages: [{ role: 'user', content: 'Hello' }],
                 max_tokens: 10
-            })
+            };
+        } else {
+            // OpenAI, DeepSeek, and other OpenAI-compatible formats
+            testEndpoint = apiUrl;
+            headers = {
+                'Authorization': `Bearer ${apiKey}`,
+                'Content-Type': 'application/json'
+            };
+            requestBody = {
+                model: modelName,
+                messages: [{ role: 'user', content: 'Hello' }],
+                max_tokens: 10
+            };
+        }
+
+        const response = await fetch(testEndpoint, {
+            method: 'POST',
+            headers: headers,
+            body: JSON.stringify(requestBody)
         });
 
         if (response.ok) {

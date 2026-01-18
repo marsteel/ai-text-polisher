@@ -108,7 +108,8 @@ chrome.contextMenus.onClicked.addListener(async (info, tab) => {
         const aiClient = new AIClient(
             settings.apiUrl,
             settings.apiKey,
-            settings.modelName
+            settings.modelName,
+            settings.aiProvider || 'openai'
         );
 
         // Process text

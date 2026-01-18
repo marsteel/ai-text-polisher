@@ -1,10 +1,122 @@
 // AI API Client - Generic client supporting multiple AI providers
 
 class AIClient {
-    constructor(apiUrl, apiKey, modelName) {
+    constructor(apiUrl, apiKey, modelName, provider = 'openai') {
         this.apiUrl = apiUrl;
         this.apiKey = apiKey;
         this.modelName = modelName;
+        this.provider = provider;
+    }
+
+    /**
+     * Get provider-specific adapter
+     * @returns {Object} - Provider adapter with methods for building requests and parsing responses
+     */
+    getProviderAdapter() {
+        const adapters = {
+            openai: {
+                buildRequest: (prompt, model) => ({
+                    model: model,
+                    messages: [{ role: 'user', content: prompt }],
+                    temperature: 0.7,
+                    max_tokens: 2000
+                }),
+                parseResponse: (data) => {
+                    if (!data?.choices?.[0]?.message?.content) {
+                        throw new Error('Invalid API response format');
+                    }
+                    return data.choices[0].message.content.trim();
+                },
+                getHeaders: (apiKey) => ({
+                    'Content-Type': 'application/json',
+                    'Authorization': `Bearer ${apiKey}`
+                }),
+                getEndpoint: (baseEndpoint) => baseEndpoint
+            },
+
+            azure: {
+                buildRequest: (prompt, model) => ({
+                    model: model,
+                    messages: [{ role: 'user', content: prompt }],
+                    temperature: 0.7,
+                    max_tokens: 2000
+                }),
+                parseResponse: (data) => {
+                    if (!data?.choices?.[0]?.message?.content) {
+                        throw new Error('Invalid API response format');
+                    }
+                    return data.choices[0].message.content.trim();
+                },
+                getHeaders: (apiKey) => ({
+                    'Content-Type': 'application/json',
+                    'api-key': apiKey
+                }),
+                getEndpoint: (baseEndpoint) => baseEndpoint
+            },
+
+            anthropic: {
+                buildRequest: (prompt, model) => ({
+                    model: model,
+                    max_tokens: 2000,
+                    messages: [{ role: 'user', content: prompt }]
+                }),
+                parseResponse: (data) => {
+                    if (!data?.content?.[0]?.text) {
+                        throw new Error('Invalid API response format');
+                    }
+                    return data.content[0].text.trim();
+                },
+                getHeaders: (apiKey) => ({
+                    'Content-Type': 'application/json',
+                    'x-api-key': apiKey,
+                    'anthropic-version': '2023-06-01'
+                }),
+                getEndpoint: (baseEndpoint) => baseEndpoint
+            },
+
+            gemini: {
+                buildRequest: (prompt, model) => ({
+                    contents: [{
+                        parts: [{ text: prompt }]
+                    }]
+                }),
+                parseResponse: (data) => {
+                    if (!data?.candidates?.[0]?.content?.parts?.[0]?.text) {
+                        throw new Error('Invalid API response format');
+                    }
+                    return data.candidates[0].content.parts[0].text.trim();
+                },
+                getHeaders: (apiKey) => ({
+                    'Content-Type': 'application/json'
+                }),
+                getEndpoint: (baseEndpoint, apiKey, model) => {
+                    // Gemini needs model in URL path and API key as query parameter
+                    return `${baseEndpoint}/${model}:generateContent?key=${apiKey}`;
+                }
+            },
+
+            deepseek: {
+                buildRequest: (prompt, model) => ({
+                    model: model,
+                    messages: [{ role: 'user', content: prompt }],
+                    temperature: 0.7,
+                    max_tokens: 2000
+                }),
+                parseResponse: (data) => {
+                    if (!data?.choices?.[0]?.message?.content) {
+                        throw new Error('Invalid API response format');
+                    }
+                    return data.choices[0].message.content.trim();
+                },
+                getHeaders: (apiKey) => ({
+                    'Content-Type': 'application/json',
+                    'Authorization': `Bearer ${apiKey}`
+                }),
+                getEndpoint: (baseEndpoint) => baseEndpoint
+            }
+        };
+
+        return adapters[this.provider] || adapters.openai;
     }
 
     /**
@@ -36,14 +148,14 @@ class AIClient {
      * @returns {Promise<string>} - The AI response
      */
     async makeRequest(prompt) {
-        const requestBody = this.buildRequestBody(prompt);
+        const adapter = this.getProviderAdapter();
+        const requestBody = adapter.buildRequest(prompt, this.modelName);
+        const headers = adapter.getHeaders(this.apiKey);
+        const endpoint = adapter.getEndpoint(this.apiUrl, this.apiKey, this.modelName);
 
-        const response = await fetch(this.apiUrl, {
+        const response = await fetch(endpoint, {
             method: 'POST',
-            headers: {
-                'Content-Type': 'application/json',
-                'Authorization': `Bearer ${this.apiKey}`
-            },
+            headers: headers,
             body: JSON.stringify(requestBody)
         });
 
@@ -53,52 +165,7 @@ class AIClient {
         }
 
         const data = await response.json();
-        return this.extractResponse(data);
-    }
-
-    /**
-     * Build request body based on API format
-     * Supports OpenAI-compatible APIs
-     * @param {string} prompt - The prompt
-     * @returns {Object} - Request body
-     */
-    buildRequestBody(prompt) {
-        // OpenAI-compatible format (works with OpenAI, Azure OpenAI, many others)
-        return {
-            model: this.modelName,
-            messages: [
-                {
-                    role: 'user',
-                    content: prompt
-                }
-            ],
-            temperature: 0.7,
-            max_tokens: 2000
-        };
-    }
-
-    /**
-     * Extract response text from API response
-     * @param {Object} data - API response data
-     * @returns {string} - Extracted text
-     */
-    extractResponse(data) {
-        // OpenAI format
-        if (data.choices && data.choices[0]?.message?.content) {
-            return data.choices[0].message.content.trim();
-        }
-
-        // Anthropic format
-        if (data.content && data.content[0]?.text) {
-            return data.content[0].text.trim();
-        }
-
-        // Generic fallback
-        if (data.text) {
-            return data.text.trim();
-        }
-
-        throw new Error('Unable to extract response from API');
+        return adapter.parseResponse(data);
     }
 
     /**
