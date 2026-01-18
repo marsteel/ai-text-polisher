@@ -267,8 +267,26 @@ async function testConnection() {
         if (response.ok) {
             showTestStatus('✓ Connection successful! API is working correctly.', 'success');
         } else {
-            const error = await response.text();
-            showTestStatus(`✗ Connection failed: ${response.status} ${response.statusText}`, 'error');
+            // Try to parse error details from response
+            let errorMessage = `${response.status} ${response.statusText}`;
+            try {
+                const errorData = await response.json();
+                // Extract detailed error message if available
+                if (errorData.error?.message) {
+                    errorMessage = `${response.status}: ${errorData.error.message}`;
+                } else if (errorData.message) {
+                    errorMessage = `${response.status}: ${errorData.message}`;
+                } else if (errorData.error) {
+                    errorMessage = `${response.status}: ${JSON.stringify(errorData.error)}`;
+                }
+            } catch (e) {
+                // If JSON parsing fails, use text response
+                const errorText = await response.text().catch(() => '');
+                if (errorText) {
+                    errorMessage = `${response.status}: ${errorText.substring(0, 200)}`;
+                }
+            }
+            showTestStatus(`✗ Connection failed: ${errorMessage}`, 'error');
         }
     } catch (error) {
         showTestStatus(`✗ Connection failed: ${error.message}`, 'error');

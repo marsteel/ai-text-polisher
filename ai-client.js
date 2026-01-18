@@ -160,8 +160,25 @@ class AIClient {
         });
 
         if (!response.ok) {
-            const errorData = await response.json().catch(() => ({}));
-            throw new Error(errorData.error?.message || `HTTP ${response.status}: ${response.statusText}`);
+            let errorMessage = `HTTP ${response.status}: ${response.statusText}`;
+            try {
+                const errorData = await response.json();
+                // Extract detailed error message from various API formats
+                if (errorData.error?.message) {
+                    errorMessage = errorData.error.message;
+                } else if (errorData.message) {
+                    errorMessage = errorData.message;
+                } else if (errorData.error) {
+                    errorMessage = JSON.stringify(errorData.error);
+                }
+            } catch (e) {
+                // If JSON parsing fails, try to get text
+                const errorText = await response.text().catch(() => '');
+                if (errorText) {
+                    errorMessage = `${response.status}: ${errorText.substring(0, 200)}`;
+                }
+            }
+            throw new Error(errorMessage);
         }
 
         const data = await response.json();
