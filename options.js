@@ -289,7 +289,17 @@ async function testConnection() {
             showTestStatus(`✗ Connection failed: ${errorMessage}`, 'error');
         }
     } catch (error) {
-        showTestStatus(`✗ Connection failed: ${error.message}`, 'error');
+        let errorMsg = error.message;
+        // Add helpful hint for CORS/network errors
+        if (error.message.includes('Failed to fetch') || error.message.includes('NetworkError')) {
+            errorMsg = `Network error: ${error.message}. `;
+            if (provider === 'azure') {
+                errorMsg += 'For Azure OpenAI, ensure CORS is configured in Azure Portal to allow chrome-extension://*';
+            } else {
+                errorMsg += 'Check your internet connection and API endpoint URL.';
+            }
+        }
+        showTestStatus(`✗ Connection failed: ${errorMsg}`, 'error');
     } finally {
         testBtn.disabled = false;
         testBtn.classList.remove('loading');
