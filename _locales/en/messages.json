@@ -134,5 +134,13 @@
     "popupOpenOptions": {
         "message": "Open Settings",
         "description": "Open options button"
+    },
+    "networkErrorHint": {
+        "message": "Check your internet connection and API endpoint URL.",
+        "description": "Hint for network errors"
+    },
+    "azureNetworkErrorHint": {
+        "message": "Please check: 1) API URL is correct (replace YOUR_RESOURCE and YOUR_DEPLOYMENT), 2) CORS is configured in Azure Portal to allow chrome-extension://*",
+        "description": "Hint for Azure network/CORS errors"
     }
 }

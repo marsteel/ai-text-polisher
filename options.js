@@ -292,12 +292,10 @@ async function testConnection() {
         let errorMsg = error.message;
         // Add helpful hint for CORS/network errors
         if (error.message.includes('Failed to fetch') || error.message.includes('NetworkError')) {
-            errorMsg = `Network error: ${error.message}. `;
-            if (provider === 'azure') {
-                errorMsg += 'Please check: 1) API URL is correct (replace YOUR_RESOURCE and YOUR_DEPLOYMENT), 2) CORS is configured in Azure Portal to allow chrome-extension://*';
-            } else {
-                errorMsg += 'Check your internet connection and API endpoint URL.';
-            }
+            const networkHint = provider === 'azure' 
+                ? chrome.i18n.getMessage('azureNetworkErrorHint')
+                : chrome.i18n.getMessage('networkErrorHint');
+            errorMsg = `${chrome.i18n.getMessage('networkError')} ${networkHint}`;
         }
         showTestStatus(`✗ Connection failed: ${errorMsg}`, 'error');
     } finally {

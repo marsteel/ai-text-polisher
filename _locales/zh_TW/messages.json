@@ -134,5 +134,13 @@
     "popupOpenOptions": {
         "message": "開啟設定",
         "description": "Open options button"
+    },
+    "networkErrorHint": {
+        "message": "請檢查您的網路連線和 API 端點 URL。",
+        "description": "網路錯誤提示"
+    },
+    "azureNetworkErrorHint": {
+        "message": "請檢查：1) API URL 是否正確（替換 YOUR_RESOURCE 和 YOUR_DEPLOYMENT），2) 是否在 Azure 門戶中配置了 CORS 以允許 chrome-extension://*",
+        "description": "Azure 網路/CORS 錯誤提示"
     }
 }
