@@ -329,13 +329,52 @@
         <div class="timeline">
             <div class="version">
                 <div class="version-header">
-                    <span class="version-number">v1.3.0</span>
+                    <span class="version-number">v1.4.0</span>
                     <span class="badge latest">Latest</span>
-                    <span class="version-date">January 18, 2026</span>
+                    <span class="version-date">January 19, 2026</span>
                 </div>
 
                 <div class="version-content">
-                    <h3>🚀 Major Features</h3>
+                    <h3>🎨 New Features</h3>
+                    <ul>
+                        <li><strong>Automatic Dark Mode:</strong> Extension now automatically follows system color
+                            scheme preference</li>
+                        <li>Real-time theme switching when system theme changes</li>
+                        <li>No manual configuration needed - works out of the box</li>
+                        <li>Consistent dark mode across options page and popup</li>
+                    </ul>
+
+                    <h3>🌍 Internationalization</h3>
+                    <ul>
+                        <li>Fixed all hardcoded English strings in options page</li>
+                        <li>Added 12 new localization keys for alerts, confirmations, and status messages</li>
+                        <li>Synced translations to all 56 supported languages</li>
+                        <li>Chinese translations (zh_CN, zh_TW) fully updated</li>
+                    </ul>
+
+                    <h3>🎨 UI/UX Improvements</h3>
+                    <ul>
+                        <li>Implemented CSS variables for consistent theming</li>
+                        <li>Smooth transitions between light and dark modes</li>
+                        <li>Improved color contrast in both themes</li>
+                        <li>Removed manual dark mode toggle for simpler UX</li>
+                    </ul>
+
+                    <h3>🐛 Bug Fixes</h3>
+                    <ul>
+                        <li>Fixed localization for delete confirmation dialogs</li>
+                        <li>Fixed localization for form validation alerts</li>
+                        <li>Fixed localization for success/error status messages</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="version">
+                <div class="version-header">
+                    <span class="version-number">v1.3.0</span>
+                    <span class="version-date">January 18, 2026</span>
+                </div>
+
+                <div class="version-content" <h3>🚀 Major Features</h3>
                     <ul>
                         <li><strong>Multi-Provider Support:</strong> Native integration with multiple AI providers</li>
                         <li>OpenAI - GPT-4o, GPT-4o-mini</li>
@@ -348,10 +387,13 @@
 
                     <h3>✨ New Features</h3>
                     <ul>
-                        <li><strong>Provider Adapter Pattern:</strong> Automatic request/response handling for each provider</li>
-                        <li><strong>Dynamic Model Recommendations:</strong> Context-aware suggestions based on selected provider</li>
+                        <li><strong>Provider Adapter Pattern:</strong> Automatic request/response handling for each
+                            provider</li>
+                        <li><strong>Dynamic Model Recommendations:</strong> Context-aware suggestions based on selected
+                            provider</li>
                         <li><strong>Bilingual Labels:</strong> Chinese interface shows both local and English terms</li>
-                        <li><strong>Enhanced Error Handling:</strong> Specific messages for API key, rate limit, quota, and model errors</li>
+                        <li><strong>Enhanced Error Handling:</strong> Specific messages for API key, rate limit, quota,
+                            and model errors</li>
                     </ul>
 
                     <h3>🌍 Internationalization</h3>
@@ -421,85 +463,93 @@
                     </ul>
                 </div>
             </div>
-<div class="version">
-            <div class="version-header">
-                <span class="version-number">v1.1.1</span>
-                <span class="version-date">January 11, 2026</span>
-            </div>
+            <div class="version">
+                <div class="version-header">
+                    <span class="version-number">v1.1.1</span>
+                    <span class="version-date">January 11, 2026</span>
+                </div>
 
-            <div class="version-content">
-                <h3>🎨 Improvements</h3>
-                <ul>
-                    <li>Added dedicated "Save API Settings" button in API Settings section for better discoverability
-                    </li>
-                    <li>Added descriptive text to Actions section explaining the feature purpose</li>
-                    <li>Improved user experience by making save action more accessible</li>
-                </ul>
+                <div class="version-content">
+                    <h3>🎨 Improvements</h3>
+                    <ul>
+                        <li>Added dedicated "Save API Settings" button in API Settings section for better
+                            discoverability
+                        </li>
+                        <li>Added descriptive text to Actions section explaining the feature purpose</li>
+                        <li>Improved user experience by making save action more accessible</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="version">
+                <div class="version-header">
+                    <span class="version-number">v1.1.0</span>
+                    <span class="version-date">January 11, 2026</span>
+                </div>
+
+                <div class="version-content">
+                    <h3>✨ New Features</h3>
+                    <ul>
+                        <li>🎯 <strong>AI Provider Selection:</strong> Dropdown menu with presets for OpenAI, Azure
+                            OpenAI,
+                            Anthropic (Claude), Google Gemini, and DeepSeek</li>
+                        <li>🧪 <strong>Connection Test:</strong> Test button to verify API configuration before saving
+                        </li>
+                        <li>📌 <strong>Version Display:</strong> Current extension version shown in options page header
+                        </li>
+                        <li>🔗 <strong>Website Link:</strong> Quick access to documentation and privacy policy</li>
+                    </ul>
+
+                    <h3>🎨 Improvements</h3>
+                    <ul>
+                        <li>Auto-fill API URL and model name based on provider selection</li>
+                        <li>Loading animation during connection test</li>
+                        <li>Color-coded test result messages (success/error)</li>
+                        <li>Improved options page layout and styling</li>
+                    </ul>
+
+                    <h3>🐛 Bug Fixes</h3>
+                    <ul>
+                        <li>Fixed test connection status message not displaying</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="version">
+                <div class="version-header">
+                    <span class="version-number">v1.0.1</span>
+                    <span class="version-date">January 8, 2026</span>
+                </div>
+
+                <div class="version-content">
+                    <h3>🔧 Changes</h3>
+                    <ul>
+                        <li>Added <code>clipboardWrite</code> permission to manifest.json for explicit clipboard access
+                            rights
+                        </li>
+                        <li>Improved permission clarity for store review process</li>
+                    </ul>
+
+                    <h3>📋 Technical Details</h3>
+                    <ul>
+                        <li>The extension uses the Clipboard API to automatically copy AI-processed text to clipboard
+                        </li>
+                        <li>Previously relied solely on <code>scripting</code> permission to inject clipboard access
+                            code</li>
+                        <li>Now explicitly declares <code>clipboardWrite</code> permission for better transparency</li>
+                    </ul>
+
+                    <h3>✨ Why This Change?</h3>
+                    <ul>
+                        <li><strong>Clarity:</strong> Makes clipboard usage explicit in the permissions list</li>
+                        <li><strong>Compliance:</strong> Ensures full compliance with store requirements</li>
+                        <li><strong>Future-proof:</strong> Prepares for potential direct clipboard API access in service
+                            workers
+                        </li>
+                    </ul>
+
+                    <p><strong>Note:</strong> No functional changes. User experience remains identical.</p>
+                </div>
             </div>
         </div>
-        <div class="version">
-            <div class="version-header">
-                <span class="version-number">v1.1.0</span>
-                <span class="version-date">January 11, 2026</span>
-            </div>
-
-            <div class="version-content">
-                <h3>✨ New Features</h3>
-                <ul>
-                    <li>🎯 <strong>AI Provider Selection:</strong> Dropdown menu with presets for OpenAI, Azure OpenAI,
-                        Anthropic (Claude), Google Gemini, and DeepSeek</li>
-                    <li>🧪 <strong>Connection Test:</strong> Test button to verify API configuration before saving</li>
-                    <li>📌 <strong>Version Display:</strong> Current extension version shown in options page header</li>
-                    <li>🔗 <strong>Website Link:</strong> Quick access to documentation and privacy policy</li>
-                </ul>
-
-                <h3>🎨 Improvements</h3>
-                <ul>
-                    <li>Auto-fill API URL and model name based on provider selection</li>
-                    <li>Loading animation during connection test</li>
-                    <li>Color-coded test result messages (success/error)</li>
-                    <li>Improved options page layout and styling</li>
-                </ul>
-
-                <h3>🐛 Bug Fixes</h3>
-                <ul>
-                    <li>Fixed test connection status message not displaying</li>
-                </ul>
-            </div>
-        </div>
-<div class="version">
-        <div class="version-header">
-            <span class="version-number">v1.0.1</span>
-            <span class="version-date">January 8, 2026</span>
-        </div>
-
-        <div class="version-content">
-            <h3>🔧 Changes</h3>
-            <ul>
-                <li>Added <code>clipboardWrite</code> permission to manifest.json for explicit clipboard access rights
-                </li>
-                <li>Improved permission clarity for store review process</li>
-            </ul>
-
-            <h3>📋 Technical Details</h3>
-            <ul>
-                <li>The extension uses the Clipboard API to automatically copy AI-processed text to clipboard</li>
-                <li>Previously relied solely on <code>scripting</code> permission to inject clipboard access code</li>
-                <li>Now explicitly declares <code>clipboardWrite</code> permission for better transparency</li>
-            </ul>
-
-            <h3>✨ Why This Change?</h3>
-            <ul>
-                <li><strong>Clarity:</strong> Makes clipboard usage explicit in the permissions list</li>
-                <li><strong>Compliance:</strong> Ensures full compliance with store requirements</li>
-                <li><strong>Future-proof:</strong> Prepares for potential direct clipboard API access in service workers
-                </li>
-            </ul>
-
-            <p><strong>Note:</strong> No functional changes. User experience remains identical.</p>
-        </div>
-    </div>
-    </div>
     </div>
 
     <div class="footer">

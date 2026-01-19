@@ -4,6 +4,7 @@
 document.addEventListener('DOMContentLoaded', () => {
     loadI18nStrings();
     initializePopup();
+    loadDarkMode();
 });
 
 /**
@@ -37,6 +38,32 @@ function initializePopup() {
     chrome.runtime.sendMessage({ type: 'getStatus' }, (response) => {
         if (response && response.status) {
             handleStatusUpdate(response.status);
+        }
+    });
+}
+
+/**
+ * Load and apply dark mode based on system preference
+ * Automatically detects and follows system theme
+ */
+async function loadDarkMode() {
+    // Check if system prefers dark mode
+    const prefersDark = window.matchMedia('(prefers-color-scheme: dark)').matches;
+
+    // Apply system preference
+    if (prefersDark) {
+        document.body.classList.add('dark-mode');
+    } else {
+        document.body.classList.remove('dark-mode');
+    }
+
+    // Listen for system theme changes and update in real-time
+    const mediaQuery = window.matchMedia('(prefers-color-scheme: dark)');
+    mediaQuery.addEventListener('change', (e) => {
+        if (e.matches) {
+            document.body.classList.add('dark-mode');
+        } else {
+            document.body.classList.remove('dark-mode');
         }
     });
 }

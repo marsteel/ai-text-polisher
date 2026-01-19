@@ -226,5 +226,53 @@
     "errorModelNotFound": {
         "message": "未找到模型。请在设置中检查模型名称。",
         "description": "Error message: errorModelNotFound"
+    },
+    "confirmDeleteAction": {
+        "message": "确定要删除此操作吗？",
+        "description": "Confirmation dialog for deleting an action"
+    },
+    "actionNameRequired": {
+        "message": "操作名称不能为空",
+        "description": "Alert when action name is empty"
+    },
+    "promptRequired": {
+        "message": "提示词不能为空",
+        "description": "Alert when prompt is empty"
+    },
+    "promptMustIncludePlaceholder": {
+        "message": "提示词必须包含 {text} 占位符",
+        "description": "Alert when prompt doesn't include {text} placeholder"
+    },
+    "actionAdded": {
+        "message": "操作已添加",
+        "description": "Status message when action is added"
+    },
+    "actionUpdated": {
+        "message": "操作已更新",
+        "description": "Status message when action is updated"
+    },
+    "actionDeleted": {
+        "message": "操作已删除",
+        "description": "Status message when action is deleted"
+    },
+    "apiUrlRequired": {
+        "message": "API URL 不能为空",
+        "description": "Error when API URL is empty"
+    },
+    "apiKeyRequired": {
+        "message": "API 密钥不能为空",
+        "description": "Error when API key is empty"
+    },
+    "modelNameRequired": {
+        "message": "模型名称不能为空",
+        "description": "Error when model name is empty"
+    },
+    "apiSettingsSaved": {
+        "message": "API 设置已成功保存！",
+        "description": "Success message when API settings are saved"
+    },
+    "websiteLink": {
+        "message": "文档和隐私政策",
+        "description": "Link text for website/documentation"
     }
 }
