@@ -103,13 +103,33 @@ async function loadSettings() {
 
 /**
  * Load and apply dark mode preference
+ * Automatically detects system theme preference
  */
 async function loadDarkMode() {
+    // Check if system prefers dark mode
+    const prefersDark = window.matchMedia('(prefers-color-scheme: dark)').matches;
+
+    // Get user's manual override (if any)
     const settings = await chrome.storage.sync.get('darkMode');
-    const darkMode = settings.darkMode || false;
+
+    // Use manual setting if exists, otherwise use system preference
+    const darkMode = settings.darkMode !== undefined ? settings.darkMode : prefersDark;
 
     document.getElementById('darkModeToggle').checked = darkMode;
     applyDarkMode(darkMode);
+
+    // Listen for system theme changes
+    const mediaQuery = window.matchMedia('(prefers-color-scheme: dark)');
+    mediaQuery.addEventListener('change', (e) => {
+        // Only auto-update if user hasn't set a manual preference
+        chrome.storage.sync.get('darkMode', (data) => {
+            if (data.darkMode === undefined) {
+                const shouldBeDark = e.matches;
+                document.getElementById('darkModeToggle').checked = shouldBeDark;
+                applyDarkMode(shouldBeDark);
+            }
+        });
+    });
 }
 
 /**
