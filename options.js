@@ -70,8 +70,6 @@ function loadI18nStrings() {
     document.getElementById('actionPromptLabel').textContent = chrome.i18n.getMessage('actionPrompt');
     document.getElementById('cancelText').textContent = chrome.i18n.getMessage('cancel');
     document.getElementById('saveActionText').textContent = chrome.i18n.getMessage('save');
-    document.getElementById('darkModeLabel').textContent = chrome.i18n.getMessage('darkMode');
-    document.getElementById('darkModeHelp').textContent = chrome.i18n.getMessage('darkModeHelp');
 }
 
 /**
@@ -102,33 +100,20 @@ async function loadSettings() {
 }
 
 /**
- * Load and apply dark mode preference
- * Automatically detects system theme preference
+ * Load and apply dark mode based on system preference
+ * Automatically detects and follows system theme
  */
 async function loadDarkMode() {
     // Check if system prefers dark mode
     const prefersDark = window.matchMedia('(prefers-color-scheme: dark)').matches;
 
-    // Get user's manual override (if any)
-    const settings = await chrome.storage.sync.get('darkMode');
+    // Apply system preference
+    applyDarkMode(prefersDark);
 
-    // Use manual setting if exists, otherwise use system preference
-    const darkMode = settings.darkMode !== undefined ? settings.darkMode : prefersDark;
-
-    document.getElementById('darkModeToggle').checked = darkMode;
-    applyDarkMode(darkMode);
-
-    // Listen for system theme changes
+    // Listen for system theme changes and update in real-time
     const mediaQuery = window.matchMedia('(prefers-color-scheme: dark)');
     mediaQuery.addEventListener('change', (e) => {
-        // Only auto-update if user hasn't set a manual preference
-        chrome.storage.sync.get('darkMode', (data) => {
-            if (data.darkMode === undefined) {
-                const shouldBeDark = e.matches;
-                document.getElementById('darkModeToggle').checked = shouldBeDark;
-                applyDarkMode(shouldBeDark);
-            }
-        });
+        applyDarkMode(e.matches);
     });
 }
 
@@ -222,9 +207,6 @@ function setupEventListeners() {
             hideModal();
         }
     });
-
-    // Dark mode toggle
-    document.getElementById('darkModeToggle').addEventListener('change', handleDarkModeToggle);
 }
 
 /**
@@ -258,15 +240,6 @@ function updateModelRecommendation(provider) {
     } else {
         modelHelpEl.textContent = baseText;
     }
-}
-
-/**
- * Handle dark mode toggle change
- */
-async function handleDarkModeToggle() {
-    const darkMode = document.getElementById('darkModeToggle').checked;
-    await chrome.storage.sync.set({ darkMode });
-    applyDarkMode(darkMode);
 }
 
 /**

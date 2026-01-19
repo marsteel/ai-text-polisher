@@ -43,38 +43,28 @@ function initializePopup() {
 }
 
 /**
- * Load and apply dark mode preference
- * Automatically detects system theme preference
+ * Load and apply dark mode based on system preference
+ * Automatically detects and follows system theme
  */
 async function loadDarkMode() {
     // Check if system prefers dark mode
     const prefersDark = window.matchMedia('(prefers-color-scheme: dark)').matches;
 
-    // Get user's manual override (if any)
-    const settings = await chrome.storage.sync.get('darkMode');
-
-    // Use manual setting if exists, otherwise use system preference
-    const darkMode = settings.darkMode !== undefined ? settings.darkMode : prefersDark;
-
-    if (darkMode) {
+    // Apply system preference
+    if (prefersDark) {
         document.body.classList.add('dark-mode');
     } else {
         document.body.classList.remove('dark-mode');
     }
 
-    // Listen for system theme changes
+    // Listen for system theme changes and update in real-time
     const mediaQuery = window.matchMedia('(prefers-color-scheme: dark)');
     mediaQuery.addEventListener('change', (e) => {
-        // Only auto-update if user hasn't set a manual preference
-        chrome.storage.sync.get('darkMode', (data) => {
-            if (data.darkMode === undefined) {
-                if (e.matches) {
-                    document.body.classList.add('dark-mode');
-                } else {
-                    document.body.classList.remove('dark-mode');
-                }
-            }
-        });
+        if (e.matches) {
+            document.body.classList.add('dark-mode');
+        } else {
+            document.body.classList.remove('dark-mode');
+        }
     });
 }
 
