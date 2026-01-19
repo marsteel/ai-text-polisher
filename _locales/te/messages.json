@@ -186,5 +186,53 @@
     "modelRecommendCustom": {
         "message": "మీ అనుకూల API ఎండ్‌పాయింట్ కోసం మోడల్ పేరును నమోదు చేయండి",
         "description": "Model recommendation for Custom"
+    },
+    "confirmDeleteAction": {
+        "message": "Are you sure you want to delete this action?",
+        "description": "Confirmation dialog for deleting an action"
+    },
+    "actionNameRequired": {
+        "message": "Action name is required",
+        "description": "Alert when action name is empty"
+    },
+    "promptRequired": {
+        "message": "Prompt is required",
+        "description": "Alert when prompt is empty"
+    },
+    "promptMustIncludePlaceholder": {
+        "message": "Prompt must include {text} placeholder",
+        "description": "Alert when prompt doesn't include {text} placeholder"
+    },
+    "actionAdded": {
+        "message": "Action added",
+        "description": "Status message when action is added"
+    },
+    "actionUpdated": {
+        "message": "Action updated",
+        "description": "Status message when action is updated"
+    },
+    "actionDeleted": {
+        "message": "Action deleted",
+        "description": "Status message when action is deleted"
+    },
+    "apiUrlRequired": {
+        "message": "API URL is required",
+        "description": "Error when API URL is empty"
+    },
+    "apiKeyRequired": {
+        "message": "API Key is required",
+        "description": "Error when API key is empty"
+    },
+    "modelNameRequired": {
+        "message": "Model Name is required",
+        "description": "Error when model name is empty"
+    },
+    "apiSettingsSaved": {
+        "message": "API settings saved successfully!",
+        "description": "Success message when API settings are saved"
+    },
+    "websiteLink": {
+        "message": "Documentation & Privacy Policy",
+        "description": "Link text for website/documentation"
     }
 }
