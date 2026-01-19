@@ -41,6 +41,7 @@ document.addEventListener('DOMContentLoaded', () => {
     loadI18nStrings();
     loadVersion();
     loadSettings();
+    loadDarkMode();
     setupEventListeners();
 });
 
@@ -69,6 +70,8 @@ function loadI18nStrings() {
     document.getElementById('actionPromptLabel').textContent = chrome.i18n.getMessage('actionPrompt');
     document.getElementById('cancelText').textContent = chrome.i18n.getMessage('cancel');
     document.getElementById('saveActionText').textContent = chrome.i18n.getMessage('save');
+    document.getElementById('darkModeLabel').textContent = chrome.i18n.getMessage('darkMode');
+    document.getElementById('darkModeHelp').textContent = chrome.i18n.getMessage('darkModeHelp');
 }
 
 /**
@@ -96,6 +99,29 @@ async function loadSettings() {
 
     // Load actions
     renderActions(settings.actions || []);
+}
+
+/**
+ * Load and apply dark mode preference
+ */
+async function loadDarkMode() {
+    const settings = await chrome.storage.sync.get('darkMode');
+    const darkMode = settings.darkMode || false;
+
+    document.getElementById('darkModeToggle').checked = darkMode;
+    applyDarkMode(darkMode);
+}
+
+/**
+ * Apply dark mode to the page
+ * @param {boolean} enabled - Whether dark mode is enabled
+ */
+function applyDarkMode(enabled) {
+    if (enabled) {
+        document.body.classList.add('dark-mode');
+    } else {
+        document.body.classList.remove('dark-mode');
+    }
 }
 
 /**
@@ -176,6 +202,9 @@ function setupEventListeners() {
             hideModal();
         }
     });
+
+    // Dark mode toggle
+    document.getElementById('darkModeToggle').addEventListener('change', handleDarkModeToggle);
 }
 
 /**
@@ -189,7 +218,7 @@ function handleProviderChange() {
         document.getElementById('apiUrl').value = config.url;
         document.getElementById('modelName').value = config.model;
     }
-    
+
     // Update model help text with provider-specific recommendations
     updateModelRecommendation(provider);
 }
@@ -200,15 +229,24 @@ function handleProviderChange() {
 function updateModelRecommendation(provider) {
     const modelHelpEl = document.getElementById('modelNameHelp');
     const baseText = chrome.i18n.getMessage('modelNameHelp');
-    
+
     const recommendKey = `modelRecommend${provider.charAt(0).toUpperCase() + provider.slice(1)}`;
     const recommendation = chrome.i18n.getMessage(recommendKey);
-    
+
     if (recommendation) {
         modelHelpEl.textContent = `${baseText}. ${recommendation}`;
     } else {
         modelHelpEl.textContent = baseText;
     }
+}
+
+/**
+ * Handle dark mode toggle change
+ */
+async function handleDarkModeToggle() {
+    const darkMode = document.getElementById('darkModeToggle').checked;
+    await chrome.storage.sync.set({ darkMode });
+    applyDarkMode(darkMode);
 }
 
 /**
@@ -351,17 +389,17 @@ async function saveApiSettings() {
 
     // Validate
     if (!settings.apiUrl) {
-        showApiStatus('API URL is required', 'error');
+        showApiStatus(chrome.i18n.getMessage('apiUrlRequired'), 'error');
         return;
     }
 
     if (!settings.apiKey) {
-        showApiStatus('API Key is required', 'error');
+        showApiStatus(chrome.i18n.getMessage('apiKeyRequired'), 'error');
         return;
     }
 
     if (!settings.modelName) {
-        showApiStatus('Model Name is required', 'error');
+        showApiStatus(chrome.i18n.getMessage('modelNameRequired'), 'error');
         return;
     }
 
@@ -372,7 +410,7 @@ async function saveApiSettings() {
     // Save to storage
     await chrome.storage.sync.set(settings);
 
-    showApiStatus('API settings saved successfully!', 'success');
+    showApiStatus(chrome.i18n.getMessage('apiSettingsSaved'), 'success');
 }
 
 /**
@@ -402,17 +440,17 @@ async function saveSettings() {
 
     // Validate
     if (!settings.apiUrl) {
-        showStatus('API URL is required', 'error');
+        showStatus(chrome.i18n.getMessage('apiUrlRequired'), 'error');
         return;
     }
 
     if (!settings.apiKey) {
-        showStatus('API Key is required', 'error');
+        showStatus(chrome.i18n.getMessage('apiKeyRequired'), 'error');
         return;
     }
 
     if (!settings.modelName) {
-        showStatus('Model Name is required', 'error');
+        showStatus(chrome.i18n.getMessage('modelNameRequired'), 'error');
         return;
     }
 
@@ -446,7 +484,7 @@ async function editAction(actionId) {
  * Delete action
  */
 async function deleteAction(actionId) {
-    if (!confirm('Are you sure you want to delete this action?')) {
+    if (!confirm(chrome.i18n.getMessage('confirmDeleteAction'))) {
         return;
     }
 
@@ -455,7 +493,7 @@ async function deleteAction(actionId) {
 
     await chrome.storage.sync.set({ actions: settings.actions });
     renderActions(settings.actions);
-    showStatus('Action deleted', 'success');
+    showStatus(chrome.i18n.getMessage('actionDeleted'), 'success');
 }
 
 /**
@@ -466,17 +504,17 @@ async function saveAction() {
     const prompt = document.getElementById('actionPrompt').value.trim();
 
     if (!name) {
-        alert('Action name is required');
+        alert(chrome.i18n.getMessage('actionNameRequired'));
         return;
     }
 
     if (!prompt) {
-        alert('Prompt is required');
+        alert(chrome.i18n.getMessage('promptRequired'));
         return;
     }
 
     if (!prompt.includes('{text}')) {
-        alert('Prompt must include {text} placeholder');
+        alert(chrome.i18n.getMessage('promptMustIncludePlaceholder'));
         return;
     }
 
@@ -502,7 +540,7 @@ async function saveAction() {
     await chrome.storage.sync.set({ actions });
     renderActions(actions);
     hideModal();
-    showStatus(currentEditingActionId ? 'Action updated' : 'Action added', 'success');
+    showStatus(currentEditingActionId ? chrome.i18n.getMessage('actionUpdated') : chrome.i18n.getMessage('actionAdded'), 'success');
 }
 
 /**

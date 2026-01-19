@@ -4,6 +4,7 @@
 document.addEventListener('DOMContentLoaded', () => {
     loadI18nStrings();
     initializePopup();
+    loadDarkMode();
 });
 
 /**
@@ -39,6 +40,20 @@ function initializePopup() {
             handleStatusUpdate(response.status);
         }
     });
+}
+
+/**
+ * Load and apply dark mode preference
+ */
+async function loadDarkMode() {
+    const settings = await chrome.storage.sync.get('darkMode');
+    const darkMode = settings.darkMode || false;
+
+    if (darkMode) {
+        document.body.classList.add('dark-mode');
+    } else {
+        document.body.classList.remove('dark-mode');
+    }
 }
 
 /**
