@@ -234,5 +234,31 @@
     "websiteLink": {
         "message": "Documentation & Privacy Policy",
         "description": "Link text for website/documentation"
+    },
+    "detectedProvider": {
+        "message": "Автоматично визначено як $PROVIDER$",
+        "description": "Message when provider is auto-detected",
+        "placeholders": {
+            "provider": {
+                "content": "$1",
+                "example": "OpenAI"
+            }
+        }
+    },
+    "defaultModelSet": {
+        "message": "Модель за замовчуванням встановлено на:",
+        "description": "Label for default model in detection feedback"
+    },
+    "checkAdvancedSettings": {
+        "message": "Ви можете підтвердити, змінити або протестувати конфігурацію в розширених налаштуваннях нижче та зберегти",
+        "description": "Hint to check advanced settings"
+    },
+    "unrecognizedKey": {
+        "message": "Не вдається автоматично визначити провайдера",
+        "description": "Warning when API key is not recognized"
+    },
+    "manualSelection": {
+        "message": "Будь ласка, виберіть провайдера AI вручну нижче",
+        "description": "Instruction to manually select provider"
     }
 }

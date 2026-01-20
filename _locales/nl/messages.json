@@ -234,5 +234,31 @@
     "websiteLink": {
         "message": "Documentation & Privacy Policy",
         "description": "Link text for website/documentation"
+    },
+    "detectedProvider": {
+        "message": "Automatisch gedetecteerd als $PROVIDER$",
+        "description": "Message when provider is auto-detected",
+        "placeholders": {
+            "provider": {
+                "content": "$1",
+                "example": "OpenAI"
+            }
+        }
+    },
+    "defaultModelSet": {
+        "message": "Standaardmodel ingesteld op:",
+        "description": "Label for default model in detection feedback"
+    },
+    "checkAdvancedSettings": {
+        "message": "U kunt de configuratie bevestigen, wijzigen of testen in Geavanceerde instellingen hieronder en opslaan",
+        "description": "Hint to check advanced settings"
+    },
+    "unrecognizedKey": {
+        "message": "Kan provider niet automatisch detecteren",
+        "description": "Warning when API key is not recognized"
+    },
+    "manualSelection": {
+        "message": "Selecteer hieronder handmatig een AI-provider",
+        "description": "Instruction to manually select provider"
     }
 }
