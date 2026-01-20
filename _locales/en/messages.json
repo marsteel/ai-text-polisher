@@ -282,5 +282,31 @@
     "darkModeHelp": {
         "message": "Enable dark mode for a comfortable viewing experience",
         "description": "Help text for dark mode toggle"
+    },
+    "detectedProvider": {
+        "message": "Auto-detected as $PROVIDER$",
+        "description": "Message when provider is auto-detected",
+        "placeholders": {
+            "provider": {
+                "content": "$1",
+                "example": "OpenAI"
+            }
+        }
+    },
+    "defaultModelSet": {
+        "message": "Default model set to:",
+        "description": "Label for default model in detection feedback"
+    },
+    "checkAdvancedSettings": {
+        "message": "You can confirm, modify, or test the configuration and save",
+        "description": "Hint to check advanced settings"
+    },
+    "unrecognizedKey": {
+        "message": "Unable to auto-detect provider",
+        "description": "Warning when API key is not recognized"
+    },
+    "manualSelection": {
+        "message": "Please manually select AI Provider",
+        "description": "Instruction to manually select provider"
     }
 }
