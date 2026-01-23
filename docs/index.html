@@ -4,7 +4,31 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>AI Text Polisher - Documentation</title>
+
+    <!-- SEO Meta Tags -->
+    <meta name="description"
+        content="Free Chrome & Edge extension for AI-powered text enhancement. Polish, fix grammar, make professional, simplify, and summarize text with OpenAI, Azure, Claude, Gemini, and custom AI providers.">
+    <meta name="keywords"
+        content="AI text polisher, text enhancement, grammar checker, Chrome extension, Edge extension, OpenAI, Azure OpenAI, Claude, Gemini, DeepSeek, text summarizer, writing assistant">
+    <meta name="author" content="MaGang">
+    <meta name="robots" content="index, follow">
+
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://ai-text-polisher.magang.net/">
+    <meta property="og:title" content="AI Text Polisher - Free Chrome & Edge Extension for Text Enhancement">
+    <meta property="og:description"
+        content="Transform your text with AI-powered actions. Polish, fix grammar, make professional, simplify, and summarize using OpenAI, Azure, Claude, Gemini, and more.">
+    <meta property="og:site_name" content="AI Text Polisher">
+
+    <!-- Twitter Card -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:url" content="https://ai-text-polisher.magang.net/">
+    <meta name="twitter:title" content="AI Text Polisher - Free Text Enhancement Extension">
+    <meta name="twitter:description"
+        content="Free Chrome & Edge extension for AI-powered text enhancement. Supports OpenAI, Azure, Claude, Gemini, and custom AI providers.">
+
+    <title>AI Text Polisher - Free Chrome & Edge Extension | AI-Powered Text Enhancement</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
     <style>
         /* ========== Design System Tokens ========== */
@@ -629,8 +653,8 @@
                         <h2 style="font-size: 16px; margin: 0;"><i class="fab fa-github"></i> Source Code</h2>
                     </a>
 
-                    <a href="https://github.com/marsteel/AI-Text-Polisher/issues" class="link-card"
-                        target="_blank" style="padding: 16px; text-align: center;">
+                    <a href="https://github.com/marsteel/AI-Text-Polisher/issues" class="link-card" target="_blank"
+                        style="padding: 16px; text-align: center;">
                         <h2 style="font-size: 16px; margin: 0;">💬 Support</h2>
                     </a>
                 </div>
@@ -644,74 +668,106 @@
         </div>
     </div>
 
-        <script>
-            // Fetch manifest.json version from GitHub to display latest code version
-            async function fetchManifestVersion() {
-                try {
-                    const response = await fetch('https://raw.githubusercontent.com/marsteel/ai-text-polisher/main/manifest.json');
-                    const manifest = await response.json();
-                    if (manifest && manifest.version) {
-                        const versionBadge = document.querySelector('.version-badge');
-                        if (versionBadge) {
-                            versionBadge.textContent = 'v' + manifest.version;
-                        }
+    <script>
+        // Fetch manifest.json version from GitHub to display latest code version
+        async function fetchManifestVersion() {
+            try {
+                const response = await fetch('https://raw.githubusercontent.com/marsteel/ai-text-polisher/main/manifest.json');
+                const manifest = await response.json();
+                if (manifest && manifest.version) {
+                    const versionBadge = document.querySelector('.version-badge');
+                    if (versionBadge) {
+                        versionBadge.textContent = 'v' + manifest.version;
                     }
-                } catch (error) {
-                    console.log('Could not fetch manifest version:', error);
                 }
+            } catch (error) {
+                console.log('Could not fetch manifest version:', error);
             }
+        }
 
-            // Fetch Edge Add-ons version
-            async function fetchEdgeVersion() {
-                try {
-                    // Fetch the SVG badge from shields.io
-                    const response = await fetch('https://img.shields.io/badge/dynamic/json?label=edge%20add-on&prefix=v&query=%24.version&url=https%3A%2F%2Fmicrosoftedge.microsoft.com%2Faddons%2Fgetproductdetailsbycrxid%2Fmomnfamjmeifhijbhcdocaigfcbjnohc');
-                    const svgText = await response.text();
+        // Fetch Edge Add-ons version
+        async function fetchEdgeVersion() {
+            try {
+                // Fetch the SVG badge from shields.io
+                const response = await fetch('https://img.shields.io/badge/dynamic/json?label=edge%20add-on&prefix=v&query=%24.version&url=https%3A%2F%2Fmicrosoftedge.microsoft.com%2Faddons%2Fgetproductdetailsbycrxid%2Fmomnfamjmeifhijbhcdocaigfcbjnohc');
+                const svgText = await response.text();
 
-                    // Parse the SVG to extract version text
-                    const parser = new DOMParser();
-                    const svgDoc = parser.parseFromString(svgText, 'image/svg+xml');
-                    const textElements = svgDoc.querySelectorAll('text');
+                // Parse the SVG to extract version text
+                const parser = new DOMParser();
+                const svgDoc = parser.parseFromString(svgText, 'image/svg+xml');
+                const textElements = svgDoc.querySelectorAll('text');
 
-                    // The version is in the last text element (after the label)
-                    if (textElements.length > 0) {
-                        const lastText = textElements[textElements.length - 1].textContent.trim();
-                        // Check if it's a valid version (starts with 'v' and contains numbers)
-                        if (lastText && lastText.match(/v?\d+\.\d+/) && lastText !== 'resource not found') {
-                            document.getElementById('edge-version').textContent = lastText;
-                        } else {
-                            document.getElementById('edge-version').style.display = 'none';
-                        }
+                // The version is in the last text element (after the label)
+                if (textElements.length > 0) {
+                    const lastText = textElements[textElements.length - 1].textContent.trim();
+                    // Check if it's a valid version (starts with 'v' and contains numbers)
+                    if (lastText && lastText.match(/v?\d+\.\d+/) && lastText !== 'resource not found') {
+                        document.getElementById('edge-version').textContent = lastText;
                     } else {
                         document.getElementById('edge-version').style.display = 'none';
                     }
-                } catch (error) {
-                    console.log('Could not fetch Edge version:', error);
+                } else {
                     document.getElementById('edge-version').style.display = 'none';
                 }
+            } catch (error) {
+                console.log('Could not fetch Edge version:', error);
+                document.getElementById('edge-version').style.display = 'none';
             }
+        }
 
-            // Fetch Chrome Web Store version
-            async function fetchChromeVersion() {
-                try {
-                    const response = await fetch('https://img.shields.io/chrome-web-store/v/ghohapffbcjdifeeghcbgdmohhbjehgi.json');
-                    const data = await response.json();
-                    if (data && data.value) {
-                        document.getElementById('chrome-version').textContent = data.value;
-                    }
-                } catch (error) {
-                    console.log('Could not fetch Chrome version:', error);
-                    document.getElementById('chrome-version').textContent = '';
+        // Fetch Chrome Web Store version
+        async function fetchChromeVersion() {
+            try {
+                const response = await fetch('https://img.shields.io/chrome-web-store/v/ghohapffbcjdifeeghcbgdmohhbjehgi.json');
+                const data = await response.json();
+                if (data && data.value) {
+                    document.getElementById('chrome-version').textContent = data.value;
                 }
+            } catch (error) {
+                console.log('Could not fetch Chrome version:', error);
+                document.getElementById('chrome-version').textContent = '';
             }
+        }
 
-            // Fetch versions on page load
-            document.addEventListener('DOMContentLoaded', () => {
-                fetchManifestVersion();
-                fetchEdgeVersion();
-                fetchChromeVersion();
-            });
-        </script>
+        // Fetch versions on page load
+        document.addEventListener('DOMContentLoaded', () => {
+            fetchManifestVersion();
+            fetchEdgeVersion();
+            fetchChromeVersion();
+        });
+    </script>
+
+    <!-- Schema.org Structured Data -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "SoftwareApplication",
+      "name": "AI Text Polisher",
+      "applicationCategory": "BrowserExtension",
+      "operatingSystem": "Chrome, Edge",
+      "offers": {
+        "@type": "Offer",
+        "price": "0",
+        "priceCurrency": "USD"
+      },
+      "description": "Free Chrome & Edge extension for AI-powered text enhancement. Polish, fix grammar, make professional, simplify, and summarize text with multiple AI providers.",
+      "url": "https://ai-text-polisher.magang.net/",
+      "author": {
+        "@type": "Person",
+        "name": "MaGang"
+      },
+      "datePublished": "2025-01-01",
+      "softwareVersion": "1.2.1",
+      "featureList": [
+        "AI-powered text enhancement",
+        "5 built-in actions (Polish, Fix Grammar, Make Professional, Simplify, Summarize)",
+        "Custom action creation",
+        "Multiple AI provider support (OpenAI, Azure, Claude, Gemini, DeepSeek)",
+        "Local data storage for privacy",
+        "Automatic clipboard integration"
+      ]
+    }
+    </script>
 </body>
 
 </html>
