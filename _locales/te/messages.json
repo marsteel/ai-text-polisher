@@ -168,15 +168,15 @@
         "description": "Model recommendation for Openai"
     },
     "modelRecommendAzure": {
-        "message": "మీ డిప్లాయ్‌మెంట్ పేరును ఉపయోగించండి (ఉదా. gpt-4, gpt-35-turbo)",
+        "message": "మీ డిప్లాయ్‌మెంట్ పేరును ఉపయోగించండి (ఉదా. gpt-4o, gpt-4o-mini)",
         "description": "Model recommendation for Azure"
     },
     "modelRecommendAnthropic": {
-        "message": "సిఫార్సు చేయబడింది: claude-3-5-haiku-20241022 (వేగంగా, చౌకగా) లేదా claude-3-5-sonnet-20241022 (ఉత్తమ నాణ్యత)",
+        "message": "సిఫార్సు చేయబడింది: claude-haiku-4-5 (వేగంగా, చౌకగా) లేదా claude-sonnet-4-5 (ఉత్తమ నాణ్యత)",
         "description": "Model recommendation for Anthropic"
     },
     "modelRecommendGemini": {
-        "message": "సిఫార్సు చేయబడింది: gemini-2.0-flash-exp (వేగంగా, ఉచితం) లేదా gemini-1.5-pro (ఉత్తమ నాణ్యత)",
+        "message": "సిఫార్సు చేయబడింది: gemini-2.5-flash (వేగంగా, ఉచితం) లేదా gemini-2.5-pro (ఉత్తమ నాణ్యత)",
         "description": "Model recommendation for Gemini"
     },
     "modelRecommendDeepseek": {

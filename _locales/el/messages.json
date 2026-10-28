@@ -168,15 +168,15 @@
         "description": "Model recommendation for Openai"
     },
     "modelRecommendAzure": {
-        "message": "Χρησιμοποιήστε το όνομα ανάπτυξής σας (π.χ. gpt-4, gpt-35-turbo)",
+        "message": "Χρησιμοποιήστε το όνομα ανάπτυξής σας (π.χ. gpt-4o, gpt-4o-mini)",
         "description": "Model recommendation for Azure"
     },
     "modelRecommendAnthropic": {
-        "message": "Συνιστάται: claude-3-5-haiku-20241022 (γρήγορο, φθηνό) ή claude-3-5-sonnet-20241022 (καλύτερη ποιότητα)",
+        "message": "Συνιστάται: claude-haiku-4-5 (γρήγορο, φθηνό) ή claude-sonnet-4-5 (καλύτερη ποιότητα)",
         "description": "Model recommendation for Anthropic"
     },
     "modelRecommendGemini": {
-        "message": "Συνιστάται: gemini-2.0-flash-exp (γρήγορο, δωρεάν) ή gemini-1.5-pro (καλύτερη ποιότητα)",
+        "message": "Συνιστάται: gemini-2.5-flash (γρήγορο, δωρεάν) ή gemini-2.5-pro (καλύτερη ποιότητα)",
         "description": "Model recommendation for Gemini"
     },
     "modelRecommendDeepseek": {

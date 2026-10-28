@@ -10,12 +10,12 @@ const AI_PROVIDERS = {
     azure: {
         name: 'Azure OpenAI',
         url: 'https://YOUR_RESOURCE.openai.azure.com/openai/deployments/YOUR_DEPLOYMENT/chat/completions?api-version=2024-02-15-preview',
-        model: 'gpt-4'
+        model: 'gpt-4o'
     },
     anthropic: {
         name: 'Anthropic (Claude)',
         url: 'https://api.anthropic.com/v1/messages',
-        model: 'claude-3-5-sonnet-20241022'
+        model: 'claude-sonnet-4-5'
     },
     gemini: {
         name: 'Google Gemini',

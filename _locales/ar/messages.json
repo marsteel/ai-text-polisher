@@ -168,15 +168,15 @@
         "description": "Model recommendation for Openai"
     },
     "modelRecommendAzure": {
-        "message": "استخدم اسم النشر الخاص بك (مثل gpt-4، gpt-35-turbo)",
+        "message": "استخدم اسم النشر الخاص بك (مثل gpt-4o، gpt-4o-mini)",
         "description": "Model recommendation for Azure"
     },
     "modelRecommendAnthropic": {
-        "message": "موصى به: claude-3-5-haiku-20241022 (سريع، رخيص) أو claude-3-5-sonnet-20241022 (أفضل جودة)",
+        "message": "موصى به: claude-haiku-4-5 (سريع، رخيص) أو claude-sonnet-4-5 (أفضل جودة)",
         "description": "Model recommendation for Anthropic"
     },
     "modelRecommendGemini": {
-        "message": "موصى به: gemini-2.0-flash-exp (سريع، مجاني) أو gemini-1.5-pro (أفضل جودة)",
+        "message": "موصى به: gemini-2.5-flash (سريع، مجاني) أو gemini-2.5-pro (أفضل جودة)",
         "description": "Model recommendation for Gemini"
     },
     "modelRecommendDeepseek": {

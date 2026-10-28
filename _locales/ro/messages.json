@@ -168,15 +168,15 @@
         "description": "Model recommendation for Openai"
     },
     "modelRecommendAzure": {
-        "message": "Folosiți numele implementării (ex. gpt-4, gpt-35-turbo)",
+        "message": "Folosiți numele implementării (ex. gpt-4o, gpt-4o-mini)",
         "description": "Model recommendation for Azure"
     },
     "modelRecommendAnthropic": {
-        "message": "Recomandat: claude-3-5-haiku-20241022 (rapid, ieftin) sau claude-3-5-sonnet-20241022 (cea mai bună calitate)",
+        "message": "Recomandat: claude-haiku-4-5 (rapid, ieftin) sau claude-sonnet-4-5 (cea mai bună calitate)",
         "description": "Model recommendation for Anthropic"
     },
     "modelRecommendGemini": {
-        "message": "Recomandat: gemini-2.0-flash-exp (rapid, gratuit) sau gemini-1.5-pro (cea mai bună calitate)",
+        "message": "Recomandat: gemini-2.5-flash (rapid, gratuit) sau gemini-2.5-pro (cea mai bună calitate)",
         "description": "Model recommendation for Gemini"
     },
     "modelRecommendDeepseek": {

@@ -3,7 +3,7 @@
 const DEFAULT_SETTINGS = {
     apiUrl: 'https://api.openai.com/v1/chat/completions',
     apiKey: '',
-    modelName: 'gpt-3.5-turbo',
+    modelName: 'gpt-4o-mini',
     actions: [
         {
             id: 'polish',

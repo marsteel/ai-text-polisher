@@ -168,15 +168,15 @@
         "description": "Model recommendation for Openai"
     },
     "modelRecommendAzure": {
-        "message": "अपने डिप्लॉयमेंट नाम का उपयोग करें (जैसे gpt-4, gpt-35-turbo)",
+        "message": "अपने डिप्लॉयमेंट नाम का उपयोग करें (जैसे gpt-4o, gpt-4o-mini)",
         "description": "Model recommendation for Azure"
     },
     "modelRecommendAnthropic": {
-        "message": "अनुशंसित: claude-3-5-haiku-20241022 (तेज़, सस्ता) या claude-3-5-sonnet-20241022 (सर्वोत्तम गुणवत्ता)",
+        "message": "अनुशंसित: claude-haiku-4-5 (तेज़, सस्ता) या claude-sonnet-4-5 (सर्वोत्तम गुणवत्ता)",
         "description": "Model recommendation for Anthropic"
     },
     "modelRecommendGemini": {
-        "message": "अनुशंसित: gemini-2.0-flash-exp (तेज़, मुफ्त) या gemini-1.5-pro (सर्वोत्तम गुणवत्ता)",
+        "message": "अनुशंसित: gemini-2.5-flash (तेज़, मुफ्त) या gemini-2.5-pro (सर्वोत्तम गुणवत्ता)",
         "description": "Model recommendation for Gemini"
     },
     "modelRecommendDeepseek": {

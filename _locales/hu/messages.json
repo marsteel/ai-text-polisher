@@ -168,15 +168,15 @@
         "description": "Model recommendation for Openai"
     },
     "modelRecommendAzure": {
-        "message": "Használja a telepítés nevét (pl. gpt-4, gpt-35-turbo)",
+        "message": "Használja a telepítés nevét (pl. gpt-4o, gpt-4o-mini)",
         "description": "Model recommendation for Azure"
     },
     "modelRecommendAnthropic": {
-        "message": "Ajánlott: claude-3-5-haiku-20241022 (gyors, olcsó) vagy claude-3-5-sonnet-20241022 (legjobb minőség)",
+        "message": "Ajánlott: claude-haiku-4-5 (gyors, olcsó) vagy claude-sonnet-4-5 (legjobb minőség)",
         "description": "Model recommendation for Anthropic"
     },
     "modelRecommendGemini": {
-        "message": "Ajánlott: gemini-2.0-flash-exp (gyors, ingyenes) vagy gemini-1.5-pro (legjobb minőség)",
+        "message": "Ajánlott: gemini-2.5-flash (gyors, ingyenes) vagy gemini-2.5-pro (legjobb minőség)",
         "description": "Model recommendation for Gemini"
     },
     "modelRecommendDeepseek": {

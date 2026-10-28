@@ -168,15 +168,15 @@
         "description": "Model recommendation for Openai"
     },
     "modelRecommendAzure": {
-        "message": "Използвайте името на вашето внедряване (напр. gpt-4, gpt-35-turbo)",
+        "message": "Използвайте името на вашето внедряване (напр. gpt-4o, gpt-4o-mini)",
         "description": "Model recommendation for Azure"
     },
     "modelRecommendAnthropic": {
-        "message": "Препоръчва се: claude-3-5-haiku-20241022 (бърз, евтин) или claude-3-5-sonnet-20241022 (най-добро качество)",
+        "message": "Препоръчва се: claude-haiku-4-5 (бърз, евтин) или claude-sonnet-4-5 (най-добро качество)",
         "description": "Model recommendation for Anthropic"
     },
     "modelRecommendGemini": {
-        "message": "Препоръчва се: gemini-2.0-flash-exp (бърз, безплатен) или gemini-1.5-pro (най-добро качество)",
+        "message": "Препоръчва се: gemini-2.5-flash (бърз, безплатен) или gemini-2.5-pro (най-добро качество)",
         "description": "Model recommendation for Gemini"
     },
     "modelRecommendDeepseek": {

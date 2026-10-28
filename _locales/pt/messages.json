@@ -168,15 +168,15 @@
         "description": "Model recommendation for Openai"
     },
     "modelRecommendAzure": {
-        "message": "Use o nome da sua implantação (ex. gpt-4, gpt-35-turbo)",
+        "message": "Use o nome da sua implantação (ex. gpt-4o, gpt-4o-mini)",
         "description": "Model recommendation for Azure"
     },
     "modelRecommendAnthropic": {
-        "message": "Recomendado: claude-3-5-haiku-20241022 (rápido, barato) ou claude-3-5-sonnet-20241022 (melhor qualidade)",
+        "message": "Recomendado: claude-haiku-4-5 (rápido, barato) ou claude-sonnet-4-5 (melhor qualidade)",
         "description": "Model recommendation for Anthropic"
     },
     "modelRecommendGemini": {
-        "message": "Recomendado: gemini-2.0-flash-exp (rápido, grátis) ou gemini-1.5-pro (melhor qualidade)",
+        "message": "Recomendado: gemini-2.5-flash (rápido, grátis) ou gemini-2.5-pro (melhor qualidade)",
         "description": "Model recommendation for Gemini"
     },
     "modelRecommendDeepseek": {

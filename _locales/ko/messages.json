@@ -168,15 +168,15 @@
         "description": "Model recommendation for Openai"
     },
     "modelRecommendAzure": {
-        "message": "배포 이름 사용 (예: gpt-4, gpt-35-turbo)",
+        "message": "배포 이름 사용 (예: gpt-4o, gpt-4o-mini)",
         "description": "Model recommendation for Azure"
     },
     "modelRecommendAnthropic": {
-        "message": "권장: claude-3-5-haiku-20241022 (빠름, 저렴) 또는 claude-3-5-sonnet-20241022 (최고 품질)",
+        "message": "권장: claude-haiku-4-5 (빠름, 저렴) 또는 claude-sonnet-4-5 (최고 품질)",
         "description": "Model recommendation for Anthropic"
     },
     "modelRecommendGemini": {
-        "message": "권장: gemini-2.0-flash-exp (빠름, 무료) 또는 gemini-1.5-pro (최고 품질)",
+        "message": "권장: gemini-2.5-flash (빠름, 무료) 또는 gemini-2.5-pro (최고 품질)",
         "description": "Model recommendation for Gemini"
     },
     "modelRecommendDeepseek": {

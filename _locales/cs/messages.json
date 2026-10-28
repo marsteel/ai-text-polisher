@@ -168,15 +168,15 @@
         "description": "Model recommendation for Openai"
     },
     "modelRecommendAzure": {
-        "message": "Použijte název vašeho nasazení (např. gpt-4, gpt-35-turbo)",
+        "message": "Použijte název vašeho nasazení (např. gpt-4o, gpt-4o-mini)",
         "description": "Model recommendation for Azure"
     },
     "modelRecommendAnthropic": {
-        "message": "Doporučeno: claude-3-5-haiku-20241022 (rychlý, levný) nebo claude-3-5-sonnet-20241022 (nejlepší kvalita)",
+        "message": "Doporučeno: claude-haiku-4-5 (rychlý, levný) nebo claude-sonnet-4-5 (nejlepší kvalita)",
         "description": "Model recommendation for Anthropic"
     },
     "modelRecommendGemini": {
-        "message": "Doporučeno: gemini-2.0-flash-exp (rychlý, zdarma) nebo gemini-1.5-pro (nejlepší kvalita)",
+        "message": "Doporučeno: gemini-2.5-flash (rychlý, zdarma) nebo gemini-2.5-pro (nejlepší kvalita)",
         "description": "Model recommendation for Gemini"
     },
     "modelRecommendDeepseek": {

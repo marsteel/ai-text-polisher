@@ -168,15 +168,15 @@
         "description": "Model recommendation for Openai"
     },
     "modelRecommendAzure": {
-        "message": "Використовуйте ім'я розгортання (напр. gpt-4, gpt-35-turbo)",
+        "message": "Використовуйте ім'я розгортання (напр. gpt-4o, gpt-4o-mini)",
         "description": "Model recommendation for Azure"
     },
     "modelRecommendAnthropic": {
-        "message": "Рекомендується: claude-3-5-haiku-20241022 (швидкий, дешевий) або claude-3-5-sonnet-20241022 (найкраща якість)",
+        "message": "Рекомендується: claude-haiku-4-5 (швидкий, дешевий) або claude-sonnet-4-5 (найкраща якість)",
         "description": "Model recommendation for Anthropic"
     },
     "modelRecommendGemini": {
-        "message": "Рекомендується: gemini-2.0-flash-exp (швидкий, безкоштовний) або gemini-1.5-pro (найкраща якість)",
+        "message": "Рекомендується: gemini-2.5-flash (швидкий, безкоштовний) або gemini-2.5-pro (найкраща якість)",
         "description": "Model recommendation for Gemini"
     },
     "modelRecommendDeepseek": {

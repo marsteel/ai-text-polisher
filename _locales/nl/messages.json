@@ -168,15 +168,15 @@
         "description": "Model recommendation for Openai"
     },
     "modelRecommendAzure": {
-        "message": "Gebruik uw implementatienaam (bijv. gpt-4, gpt-35-turbo)",
+        "message": "Gebruik uw implementatienaam (bijv. gpt-4o, gpt-4o-mini)",
         "description": "Model recommendation for Azure"
     },
     "modelRecommendAnthropic": {
-        "message": "Aanbevolen: claude-3-5-haiku-20241022 (snel, goedkoop) of claude-3-5-sonnet-20241022 (beste kwaliteit)",
+        "message": "Aanbevolen: claude-haiku-4-5 (snel, goedkoop) of claude-sonnet-4-5 (beste kwaliteit)",
         "description": "Model recommendation for Anthropic"
     },
     "modelRecommendGemini": {
-        "message": "Aanbevolen: gemini-2.0-flash-exp (snel, gratis) of gemini-1.5-pro (beste kwaliteit)",
+        "message": "Aanbevolen: gemini-2.5-flash (snel, gratis) of gemini-2.5-pro (beste kwaliteit)",
         "description": "Model recommendation for Gemini"
     },
     "modelRecommendDeepseek": {
