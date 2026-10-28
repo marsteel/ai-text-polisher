@@ -32,7 +32,7 @@ A powerful Chrome extension that uses AI to polish, improve, and transform your 
 2. Configure your API settings:
    - **API URL**: Your AI provider's endpoint (e.g., `https://api.openai.com/v1/chat/completions`)
    - **API Key**: Your API key
-   - **Model Name**: The model to use (e.g., `gpt-3.5-turbo`, `gpt-4`)
+   - **Model Name**: The model to use (e.g., `gpt-4o-mini`, `gpt-4o`)
 
 ### 2. Customize Actions
 
@@ -64,13 +64,13 @@ This extension supports multiple AI providers with native API integration:
   - Endpoint: `https://api.openai.com/v1/chat/completions`
   - Recommended: `gpt-4o-mini` (fast, cheap) or `gpt-4o` (best quality)
 
-- **Google Gemini** - Gemini 2.0 Flash, Gemini 1.5 Pro
+- **Google Gemini** - Gemini 2.5 Flash, Gemini 2.5 Pro
   - Endpoint: `https://generativelanguage.googleapis.com/v1beta/models`
-  - Recommended: `gemini-2.0-flash-exp` (fast, free) or `gemini-1.5-pro` (best quality)
+  - Recommended: `gemini-2.5-flash` (fast, free) or `gemini-2.5-pro` (best quality)
 
-- **Anthropic Claude** - Claude 3.5 Sonnet, Claude 3.5 Haiku
+- **Anthropic Claude** - Claude Sonnet 4.5, Claude Haiku 4.5
   - Endpoint: `https://api.anthropic.com/v1/messages`
-  - Recommended: `claude-3-5-haiku-20241022` (fast, cheap) or `claude-3-5-sonnet-20241022` (best quality)
+  - Recommended: `claude-haiku-4-5` (fast, cheap) or `claude-sonnet-4-5` (best quality)
 
 - **Azure OpenAI** - Enterprise-grade OpenAI models
   - Endpoint: `https://YOUR_RESOURCE.openai.azure.com/openai/deployments/YOUR_DEPLOYMENT/chat/completions?api-version=2024-02-15-preview`

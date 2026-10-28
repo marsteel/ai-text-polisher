@@ -168,15 +168,15 @@
         "description": "Model recommendation for Openai"
     },
     "modelRecommendAzure": {
-        "message": "Käytä käyttöönoton nimeä (esim. gpt-4, gpt-35-turbo)",
+        "message": "Käytä käyttöönoton nimeä (esim. gpt-4o, gpt-4o-mini)",
         "description": "Model recommendation for Azure"
     },
     "modelRecommendAnthropic": {
-        "message": "Suositeltu: claude-3-5-haiku-20241022 (nopea, halpa) tai claude-3-5-sonnet-20241022 (paras laatu)",
+        "message": "Suositeltu: claude-haiku-4-5 (nopea, halpa) tai claude-sonnet-4-5 (paras laatu)",
         "description": "Model recommendation for Anthropic"
     },
     "modelRecommendGemini": {
-        "message": "Suositeltu: gemini-2.0-flash-exp (nopea, ilmainen) tai gemini-1.5-pro (paras laatu)",
+        "message": "Suositeltu: gemini-2.5-flash (nopea, ilmainen) tai gemini-2.5-pro (paras laatu)",
         "description": "Model recommendation for Gemini"
     },
     "modelRecommendDeepseek": {

@@ -168,15 +168,15 @@
         "description": "Model recommendation for Openai"
     },
     "modelRecommendAzure": {
-        "message": "Gunakan nama deployment Anda (mis. gpt-4, gpt-35-turbo)",
+        "message": "Gunakan nama deployment Anda (mis. gpt-4o, gpt-4o-mini)",
         "description": "Model recommendation for Azure"
     },
     "modelRecommendAnthropic": {
-        "message": "Direkomendasikan: claude-3-5-haiku-20241022 (cepat, murah) atau claude-3-5-sonnet-20241022 (kualitas terbaik)",
+        "message": "Direkomendasikan: claude-haiku-4-5 (cepat, murah) atau claude-sonnet-4-5 (kualitas terbaik)",
         "description": "Model recommendation for Anthropic"
     },
     "modelRecommendGemini": {
-        "message": "Direkomendasikan: gemini-2.0-flash-exp (cepat, gratis) atau gemini-1.5-pro (kualitas terbaik)",
+        "message": "Direkomendasikan: gemini-2.5-flash (cepat, gratis) atau gemini-2.5-pro (kualitas terbaik)",
         "description": "Model recommendation for Gemini"
     },
     "modelRecommendDeepseek": {

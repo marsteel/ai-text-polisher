@@ -168,15 +168,15 @@
         "description": "Model recommendation for Openai"
     },
     "modelRecommendAzure": {
-        "message": "Sử dụng tên triển khai của bạn (vd. gpt-4, gpt-35-turbo)",
+        "message": "Sử dụng tên triển khai của bạn (vd. gpt-4o, gpt-4o-mini)",
         "description": "Model recommendation for Azure"
     },
     "modelRecommendAnthropic": {
-        "message": "Khuyến nghị: claude-3-5-haiku-20241022 (nhanh, rẻ) hoặc claude-3-5-sonnet-20241022 (chất lượng tốt nhất)",
+        "message": "Khuyến nghị: claude-haiku-4-5 (nhanh, rẻ) hoặc claude-sonnet-4-5 (chất lượng tốt nhất)",
         "description": "Model recommendation for Anthropic"
     },
     "modelRecommendGemini": {
-        "message": "Khuyến nghị: gemini-2.0-flash-exp (nhanh, miễn phí) hoặc gemini-1.5-pro (chất lượng tốt nhất)",
+        "message": "Khuyến nghị: gemini-2.5-flash (nhanh, miễn phí) hoặc gemini-2.5-pro (chất lượng tốt nhất)",
         "description": "Model recommendation for Gemini"
     },
     "modelRecommendDeepseek": {

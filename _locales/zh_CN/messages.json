@@ -192,15 +192,15 @@
         "description": "Model recommendation for Openai"
     },
     "modelRecommendAzure": {
-        "message": "使用您的部署名称（例如 gpt-4、gpt-35-turbo）",
+        "message": "使用您的部署名称（例如 gpt-4o、gpt-4o-mini）",
         "description": "Model recommendation for Azure"
     },
     "modelRecommendAnthropic": {
-        "message": "推荐：claude-3-5-haiku-20241022（快速、便宜）或 claude-3-5-sonnet-20241022（最佳质量）",
+        "message": "推荐：claude-haiku-4-5（快速、便宜）或 claude-sonnet-4-5（最佳质量）",
         "description": "Model recommendation for Anthropic"
     },
     "modelRecommendGemini": {
-        "message": "推荐：gemini-2.0-flash-exp（快速、免费）或 gemini-1.5-pro（最佳质量）",
+        "message": "推荐：gemini-2.5-flash（快速、免费）或 gemini-2.5-pro（最佳质量）",
         "description": "Model recommendation for Gemini"
     },
     "modelRecommendDeepseek": {

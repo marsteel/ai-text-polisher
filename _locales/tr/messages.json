@@ -168,15 +168,15 @@
         "description": "Model recommendation for Openai"
     },
     "modelRecommendAzure": {
-        "message": "Dağıtım adınızı kullanın (örn. gpt-4, gpt-35-turbo)",
+        "message": "Dağıtım adınızı kullanın (örn. gpt-4o, gpt-4o-mini)",
         "description": "Model recommendation for Azure"
     },
     "modelRecommendAnthropic": {
-        "message": "Önerilen: claude-3-5-haiku-20241022 (hızlı, ucuz) veya claude-3-5-sonnet-20241022 (en iyi kalite)",
+        "message": "Önerilen: claude-haiku-4-5 (hızlı, ucuz) veya claude-sonnet-4-5 (en iyi kalite)",
         "description": "Model recommendation for Anthropic"
     },
     "modelRecommendGemini": {
-        "message": "Önerilen: gemini-2.0-flash-exp (hızlı, ücretsiz) veya gemini-1.5-pro (en iyi kalite)",
+        "message": "Önerilen: gemini-2.5-flash (hızlı, ücretsiz) veya gemini-2.5-pro (en iyi kalite)",
         "description": "Model recommendation for Gemini"
     },
     "modelRecommendDeepseek": {

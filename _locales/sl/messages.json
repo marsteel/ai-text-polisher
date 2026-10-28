@@ -168,15 +168,15 @@
         "description": "Model recommendation for Openai"
     },
     "modelRecommendAzure": {
-        "message": "Uporabite ime uvajanja (npr. gpt-4, gpt-35-turbo)",
+        "message": "Uporabite ime uvajanja (npr. gpt-4o, gpt-4o-mini)",
         "description": "Model recommendation for Azure"
     },
     "modelRecommendAnthropic": {
-        "message": "Priporočeno: claude-3-5-haiku-20241022 (hitro, poceni) ali claude-3-5-sonnet-20241022 (najboljša kakovost)",
+        "message": "Priporočeno: claude-haiku-4-5 (hitro, poceni) ali claude-sonnet-4-5 (najboljša kakovost)",
         "description": "Model recommendation for Anthropic"
     },
     "modelRecommendGemini": {
-        "message": "Priporočeno: gemini-2.0-flash-exp (hitro, brezplačno) ali gemini-1.5-pro (najboljša kakovost)",
+        "message": "Priporočeno: gemini-2.5-flash (hitro, brezplačno) ali gemini-2.5-pro (najboljša kakovost)",
         "description": "Model recommendation for Gemini"
     },
     "modelRecommendDeepseek": {

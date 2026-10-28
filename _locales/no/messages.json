@@ -168,15 +168,15 @@
         "description": "Model recommendation for Openai"
     },
     "modelRecommendAzure": {
-        "message": "Bruk distribusjonsnavnet ditt (f.eks. gpt-4, gpt-35-turbo)",
+        "message": "Bruk distribusjonsnavnet ditt (f.eks. gpt-4o, gpt-4o-mini)",
         "description": "Model recommendation for Azure"
     },
     "modelRecommendAnthropic": {
-        "message": "Anbefalt: claude-3-5-haiku-20241022 (rask, billig) eller claude-3-5-sonnet-20241022 (beste kvalitet)",
+        "message": "Anbefalt: claude-haiku-4-5 (rask, billig) eller claude-sonnet-4-5 (beste kvalitet)",
         "description": "Model recommendation for Anthropic"
     },
     "modelRecommendGemini": {
-        "message": "Anbefalt: gemini-2.0-flash-exp (rask, gratis) eller gemini-1.5-pro (beste kvalitet)",
+        "message": "Anbefalt: gemini-2.5-flash (rask, gratis) eller gemini-2.5-pro (beste kvalitet)",
         "description": "Model recommendation for Gemini"
     },
     "modelRecommendDeepseek": {

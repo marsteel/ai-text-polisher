@@ -168,15 +168,15 @@
         "description": "Model recommendation for Openai"
     },
     "modelRecommendAzure": {
-        "message": "Naudokite savo diegimo pavadinimą (pvz. gpt-4, gpt-35-turbo)",
+        "message": "Naudokite savo diegimo pavadinimą (pvz. gpt-4o, gpt-4o-mini)",
         "description": "Model recommendation for Azure"
     },
     "modelRecommendAnthropic": {
-        "message": "Rekomenduojama: claude-3-5-haiku-20241022 (greitas, pigus) arba claude-3-5-sonnet-20241022 (geriausia kokybė)",
+        "message": "Rekomenduojama: claude-haiku-4-5 (greitas, pigus) arba claude-sonnet-4-5 (geriausia kokybė)",
         "description": "Model recommendation for Anthropic"
     },
     "modelRecommendGemini": {
-        "message": "Rekomenduojama: gemini-2.0-flash-exp (greitas, nemokamas) arba gemini-1.5-pro (geriausia kokybė)",
+        "message": "Rekomenduojama: gemini-2.5-flash (greitas, nemokamas) arba gemini-2.5-pro (geriausia kokybė)",
         "description": "Model recommendation for Gemini"
     },
     "modelRecommendDeepseek": {
